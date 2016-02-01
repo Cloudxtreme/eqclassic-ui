@@ -82,10 +82,8 @@
 
 	<Button item = "SBW_Spell0">
 		<ScreenID>SBW_Spell0</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<!-- 66, 20 -->
 			<X>54</X>
 			<Y>45</Y>
 		</Location>
@@ -94,16 +92,11 @@
 			<CY>40</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>0</X>
 			<Y>0</Y>
@@ -131,7 +124,6 @@
 	</StaticText>
 	<Button item = "SBW_Spell1">
 		<ScreenID>SBW_Spell1</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>149</X>
@@ -142,16 +134,11 @@
 			<CY>40</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>0</X>
 			<Y>0</Y>
@@ -180,9 +167,7 @@
 	</StaticText>
 	<Button item = "SBW_Spell2">
 		<ScreenID>SBW_Spell2</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
-		<!-- 66, 87 -->
 		<Location>
 			<X>102</X>
 			<Y>114</Y>
@@ -192,16 +177,11 @@
 			<CY>40</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>0</X>
 			<Y>0</Y>
@@ -230,9 +210,7 @@
 	</StaticText>
 	<Button item = "SBW_Spell4">
 		<ScreenID>SBW_Spell4</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
-		<!-- 151, 87 -->
 		<Location>
 			<X>149</X>
 			<Y>171</Y>
@@ -242,16 +220,11 @@
 			<CY>40</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>0</X>
 			<Y>0</Y>
@@ -280,9 +253,7 @@
 	</StaticText>
 	<Button item = "SBW_Spell3">
 		<ScreenID>SBW_Spell3</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
-		<!-- 66, 154 -->
 		<Location>
 			<X>53</X>
 			<Y>171</Y>
@@ -292,16 +263,11 @@
 			<CY>40</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>0</X>
 			<Y>0</Y>
@@ -315,7 +281,6 @@
 		<ScreenID>SBW_SpellName3</ScreenID>
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
-		<!-- 46, 198 -->
 		<Location>
 			<X>33</X>
 			<Y>215</Y>
@@ -331,7 +296,6 @@
 	</StaticText>
 	<Button item = "SBW_Spell5">
 		<ScreenID>SBW_Spell5</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>151</X>
@@ -342,16 +306,11 @@
 			<CY>0</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -380,7 +339,6 @@
 	</StaticText>
 	<Button item = "SBW_Spell6">
 		<ScreenID>SBW_Spell6</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>66</X>
@@ -391,16 +349,11 @@
 			<CY>0</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -429,7 +382,6 @@
 	</StaticText>
 	<Button item = "SBW_Spell7">
 		<ScreenID>SBW_Spell7</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>151</X>
@@ -440,16 +392,11 @@
 			<CY>0</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -480,9 +427,7 @@
 
 	<Button item = "SBW_Spell8">
 		<ScreenID>SBW_Spell8</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
-		<!-- 252, 20 -->
 		<Location>
 			<X>214</X>
 			<Y>45</Y>
@@ -492,16 +437,11 @@
 			<CY>40</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>0</X>
 			<Y>0</Y>
@@ -530,9 +470,7 @@
 	</StaticText>
 	<Button item = "SBW_Spell9">
 		<ScreenID>SBW_Spell9</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
-		<!-- 337, 20 -->
 		<Location>
 			<X>302</X>
 			<Y>45</Y>
@@ -542,16 +480,11 @@
 			<CY>40</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>0</X>
 			<Y>0</Y>
@@ -580,9 +513,7 @@
 	</StaticText>
 	<Button item = "SBW_Spell10">
 		<ScreenID>SBW_Spell10</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
-		<!-- 252, 87 -->
 		<Location>
 			<X>257</X>
 			<Y>113</Y>
@@ -592,16 +523,11 @@
 			<CY>40</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>0</X>
 			<Y>0</Y>
@@ -630,9 +556,7 @@
 	</StaticText>
 	<Button item = "SBW_Spell11">
 		<ScreenID>SBW_Spell11</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
-		<!-- 337, 87 -->
 		<Location>
 			<X>213</X>
 			<Y>170</Y>
@@ -642,16 +566,11 @@
 			<CY>40</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>0</X>
 			<Y>0</Y>
@@ -680,9 +599,7 @@
 	</StaticText>
 	<Button item = "SBW_Spell12">
 		<ScreenID>SBW_Spell12</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
-		<!-- 252, 154 -->
 		<Location>
 			<X>302</X>
 			<Y>170</Y>
@@ -692,16 +609,11 @@
 			<CY>40</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>0</X>
 			<Y>0</Y>
@@ -730,7 +642,6 @@
 	</StaticText>
 	<Button item = "SBW_Spell13">
 		<ScreenID>SBW_Spell13</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>337</X>
@@ -741,16 +652,11 @@
 			<CY>0</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -779,7 +685,6 @@
 	</StaticText>
 	<Button item = "SBW_Spell14">
 		<ScreenID>SBW_Spell14</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>252</X>
@@ -790,16 +695,11 @@
 			<CY>0</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -828,7 +728,6 @@
 	</StaticText>
 	<Button item = "SBW_Spell15">
 		<ScreenID>SBW_Spell15</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>337</X>
@@ -839,16 +738,11 @@
 			<CY>0</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -879,7 +773,6 @@
 
 	<Gauge item = "SBW_Memorize_Gauge">
 		<ScreenID>SBW_Memorize_Gauge</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>51</X>
@@ -891,7 +784,6 @@
 		</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<FillTint>
 				<R>200</R>
 				<G>0</G>
@@ -915,7 +807,6 @@
 	</Gauge>
 	<Gauge item = "SBW_Scribe_Gauge">
 		<ScreenID>SBW_Memorize_Gauge</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>240</X>
@@ -927,7 +818,6 @@
 		</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<FillTint>
 				<R>200</R>
 				<G>0</G>
@@ -952,7 +842,6 @@
 
 	<Button item = "SBW_MemPage0_Button">
 		<ScreenID>SBW_MemPage0_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>76</X>
@@ -961,13 +850,9 @@
 		<Size>
 			<CX>0</CX>
 			<CY>0</CY>
-			<!-- <CX>96</CX> -->
-			<!-- <CY>20</CY> -->
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text>Mem. This Page</Text>
 		<TextColor>
 				<R>255</R>
@@ -981,13 +866,9 @@
 			<Disabled>A_BtnDisabled</Disabled>
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 	</Button>
 	<Button item = "SBW_MemPage1_Button">
 		<ScreenID>SBW_MemPage1_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>306</X>
@@ -996,13 +877,9 @@
 		<Size>
 			<CX>0</CX>
 			<CY>0</CY>
-			<!-- <CX>96</CX> -->
-			<!-- <CY>20</CY> -->
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text>Mem. This Page</Text>
 		<TextColor>
 				<R>255</R>
@@ -1016,14 +893,10 @@
 			<Disabled>A_BtnDisabled</Disabled>
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 	</Button>
 
 	<Button item = "SBW_PageDown_Button">
 		<ScreenID>SBW_PageDown_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>9</X>
@@ -1034,9 +907,7 @@
 			<CY>32</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text/>
 		<TextColor>
 				<R>255</R>
@@ -1050,13 +921,9 @@
 			<Disabled>A_LeftArrowBtnDisabled</Disabled>
 			<PressedFlyby>A_LeftArrowBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 	</Button>
 	<Button item = "SBW_PageUp_Button">
 		<ScreenID>SBW_PageUp_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>360</X>
@@ -1067,9 +934,7 @@
 			<CY>32</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text/>
 		<TextColor>
 				<R>255</R>
@@ -1083,9 +948,6 @@
 			<Disabled>A_RightArrowBtnDisabled</Disabled>
 			<PressedFlyby>A_RightArrowBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 	</Button>
 
 	<StaticText item ="SBW_LeftPageNum">
@@ -1178,7 +1040,6 @@
 
 	<Button item = "SBW_MeditateButton">
 		<ScreenID>MeditateButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>170</X>
@@ -1189,9 +1050,7 @@
 			<CY>25</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>true</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text></Text>
 		<TextColor>
 			<R>255</R>
@@ -1205,14 +1064,10 @@
 			<Disabled>A_MeditateBtnDisabled</Disabled>
 			<PressedFlyby>A_MeditateBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 	</Button>
 
 	<Button item = "SBW_Autolock">
 		<ScreenID>SBW_Autolock</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -1225,9 +1080,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>true</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text></Text>
 		<TextColor>
 			<R>255</R>
@@ -1244,7 +1097,6 @@
 	</Button>
 
 	<Screen item = "SpellBookWnd">
-		<!--<ScreenID/>-->
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>119</X>
@@ -1268,6 +1120,12 @@
 		<Pieces>SBW_SpellBook2</Pieces>
 		<Pieces>SBW_SpellBook3</Pieces>
 		<Pieces>SBW_SpellBook4</Pieces>
+		<Pieces>SBW_Memorize_Gauge</Pieces>
+		<Pieces>SBW_Scribe_Gauge</Pieces>
+		<Pieces>SBW_MemPage0_Button</Pieces>
+		<Pieces>SBW_MemPage1_Button</Pieces>
+		<Pieces>SBW_LeftPageNum</Pieces>
+		<Pieces>SBW_RightPageNum</Pieces>
 
 		<Pieces>SBW_Autolock</Pieces>
 
@@ -1303,14 +1161,8 @@
 		<Pieces>SBW_SpellName14</Pieces>
 		<Pieces>SBW_Spell15</Pieces>
 		<Pieces>SBW_SpellName15</Pieces>
-		<Pieces>SBW_Memorize_Gauge</Pieces>
-		<Pieces>SBW_Scribe_Gauge</Pieces>
-		<Pieces>SBW_MemPage0_Button</Pieces>
-		<Pieces>SBW_MemPage1_Button</Pieces>
 		<Pieces>SBW_PageDown_Button</Pieces>
 		<Pieces>SBW_PageUp_Button</Pieces>
-		<Pieces>SBW_LeftPageNum</Pieces>
-		<Pieces>SBW_RightPageNum</Pieces>
 		<Pieces>SBW_MeditateButton</Pieces>
 	</Screen>
 

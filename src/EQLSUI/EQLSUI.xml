@@ -1,15 +1,14 @@
 <?xml version = "1.0"?>
-<!-- Monolithic Parameter File -->
-<!-- The composite section must come first and be followed by the schema -->
 
 <XML ID = "EQInterfaceDefinitionLanguage">
     <Composite>
         <Include>SIDL.xml</Include>
+
         <Include>EQLSUI_Animations.xml</Include>			<!-- imotogames - updated -->
         <Include>EQLSUI_Templates.xml</Include>				<!-- imotogames - updated -->
-		<Include>EQLSUI_EulaWnd.xml</Include>				<!-- imotogames - fixed -->
+		<Include>EQLSUI_EulaWnd.xml</Include>				<!-- imotogames - in progress -->
 		<Include>EQLSUI_SOESplashWnd.xml</Include>			<!-- imotogames - fixed -->
-		<!-- <Include>EQLSUI_ESRBSplashWnd.xml</Include> -->
+<!-- <Include>EQLSUI_ESRBSplashWnd.xml</Include> -->
 		<Include>EQLSUI_MainWnd.xml</Include>				<!-- imotogames - fixed (credits button only accessible from server select) -->
 		<Include>EQLSUI_ConnectWnd.xml</Include>			<!-- imotogames - fixed -->
 		<Include>EQLSUI_ServerSelectWnd.xml</Include>		<!-- imotogames - fixed -->
@@ -26,5 +25,5 @@
 		<Include>EQLSUI_WebOrderWnd.xml</Include>			<!-- disabled -->
 		<Include>EQLSUI_SplashExWnd.xml</Include>			<!-- imotogames - fixed -->
    </Composite>
-    <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+   <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 </XML>
