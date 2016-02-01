@@ -1,0 +1,228 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!-- Buttons -->
+	<Button item = "LOGIN_ConnectButton">
+		<ScreenID>ConnectButton</ScreenID>
+		<Font>5</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>30</X>
+			<Y>282</Y>
+		</Location>
+		<Size>
+			<CX>228</CX>
+			<CY>34</CY>
+		</Size>
+		<TooltipReference>Log in to the server</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>CONNECT</Text>
+		<TextColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_EQLS_ClassicBtnNormal</Normal>
+			<Pressed>A_EQLS_ClassicBtnPressed</Pressed>
+			<Flyby>A_EQLS_ClassicBtnHover</Flyby>
+			<Disabled>A_EQLS_ClassicBtnDisabled</Disabled>
+			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "LOGIN_HelpButton">
+		<ScreenID>HelpButton</ScreenID>
+		<Font>5</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>30</X>
+			<Y>376</Y>
+		</Location>
+		<Size>
+			<CX>228</CX>
+			<CY>34</CY>
+		</Size>
+		<NoWrap>false</NoWrap>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>HELP</Text>
+		<TextColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_EQLS_ClassicBtnNormal</Normal>
+			<Pressed>A_EQLS_ClassicBtnPressed</Pressed>
+			<Flyby>A_EQLS_ClassicBtnHover</Flyby>
+			<Disabled>A_EQLS_ClassicBtnDisabled</Disabled>
+			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "LOGIN_CancelButton">
+		<ScreenID>CancelButton</ScreenID>
+		<Font>5</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>30</X>
+			<Y>329</Y>
+		</Location>
+		<Size>
+			<CX>228</CX>
+			<CY>34</CY>
+		</Size>
+		<TooltipReference>Exit the connect screen</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>CANCEL</Text>
+		<TextColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_EQLS_ClassicBtnNormal</Normal>
+			<Pressed>A_EQLS_ClassicBtnPressed</Pressed>
+			<Flyby>A_EQLS_ClassicBtnHover</Flyby>
+			<Disabled>A_EQLS_ClassicBtnDisabled</Disabled>
+			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
+		</ButtonDrawTemplate>			
+	</Button>
+<!-- End of buttons -->
+
+<!-- Labels -->
+	<Label item = "LOGIN_UsernameLabel">
+		<ScreenID>UsernameLabel</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>404</X>
+			<Y>246</Y>
+		</Location>
+		<Size>
+			<CX>250</CX>
+			<CY>15</CY>
+		</Size>
+		<Text>Station  Name</Text>
+		<TextColor>
+				<R>61</R>
+				<G>27</G>
+				<B>0</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item = "LOGIN_PasswordLabel">
+		<ScreenID>PasswordLabel</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>395</X>
+			<Y>336</Y>
+		</Location>
+		<Size>
+			<CX>250</CX>
+			<CY>15</CY>
+		</Size>
+		<Text>Station  Password</Text>
+		<TextColor>
+				<R>61</R>
+				<G>27</G>
+				<B>0</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+<!-- End Labels -->
+
+<!-- Edit boxes -->
+	<Editbox item = "LOGIN_UsernameEdit">
+		<ScreenID>UsernameEdit</ScreenID>
+		<Font>5</Font>
+		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
+		<Style_Border>false</Style_Border>
+		<Style_Transparent>true</Style_Transparent>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>390</X>
+			<Y>261</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>38</CY>
+		</Size>
+		<TextColor>
+				<R>96</R>
+				<G>50</G>
+				<B>0</B>
+		</TextColor>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Editbox>
+	<Editbox item = "LOGIN_PasswordEdit">
+		<ScreenID>PasswordEdit</ScreenID>
+		<Font>5</Font>
+		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
+		<Style_Border>false</Style_Border>
+		<Style_Transparent>true</Style_Transparent>	
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>390</X>
+			<Y>351</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>38</CY>
+		</Size>
+		<TextColor>
+				<R>96</R>
+				<G>50</G>
+				<B>0</B>
+		</TextColor>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Editbox>
+	
+<!-- End Edit boxes -->
+
+
+	<Screen item = "connect">
+		<!--<ScreenID/>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>640</CX>
+			<CY>480</CY>
+		</Size>
+		<Text>Login</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>EQLS_ConnectBG01</Pieces>
+		<Pieces>EQLS_ConnectBG02</Pieces>
+		<Pieces>EQLS_ConnectBG03</Pieces>
+		<Pieces>EQLS_ConnectBG04</Pieces>
+		<Pieces>EQLS_ConnectBG05</Pieces>
+		<Pieces>EQLS_ConnectBG06</Pieces>
+		<Pieces>LOGIN_ConnectButton</Pieces>
+		<Pieces>LOGIN_CancelButton</Pieces>
+		<Pieces>LOGIN_HelpButton</Pieces>
+		<Pieces>LOGIN_UsernameEdit</Pieces>
+		<Pieces>LOGIN_PasswordEdit</Pieces>
+		<Pieces>LOGIN_UsernameLabel</Pieces>
+		<Pieces>LOGIN_PasswordLabel</Pieces>
+	</Screen>
+
+</XML>

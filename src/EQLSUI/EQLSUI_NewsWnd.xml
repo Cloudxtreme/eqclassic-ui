@@ -1,0 +1,279 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+	
+	<Ui2DAnimation item = "NEWS_BG1_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>news01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "NEWS_BG2_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>news02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "NEWS_BG3_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>news03.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "NEWS_BG4_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>news04.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "NEWS_BG5_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>news05.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "NEWS_BG6_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>news06.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<StaticAnimation item = "NEWS_BG1">
+		<ScreenID>NEWS_BG1</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>NEWS_BG1_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "NEWS_BG2">
+		<ScreenID>NEWS_BG2</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>NEWS_BG2_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "NEWS_BG3">
+		<ScreenID>NEWS_BG3</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>NEWS_BG3_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "NEWS_BG4">
+		<ScreenID>NEWS_BG4</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>NEWS_BG4_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "NEWS_BG5">
+		<ScreenID>NEWS_BG5</ScreenID>
+		<Location>
+			<X>512</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>NEWS_BG5_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "NEWS_BG6">
+		<ScreenID>NEWS_BG6</ScreenID>
+		<Location>
+			<X>512</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>NEWS_BG6_TX</Animation>
+	</StaticAnimation>
+
+	<Button item = "NEWS_OKButton">
+		<ScreenID>OKButton</ScreenID>
+		<Font>5</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>265</X>
+			<Y>436</Y>
+		</Location>
+		<Size>
+			<CX>112</CX>
+			<CY>34</CY>
+		</Size>
+
+		<!-- <TooltipReference>Close this window.</TooltipReference> -->
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>OK</Text>
+		<TextColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_EQLS_SmallBtnNormal</Normal>
+			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
+			<Flyby>A_EQLS_SmallBtnHover</Flyby>
+			<Disabled>A_EQLS_SmallBtnNormal</Disabled>
+			<PressedFlyby>A_EQLS_SmallBtnPressed</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	
+	<STMLbox item = "NEWS_Display">
+		<ScreenID>Display</ScreenID>
+		<Font>2</Font>
+		<!-- <DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate> -->
+		<DrawTemplate>WDT_EQLS_ServerSelect_Def_Bordered</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>58</LeftAnchorOffset>
+		<TopAnchorOffset>80</TopAnchorOffset>
+		<RightAnchorOffset>60</RightAnchorOffset>
+		<BottomAnchorOffset>80</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		
+		<Style_Border>false</Style_Border>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_VScroll>true</Style_VScroll>
+	</STMLbox>
+	
+	<Screen item = "news">
+		<!--<ScreenID/>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>640</CX>
+			<CY>480</CY>
+		</Size>
+
+		<Text>News</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		
+		<Pieces>NEWS_BG1</Pieces>
+		<Pieces>NEWS_BG2</Pieces>
+		<Pieces>NEWS_BG3</Pieces>
+		<Pieces>NEWS_BG4</Pieces>
+		<Pieces>NEWS_BG5</Pieces>
+		<Pieces>NEWS_BG6</Pieces>
+		
+		<Pieces>NEWS_OKButton</Pieces>
+		<Pieces>NEWS_Display</Pieces>
+	</Screen>
+
+</XML>

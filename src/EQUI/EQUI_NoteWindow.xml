@@ -1,0 +1,259 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<Ui2DAnimation item = "NW_Note01">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>note01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "NW_Note02">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>note02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "NW_Note03">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>note03.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "NW_Note04">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>note04.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<STMLbox item = "NW_NoteDisplay">
+		<ScreenID>Note</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_Border>false</Style_Border>
+		<Style_Transparent>true</Style_Transparent>
+		<Font>2</Font>
+		<TextColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+		</TextColor>
+		<Location>
+			<X>80</X>
+			<Y>74</Y>
+		</Location>
+		<Size>
+			<CX>255</CX>
+			<CY>255</CY>
+		</Size>
+		<Text></Text>
+	</STMLbox>
+
+	<Button item = "NW_DoneButton">
+		<ScreenID>DoneButton</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<Location>
+			<X>176</X>
+			<Y>279</Y>
+		</Location>
+		<Size>
+			<CX>48</CX>
+			<CY>19</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>Btn_Done_Normal</Normal>
+			<Pressed>Btn_Done_Pressed</Pressed>
+			<Flyby>Btn_Done_Normal</Flyby>
+			<Disabled>Btn_Done_Pressed</Disabled>
+			<PressedFlyby>Btn_Done_Pressed</PressedFlyby>
+		</ButtonDrawTemplate>
+		<!--<SoundPressed/>-->
+		<!--<<SoundUp/>-->
+		<!--<SoundFlyby/>-->
+	</Button>
+
+	<StaticAnimation item = "NOTE_NoteBG1">
+		<ScreenID>NoteBG1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>NW_Note01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "NOTE_NoteBG2">
+		<ScreenID>NoteBG2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>NW_Note02</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "NOTE_NoteBG3">
+		<ScreenID>NoteBG3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>NW_Note03</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "NOTE_NoteBG4">
+		<ScreenID>NoteBG4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>NW_Note04</Animation>
+	</StaticAnimation>
+
+	<Button item = "NOTE_Autolock">
+		<ScreenID>NOTE_Autolock</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>400</CX>
+			<CY>320</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>true</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text></Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>faB_Spacer</Normal>
+			<Pressed>faB_Spacer</Pressed>
+			<Flyby>faB_Spacer</Flyby>
+			<Disabled>faB_Spacer</Disabled>
+			<PressedFlyby>faB_Spacer</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Screen item = "NoteWindow">
+		<!--<ScreenID/>-->
+		<!--<Font>3</Font>-->
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>119</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>400</CX>
+			<CY>320</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+
+		<Pieces>NOTE_NoteBG1</Pieces>
+		<Pieces>NOTE_NoteBG2</Pieces>
+		<Pieces>NOTE_NoteBG3</Pieces>
+		<Pieces>NOTE_NoteBG4</Pieces>
+
+		<Pieces>NOTE_Autolock</Pieces>
+
+		<Pieces>NW_NoteDisplay</Pieces>
+		<Pieces>NW_DoneButton</Pieces>
+	</Screen>
+
+</XML>
