@@ -14,7 +14,6 @@
 			<CX>96</CX>
 			<CY>34</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>YES</Text>
 		<TextColor>
 			<R>0</R>
@@ -41,7 +40,6 @@
 			<CX>96</CX>
 			<CY>34</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>NO</Text>
 		<TextColor>
 			<R>0</R>

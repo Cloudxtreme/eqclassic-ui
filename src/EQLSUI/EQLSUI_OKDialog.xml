@@ -2,10 +2,8 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
-<!-- Action button -->
 	<Button item = "OK_OKButton">
 		<ScreenID>OKButton</ScreenID>
-
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -20,7 +18,6 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>OK</Text>
 		<TextColor>
 				<R>0</R>
@@ -35,17 +32,16 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-<!-- The display of information -->
+
+<!-- Dialog text display container -->
 	<STMLbox item = "OK_Display">
 		<ScreenID>Display</ScreenID>
 		<Font>2</Font>
-
-		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 
 		<RelativePosition>true</RelativePosition>
-		<Style_VScroll>false</Style_VScroll>
+		<Style_VScroll>true</Style_VScroll>
 		<AutoStretch>true</AutoStretch>
-		<Style_Transparent>true</Style_Transparent>
 
 		<LeftAnchorOffset>50</LeftAnchorOffset>
 		<TopAnchorOffset>46</TopAnchorOffset>
@@ -56,10 +52,9 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
-		<Style_Border>false</Style_Border>
 	</STMLbox>
-<!-- The actual dialog -->
+
+<!-- Container for background and dialog elements -->
 	<Screen item = "OK_Box">
 		<ScreenID>Box</ScreenID>
 
@@ -76,18 +71,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 
-		<Text>Information</Text>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>true</Style_Transparent>
-
-		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
-
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>DIALOG_BG1</Pieces>
 		<Pieces>DIALOG_BG2</Pieces>
 		<Pieces>OK_Display</Pieces>
@@ -96,28 +80,11 @@
 
 <!-- Used to obscure the backing window and prevent UI events from going through to it -->
 	<Screen item = "okdialog">
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>
 		</Size>
-
-		<Text></Text>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<DrawTemplate>WDT_Dialog</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
-
 		<Pieces>OK_Box</Pieces>
 	</Screen>
 </XML>
