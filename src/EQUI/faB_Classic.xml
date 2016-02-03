@@ -8,6 +8,13 @@
 <!--  Email: oukoulele@yahoo.fr                                -->
 <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
 
+	<TextureInfo item = "classic_debug01.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
 	<TextureInfo item = "classic_selector.tga">
 		<Size>
 			<CX>80</CX>

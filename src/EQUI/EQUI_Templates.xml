@@ -1253,7 +1253,7 @@
 
 
 
-	<FrameTemplate item = "FT_DefTabBorder"> 
+	<FrameTemplate item = "FT_DefTabBorder">
 		<TopLeft>A_TabFrameTopLeft</TopLeft>
 		<Top>A_TabFrameTop</Top>
 		<TopRight>A_TabFrameTopRight</TopRight>
@@ -1285,5 +1285,5 @@
 		<OverlapTop>0</OverlapTop>
 		<OverlapRight>0</OverlapRight>
 		<OverlapBottom>0</OverlapBottom>
-	</FrameTemplate>		
+	</FrameTemplate>
 </XML>

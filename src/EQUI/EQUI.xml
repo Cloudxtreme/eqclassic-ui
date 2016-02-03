@@ -3,10 +3,10 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
     <Composite>
 		<Include>SIDL.xml</Include>								<!-- original-->
+
 		<Include>EQUI_Animations.xml</Include>					<!-- imotogames - updated -->
 		<Include>EQUI_Templates.xml</Include>					<!-- imotogames - updated -->
 
-		<Include>faB_debug.xml</Include>						<!-- imotogames - updated -->
 		<Include>faB_Classic.xml</Include>						<!-- imotogames - updated -->
 
 		<Include>EQUI_CharacterCreate.xml</Include>				<!-- imotogames - fixed -->

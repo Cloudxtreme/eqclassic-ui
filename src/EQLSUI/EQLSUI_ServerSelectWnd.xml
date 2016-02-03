@@ -105,14 +105,15 @@
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>0</X>
-			<Y>0</Y>
+			<X>250</X>
+			<Y>361</Y>
 		</Location>
 		<Size>
-			<CX>200</CX>
+			<CX>212</CX>
 			<CY>31</CY>
 		</Size>
 		<TextColor>
+			<!-- not sure what color this needs to be -->
 			<R>255</R>
 			<G>218</G>
 			<B>96</B>
