@@ -5,25 +5,25 @@
         <Include>SIDL.xml</Include>
 
         <Include>EQLSUI_Animations.xml</Include>          <!-- imotogames - updated -->
-        <Include>EQLSUI_Templates.xml</Include>           <!-- imotogames - updated -->
-		<Include>EQLSUI_EulaWnd.xml</Include>             <!-- imotogames - in progress -->
-		<Include>EQLSUI_SOESplashWnd.xml</Include>        <!-- imotogames - fixed -->
-<!-- <Include>EQLSUI_ESRBSplashWnd.xml</Include> -->
-		<Include>EQLSUI_MainWnd.xml</Include>             <!-- imotogames - fixed (credits button only accessible from server select) -->
-		<Include>EQLSUI_ConnectWnd.xml</Include>          <!-- imotogames - fixed -->
-		<Include>EQLSUI_ServerSelectWnd.xml</Include>     <!-- imotogames - fixed -->
+        <Include>EQLSUI_ChatOptionsDialog.xml</Include>   <!-- disabled -->
 		<Include>EQLSUI_ChatWnd.xml</Include>             <!-- disabled -->
-		<Include>EQLSUI_ChatOptionsDialog.xml</Include>   <!-- disabled -->
 		<Include>EQLSUI_ColorPickerWnd.xml</Include>      <!-- disabled -->
-		<Include>EQLSUI_CreditsWnd.xml</Include>          <!-- can currently only be accessed from the server select area (not working properly) -->
-		<Include>EQLSUI_NewsWnd.xml</Include>             <!-- imotogames - fixed (scrollbar issue) -->
+		<Include>EQLSUI_ConnectWnd.xml</Include>          <!-- imotogames - fixed -->
+        <Include>EQLSUI_CreditsWnd.xml</Include>          <!-- can currently only be accessed from the server select area (not working properly) -->
+        <!-- <Include>EQLSUI_ESRBSplashWnd.xml</Include> -->
+        <Include>EQLSUI_EulaWnd.xml</Include>             <!-- imotogames - in progress -->
 		<Include>EQLSUI_HelpWnd.xml</Include>             <!-- ?? -->
-		<Include>EQLSUI_OKDialog.xml</Include>            <!-- imotogames - fixed -->
-		<Include>EQLSUI_YesNoDialog.xml</Include>         <!-- imotogames - fixed -->
-		<Include>EQLSUI_PollWnd.xml</Include>             <!-- disabled -->
-		<Include>EQLSUI_OrderExpansionWnd.xml</Include>   <!-- disabled -->
-		<Include>EQLSUI_WebOrderWnd.xml</Include>         <!-- disabled -->
-		<Include>EQLSUI_SplashExWnd.xml</Include>         <!-- imotogames - fixed -->
+        <Include>EQLSUI_MainWnd.xml</Include>             <!-- imotogames - fixed (credits button only accessible from server select) -->
+        <Include>EQLSUI_NewsWnd.xml</Include>             <!-- imotogames - fixed (scrollbar issue) -->
+        <Include>EQLSUI_OKDialog.xml</Include>            <!-- imotogames - fixed -->
+        <Include>EQLSUI_OrderExpansionWnd.xml</Include>   <!-- disabled -->
+        <Include>EQLSUI_PollWnd.xml</Include>             <!-- disabled -->
+        <Include>EQLSUI_ServerSelectWnd.xml</Include>     <!-- imotogames - fixed -->
+        <Include>EQLSUI_SOESplashWnd.xml</Include>        <!-- imotogames - fixed -->
+        <Include>EQLSUI_SplashExWnd.xml</Include>         <!-- imotogames - fixed -->
+        <Include>EQLSUI_Templates.xml</Include>           <!-- imotogames - updated -->
+        <Include>EQLSUI_WebOrderWnd.xml</Include>         <!-- disabled -->
+		<Include>EQLSUI_YesNoDialog.xml</Include>         <!-- imotogames - 100% fixed -->
    </Composite>
    <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 </XML>

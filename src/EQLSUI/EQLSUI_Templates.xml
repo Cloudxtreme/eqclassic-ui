@@ -224,7 +224,7 @@
 		</Border>
 	</WindowDrawTemplate>
 
-	<WindowDrawTemplate item = "WDT_Def">
+	<WindowDrawTemplate item = "WDT_Static">
 		<!-- Use this for windows with no border and non-visible scrollbars -->
 	</WindowDrawTemplate>
 

@@ -61,7 +61,7 @@
 	<STMLbox item = "YESNO_Display">
 		<ScreenID>Display</ScreenID>
 		<Font>2</Font>
-		<DrawTemplate>WDT_Def</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>true</Style_VScroll>
@@ -94,7 +94,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 
-		<DrawTemplate>WDT_Def</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>DIALOG_BG1</Pieces>
 		<Pieces>DIALOG_BG2</Pieces>
 		<Pieces>YESNO_Display</Pieces>
