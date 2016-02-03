@@ -75,45 +75,30 @@
 
 	<SliderDrawTemplate item = "SDT_DefSlider">
 		<Thumb>
-			<Normal>A_SliderThumbNormal</Normal>
-			<Pressed>A_SliderThumbPressed</Pressed>
-			<Flyby>A_SliderThumbFlyby</Flyby>
-			<Disabled>A_SliderThumbDisabled</Disabled>
-			<PressedFlyby>A_SliderThumbPressedFlyby</PressedFlyby>
+			<Normal></Normal>
+			<Pressed></Pressed>
+			<Flyby></Flyby>
+			<Disabled></Disabled>
+			<PressedFlyby></PressedFlyby>
 		</Thumb>
-		<Background>A_SliderBackground</Background>
-		<EndCapRight>A_SliderEndCapRight</EndCapRight>
-		<EndCapLeft>A_SliderEndCapLeft</EndCapLeft>
+		<Background>EQLS_Blank</Background>
+		<EndCapRight>EQLS_Blank</EndCapRight>
+		<EndCapLeft>EQLS_Blank</EndCapLeft>
 	</SliderDrawTemplate>
 
-	<FrameTemplate item = "FT_DefTabBorder">
-		<TopLeft>A_TabFrameTopLeft</TopLeft>
-		<Top>A_TabFrameTop</Top>
-		<TopRight>A_TabFrameTopRight</TopRight>
-		<RightTop>A_TabFrameRightTop</RightTop>
-		<Right>A_TabFrameRight</Right>
-		<RightBottom>A_TabRightBottom</RightBottom>
-		<LeftTop>A_TabFrameLeftTop</LeftTop>
-		<Left>A_TabFrameLeft</Left>
-		<LeftBottom>A_TabLeftBottom</LeftBottom>
-		<OverlapLeft>0</OverlapLeft>
-		<OverlapTop>0</OverlapTop>
-		<OverlapRight>0</OverlapRight>
-		<OverlapBottom>0</OverlapBottom>
-	</FrameTemplate>
 	<FrameTemplate item = "FT_DefPageBorder">
-		<TopLeft>A_TabFrameTopLeft</TopLeft>
-		<Top>A_TabFrameTop</Top>
-		<TopRight>A_TabFrameTopRight</TopRight>
-		<RightTop>A_TabFrameRightTop</RightTop>
-		<Right>A_TabFrameRight</Right>
-		<RightBottom>A_TabFrameRightBottom</RightBottom>
-		<BottomRight>A_TabFrameBottomRight</BottomRight>
-		<Bottom>A_TabFrameBottom</Bottom>
-		<BottomLeft>A_TabFrameBottomLeft</BottomLeft>
-		<LeftTop>A_TabFrameLeftTop</LeftTop>
-		<Left>A_TabFrameLeft</Left>
-		<LeftBottom>A_TabFrameLeftBottom</LeftBottom>
+		<TopLeft>EQLS_Blank</TopLeft>
+		<Top>EQLS_Blank</Top>
+		<TopRight>EQLS_Blank</TopRight>
+		<RightTop>EQLS_Blank</RightTop>
+		<Right>EQLS_Blank</Right>
+		<RightBottom>EQLS_Blank</RightBottom>
+		<BottomRight>EQLS_Blank</BottomRight>
+		<Bottom>EQLS_Blank</Bottom>
+		<BottomLeft>EQLS_Blank</BottomLeft>
+		<LeftTop>EQLS_Blank</LeftTop>
+		<Left>EQLS_Blank</Left>
+		<LeftBottom>EQLS_Blank</LeftBottom>
 		<OverlapLeft>0</OverlapLeft>
 		<OverlapTop>0</OverlapTop>
 		<OverlapRight>0</OverlapRight>

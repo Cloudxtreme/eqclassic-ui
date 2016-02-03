@@ -21,11 +21,11 @@
 				<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_ClassicBtnNormal</Normal>
-			<Pressed>A_EQLS_ClassicBtnPressed</Pressed>
-			<Flyby>A_EQLS_ClassicBtnHover</Flyby>
-			<Disabled>A_EQLS_ClassicBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
+			<Normal>LargeBtnNormal</Normal>
+			<Pressed>LargeBtnPressed</Pressed>
+			<Flyby>LargeBtnHover</Flyby>
+			<Disabled>LargeBtnDisabled</Disabled>
+			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "MAIN_AccountButton">
@@ -47,11 +47,11 @@
 				<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_ClassicBtnNormal</Normal>
-			<Pressed>A_EQLS_ClassicBtnPressed</Pressed>
-			<Flyby>A_EQLS_ClassicBtnHover</Flyby>
-			<Disabled>A_EQLS_ClassicBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
+			<Normal>LargeBtnNormal</Normal>
+			<Pressed>LargeBtnPressed</Pressed>
+			<Flyby>LargeBtnHover</Flyby>
+			<Disabled>LargeBtnDisabled</Disabled>
+			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "MAIN_CreditsButton">
@@ -73,11 +73,11 @@
 			<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_ClassicBtnNormal</Normal>
-			<Pressed>A_EQLS_ClassicBtnPressed</Pressed>
-			<Flyby>A_EQLS_ClassicBtnHover</Flyby>
-			<Disabled>A_EQLS_ClassicBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
+			<Normal>LargeBtnNormal</Normal>
+			<Pressed>LargeBtnPressed</Pressed>
+			<Flyby>LargeBtnHover</Flyby>
+			<Disabled>LargeBtnDisabled</Disabled>
+			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>s
 	</Button>
 	<Button item = "MAIN_OptionsButton">
@@ -99,11 +99,11 @@
 				<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_ClassicBtnNormal</Normal>
-			<Pressed>A_EQLS_ClassicBtnPressed</Pressed>
-			<Flyby>A_EQLS_ClassicBtnHover</Flyby>
-			<Disabled>A_EQLS_ClassicBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
+			<Normal>LargeBtnNormal</Normal>
+			<Pressed>LargeBtnPressed</Pressed>
+			<Flyby>LargeBtnHover</Flyby>
+			<Disabled>LargeBtnDisabled</Disabled>
+			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "MAIN_ExitButton">
@@ -125,11 +125,11 @@
 				<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_ClassicBtnNormal</Normal>
-			<Pressed>A_EQLS_ClassicBtnPressed</Pressed>
-			<Flyby>A_EQLS_ClassicBtnHover</Flyby>
-			<Disabled>A_EQLS_ClassicBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
+			<Normal>LargeBtnNormal</Normal>
+			<Pressed>LargeBtnPressed</Pressed>
+			<Flyby>LargeBtnHover</Flyby>
+			<Disabled>LargeBtnDisabled</Disabled>
+			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 

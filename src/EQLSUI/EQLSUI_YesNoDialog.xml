@@ -21,11 +21,11 @@
 			<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnNormal</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressed</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "YESNO_NoButton">
@@ -47,11 +47,11 @@
 			<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnNormal</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressed</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 

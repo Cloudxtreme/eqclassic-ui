@@ -22,11 +22,11 @@
 				<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_ClassicBtnNormal</Normal>
-			<Pressed>A_EQLS_ClassicBtnPressed</Pressed>
-			<Flyby>A_EQLS_ClassicBtnHover</Flyby>
-			<Disabled>A_EQLS_ClassicBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
+			<Normal>LargeBtnNormal</Normal>
+			<Pressed>LargeBtnPressed</Pressed>
+			<Flyby>LargeBtnHover</Flyby>
+			<Disabled>LargeBtnDisabled</Disabled>
+			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "LOGIN_HelpButton">
@@ -49,11 +49,11 @@
 				<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_ClassicBtnNormal</Normal>
-			<Pressed>A_EQLS_ClassicBtnPressed</Pressed>
-			<Flyby>A_EQLS_ClassicBtnHover</Flyby>
-			<Disabled>A_EQLS_ClassicBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
+			<Normal>LargeBtnNormal</Normal>
+			<Pressed>LargeBtnPressed</Pressed>
+			<Flyby>LargeBtnHover</Flyby>
+			<Disabled>LargeBtnDisabled</Disabled>
+			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "LOGIN_CancelButton">
@@ -76,11 +76,11 @@
 				<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_ClassicBtnNormal</Normal>
-			<Pressed>A_EQLS_ClassicBtnPressed</Pressed>
-			<Flyby>A_EQLS_ClassicBtnHover</Flyby>
-			<Disabled>A_EQLS_ClassicBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
+			<Normal>LargeBtnNormal</Normal>
+			<Pressed>LargeBtnPressed</Pressed>
+			<Flyby>LargeBtnHover</Flyby>
+			<Disabled>LargeBtnDisabled</Disabled>
+			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 

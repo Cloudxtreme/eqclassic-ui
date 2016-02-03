@@ -13,8 +13,6 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
 				<R>240</R>
 				<G>0</G>
@@ -28,14 +26,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC1Button">
 		<ScreenID>CPW_TC1Button</ScreenID>
@@ -48,8 +38,6 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
 				<R>0</R>
 				<G>240</G>
@@ -63,14 +51,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC2Button">
 		<ScreenID>CPW_TC2Button</ScreenID>
@@ -83,8 +63,6 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
 				<R>0</R>
 				<G>0</G>
@@ -98,14 +76,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC3Button">
 		<ScreenID>CPW_TC3Button</ScreenID>
@@ -118,8 +88,6 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
 				<R>240</R>
 				<G>240</G>
@@ -133,14 +101,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC4Button">
 		<ScreenID>CPW_TC4Button</ScreenID>
@@ -153,8 +113,6 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
 				<R>240</R>
 				<G>240</G>
@@ -168,14 +126,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC5Button">
 		<ScreenID>CPW_TC5Button</ScreenID>
@@ -188,8 +138,6 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
 				<R>127</R>
 				<G>0</G>
@@ -203,14 +151,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC6Button">
 		<ScreenID>CPW_TC6Button</ScreenID>
@@ -223,8 +163,6 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
 				<R>0</R>
 				<G>127</G>
@@ -238,14 +176,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC7Button">
 		<ScreenID>CPW_TC7Button</ScreenID>
@@ -258,8 +188,6 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
 				<R>0</R>
 				<G>0</G>
@@ -273,14 +201,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC8Button">
 		<ScreenID>CPW_TC8Button</ScreenID>
@@ -293,8 +213,6 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
 				<R>127</R>
 				<G>127</G>
@@ -308,14 +226,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC9Button">
 		<ScreenID>CPW_TC9Button</ScreenID>
@@ -328,12 +238,11 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+
 		<TextColor>
-				<R>127</R>
-				<G>127</G>
-				<B>127</B>
+			<R>127</R>
+			<G>127</G>
+			<B>127</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -343,14 +252,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC10Button">
 		<ScreenID>CPW_TC10Button</ScreenID>
@@ -363,12 +264,10 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
-				<R>0</R>
-				<G>240</G>
-				<B>240</B>
+			<R>0</R>
+			<G>240</G>
+			<B>240</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -378,14 +277,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC11Button">
 		<ScreenID>CPW_TC11Button</ScreenID>
@@ -398,12 +289,10 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
-				<R>0</R>
-				<G>127</G>
-				<B>127</B>
+			<R>0</R>
+			<G>127</G>
+			<B>127</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -413,14 +302,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC12Button">
 		<ScreenID>CPW_TC12Button</ScreenID>
@@ -433,12 +314,10 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
-				<R>240</R>
-				<G>127</G>
-				<B>0</B>
+			<R>240</R>
+			<G>127</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -448,14 +327,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC13Button">
 		<ScreenID>CPW_TC13Button</ScreenID>
@@ -468,12 +339,10 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
-				<R>127</R>
-				<G>64</G>
-				<B>0</B>
+			<R>127</R>
+			<G>64</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -483,14 +352,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CPW_TC14Button">
 		<ScreenID>CPW_TC14Button</ScreenID>
@@ -503,12 +364,10 @@
 			<CX>20</CX>
 			<CY>20</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -518,14 +377,6 @@
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<Editbox item = "CPW_RedSliderInput">
@@ -641,12 +492,10 @@
 			<CX>40</CX>
 			<CY>30</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -656,14 +505,6 @@
 			<CX>36</CX>
 			<CY>26</CY>
 		</DecalSize>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-			<NormalDecal>A_WhitePixel</NormalDecal>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<Button item = "CPW_Accept_Button">
@@ -685,13 +526,6 @@
 				<G>255</G>
 				<B>255</B>
 		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<Screen item = "ColorPickerWnd">

@@ -15,19 +15,18 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Click to change the color for admin names.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Admin Names</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_AdminChatButton">
@@ -43,19 +42,18 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Click to change the color for admin chat.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Admin Chat</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -72,19 +70,18 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Click to change the color for Guide names.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Guide Names</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_GuideChatButton">
@@ -100,19 +97,18 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Click to change the color for Guide chat.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Guide Chat</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -129,19 +125,18 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Click to change the color for Player names.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Player Names</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_PlayerChatButton">
@@ -157,19 +152,18 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Click to change the color for Player chat.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Player Chat</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_TellButton">
@@ -185,19 +179,18 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Click to change the color for tells.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Tells</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_SystemButton">
@@ -213,19 +206,18 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Click to change the color for system messages.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>System Messages</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_CommandButton">
@@ -241,23 +233,22 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Click to change the color for chat commands.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Chat Commands</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
-	<Button item = "CHATOPTIONS_FontLeftButton">
+	<!--<Button item = "CHATOPTIONS_FontLeftButton">
 		<ScreenID>CHATOPTIONS_FontLeftButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -273,9 +264,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text></Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_HSBLeftNormal</Normal>
@@ -284,7 +275,7 @@
 			<Disabled>A_EQLS_HSBLeftDisabled</Disabled>
 			<PressedFlyby>A_EQLS_HSBLeftPressed</PressedFlyby>
 		</ButtonDrawTemplate>
-	</Button>
+	</Button>-->
 	<Label item = "CHATOPTIONS_FontSizeLabel">
 		<ScreenID>CHATOPTIONS_FontSizeLabel</ScreenID>
 		<Font>3</Font>
@@ -299,15 +290,15 @@
 		</Size>
 		<Text></Text>
 		<TextColor>
-				<R>255</R>
-				<G>218</G>
-				<B>96</B>
+			<R>255</R>
+			<G>218</G>
+			<B>96</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "CHATOPTIONS_FontRightButton">
+	<!--<Button item = "CHATOPTIONS_FontRightButton">
 		<ScreenID>CHATOPTIONS_FontRightButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -323,9 +314,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text></Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_HSBRightNormal</Normal>
@@ -334,7 +325,7 @@
 			<Disabled>A_EQLS_HSBRightDisabled</Disabled>
 			<PressedFlyby>A_EQLS_HSBRightPressed</PressedFlyby>
 		</ButtonDrawTemplate>
-	</Button>
+	</Button>-->
 	<Label item = "CHATOPTIONS_FontLabel">
 		<ScreenID>CHATOPTIONS_FontLabel</ScreenID>
 		<Font>3</Font>
@@ -349,17 +340,13 @@
 		</Size>
 		<Text>Font size (1-6)</Text>
 		<TextColor>
-				<R>255</R>
-				<G>218</G>
-				<B>96</B>
+			<R>255</R>
+			<G>218</G>
+			<B>96</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
-<!-- END Font -->
 
-<!-- Misc -->
 	<Button item = "CHATOPTIONS_RestoreDefaultsButton">
 		<ScreenID>CHATOPTIONS_RestoreDefaultsButton</ScreenID>
 		<Font>4</Font>
@@ -373,19 +360,18 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Click to restore the default colors/font.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Restore Defaults</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_OKButton">
@@ -401,19 +387,18 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Click to accept your changes and close the options dialog.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Accept</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_CancelButton">
@@ -429,19 +414,18 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Click to cancel your changes and close the options dialog.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Cancel</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -449,26 +433,20 @@
 		<ScreenID>CHATOPTIONS_Box</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
+
 		<LeftAnchorOffset>110</LeftAnchorOffset>
 		<TopAnchorOffset>120</TopAnchorOffset>
 		<RightAnchorOffset>110</RightAnchorOffset>
 		<BottomAnchorOffset>120</BottomAnchorOffset>
+
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 
 		<Text>Confirmation</Text>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+
 		<DrawTemplate>WDT_Static</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>true</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
 
 		<Pieces>CHATOPTIONS_AdminNameButton</Pieces>
 		<Pieces>CHATOPTIONS_AdminChatButton</Pieces>
@@ -480,9 +458,9 @@
 		<Pieces>CHATOPTIONS_SystemButton</Pieces>
 		<Pieces>CHATOPTIONS_CommandButton</Pieces>
 		<Pieces>CHATOPTIONS_FontLabel</Pieces>
-		<Pieces>CHATOPTIONS_FontLeftButton</Pieces>
+		<!--<Pieces>CHATOPTIONS_FontLeftButton</Pieces>-->
 		<Pieces>CHATOPTIONS_FontSizeLabel</Pieces>
-		<Pieces>CHATOPTIONS_FontRightButton</Pieces>
+		<!--<Pieces>CHATOPTIONS_FontRightButton</Pieces>-->
 		<Pieces>CHATOPTIONS_RestoreDefaultsButton</Pieces>
 		<Pieces>CHATOPTIONS_OKButton</Pieces>
 		<Pieces>CHATOPTIONS_CancelButton</Pieces>

@@ -99,7 +99,7 @@
 <!-- Done with labels -->
 
 <!-- Hidden Buttons that are of different types so we can use them as templates to dynamically creates button -->
-	<Button item = "POLL_CheckButton">
+	<!--<Button item = "POLL_CheckButton">
 		<ScreenID>CheckButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Size>
@@ -116,7 +116,7 @@
 			<Pressed>A_EQLS_RadioBtnPressed</Pressed>
 			<Disabled>A_EQLS_RadioBtnDisabled</Disabled>
 		</ButtonDrawTemplate>
-	</Button>
+	</Button>-->
 <!-- Done with Hidden buttons -->
 
 <!-- Buttons actually used on the screen -->
@@ -140,11 +140,11 @@
 				<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "POLL_SkipButton">
@@ -167,11 +167,11 @@
 				<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EQLS_SmallBtnNormal</Normal>
-			<Pressed>A_EQLS_SmallBtnPressed</Pressed>
-			<Flyby>A_EQLS_SmallBtnHover</Flyby>
-			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
-			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
+			<Normal>SmallBtnNormal</Normal>
+			<Pressed>SmallBtnPressed</Pressed>
+			<Flyby>SmallBtnHover</Flyby>
+			<Disabled>SmallBtnDisabled</Disabled>
+			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 <!-- Done with buttons -->
@@ -207,7 +207,7 @@
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>POLL_WorkingArea</Pieces>
 		<Pieces>POLL_WndLabel</Pieces>
-		<Pieces>POLL_CheckButton</Pieces>
+		<!--<Pieces>POLL_CheckButton</Pieces>-->
 		<Pieces>POLL_LabelTemplate</Pieces>
 		<Pieces>POLL_SkipButton</Pieces>
 		<Pieces>POLL_SubmitButton</Pieces>

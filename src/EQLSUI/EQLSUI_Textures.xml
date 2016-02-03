@@ -211,62 +211,16 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-
+	<TextureInfo item = "EQLSUI/Buttons.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
     <TextureInfo item = "EQLSUI/wnd_bg_light_rock.tga">
         <Size>
             <CX>256</CX>
             <CY>256</CY>
-        </Size>
-    </TextureInfo>
-    <TextureInfo item = "window_pieces01.tga">
-        <Size>
-            <CX>256</CX>
-            <CY>256</CY>
-        </Size>
-    </TextureInfo>
-    <TextureInfo item = "window_pieces03.tga">
-        <Size>
-            <CX>256</CX>
-            <CY>256</CY>
-        </Size>
-    </TextureInfo>
-
-    <TextureInfo item = "classic_pieces07.tga">
-        <Size>
-            <CX>256</CX>
-            <CY>256</CY>
-        </Size>
-    </TextureInfo>
-    <TextureInfo item = "classic_pieces08.tga">
-        <Size>
-            <CX>256</CX>
-            <CY>256</CY>
-        </Size>
-    </TextureInfo>
-
-    <TextureInfo item = "EQLS_window_pieces_01.tga">
-        <Size>
-            <CX>256</CX>
-            <CY>256</CY>
-        </Size>
-    </TextureInfo>
-    <TextureInfo item = "EQLS_window_pieces_02.tga">
-        <Size>
-            <CX>256</CX>
-            <CY>256</CY>
-        </Size>
-    </TextureInfo>
-    <TextureInfo item = "EQLS_window_pieces_03.tga">
-        <Size>
-            <CX>256</CX>
-            <CY>256</CY>
-        </Size>
-    </TextureInfo>
-
-    <TextureInfo item = "EQLS_scrollbar_gutter.tga">
-        <Size>
-            <CX>16</CX>
-            <CY>16</CY>
         </Size>
     </TextureInfo>
 </XML>
