@@ -1,9 +1,6 @@
 <?xml version = "1.0"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
-
-<!-- The various color options -->
 	<Button item = "CHATOPTIONS_AdminNameButton">
 		<ScreenID>CHATOPTIONS_AdminNameButton</ScreenID>
 		<Font>4</Font>
@@ -451,7 +448,7 @@
 <!-- END Misc -->
 
 
-<!-- The actual box of the dialog -->	
+<!-- The actual box of the dialog -->
 	<Screen item = "CHATOPTIONS_Box">
 		<ScreenID>CHATOPTIONS_Box</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -476,7 +473,7 @@
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-		
+
 		<Pieces>CHATOPTIONS_AdminNameButton</Pieces>
 		<Pieces>CHATOPTIONS_AdminChatButton</Pieces>
 		<Pieces>CHATOPTIONS_GuideNameButton</Pieces>
@@ -513,7 +510,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_Def</DrawTemplate>
+		<DrawTemplate>WDT_Dialog</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

@@ -1,7 +1,7 @@
 <?xml version = "1.0"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	
+
 	<Ui2DAnimation item = "NEWS_BG1_TX">
 		<Cycle>true</Cycle>
 		<Frames>
@@ -116,7 +116,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	
+
 	<StaticAnimation item = "NEWS_BG1">
 		<ScreenID>NEWS_BG1</ScreenID>
 		<Location>
@@ -219,7 +219,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	
+
 	<STMLbox item = "NEWS_Display">
 		<ScreenID>Display</ScreenID>
 		<Font>2</Font>
@@ -235,12 +235,12 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		
+
 		<Style_Border>false</Style_Border>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_VScroll>true</Style_VScroll>
 	</STMLbox>
-	
+
 	<Screen item = "news">
 		<!--<ScreenID/>-->
 		<RelativePosition>true</RelativePosition>
@@ -264,14 +264,14 @@
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-		
+
 		<Pieces>NEWS_BG1</Pieces>
 		<Pieces>NEWS_BG2</Pieces>
 		<Pieces>NEWS_BG3</Pieces>
 		<Pieces>NEWS_BG4</Pieces>
 		<Pieces>NEWS_BG5</Pieces>
 		<Pieces>NEWS_BG6</Pieces>
-		
+
 		<Pieces>NEWS_OKButton</Pieces>
 		<Pieces>NEWS_Display</Pieces>
 	</Screen>

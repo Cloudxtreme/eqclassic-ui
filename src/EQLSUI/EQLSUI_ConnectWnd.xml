@@ -85,7 +85,7 @@
 			<Flyby>A_EQLS_ClassicBtnHover</Flyby>
 			<Disabled>A_EQLS_ClassicBtnDisabled</Disabled>
 			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
-		</ButtonDrawTemplate>			
+		</ButtonDrawTemplate>
 	</Button>
 <!-- End of buttons -->
 
@@ -166,7 +166,7 @@
 		<Font>5</Font>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
 		<Style_Border>false</Style_Border>
-		<Style_Transparent>true</Style_Transparent>	
+		<Style_Transparent>true</Style_Transparent>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>390</X>
@@ -184,7 +184,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Editbox>
-	
+
 <!-- End Edit boxes -->
 
 

@@ -1,15 +1,10 @@
 <?xml version = "1.0"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-<!-- Buttons -->
 	<Button item = "MAIN_ConnectButton">
 		<ScreenID>ConnectButton</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
-		<!--<Location>
-			<X>325</X>
-			<Y>170</Y>
-		</Location>-->
 		<Location>
 			<X>398</X>
 			<Y>220</Y>
@@ -114,7 +109,7 @@
 			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	
+
 	<Button item = "MAIN_CreditsButton">
 		<ScreenID>CreditsButton</ScreenID>
 		<Font>5</Font>
@@ -143,10 +138,8 @@
 			<PressedFlyby>A_EQLS_ClassicBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>s
 	</Button>
-<!-- End of buttons -->
 
 	<Screen item = "main">
-		<!--<ScreenID/>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -156,11 +149,9 @@
 			<CX>640</CX>
 			<CY>480</CY>
 		</Size>
-		<Text>Main</Text>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>

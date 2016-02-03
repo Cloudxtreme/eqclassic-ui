@@ -1,25 +1,25 @@
 <?xml version = "1.0"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	
+
 <!-- Action button -->
 	<Button item = "OK_OKButton">
 		<ScreenID>OKButton</ScreenID>
-		
+
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		
+
 		<LeftAnchorOffset>104</LeftAnchorOffset>
 		<TopAnchorOffset>190</TopAnchorOffset>
 		<RightAnchorOffset>138</RightAnchorOffset>
 		<BottomAnchorOffset>86</BottomAnchorOffset>
-		
+
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		
+
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>OK</Text>
 		<TextColor>
@@ -39,38 +39,38 @@
 	<STMLbox item = "OK_Display">
 		<ScreenID>Display</ScreenID>
 		<Font>2</Font>
-		
+
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
-		
+
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>false</Style_VScroll>
 		<AutoStretch>true</AutoStretch>
 		<Style_Transparent>true</Style_Transparent>
-		
+
 		<LeftAnchorOffset>50</LeftAnchorOffset>
 		<TopAnchorOffset>46</TopAnchorOffset>
 		<RightAnchorOffset>88</RightAnchorOffset>
 		<BottomAnchorOffset>160</BottomAnchorOffset>
-		
+
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		
+
 		<Style_Border>false</Style_Border>
 	</STMLbox>
-<!-- The actual dialog -->	
+<!-- The actual dialog -->
 	<Screen item = "OK_Box">
 		<ScreenID>Box</ScreenID>
-		
+
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		
+
 		<LeftAnchorOffset>174</LeftAnchorOffset>
 		<TopAnchorOffset>60</TopAnchorOffset>
 		<RightAnchorOffset>130</RightAnchorOffset>
 		<BottomAnchorOffset>110</BottomAnchorOffset>
-		
+
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -87,7 +87,7 @@
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-		
+
 		<Pieces>DIALOG_BG1</Pieces>
 		<Pieces>DIALOG_BG2</Pieces>
 		<Pieces>OK_Display</Pieces>
@@ -111,13 +111,13 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_Def</DrawTemplate>
+		<DrawTemplate>WDT_Dialog</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-		
+
 		<Pieces>OK_Box</Pieces>
 	</Screen>
 </XML>

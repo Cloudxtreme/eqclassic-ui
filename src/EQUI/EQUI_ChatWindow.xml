@@ -273,10 +273,9 @@
 
 		<Pieces>CW_BG_Left</Pieces>
 		<Pieces>CW_BG_Right</Pieces>
-		<Pieces>CW_ChatOutput</Pieces>
-
 		<Pieces>CW_Autolock</Pieces>
-
+		
+		<Pieces>CW_ChatOutput</Pieces>
 		<Pieces>CW_ChatInput</Pieces>
 	</Screen>
 
