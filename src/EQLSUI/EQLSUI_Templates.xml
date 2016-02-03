@@ -2,8 +2,7 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
-	<WindowDrawTemplate item = "WDT_EQLS_Def_NoFrame">
-		<Background>EQLS_BlackFill.tga</Background>
+	<!--<WindowDrawTemplate item = "WDT_EQLS_Def_NoFrame">
 		<VSBTemplate>
 			<UpButton>
 				<Normal>A_EQLS_VSBUpNormal</Normal>
@@ -63,166 +62,7 @@
 		<TileBox></TileBox>
 		<Border></Border>
 		<Titlebar></Titlebar>
-	</WindowDrawTemplate>
-	<WindowDrawTemplate item = "WDT_EQLS_Def_Bordered">
-		<Background>EQLS_BlackFill.tga</Background>
-		<VSBTemplate>
-			<UpButton>
-				<Normal>A_EQLS_VSBUpNormal</Normal>
-				<Pressed>A_EQLS_VSBUpPressed</Pressed>
-				<Disabled>A_EQLS_VSBUpDisabled</Disabled>
-			</UpButton>
-			<DownButton>
-				<Normal>A_EQLS_VSBDownNormal</Normal>
-				<Pressed>A_EQLS_VSBDownPressed</Pressed>
-				<Disabled>A_EQLS_VSBDownDisabled</Disabled>
-			</DownButton>
-			<Thumb>
-				<Top>A_EQLS_VSBThumbTop</Top>
-				<Bottom>A_EQLS_VSBThumbBottom</Bottom>
-				<Middle>A_EQLS_VSBThumbMiddle</Middle>
-				<OverlapLeft>0</OverlapLeft>
-				<OverlapTop>0</OverlapTop>
-				<OverlapRight>0</OverlapRight>
-				<OverlapBottom>0</OverlapBottom>
-			</Thumb>
-			<MiddleTextureInfo>EQLS_scrollbar_gutter.tga</MiddleTextureInfo>
-			<MiddleTint>
-				<Alpha>255</Alpha>
-				<R>128</R>
-				<G>128</G>
-				<B>128</B>
-			</MiddleTint>
-		</VSBTemplate>
-		<HSBTemplate>
-			<UpButton>
-				<Normal>A_EQLS_HSBLeftNormal</Normal>
-				<Pressed>A_EQLS_HSBLeftPressed</Pressed>
-				<Disabled>A_EQLS_HSBLeftDisabled</Disabled>
-			</UpButton>
-			<DownButton>
-				<Normal>A_EQLS_HSBRightNormal</Normal>
-				<Pressed>A_EQLS_HSBRightPressed</Pressed>
-				<Disabled>A_EQLS_HSBRightDisabled</Disabled>
-			</DownButton>
-			<Thumb>
-				<Right>A_EQLS_HSBThumbRight</Right>
-				<Left>A_EQLS_HSBThumbLeft</Left>
-				<Middle>A_EQLS_HSBThumbMiddle</Middle>
-				<OverlapLeft>0</OverlapLeft>
-				<OverlapTop>0</OverlapTop>
-				<OverlapRight>0</OverlapRight>
-				<OverlapBottom>0</OverlapBottom>
-			</Thumb>
-			<MiddleTextureInfo>EQLS_scrollbar_gutter.tga</MiddleTextureInfo>
-			<MiddleTint>
-				<Alpha>255</Alpha>
-				<R>128</R>
-				<G>128</G>
-				<B>128</B>
-			</MiddleTint>
-		</HSBTemplate>
-		<CloseBox></CloseBox>
-		<QMarkBox></QMarkBox>
-		<MinimizeBox></MinimizeBox>
-		<TileBox></TileBox>
-		<Border>
-			<TopLeft>A_EQLS_BorderFrameTopLeft</TopLeft>
-			<Top>A_EQLS_BorderFrameTop</Top>
-			<TopRight>A_EQLS_BorderFrameTopRight</TopRight>
-			<RightTop>A_EQLS_BorderFrameRightTop</RightTop>
-			<Right>A_EQLS_BorderFrameRight</Right>
-			<RightBottom>A_EQLS_BorderFrameRight</RightBottom>
-			<BottomRight>A_EQLS_BorderFrameBottomRight</BottomRight>
-			<Bottom>A_EQLS_BorderFrameBottom</Bottom>
-			<BottomLeft>A_EQLS_BorderFrameBottomLeft</BottomLeft>
-			<LeftTop>A_EQLS_BorderFrameLeftTop</LeftTop>
-			<Left>A_EQLS_BorderFrameLeft</Left>
-			<LeftBottom>A_EQLS_BorderFrameLeft</LeftBottom>
-			<OverlapLeft>0</OverlapLeft>
-			<OverlapTop>0</OverlapTop>
-			<OverlapRight>0</OverlapRight>
-			<OverlapBottom>0</OverlapBottom>
-		</Border>
-	</WindowDrawTemplate>
-
-	<WindowDrawTemplate item = "WDT_EQLS_ServerSelect_Def_Bordered">
-		<Background>EQLS_BlackFill.tga</Background>
-		<VSBTemplate>
-			<UpButton>
-				<Normal>deSpacer</Normal>
-				<Pressed>deSpacer</Pressed>
-				<Disabled>deSpacer</Disabled>
-			</UpButton>
-			<DownButton>
-				<Normal>deSpacer</Normal>
-				<Pressed>deSpacer</Pressed>
-				<Disabled>deSpacer</Disabled>
-			</DownButton>
-			<Thumb>
-				<Top>deSpacer</Top>
-				<Bottom>deSpacer</Bottom>
-				<Middle>deSpacer</Middle>
-				<OverlapLeft>0</OverlapLeft>
-				<OverlapTop>0</OverlapTop>
-				<OverlapRight>0</OverlapRight>
-				<OverlapBottom>0</OverlapBottom>
-			</Thumb>
-			<MiddleTextureInfo>EQLS_BlackFill.tga</MiddleTextureInfo>
-			<MiddleTint>
-				<Alpha>255</Alpha>
-				<R>128</R>
-				<G>128</G>
-				<B>128</B>
-			</MiddleTint>
-		</VSBTemplate>
-		<HSBTemplate>
-			<UpButton>
-				<Normal>deSpacer</Normal>
-				<Pressed>deSpacer</Pressed>
-				<Disabled>deSpacer</Disabled>
-			</UpButton>
-			<DownButton>
-				<Normal>deSpacer</Normal>
-				<Pressed>deSpacer</Pressed>
-				<Disabled>deSpacer</Disabled>
-			</DownButton>
-			<Thumb>
-				<Right>deSpacer</Right>
-				<Left>deSpacer</Left>
-				<Middle>deSpacer</Middle>
-				<OverlapLeft>0</OverlapLeft>
-				<OverlapTop>0</OverlapTop>
-				<OverlapRight>0</OverlapRight>
-				<OverlapBottom>0</OverlapBottom>
-			</Thumb>
-			<MiddleTextureInfo>EQLS_scrollbar_gutter.tga</MiddleTextureInfo>
-			<MiddleTint>
-				<Alpha>255</Alpha>
-				<R>128</R>
-				<G>128</G>
-				<B>128</B>
-			</MiddleTint>
-		</HSBTemplate>
-		<Border>
-			<TopLeft>A_EQLS_BorderFrameTopLeft</TopLeft>
-			<Top>A_EQLS_BorderFrameTop</Top>
-			<TopRight>A_EQLS_BorderFrameTopRight</TopRight>
-			<RightTop>A_EQLS_BorderFrameRightTop</RightTop>
-			<Right>A_EQLS_BorderFrameRight</Right>
-			<RightBottom>A_EQLS_BorderFrameRight</RightBottom>
-			<BottomRight>A_EQLS_BorderFrameBottomRight</BottomRight>
-			<Bottom>A_EQLS_BorderFrameBottom</Bottom>
-			<BottomLeft>A_EQLS_BorderFrameBottomLeft</BottomLeft>
-			<LeftTop>A_EQLS_BorderFrameLeftTop</LeftTop>
-			<Left>A_EQLS_BorderFrameLeft</Left>
-			<LeftBottom>A_EQLS_BorderFrameLeft</LeftBottom>
-			<OverlapLeft>0</OverlapLeft>
-			<OverlapTop>0</OverlapTop>
-			<OverlapRight>0</OverlapRight>
-			<OverlapBottom>0</OverlapBottom>
-		</Border>
-	</WindowDrawTemplate>
+	</WindowDrawTemplate> -->
 
 	<WindowDrawTemplate item = "WDT_Static">
 		<!-- Use this for windows with no border and non-visible scrollbars -->
@@ -230,7 +70,7 @@
 
 	<WindowDrawTemplate item = "WDT_Dialog">
 		<!-- Will remove upon knowing if this should or shouldnt be here. -->
-		<Background>wnd_bg_light_rock.tga</Background>
+		<Background>EQLSUI/wnd_bg_light_rock.tga</Background>
 	</WindowDrawTemplate>
 
 	<SliderDrawTemplate item = "SDT_DefSlider">

@@ -1,6 +1,7 @@
 <?xml version = "1.0"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
 	<Button item = "CHATOPTIONS_AdminNameButton">
 		<ScreenID>CHATOPTIONS_AdminNameButton</ScreenID>
 		<Font>4</Font>
@@ -255,9 +256,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-<!-- END The various color options -->
 
-<!-- Font -->
 	<Button item = "CHATOPTIONS_FontLeftButton">
 		<ScreenID>CHATOPTIONS_FontLeftButton</ScreenID>
 		<Font>4</Font>
@@ -445,10 +444,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-<!-- END Misc -->
 
-
-<!-- The actual box of the dialog -->
 	<Screen item = "CHATOPTIONS_Box">
 		<ScreenID>CHATOPTIONS_Box</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -467,7 +463,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
@@ -492,30 +488,13 @@
 		<Pieces>CHATOPTIONS_CancelButton</Pieces>
 	</Screen>
 
-
-<!-- The wrapper window -->
 	<Screen item = "chatoptions">
-		<!--<ScreenID/>-->
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>
 		</Size>
-		<Text>Chat</Text>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_Dialog</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>CHATOPTIONS_Box</Pieces>
 	</Screen>
 

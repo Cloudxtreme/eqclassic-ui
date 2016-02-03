@@ -530,7 +530,7 @@
 
 	<Editbox item = "CPW_RedSliderInput">
 		<ScreenID>CPW_RedSliderInput</ScreenID>
-		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Style_Border>true</Style_Border>
 		<Location>
@@ -564,7 +564,7 @@
 
 	<Editbox item = "CPW_GreenSliderInput">
 		<ScreenID>CPW_GreenSliderInput</ScreenID>
-		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Style_Border>true</Style_Border>
 		<Location>
@@ -598,7 +598,7 @@
 
 	<Editbox item = "CPW_BlueSliderInput">
 		<ScreenID>CPW_BlueSliderInput</ScreenID>
-		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Style_Border>true</Style_Border>
 		<Location>
@@ -707,7 +707,7 @@
 		<Text>Choose a color</Text>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference/>
-		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

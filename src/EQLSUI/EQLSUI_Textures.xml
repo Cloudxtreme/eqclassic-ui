@@ -1,0 +1,272 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <TextureInfo item = "EQLSUI/Splash01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQLSUI/Splash02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQLSUI/Splash03.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQLSUI/Splash04.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQLSUI/Splash05.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQLSUI/Splash06.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+	<TextureInfo item = "EQLSUI/Dialog01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQLSUI/Dialog02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+
+    <TextureInfo item = "EQLSUI/Main01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+	<TextureInfo item = "EQLSUI/Main02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+	<TextureInfo item = "EQLSUI/Main03.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/Main04.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/Main05.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/Main06.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
+    <TextureInfo item = "EQLSUI/Connect01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+	<TextureInfo item = "EQLSUI/Connect02.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/Connect03.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/Connect04.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/Connect05.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/Connect06.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
+	<TextureInfo item = "EQLSUI/News01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQLSUI/News02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQLSUI/News03.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQLSUI/News04.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQLSUI/News05.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQLSUI/News06.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+
+    <TextureInfo item = "EQLSUI/Eula.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+
+	<TextureInfo item = "EQLSUI/Server01.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/Server02.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/Server03.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/Server04.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/Server05.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/Server06.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/EQButton.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
+    <TextureInfo item = "EQLSUI/wnd_bg_light_rock.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "window_pieces01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "window_pieces03.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+
+    <TextureInfo item = "classic_pieces07.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "classic_pieces08.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+
+    <TextureInfo item = "EQLS_window_pieces_01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQLS_window_pieces_02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQLS_window_pieces_03.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+
+    <TextureInfo item = "EQLS_scrollbar_gutter.tga">
+        <Size>
+            <CX>16</CX>
+            <CY>16</CY>
+        </Size>
+    </TextureInfo>
+</XML>

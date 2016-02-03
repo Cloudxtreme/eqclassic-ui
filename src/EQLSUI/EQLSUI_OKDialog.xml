@@ -72,8 +72,8 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 
 		<DrawTemplate>WDT_Static</DrawTemplate>
-		<Pieces>DIALOG_BG1</Pieces>
-		<Pieces>DIALOG_BG2</Pieces>
+		<Pieces>EQLS_DialogBG01</Pieces>
+		<Pieces>EQLS_DialogBG02</Pieces>
 		<Pieces>OK_Display</Pieces>
 		<Pieces>OK_OKButton</Pieces>
 	</Screen>

@@ -6,7 +6,7 @@
 	<Editbox item = "POLL_EditTemplate">
 		<ScreenID>EditTemplate</ScreenID>
 		<Font>4</Font>
-		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>320</X>
@@ -17,9 +17,9 @@
 			<CY>30</CY>
 		</Size>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 	</Editbox>
 <!-- Done with hidden edit box -->
@@ -28,29 +28,18 @@
 		<ScreenID>LabelTemplate</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
-		<Text></Text>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>600</CX>
 			<CY>40</CY>
 		</Size>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 <!-- End of hidden label -->
-
-
-
-
 
 <!-- Labels -->
 	<Label item = "POLL_QuestionLabel">
@@ -58,44 +47,32 @@
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<Text>Poll Question:</Text>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>600</CX>
 			<CY>40</CY>
 		</Size>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item = "POLL_ChoicesLabel">
 		<ScreenID>ChoicesLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<Text>Choices:</Text>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>600</CX>
 			<CY>40</CY>
 		</Size>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 <!-- Window label -->
 	<Label item = "POLL_WndLabel">
@@ -112,36 +89,27 @@
 		</Size>
 		<Text>POLL</Text>
 		<TextColor>
-				<R>255</R>
-				<G>218</G>
-				<B>96</B>
+			<R>255</R>
+			<G>218</G>
+			<B>96</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 <!-- Done with labels -->
 
 <!-- Hidden Buttons that are of different types so we can use them as templates to dynamically creates button -->
 	<Button item = "POLL_CheckButton">
 		<ScreenID>CheckButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>23</CX>
 			<CY>19</CY>
 		</Size>
-		<TooltipReference></TooltipReference>
-		<Style_Checkbox>true</Style_Checkbox>
-		<Text></Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_RadioBtnNormal</Normal>
@@ -165,7 +133,6 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Submit your response to the server</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>SUBMIT</Text>
 		<TextColor>
 				<R>255</R>
@@ -193,7 +160,6 @@
 			<CY>31</CY>
 		</Size>
 		<TooltipReference>Skip the poll</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>SKIP</Text>
 		<TextColor>
 				<R>255</R>
@@ -210,15 +176,11 @@
 	</Button>
 <!-- Done with buttons -->
 
-
-
-
-
 <!-- Inner screen that contains the poll quesiton and choices available -->
 	<Screen item = "POLL_WorkingArea">
 		<ScreenID>PollArea</ScreenID>
 		<Font>4</Font>
-		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>40</X>
@@ -228,8 +190,6 @@
 			<CX>560</CX>
 			<CY>345</CY>
 		</Size>
-		<Text></Text>
-		<Style_Transparent>false</Style_Transparent>
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 		<Pieces>POLL_QuestionLabel</Pieces>
@@ -237,30 +197,14 @@
 	</Screen>
 <!-- End of inner screen -->
 
-
 	<Screen item = "PollWindow">
-		<!--<ScreenID/>-->
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>
 		</Size>
-
 		<Text>Poll</Text>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>POLL_WorkingArea</Pieces>
 		<Pieces>POLL_WndLabel</Pieces>
 		<Pieces>POLL_CheckButton</Pieces>

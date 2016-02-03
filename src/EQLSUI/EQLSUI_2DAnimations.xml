@@ -2,262 +2,332 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
-	<TextureInfo item = "EQLS_classic_background_01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_classic_background_02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_classic_background_03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_classic_background_04.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_classic_background_05.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_classic_background_06.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_classic_background_07.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_classic_background_08.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_classic_background_09.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_classic_background_10.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_classic_background_11.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_classic_background_12.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-
-	<TextureInfo item = "wnd_bg_dark_rock.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "wnd_bg_light_rock.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "window_pieces01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "window_pieces03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-
-	<TextureInfo item = "classic_pieces07.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "classic_pieces08.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-
-	<TextureInfo item = "EQLS_window_pieces_01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_window_pieces_02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_window_pieces_03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-
-	<TextureInfo item = "EQLS_scrollbar_gutter.tga">
-		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "EQLS_BlackFill.tga">
-		<Size>
-			<CX>32</CX>
-			<CY>32</CY>
-		</Size>
-	</TextureInfo>
-
-	<TextureInfo item = "dialog01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dialog02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-
-	<TextureInfo item = "selserver01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "selserver02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "selserver03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "selserver04.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "selserver05.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "selserver06.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-
-	<TextureInfo item = "news01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "news02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "news03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "news04.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "news05.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "news06.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-
-	<TextureInfo item = "eula.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-
-	<TextureInfo item = "eqbutton.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-
-		<Ui2DAnimation item = "DIALOG_BG1_TX">
-		<Cycle>true</Cycle>
+	<Ui2DAnimation item = "Splash01">
 		<Frames>
-			<Texture>dialog01.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
+			<Texture>EQLSUI/Splash01.tga</Texture>
 			<Size>
 				<CX>256</CX>
 				<CY>256</CY>
 			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Splash02">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>EQLSUI/Splash02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Splash03">
+		<Frames>
+			<Texture>EQLSUI/Splash03.tga</Texture>
+			<Size>
+				<CX>128</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Splash04">
+		<Frames>
+			<Texture>EQLSUI/Splash04.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>224</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Splash05">
+		<Frames>
+			<Texture>EQLSUI/Splash05.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>224</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Splash06">
+		<Frames>
+			<Texture>EQLSUI/Splash06.tga</Texture>
+			<Size>
+				<CX>128</CX>
+				<CY>224</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Dialog01">
+		<Frames>
+			<Texture>EQLSUI/Dialog01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Dialog02">
+		<Frames>
+			<Texture>EQLSUI/Dialog02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "Main01">
+		<Frames>
+			<Texture>EQLSUI/Main01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Main02">
+		<Frames>
+			<Texture>EQLSUI/Main02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Main03">
+		<Frames>
+			<Texture>EQLSUI/Main03.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Main04">
+		<Frames>
+			<Texture>EQLSUI/Main04.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Main05">
+		<Frames>
+			<Texture>EQLSUI/Main05.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Main06">
+		<Frames>
+			<Texture>EQLSUI/Main06.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "Connect01">
+		<Frames>
+			<Texture>EQLSUI/Connect01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Connect02">
+		<Frames>
+			<Texture>EQLSUI/Connect02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Connect03">
+		<Frames>
+			<Texture>EQLSUI/Connect03.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Connect04">
+		<Frames>
+			<Texture>EQLSUI/Connect04.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Connect05">
+		<Frames>
+			<Texture>EQLSUI/Connect05.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Connect06">
+		<Frames>
+			<Texture>EQLSUI/Connect06.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "News01">
+		<Frames>
+			<Texture>EQLSUI/News01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "News02">
+		<Frames>
+			<Texture>EQLSUI/News02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "News03">
+		<Frames>
+			<Texture>EQLSUI/News03.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "News04">
+		<Frames>
+			<Texture>EQLSUI/News04.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "News05">
+		<Frames>
+			<Texture>EQLSUI/News05.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "News06">
+		<Frames>
+			<Texture>EQLSUI/News06.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "Eula01">
+		<Frames>
+			<Texture>EQLSUI/Eula.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "ServerSelect01">
+		<Frames>
+			<Texture>EQLSUI/Server01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "ServerSelect02">
+		<Frames>
+			<Texture>EQLSUI/Server02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "ServerSelect03">
+		<Frames>
+			<Texture>EQLSUI/Server03.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "ServerSelect04">
+		<Frames>
+			<Texture>EQLSUI/Server04.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "ServerSelect05">
+		<Frames>
+			<Texture>EQLSUI/Server05.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "ServerSelect06">
+		<Frames>
+			<Texture>EQLSUI/Server06.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "ServerSelect_EQButton_Normal">
+		<Frames>
+			<Texture>EQLSUI/EQButton.tga</Texture>
+			<Size>
+				<CX>192</CX>
+				<CY>80</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "ServerSelect_EQButton_Pressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>EQLSUI/EQButton.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>192</CX>
+				<CY>80</CY>
+			</Size>
 			<Hotspot>
 				<X>0</X>
 				<Y>0</Y>
@@ -265,17 +335,17 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "DIALOG_BG2_TX">
+	<Ui2DAnimation item = "ServerSelect_EQButton_Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>dialog02.tga</Texture>
+			<Texture>EQLSUI/EQButton.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>0</Y>
+				<Y>160</Y>
 			</Location>
 			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
+				<CX>192</CX>
+				<CY>80</CY>
 			</Size>
 			<Hotspot>
 				<X>0</X>
@@ -285,443 +355,6 @@
 		</Frames>
 	</Ui2DAnimation>
 
-	<StaticAnimation item = "DIALOG_BG1">
-		<ScreenID>OK_BG1</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>DIALOG_BG1_TX</Animation>
-	</StaticAnimation>
-	<StaticAnimation item = "DIALOG_BG2">
-		<ScreenID>OK_BG2</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>256</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>DIALOG_BG2_TX</Animation>
-	</StaticAnimation>
-
-	<Ui2DAnimation item = "deSpacer">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>EQLS_window_pieces_02.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>0</CX>
-				<CY>0</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "A_MainBG01">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>EQLS_classic_background_01.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MainBG02">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>EQLS_classic_background_02.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MainBG03">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>EQLS_classic_background_03.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MainBG04">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>EQLS_classic_background_04.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MainBG05">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>EQLS_classic_background_05.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MainBG06">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>EQLS_classic_background_06.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "A_ConnectBG01">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>EQLS_classic_background_07.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_ConnectBG02">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>EQLS_classic_background_08.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_ConnectBG03">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>EQLS_classic_background_09.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_ConnectBG04">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>EQLS_classic_background_10.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_ConnectBG05">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>EQLS_classic_background_11.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_ConnectBG06">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>EQLS_classic_background_12.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-<!-- ENd of main background -->
-
-<!-- Main Background StaticAnimations -->
-	<StaticAnimation item = "EQLS_MainBG01">
-		<ScreenID>MainBG01</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_MainBG01</Animation>
-	</StaticAnimation>
-	<StaticAnimation item = "EQLS_MainBG02">
-		<ScreenID>MainBG02</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>256</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_MainBG02</Animation>
-	</StaticAnimation>
-	<StaticAnimation item = "EQLS_MainBG03">
-		<ScreenID>MainBG03</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>512</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_MainBG03</Animation>
-	</StaticAnimation>
-	<StaticAnimation item = "EQLS_MainBG04">
-		<ScreenID>MainBG04</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>256</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_MainBG04</Animation>
-	</StaticAnimation>
-	<StaticAnimation item = "EQLS_MainBG05">
-		<ScreenID>MainBG05</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>256</X>
-			<Y>256</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_MainBG05</Animation>
-	</StaticAnimation>
-	<StaticAnimation item = "EQLS_MainBG06">
-		<ScreenID>MainBG06</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>512</X>
-			<Y>256</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_MainBG06</Animation>
-	</StaticAnimation>
-
-	<StaticAnimation item = "EQLS_ConnectBG01">
-		<ScreenID>ConnectBG01</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_ConnectBG01</Animation>
-	</StaticAnimation>
-	<StaticAnimation item = "EQLS_ConnectBG02">
-		<ScreenID>ConnectBG02</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>256</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_ConnectBG02</Animation>
-	</StaticAnimation>
-	<StaticAnimation item = "EQLS_ConnectBG03">
-		<ScreenID>ConnectBG03</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>512</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_ConnectBG03</Animation>
-	</StaticAnimation>
-	<StaticAnimation item = "EQLS_ConnectBG04">
-		<ScreenID>ConnectBG04</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>256</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_ConnectBG04</Animation>
-	</StaticAnimation>
-	<StaticAnimation item = "EQLS_ConnectBG05">
-		<ScreenID>ConnectBG05</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>256</X>
-			<Y>256</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_ConnectBG05</Animation>
-	</StaticAnimation>
-	<StaticAnimation item = "EQLS_ConnectBG06">
-		<ScreenID>ConnectBG06</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>512</X>
-			<Y>256</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_ConnectBG06</Animation>
-	</StaticAnimation>
-<!-- End of Main BG animation -->
 <!-- Large Button -->
 	<Ui2DAnimation item = "A_EQLS_LargeBtnNormal">
 		<Cycle>true</Cycle>

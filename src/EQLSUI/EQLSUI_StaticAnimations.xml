@@ -1,0 +1,407 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <StaticAnimation item = "EQLS_SplashBG01">
+        <ScreenID>SplashBG01</ScreenID>
+        <RelativePosition>true</RelativePosition>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Splash01</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQLS_SplashBG02">
+        <ScreenID>SplashBG02</ScreenID>
+        <RelativePosition>true</RelativePosition>
+        <Location>
+            <X>256</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Splash02</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQLS_SplashBG03">
+        <ScreenID>SplashBG03</ScreenID>
+        <RelativePosition>true</RelativePosition>
+        <Location>
+            <X>512</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>128</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Splash03</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQLS_SplashBG04">
+        <ScreenID>SplashBG04</ScreenID>
+        <RelativePosition>true</RelativePosition>
+        <Location>
+            <X>0</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>224</CY>
+        </Size>
+        <Animation>Splash04</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQLS_SplashBG05">
+        <ScreenID>SplashBG05</ScreenID>
+        <RelativePosition>true</RelativePosition>
+        <Location>
+            <X>256</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>224</CY>
+        </Size>
+        <Animation>Splash05</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQLS_SplashBG06">
+        <ScreenID>SplashBG06</ScreenID>
+        <RelativePosition>true</RelativePosition>
+        <Location>
+            <X>512</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>128</CX>
+            <CY>224</CY>
+        </Size>
+        <Animation>Splash06</Animation>
+    </StaticAnimation>
+
+    <StaticAnimation item = "EQLS_DialogBG01">
+		<ScreenID>DialogBG01</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Dialog01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_DialogBG02">
+		<ScreenID>DialogBG02</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Dialog02</Animation>
+	</StaticAnimation>
+
+	<StaticAnimation item = "EQLS_MainBG01">
+		<ScreenID>MainBG01</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Main01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_MainBG02">
+		<ScreenID>MainBG02</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Main02</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_MainBG03">
+		<ScreenID>MainBG03</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>512</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Main03</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_MainBG04">
+		<ScreenID>MainBG04</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Main04</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_MainBG05">
+		<ScreenID>MainBG05</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Main05</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_MainBG06">
+		<ScreenID>MainBG06</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>512</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Main06</Animation>
+	</StaticAnimation>
+
+	<StaticAnimation item = "EQLS_ConnectBG01">
+		<ScreenID>ConnectBG01</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Connect01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ConnectBG02">
+		<ScreenID>ConnectBG02</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Connect02</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ConnectBG03">
+		<ScreenID>ConnectBG03</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>512</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Connect03</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ConnectBG04">
+		<ScreenID>ConnectBG04</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Connect04</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ConnectBG05">
+		<ScreenID>ConnectBG05</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Connect05</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ConnectBG06">
+		<ScreenID>ConnectBG06</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>512</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Connect06</Animation>
+	</StaticAnimation>
+
+	<StaticAnimation item = "EQLS_NewsBG01">
+		<ScreenID>NewsBG01</ScreenID>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>News01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_NewsBG02">
+		<ScreenID>NewsBG02</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>News02</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_NewsBG03">
+		<ScreenID>NewsBG03</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>News03</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_NewsBG04">
+		<ScreenID>NewsBG04</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>News04</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_NewsBG05">
+		<ScreenID>NewsBG05</ScreenID>
+		<Location>
+			<X>512</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>News05</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_NewsBG06">
+		<ScreenID>NewsBG06</ScreenID>
+		<Location>
+			<X>512</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>News06</Animation>
+	</StaticAnimation>
+
+	<StaticAnimation item = "EQLS_EulaBG01">
+		<ScreenID>EulaBG01</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Eula01</Animation>
+	</StaticAnimation>
+
+	<StaticAnimation item = "EQLS_ServerSelectBG01">
+		<ScreenID>ServerSelectBG01</ScreenID>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>ServerSelect01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ServerSelectBG02">
+		<ScreenID>ServerSelectBG02</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>ServerSelect02</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ServerSelectBG03">
+		<ScreenID>ServerSelectBG03</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>ServerSelect03</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ServerSelectBG04">
+		<ScreenID>ServerSelectBG04</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>ServerSelect04</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ServerSelectBG05">
+		<ScreenID>ServerSelectBG05</ScreenID>
+		<Location>
+			<X>512</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>ServerSelect05</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ServerSelectBG06">
+		<ScreenID>ServerSelectBG06</ScreenID>
+		<Location>
+			<X>512</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>ServerSelect06</Animation>
+	</StaticAnimation>
+</XML>

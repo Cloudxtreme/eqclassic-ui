@@ -38,7 +38,7 @@
 	</Button>
 	<STMLbox item = "HELP_Display">
 		<ScreenID>Display</ScreenID>
-		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>true</Style_VScroll>
 		<AutoStretch>true</AutoStretch>
@@ -91,7 +91,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
@@ -143,7 +143,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
@@ -189,7 +189,7 @@
 	</Button>
 	<STMLbox item = "MAINHELP_Display">
 		<ScreenID>Display</ScreenID>
-		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>true</Style_VScroll>
 		<Location>
@@ -219,7 +219,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
