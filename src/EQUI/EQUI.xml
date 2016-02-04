@@ -25,7 +25,7 @@
 		<Include>EQUI_PlayerWindow.xml</Include>				<!-- imotogames - fixed -->
 		<Include>EQUI_CastingWindow.xml</Include>				<!-- imotogames - fixed-->
 		<Include>EQUI_TargetWindow.xml</Include> 				<!-- imotogames - fixed -->
-		<Include>EQUI_AAWindow.xml</Include>					<!-- imotogames - disabled -->
+		<Include>EQUI_AAWindow.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_Inventory.xml</Include>					<!-- imotogames - fixed -->
 		<Include>EQUI_CursorAttachment.xml</Include>			<!-- original -->
 		<Include>EQUI_CastSpellWnd.xml</Include>				<!-- imotogames - fixed -->
@@ -47,18 +47,18 @@
 		<Include>EQUI_GiveWnd.xml</Include>						<!-- imotogames - fixed -->
 		<Include>EQUI_TrackingWnd.xml</Include>					<!-- original -->
 		<Include>EQUI_HotButtonWnd.xml</Include>				<!-- imotogames - fixed -->
-		<Include>EQUI_InspectWnd.xml</Include>					<!-- original -->
-		<Include>EQUI_SocialEditWnd.xml</Include>				<!-- original	- needs to have charm area removed ????-->
+		<Include>EQUI_InspectWnd.xml</Include>					<!-- original - needs to have charm area removed ???? -->
+		<Include>EQUI_SocialEditWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_FeedbackWnd.xml</Include>					<!-- original -->
 		<Include>EQUI_BugReportWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_BazaarSearchWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_ColorPickerWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_VideoModesWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_TextEntryWnd.xml</Include>				<!-- original -->
-		<Include>EQUI_CompassWnd.xml</Include>					<!-- imotogames - disabled -->
+		<Include>EQUI_CompassWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_GemsGameWnd.xml</Include>					<!-- original -->
 		<Include>EQUI_PlayerNotesWindow.xml</Include>			<!-- original -->
-		<Include>EQUI_LoadskinWnd.xml</Include>					<!-- imotogames - 100% disabled -->
+		<Include>EQUI_LoadskinWnd.xml</Include>					<!-- imotogames - fixed -->
 		<Include>EQUI_AlarmWnd.xml</Include>        			<!-- imotogames - 100% disabled -->
 		<Include>EQUI_RaidWindow.xml</Include>					<!-- imotogames - disabled -->
 		<Include>EQUI_RaidOptionsWindow.xml</Include>			<!-- original -->
@@ -87,7 +87,6 @@
         <Include>EQUI_CombatAbilityWnd.xml</Include>			<!-- imotogames - disabled -->
         <Include>EQUI_CombatSkillsSelectWindow.xml</Include>	<!-- imotogames - disabled -->
         <Include>EQUI_TradeskillWnd.xml</Include>
-        <!-- <Include>EQUI_DynamicZoneWnd.xml</Include>	-->		<!-- imotogames - disabled -->
         <Include>EQUI_TextMessageWindow.xml</Include>			<!-- ?? -->
         <Include>EQUI_TributeBenefitWnd.xml</Include>			<!-- imotogames - 100% disabled -->
 	    <Include>EQUI_TributeMasterWnd.xml</Include>			<!-- imotogames - 100% disabled -->
