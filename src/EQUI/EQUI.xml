@@ -4,8 +4,10 @@
     <Composite>
 		<Include>SIDL.xml</Include>								<!-- original-->
 
-		<Include>EQUI_Animations.xml</Include>					<!-- imotogames - updated -->
-		<Include>EQUI_Templates.xml</Include>					<!-- imotogames - updated -->
+        <Include>EQUI_Textures.xml</Include>                    <!-- imotogames - new -->
+        <Include>EQUI_2DAnimations.xml</Include>                <!-- imotogames - new -->
+        <Include>EQUI_StaticAnimations.xml</Include>            <!-- imotogames - new -->
+        <Include>EQUI_Templates.xml</Include>                   <!-- imotogames - updated -->
 
 		<Include>faB_Classic.xml</Include>						<!-- imotogames - updated -->
 

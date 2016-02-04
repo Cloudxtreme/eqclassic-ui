@@ -1189,6 +1189,9 @@
 		</Titlebar>
 	</WindowDrawTemplate>
 
+	<WindowDrawTemplate item = "WDT_Static">
+		<!-- Use this for windows with no border and non-visible scrollbars -->
+	</WindowDrawTemplate>
 
 	<SliderDrawTemplate item = "SDT_DefSlider">
 		<Thumb>

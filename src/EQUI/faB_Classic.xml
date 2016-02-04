@@ -145,19 +145,6 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<!-- chat window -->
-	<TextureInfo item = "classic_chat01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "classic_chat02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
 <!-- window title bars TESTING -->
 	<TextureInfo item = "classic_bars.tga">
 		<Size>

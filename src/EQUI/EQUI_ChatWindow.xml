@@ -2,251 +2,44 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
-<!-- background texture stretched to fit -->
-
-	<Ui2DAnimation item = "A_ChatLeft">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_chat01.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "A_ChatRight">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_chat02.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<StaticAnimation item = "CW_BG_Left">
-		<ScreenID>CW_BG_Left</ScreenID>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_ChatLeft</Animation>
-	</StaticAnimation>
-	<StaticAnimation item = "CW_BG_Right">
-		<ScreenID>CW_BG_Right</ScreenID>
-		<Location>
-			<X>256</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>A_ChatRight</Animation>
-	</StaticAnimation>
-
-	<WindowDrawTemplate item = "WDT_ChatInput">
-		<VSBTemplate>
-			<UpButton>
-				<Normal>A_VSBUpNormal</Normal>
-				<Pressed>A_VSBUpPressed</Pressed>
-				<Flyby>A_VSBUpFlyby</Flyby>
-				<Disabled>A_VSBUpDisabled</Disabled>
-				<PressedFlyby>A_VSBUpPressedFlyby</PressedFlyby>
-			</UpButton>
-			<DownButton>
-				<Normal>A_VSBDownNormal</Normal>
-				<Pressed>A_VSBDownPressed</Pressed>
-				<Flyby>A_VSBDownFlyby</Flyby>
-				<Disabled>A_VSBDownDisabled</Disabled>
-				<PressedFlyby>A_VSBDownPressedFlyby</PressedFlyby>
-			</DownButton>
-			<Thumb>
-				<Top>A_VSBThumbTop</Top>
-				<Bottom>A_VSBThumbBottom</Bottom>
-				<Middle>A_VSBThumbMiddle</Middle>
-				<OverlapLeft>0</OverlapLeft>
-				<OverlapTop>0</OverlapTop>
-				<OverlapRight>0</OverlapRight>
-				<OverlapBottom>0</OverlapBottom>
-			</Thumb>
-			<MiddleTextureInfo>scrollbar_gutter.tga</MiddleTextureInfo>
-			<MiddleTint>
-				<Alpha>255</Alpha>
-				<R>128</R>
-				<G>128</G>
-				<B>128</B>
-			</MiddleTint>
-		</VSBTemplate>
-		<HSBTemplate>
-			<UpButton>
-				<Normal>A_HSBLeftNormal</Normal>
-				<Pressed>A_HSBLeftPressed</Pressed>
-				<Flyby>A_HSBLeftFlyby</Flyby>
-				<Disabled>A_HSBLeftDisabled</Disabled>
-				<PressedFlyby>A_HSBLeftPressedFlyby</PressedFlyby>
-			</UpButton>
-			<DownButton>
-				<Normal>A_HSBRightNormal</Normal>
-				<Pressed>A_HSBRightPressed</Pressed>
-				<Flyby>A_HSBRightFlyby</Flyby>
-				<Disabled>A_HSBRightDisabled</Disabled>
-				<PressedFlyby>A_HSBRightPressedFlyby</PressedFlyby>
-			</DownButton>
-			<Thumb>
-				<Right>A_HSBThumbRight</Right>
-				<Left>A_HSBThumbLeft</Left>
-				<Middle>A_HSBThumbMiddle</Middle>
-				<OverlapLeft>0</OverlapLeft>
-				<OverlapTop>0</OverlapTop>
-				<OverlapRight>0</OverlapRight>
-				<OverlapBottom>0</OverlapBottom>
-			</Thumb>
-			<MiddleTextureInfo>scrollbar_gutter.tga</MiddleTextureInfo>
-			<MiddleTint>
-				<Alpha>255</Alpha>
-				<R>128</R>
-				<G>128</G>
-				<B>128</B>
-			</MiddleTint>
-		</HSBTemplate>
-		<CloseBox>
-			<Normal>A_CloseBtnNormal</Normal>
-			<Pressed>A_CloseBtnPressed</Pressed>
-			<Flyby>A_CloseBtnFlyby</Flyby>
-			<Disabled>A_CloseBtnDisabled</Disabled>
-			<PressedFlyby>A_CloseBtnPressedFlyby</PressedFlyby>
-		</CloseBox>
-		<MinimizeBox>
-			<Normal>A_MinimizeBtnNormal</Normal>
-			<Pressed>A_MinimizeBtnPressed</Pressed>
-			<Flyby>A_MinimizeBtnFlyby</Flyby>
-			<Disabled>A_MinimizeBtnDisabled</Disabled>
-			<PressedFlyby>A_MinimizeBtnPressedFlyby</PressedFlyby>
-		</MinimizeBox>
-		<TileBox>
-			<Normal>A_TileBtnNormal</Normal>
-			<Pressed>A_TileBtnPressed</Pressed>
-			<Flyby>A_TileBtnFlyby</Flyby>
-			<Disabled>A_TileBtnDisabled</Disabled>
-			<PressedFlyby>A_TileBtnPressedFlyby</PressedFlyby>
-		</TileBox>
-		<Border>
-			<TopLeft>faB_Spacer</TopLeft>
-			<Top>faB_Spacer</Top>
-			<TopRight>faB_Spacer</TopRight>
-			<RightTop>faB_Spacer</RightTop>
-			<Right>faB_Spacer</Right>
-			<RightBottom>faB_Spacer</RightBottom>
-			<BottomRight>faB_Spacer</BottomRight>
-			<Bottom>faB_Spacer</Bottom>
-			<BottomLeft>faB_Spacer</BottomLeft>
-			<LeftTop>faB_Spacer</LeftTop>
-			<Left>faB_Spacer</Left>
-			<LeftBottom>faB_Spacer</LeftBottom>
-			<OverlapLeft>0</OverlapLeft>
-			<OverlapTop>0</OverlapTop>
-			<OverlapRight>0</OverlapRight>
-			<OverlapBottom>0</OverlapBottom>
-		</Border>
-		<Titlebar>
-			<Right>A_WindowTitleRight</Right>
-			<Left>A_WindowTitleLeft</Left>
-			<Middle>A_WindowTitleMiddle</Middle>
-			<OverlapLeft>0</OverlapLeft>
-			<OverlapTop>0</OverlapTop>
-			<OverlapRight>0</OverlapRight>
-			<OverlapBottom>0</OverlapBottom>
-		</Titlebar>
-	</WindowDrawTemplate>
-
 	<Editbox item = "CW_ChatInput">
 		<ScreenID>CWChatInput</ScreenID>
-		<DrawTemplate>WDT_ChatInput</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
+
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<TopAnchorOffset>34</TopAnchorOffset>
 		<RightAnchorOffset>40</RightAnchorOffset>
 		<BottomAnchorOffset>12</BottomAnchorOffset>
+
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<Style_Transparent>true</Style_Transparent>
 	</Editbox>
 
 	<STMLbox item = "CW_ChatOutput">
 		<ScreenID>CWChatOutput</ScreenID>
-		<!-- imotogames - changed output to have no visible vscroll bar for the time being -->
-		<DrawTemplate>WDT_Inner_NoVScroll</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
-		<Style_VScroll>false</Style_VScroll>
 		<AutoStretch>true</AutoStretch>
+
 		<LeftAnchorOffset>34</LeftAnchorOffset>
 		<TopAnchorOffset>11</TopAnchorOffset>
 		<RightAnchorOffset>40</RightAnchorOffset>
 		<BottomAnchorOffset>38</BottomAnchorOffset>
+
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<Style_Border>false</Style_Border>
-		<Style_Transparent>true</Style_Transparent>
 	</STMLbox>
 
 	<Button item = "CW_Autolock">
 		<ScreenID>CW_Autolock</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>400</CX>
 			<CY>160</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>true</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text></Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
-			<Pressed>faB_Spacer</Pressed>
-			<Flyby>faB_Spacer</Flyby>
-			<Disabled>faB_Spacer</Disabled>
-			<PressedFlyby>faB_Spacer</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<Screen item = "ChatWindow">
@@ -259,22 +52,11 @@
 			<CX>400</CX>
 			<CY>160</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>true</Style_Transparent>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 
-		<Style_Titlebar>false</Style_Titlebar>
-
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
-
-		<Pieces>CW_BG_Left</Pieces>
-		<Pieces>CW_BG_Right</Pieces>
+		<Pieces>EQUI_ChatBG01</Pieces>
+		<Pieces>EQUI_ChatBG02</Pieces>
 		<Pieces>CW_Autolock</Pieces>
-		
 		<Pieces>CW_ChatOutput</Pieces>
 		<Pieces>CW_ChatInput</Pieces>
 	</Screen>
