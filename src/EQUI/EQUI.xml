@@ -51,15 +51,15 @@
 		<Include>EQUI_SocialEditWnd.xml</Include>				<!-- original	- needs to have charm area removed ????-->
 		<Include>EQUI_FeedbackWnd.xml</Include>					<!-- original -->
 		<Include>EQUI_BugReportWnd.xml</Include>				<!-- original -->
-		<Include>EQUI_BazaarSearchWnd.xml</Include>				<!-- original - disabled -->
+		<Include>EQUI_BazaarSearchWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_ColorPickerWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_VideoModesWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_TextEntryWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_CompassWnd.xml</Include>					<!-- imotogames - disabled -->
 		<Include>EQUI_GemsGameWnd.xml</Include>					<!-- original -->
 		<Include>EQUI_PlayerNotesWindow.xml</Include>			<!-- original -->
-		<Include>EQUI_LoadskinWnd.xml</Include>					<!-- imotogames - fixed -->
-		<Include>EQUI_AlarmWnd.xml</Include>        			<!-- imotogames - disabled -->
+		<Include>EQUI_LoadskinWnd.xml</Include>					<!-- imotogames - 100% disabled -->
+		<Include>EQUI_AlarmWnd.xml</Include>        			<!-- imotogames - 100% disabled -->
 		<Include>EQUI_RaidWindow.xml</Include>					<!-- imotogames - disabled -->
 		<Include>EQUI_RaidOptionsWindow.xml</Include>			<!-- original -->
 		<Include>EQUI_MusicPlayerWnd.xml</Include>				<!-- imotogames - disabled -->
