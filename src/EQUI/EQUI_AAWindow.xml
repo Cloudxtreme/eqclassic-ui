@@ -238,7 +238,7 @@
 			<Disabled>A_BtnDisabled</Disabled>
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
-		<!-- 
+		<!--
 			<SoundPressed/>
 			<SoundUp/>
 			<SoundFlyby/>
@@ -411,7 +411,7 @@
 
 	<Label item ="AAW_TotalCount">
 		<ScreenID>TotalCount</ScreenID>
-		<!--<Font>3</Font>-->	
+		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>580</X>
@@ -978,7 +978,7 @@
 		<Style_Sizable>true</Style_Sizable>
 			<Pieces>AAW_List10</Pieces>
 	</Page>
-	
+
 	<Listbox item = "AAW_List11">
 		<ScreenID>List11</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -1049,10 +1049,10 @@
 			<Pages>AAW_Page4</Pages>
 			<Pages>AAW_Page5</Pages>
 			<Pages>AAW_Page6</Pages>
-			<Pages>AAW_Page7</Pages>			
+			<Pages>AAW_Page7</Pages>
 			<Pages>AAW_Page8</Pages>
-			<Pages>AAW_Page9</Pages>		
-			<Pages>AAW_Page10</Pages>		
+			<Pages>AAW_Page9</Pages>
+			<Pages>AAW_Page10</Pages>
 			<Pages>AAW_Page11</Pages>
 	</TabBox>
 
