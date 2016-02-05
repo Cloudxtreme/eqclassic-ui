@@ -29,19 +29,18 @@
 			<CX>85</CX>
 			<CY>24</CY>
 		</Size>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<FillTint>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</FillTint>
 		<TextOffsetX>2</TextOffsetX>
 		<GaugeOffsetY>12</GaugeOffsetY>
-		<FillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</FillTint>
-		<LinesFillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</LinesFillTint>
-		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>11</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
@@ -65,18 +64,18 @@
 			<CX>85</CX>
 			<CY>24</CY>
 		</Size>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<FillTint>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</FillTint>
 		<TextOffsetX>2</TextOffsetX>
 		<GaugeOffsetY>12</GaugeOffsetY>
-		<FillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</FillTint>
-		<LinesFillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</LinesFillTint>
 		<EQType>12</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
@@ -100,18 +99,18 @@
 			<CX>85</CX>
 			<CY>24</CY>
 		</Size>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<FillTint>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</FillTint>
 		<TextOffsetX>2</TextOffsetX>
 		<GaugeOffsetY>12</GaugeOffsetY>
-		<FillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</FillTint>
-		<LinesFillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</LinesFillTint>
 		<EQType>13</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
@@ -135,18 +134,18 @@
 			<CX>85</CX>
 			<CY>24</CY>
 		</Size>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<FillTint>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</FillTint>
 		<TextOffsetX>2</TextOffsetX>
 		<GaugeOffsetY>12</GaugeOffsetY>
-		<FillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</FillTint>
-		<LinesFillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</LinesFillTint>
 		<EQType>14</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
@@ -170,18 +169,18 @@
 			<CX>85</CX>
 			<CY>24</CY>
 		</Size>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<FillTint>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</FillTint>
 		<TextOffsetX>2</TextOffsetX>
 		<GaugeOffsetY>12</GaugeOffsetY>
-		<FillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</FillTint>
-		<LinesFillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</LinesFillTint>
 		<EQType>15</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
