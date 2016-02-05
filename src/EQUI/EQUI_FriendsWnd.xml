@@ -10,15 +10,12 @@
 	<Button item = "FW_AddButton">
 		<ScreenID>AddButton</ScreenID>
 	</Button>
-
 	<Button item = "FW_ContactButton">
 		<ScreenID>ContactButton</ScreenID>
 	</Button>
-
 	<Button item = "FW_WhoButton">
 		<ScreenID>WhoButton</ScreenID>
 	</Button>
-
 	<Button item = "FW_DeleteButton">
 		<ScreenID>DeleteButton</ScreenID>
 	</Button>
@@ -47,7 +44,6 @@
 	<Button item = "FW_IgnoreAddButton">
 		<ScreenID>IgnoreAddButton</ScreenID>
 	</Button>
-
 	<Button item = "FW_IgnoreDeleteButton">
 		<ScreenID>IgnoreDeleteButton</ScreenID>
 	</Button>
@@ -68,8 +64,6 @@
 
 	<TabBox item = "FW_Subwindows">
 		<ScreenID>Subwindows</ScreenID>
-		<RelativePosition>true</RelativePosition>
-
 		<TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
 		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
 		<Pages>FW_FriendsPage</Pages>
@@ -77,8 +71,7 @@
 	</TabBox>
 
 	<Screen item = "FriendsWindow">
-		<DrawTemplate>WDT_Static</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Pieces>FW_Subwindows</Pieces>
 	</Screen>
-
 </XML>
