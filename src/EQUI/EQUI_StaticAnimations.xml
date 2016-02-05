@@ -23,6 +23,32 @@
 		<Animation>Chat02</Animation>
 	</StaticAnimation>
 
+	<!-- Group Window BG's (FIX THESE) -->
+	<StaticAnimation item = "GW_member_bg">
+		<ScreenID>GW_member_bg</ScreenID>
+		<Location>
+			<X>13</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>95</CX>
+			<CY>119</CY>
+		</Size>
+		<Animation>GW_member_bg_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "GW_bg">
+		<ScreenID>GW_bg</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>121</CX>
+			<CY>119</CY>
+		</Size>
+		<Animation>GW_bg_TX</Animation>
+	</StaticAnimation>
+
 	<Ui2DAnimation item = "A_CloseBtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>

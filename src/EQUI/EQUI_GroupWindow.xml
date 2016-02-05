@@ -2,54 +2,24 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
-	<Ui2DAnimation item = "GW_bg_TX">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces03.tga</Texture>
-			<Location>
-				<X>135</X>
-				<Y>101</Y>
-			</Location>
-			<Size>
-				<CX>121</CX>
-				<CY>119</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "GW_member_bg_TX">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces03.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>85</Y>
-			</Location>
-			<Size>
-				<CX>95</CX>
-				<CY>119</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
+	<Button item = "GW_InviteButton">
+		<ScreenID>InviteButton</ScreenID>
+	</Button>
+	<Button item = "GW_DisbandButton">
+		<ScreenID>DisbandButton</ScreenID>
+	</Button>
+	<Button item = "GW_FollowButton">
+		<ScreenID>FollowButton</ScreenID>
+	</Button>
+	<Button item = "GW_DeclineButton">
+		<ScreenID>DeclineButton</ScreenID>
+	</Button>
+	<Button item = "GW_LFGButton">
+		<ScreenID>LFGButton</ScreenID>
+	</Button>
 
 	<Gauge item = "GW_Gauge1">
 		<ScreenID>Gauge1</ScreenID>
-		<!--<Font>3</Font>-->
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>19</X>
@@ -60,13 +30,7 @@
 			<CY>24</CY>
 		</Size>
 		<TextOffsetX>2</TextOffsetX>
-		<!--<TextOffsetY>0</TextOffsetY>-->
-		<!--<GaugeOffsetX>0</GaugeOffsetX>-->
 		<GaugeOffsetY>12</GaugeOffsetY>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<FillTint>
 				<R>255</R>
 				<G>255</G>
@@ -83,20 +47,15 @@
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill</Fill>
 			<Lines>A_Classic_GaugeLines</Lines>
-			<!--<LinesFill>A_Classic_GaugeLinesFill</LinesFill>-->
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-
+	<Gauge item = "GW_PetGauge1">
+		<ScreenID>PetGauge1</ScreenID>
+	</Gauge>
 	<Gauge item = "GW_Gauge2">
 		<ScreenID>Gauge2</ScreenID>
-		<!--<Font>3</Font>-->
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>19</X>
@@ -107,13 +66,7 @@
 			<CY>24</CY>
 		</Size>
 		<TextOffsetX>2</TextOffsetX>
-		<!--<TextOffsetY>0</TextOffsetY>-->
-		<!--<GaugeOffsetX>0</GaugeOffsetX>-->
 		<GaugeOffsetY>12</GaugeOffsetY>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<FillTint>
 				<R>255</R>
 				<G>255</G>
@@ -124,27 +77,20 @@
 				<G>255</G>
 				<B>255</B>
 		</LinesFillTint>
-		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>12</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill</Fill>
 			<Lines>A_Classic_GaugeLines</Lines>
-			<!--<LinesFill>A_Classic_GaugeLinesFill</LinesFill>-->
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-
-
+	<Gauge item = "GW_PetGauge2">
+		<ScreenID>PetGauge2</ScreenID>
+	</Gauge>
 	<Gauge item = "GW_Gauge3">
 		<ScreenID>Gauge3</ScreenID>
-		<!--<Font>3</Font>-->
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>19</X>
@@ -155,13 +101,7 @@
 			<CY>24</CY>
 		</Size>
 		<TextOffsetX>2</TextOffsetX>
-		<!--<TextOffsetY>0</TextOffsetY>-->
-		<!--<GaugeOffsetX>0</GaugeOffsetX>-->
 		<GaugeOffsetY>12</GaugeOffsetY>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<FillTint>
 				<R>255</R>
 				<G>255</G>
@@ -172,27 +112,20 @@
 				<G>255</G>
 				<B>255</B>
 		</LinesFillTint>
-		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>13</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill</Fill>
 			<Lines>A_Classic_GaugeLines</Lines>
-			<!--<LinesFill>A_Classic_GaugeLinesFill</LinesFill>-->
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-
-
+	<Gauge item = "GW_PetGauge3">
+		<ScreenID>PetGauge3</ScreenID>
+	</Gauge>
 	<Gauge item = "GW_Gauge4">
 		<ScreenID>Gauge4</ScreenID>
-		<!--<Font>3</Font>-->
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>19</X>
@@ -203,13 +136,7 @@
 			<CY>24</CY>
 		</Size>
 		<TextOffsetX>2</TextOffsetX>
-		<!--<TextOffsetY>0</TextOffsetY>-->
-		<!--<GaugeOffsetX>0</GaugeOffsetX>-->
 		<GaugeOffsetY>12</GaugeOffsetY>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<FillTint>
 				<R>255</R>
 				<G>255</G>
@@ -220,28 +147,20 @@
 				<G>255</G>
 				<B>255</B>
 		</LinesFillTint>
-		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>14</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill</Fill>
 			<Lines>A_Classic_GaugeLines</Lines>
-			<!--<LinesFill>A_Classic_GaugeLinesFill</LinesFill>-->
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-
-
-
+	<Gauge item = "GW_PetGauge4">
+		<ScreenID>PetGauge4</ScreenID>
+	</Gauge>
 	<Gauge item = "GW_Gauge5">
 		<ScreenID>Gauge5</ScreenID>
-		<!--<Font>3</Font>-->
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>19</X>
@@ -252,13 +171,7 @@
 			<CY>24</CY>
 		</Size>
 		<TextOffsetX>2</TextOffsetX>
-		<!--<TextOffsetY>0</TextOffsetY>-->
-		<!--<GaugeOffsetX>0</GaugeOffsetX>-->
 		<GaugeOffsetY>12</GaugeOffsetY>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<FillTint>
 				<R>255</R>
 				<G>255</G>
@@ -269,80 +182,60 @@
 				<G>255</G>
 				<B>255</B>
 		</LinesFillTint>
-		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>15</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill</Fill>
 			<Lines>A_Classic_GaugeLines</Lines>
-			<!--<LinesFill>A_Classic_GaugeLinesFill</LinesFill>-->
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
+	<Gauge item = "GW_PetGauge5">
+		<ScreenID>PetGauge5</ScreenID>
+	</Gauge>
 
-	<StaticAnimation item = "GW_member_bg">
-		<ScreenID>GW_member_bg</ScreenID>
-		<Location>
-			<X>13</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>95</CX>
-			<CY>119</CY>
-		</Size>
-		<Animation>GW_member_bg_TX</Animation>
-	</StaticAnimation>
-
-	<StaticAnimation item = "GW_bg">
-		<ScreenID>GW_bg</ScreenID>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>121</CX>
-			<CY>119</CY>
-		</Size>
-		<Animation>GW_bg_TX</Animation>
-	</StaticAnimation>
+	<Label item ="GW_HPLabel1">
+		<ScreenID>HPLabel1</ScreenID>
+	</Label>
+	<Label item ="GW_HPPercLabel1">
+		<ScreenID>HPPercLabel1</ScreenID>
+	</Label>
+	<Label item ="GW_HPLabel2">
+		<ScreenID>HPLabel2</ScreenID>
+	</Label>
+	<Label item ="GW_HPPercLabel2">
+		<ScreenID>HPPercLabel2</ScreenID>
+	</Label>
+	<Label item ="GW_HPLabel3">
+		<ScreenID>HPLabel3</ScreenID>
+	</Label>
+	<Label item ="GW_HPPercLabel3">
+		<ScreenID>HPPercLabel3</ScreenID>
+	</Label>
+	<Label item ="GW_HPLabel4">
+		<ScreenID>HPLabel4</ScreenID>
+	</Label>
+	<Label item ="GW_HPPercLabel4">
+		<ScreenID>HPPercLabel4</ScreenID>
+	</Label>
+	<Label item ="GW_HPLabel5">
+		<ScreenID>HPLabel5</ScreenID>
+	</Label>
+	<Label item ="GW_HPPercLabel5">
+		<ScreenID>HPPercLabel5</ScreenID>
+	</Label>
 
 	<Button item = "GW_Autolock">
 		<ScreenID>GW_Autolock</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>121</CX>
 			<CY>124</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>true</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text></Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
-			<Pressed>faB_Spacer</Pressed>
-			<Flyby>faB_Spacer</Flyby>
-			<Disabled>faB_Spacer</Disabled>
-			<PressedFlyby>faB_Spacer</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<Screen item = "GroupWindow">
-		<ScreenID/>
-		<RelativePosition>false</RelativePosition>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Location>
 			<X>529</X>
 			<Y>101</Y>
@@ -351,28 +244,36 @@
 			<CX>121</CX>
 			<CY>124</CY>
 		</Size>
-		<Text>Group</Text>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>true</Style_Transparent>
-		<TooltipReference>This is the party window.</TooltipReference>
-		<DrawTemplate>WDT_Rounded</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
 
 		<Pieces>GW_bg</Pieces>
 		<Pieces>GW_member_bg</Pieces>
 
 		<Pieces>GW_Autolock</Pieces>
 
+		<Pieces>GW_InviteButton</Pieces>
+		<Pieces>GW_DisbandButton</Pieces>
+		<Pieces>GW_FollowButton</Pieces>
+		<Pieces>GW_DeclineButton</Pieces>
 		<Pieces>GW_Gauge1</Pieces>
 		<Pieces>GW_Gauge2</Pieces>
 		<Pieces>GW_Gauge3</Pieces>
 		<Pieces>GW_Gauge4</Pieces>
 		<Pieces>GW_Gauge5</Pieces>
+		<Pieces>GW_PetGauge1</Pieces>
+		<Pieces>GW_PetGauge2</Pieces>
+		<Pieces>GW_PetGauge3</Pieces>
+		<Pieces>GW_PetGauge4</Pieces>
+		<Pieces>GW_PetGauge5</Pieces>
+		<Pieces>GW_HPLabel1</Pieces>
+		<Pieces>GW_HPPercLabel1</Pieces>
+		<Pieces>GW_HPLabel2</Pieces>
+		<Pieces>GW_HPPercLabel2</Pieces>
+		<Pieces>GW_HPLabel3</Pieces>
+		<Pieces>GW_HPPercLabel3</Pieces>
+		<Pieces>GW_HPLabel4</Pieces>
+		<Pieces>GW_HPPercLabel4</Pieces>
+		<Pieces>GW_HPLabel5</Pieces>
+		<Pieces>GW_HPPercLabel5</Pieces>
+		<Pieces>GW_LFGButton</Pieces>
 	</Screen>
-
 </XML>
