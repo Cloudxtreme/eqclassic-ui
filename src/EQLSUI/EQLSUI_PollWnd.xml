@@ -41,7 +41,6 @@
 	</Label>
 <!-- End of hidden label -->
 
-<!-- Labels -->
 	<Label item = "POLL_QuestionLabel">
 		<ScreenID>QuestionLabel</ScreenID>
 		<Font>4</Font>
@@ -74,7 +73,6 @@
 		</TextColor>
 		<NoWrap>true</NoWrap>
 	</Label>
-<!-- Window label -->
 	<Label item = "POLL_WndLabel">
 		<ScreenID>WndLabel</ScreenID>
 		<Font>5</Font>
@@ -96,30 +94,10 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-<!-- Done with labels -->
 
-<!-- Hidden Buttons that are of different types so we can use them as templates to dynamically creates button -->
-	<!--<Button item = "POLL_CheckButton">
+	<Button item = "POLL_CheckButton">
 		<ScreenID>CheckButton</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Size>
-			<CX>23</CX>
-			<CY>19</CY>
-		</Size>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>A_EQLS_RadioBtnNormal</Normal>
-			<Pressed>A_EQLS_RadioBtnPressed</Pressed>
-			<Disabled>A_EQLS_RadioBtnDisabled</Disabled>
-		</ButtonDrawTemplate>
-	</Button>-->
-<!-- Done with Hidden buttons -->
-
-<!-- Buttons actually used on the screen -->
+	</Button>
 	<Button item = "POLL_SubmitButton">
 		<ScreenID>SubmitButton</ScreenID>
 		<Font>4</Font>
@@ -174,9 +152,7 @@
 			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-<!-- Done with buttons -->
 
-<!-- Inner screen that contains the poll quesiton and choices available -->
 	<Screen item = "POLL_WorkingArea">
 		<ScreenID>PollArea</ScreenID>
 		<Font>4</Font>
@@ -195,7 +171,6 @@
 		<Pieces>POLL_QuestionLabel</Pieces>
 		<Pieces>POLL_ChoicesLabel</Pieces>
 	</Screen>
-<!-- End of inner screen -->
 
 	<Screen item = "PollWindow">
 		<RelativePosition>true</RelativePosition>
@@ -207,11 +182,10 @@
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>POLL_WorkingArea</Pieces>
 		<Pieces>POLL_WndLabel</Pieces>
-		<!--<Pieces>POLL_CheckButton</Pieces>-->
+		<Pieces>POLL_CheckButton</Pieces>
 		<Pieces>POLL_LabelTemplate</Pieces>
 		<Pieces>POLL_SkipButton</Pieces>
 		<Pieces>POLL_SubmitButton</Pieces>
 		<Pieces>POLL_EditTemplate</Pieces>
 	</Screen>
-
 </XML>

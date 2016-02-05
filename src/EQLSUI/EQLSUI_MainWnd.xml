@@ -80,6 +80,12 @@
 			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>s
 	</Button>
+	<Button item = "MAIN_EQWebpageButton">
+		<ScreenID>EQWebpageButton</ScreenID>
+	</Button>
+	<Button item = "MAIN_HelpButton">
+		<ScreenID>HelpButton</ScreenID>
+	</Button>
 	<Button item = "MAIN_OptionsButton">
 		<ScreenID>OptionsButton</ScreenID>
 		<Font>5</Font>
@@ -151,5 +157,7 @@
 		<Pieces>MAIN_OptionsButton</Pieces>
 		<Pieces>MAIN_ExitButton</Pieces>
 		<Pieces>MAIN_CreditsButton</Pieces>
+		<Pieces>MAIN_EQWebpageButton</Pieces>
+		<Pieces>MAIN_HelpButton</Pieces>
 	</Screen>
 </XML>

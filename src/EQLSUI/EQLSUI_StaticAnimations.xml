@@ -2,6 +2,81 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
+	<StaticAnimation item = "EQLS_ESRB_BG01">
+		<ScreenID>ESRB_BG01</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>ESRBSplash01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ESRB_BG02">
+		<ScreenID>ESRB_BG02</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>ESRBSplash02</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ESRB_BG03">
+		<ScreenID>ESRB_BG03</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>512</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>ESRBSplash03</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ESRB_BG04">
+		<ScreenID>ESRB_BG04</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>224</CY>
+		</Size>
+		<Animation>ESRBSplash04</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ESRB_BG05">
+		<ScreenID>ESRB_BG05</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>224</CY>
+		</Size>
+		<Animation>ESRBSplash05</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ESRB_BG06">
+		<ScreenID>ESRB_BG06</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>512</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>224</CY>
+		</Size>
+		<Animation>ESRBSplash06</Animation>
+	</StaticAnimation>
+
     <StaticAnimation item = "EQLS_SplashBG01">
         <ScreenID>SplashBG01</ScreenID>
         <RelativePosition>true</RelativePosition>

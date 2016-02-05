@@ -29,6 +29,12 @@
 			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
+	<Button item = "LOGIN_QuickConnectButton">
+		<ScreenID>QuickConnectButton</ScreenID>
+	</Button>
+	<Button item = "LOGIN_ChatButton">
+		<ScreenID>ChatButton</ScreenID>
+	</Button>
 	<Button item = "LOGIN_HelpButton">
 		<ScreenID>HelpButton</ScreenID>
 		<Font>5</Font>
@@ -122,6 +128,9 @@
 				<B>0</B>
 		</TextColor>
 	</Label>
+	<Label item = "LOGIN_QuickConnectToLabel">
+		<ScreenID>QuickConnectToLabel</ScreenID>
+	</Label>
 
 	<Editbox item = "LOGIN_UsernameEdit">
 		<ScreenID>UsernameEdit</ScreenID>
@@ -179,11 +188,15 @@
 		<Pieces>EQLS_ConnectBG06</Pieces>
 		<Pieces>LOGIN_ConnectButton</Pieces>
 		<Pieces>LOGIN_CancelButton</Pieces>
-		<Pieces>LOGIN_HelpButton</Pieces>
+		<Pieces>LOGIN_ChatButton</Pieces>
 		<Pieces>LOGIN_UsernameEdit</Pieces>
 		<Pieces>LOGIN_PasswordEdit</Pieces>
 		<Pieces>LOGIN_UsernameLabel</Pieces>
 		<Pieces>LOGIN_PasswordLabel</Pieces>
+		<Pieces>LOGIN_QuickConnectToLabel</Pieces>
+		<Pieces>LOGIN_QuickConnectButton</Pieces>
+		<!-- custom -->
+		<Pieces>LOGIN_HelpButton</Pieces>
 	</Screen>
 
 </XML>

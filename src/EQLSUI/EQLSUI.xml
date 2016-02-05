@@ -14,6 +14,7 @@
 		<Include>EQLSUI_ColorPickerWnd.xml</Include>        <!-- disabled -->
 		<Include>EQLSUI_ConnectWnd.xml</Include>            <!-- imotogames - 90% fixed (need to fix help button)-->
         <Include>EQLSUI_CreditsWnd.xml</Include>            <!-- can currently only be accessed from the server select area (not working properly) -->
+        <Include>EQLSUI_ESRBSplashWnd.xml</Include>         <!-- imotogames - 100% fixed -->
         <Include>EQLSUI_EulaWnd.xml</Include>               <!-- imotogames - 90% fixed (need to implement scrollbar) -->
 		<Include>EQLSUI_HelpWnd.xml</Include>               <!-- can currently only be accessed from the server select area (not working properly) -->
         <Include>EQLSUI_MainWnd.xml</Include>               <!-- imotogames - 90% fixed (need to fix credits button) -->

@@ -248,34 +248,9 @@
 		</ButtonDrawTemplate>
 	</Button>
 
-	<!--<Button item = "CHATOPTIONS_FontLeftButton">
+	<Button item = "CHATOPTIONS_FontLeftButton">
 		<ScreenID>CHATOPTIONS_FontLeftButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>5</X>
-			<Y>130</Y>
-		</Location>
-		<Size>
-			<CX>19</CX>
-			<CY>23</CY>
-		</Size>
-		<TooltipReference></TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>A_EQLS_HSBLeftNormal</Normal>
-			<Pressed>A_EQLS_HSBLeftPressed</Pressed>
-			<Flyby>A_EQLS_HSBLeftNormal</Flyby>
-			<Disabled>A_EQLS_HSBLeftDisabled</Disabled>
-			<PressedFlyby>A_EQLS_HSBLeftPressed</PressedFlyby>
-		</ButtonDrawTemplate>
-	</Button>-->
+	</Button>
 	<Label item = "CHATOPTIONS_FontSizeLabel">
 		<ScreenID>CHATOPTIONS_FontSizeLabel</ScreenID>
 		<Font>3</Font>
@@ -298,34 +273,9 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<!--<Button item = "CHATOPTIONS_FontRightButton">
+	<Button item = "CHATOPTIONS_FontRightButton">
 		<ScreenID>CHATOPTIONS_FontRightButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>51</X>
-			<Y>130</Y>
-		</Location>
-		<Size>
-			<CX>19</CX>
-			<CY>23</CY>
-		</Size>
-		<TooltipReference></TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>A_EQLS_HSBRightNormal</Normal>
-			<Pressed>A_EQLS_HSBRightPressed</Pressed>
-			<Flyby>A_EQLS_HSBRightNormal</Flyby>
-			<Disabled>A_EQLS_HSBRightDisabled</Disabled>
-			<PressedFlyby>A_EQLS_HSBRightPressed</PressedFlyby>
-		</ButtonDrawTemplate>
-	</Button>-->
+	</Button>
 	<Label item = "CHATOPTIONS_FontLabel">
 		<ScreenID>CHATOPTIONS_FontLabel</ScreenID>
 		<Font>3</Font>
@@ -444,8 +394,6 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 
-		<Text>Confirmation</Text>
-
 		<DrawTemplate>WDT_Static</DrawTemplate>
 
 		<Pieces>CHATOPTIONS_AdminNameButton</Pieces>
@@ -458,9 +406,9 @@
 		<Pieces>CHATOPTIONS_SystemButton</Pieces>
 		<Pieces>CHATOPTIONS_CommandButton</Pieces>
 		<Pieces>CHATOPTIONS_FontLabel</Pieces>
-		<!--<Pieces>CHATOPTIONS_FontLeftButton</Pieces>-->
+		<Pieces>CHATOPTIONS_FontLeftButton</Pieces>
 		<Pieces>CHATOPTIONS_FontSizeLabel</Pieces>
-		<!--<Pieces>CHATOPTIONS_FontRightButton</Pieces>-->
+		<Pieces>CHATOPTIONS_FontRightButton</Pieces>
 		<Pieces>CHATOPTIONS_RestoreDefaultsButton</Pieces>
 		<Pieces>CHATOPTIONS_OKButton</Pieces>
 		<Pieces>CHATOPTIONS_CancelButton</Pieces>
@@ -475,5 +423,4 @@
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>CHATOPTIONS_Box</Pieces>
 	</Screen>
-
 </XML>

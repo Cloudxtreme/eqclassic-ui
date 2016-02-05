@@ -2,6 +2,61 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
+	<Ui2DAnimation item = "ESRBSplash01">
+		<Frames>
+			<Texture>EQLSUI/ESRBSplash01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "ESRBSplash02">
+		<Frames>
+			<Texture>EQLSUI/ESRBSplash02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "ESRBSplash03">
+		<Frames>
+			<Texture>EQLSUI/ESRBSplash03.tga</Texture>
+			<Size>
+				<CX>128</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "ESRBSplash04">
+		<Frames>
+			<Texture>EQLSIO/ESRBSplash04.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>224</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "ESRBSplash05">
+		<Frames>
+			<Texture>EQLSUI/ESRBSplash05.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>224</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "ESRBSplash06">
+		<Frames>
+			<Texture>EQLSUI/ESRBSplash06.tga</Texture>
+			<Size>
+				<CX>128</CX>
+				<CY>224</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
 	<Ui2DAnimation item = "Splash01">
 		<Frames>
 			<Texture>EQLSUI/Splash01.tga</Texture>
@@ -58,6 +113,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
+
 	<Ui2DAnimation item = "Dialog01">
 		<Frames>
 			<Texture>EQLSUI/Dialog01.tga</Texture>

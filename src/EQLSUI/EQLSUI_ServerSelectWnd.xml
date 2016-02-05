@@ -54,6 +54,15 @@
 			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
+	<Button item = "SERVERSELECT_ChatButton">
+		<ScreenID>ChatButton</ScreenID>
+	</Button>
+	<Button item = "SERVERSELECT_CreditsButton">
+		<ScreenID>CreditsButton</ScreenID>
+	</Button>
+	<Button item = "SERVERSELECT_PlayLastServerButton">
+		<ScreenID>PlayLastServerButton</ScreenID>
+	</Button>
 	<Button item = "SERVERSELECT_PlayButton">
 		<ScreenID>PlayButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -120,6 +129,22 @@
 		</TextColor>
 		<NoWrap>true</NoWrap>
 	</Label>
+	<Screen item = "SERVERSELECT_ExpansionsWindow">
+		<ScreenID>ExpansionsWindow</ScreenID>
+		<Size>
+			<CX>640</CX>
+			<CY>480</CY>
+		</Size>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>SERVERSELECT_ExpansionsLabel</Pieces>
+	</Screen>
+
+	<Label item = "SERVERSELECT_ServerListLabel">
+		<ScreenID>ServerListLabel</ScreenID>
+	</Label>
+	<Label item = "SERVERSELECT_LastServerLabel">
+		<ScreenID>LastServerLabel</ScreenID>
+	</Label>
 
 	<Listbox item = "SERVERSELECT_ServerList">
 		<ScreenID>ServerList</ScreenID>
@@ -160,12 +185,16 @@
 		<Pieces>EQLS_ServerSelectBG04</Pieces>
 		<Pieces>EQLS_ServerSelectBG05</Pieces>
 		<Pieces>EQLS_ServerSelectBG06</Pieces>
+		<Pieces>SERVERSELECT_ExpansionsWindow</Pieces>
 		<Pieces>SERVERSELECT_NewsButton</Pieces>
 		<Pieces>SERVERSELECT_ExitButton</Pieces>
 		<Pieces>SERVERSELECT_PlayButton</Pieces>
+		<Pieces>SERVERSELECT_ChatButton</Pieces>
+		<Pieces>SERVERSELECT_CreditsButton</Pieces>
+		<Pieces>SERVERSELECT_PlayLastServerButton</Pieces>
 		<Pieces>SERVERSELECT_RegisterExpansion</Pieces>
-		<Pieces>SERVERSELECT_ExpansionsLabel</Pieces>
 		<Pieces>SERVERSELECT_ServerList</Pieces>
+		<Pieces>SERVERSELECT_ServerListLabel</Pieces>
+		<Pieces>SERVERSELECT_LastServerLabel</Pieces>
 	</Screen>
-
 </XML>

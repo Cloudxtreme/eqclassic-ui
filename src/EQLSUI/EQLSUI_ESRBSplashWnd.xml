@@ -1,0 +1,18 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<Screen item = "ratingsplash">
+		<Size>
+			<CX>640</CX>
+			<CY>480</CY>
+		</Size>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>EQLS_ESRB_BG01</Pieces>
+		<Pieces>EQLS_ESRB_BG02</Pieces>
+		<Pieces>EQLS_ESRB_BG03</Pieces>
+		<Pieces>EQLS_ESRB_BG04</Pieces>
+		<Pieces>EQLS_ESRB_BG05</Pieces>
+		<Pieces>EQLS_ESRB_BG06</Pieces>
+	</Screen>
+</XML>

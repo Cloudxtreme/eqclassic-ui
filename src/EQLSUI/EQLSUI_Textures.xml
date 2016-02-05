@@ -2,6 +2,42 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
+	<TextureInfo item = "EQLSUI/ESRBSplash01.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/ESRBSplash02.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/ESRBSplash03.tga">
+		<Size>
+			<CX>128</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/ESRBSplash04.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/ESRBSplash05.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQLSUI/ESRBSplash06.tga">
+		<Size>
+			<CX>128</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
     <TextureInfo item = "EQLSUI/Splash01.tga">
         <Size>
             <CX>256</CX>
