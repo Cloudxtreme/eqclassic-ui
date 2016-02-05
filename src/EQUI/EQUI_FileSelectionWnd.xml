@@ -4,7 +4,7 @@
 
 	<Combobox item = "FSW_Directories">
 		<ScreenID>DirHistory</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<TooltipReference>Directory History Tree.</TooltipReference>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -60,7 +60,7 @@
 
 	<Listbox item = "FSW_FileList">
 		<ScreenID>FileList</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<TopAnchorOffset>28</TopAnchorOffset>
@@ -77,7 +77,7 @@
 
 	<Editbox item = "FSW_Entry">
 		<ScreenID>Entry</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Style_Border>true</Style_Border>
 		<AutoStretch>true</AutoStretch>
@@ -157,7 +157,6 @@
 		</ButtonDrawTemplate>
 	</Button>
 
-
 	<Screen item = "FileSelectionWnd">
 		<!--<ScreenID/>-->
 		<!--<Font/>-->
@@ -173,7 +172,7 @@
 		<Text>Select a File</Text>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_Def</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
@@ -186,5 +185,4 @@
 		<Pieces>FSW_CancelButton</Pieces>
 		<Pieces>FSW_Directories</Pieces>
 	</Screen>
-
 </XML>

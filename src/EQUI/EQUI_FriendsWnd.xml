@@ -2,7 +2,83 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
+	<Editbox item = "FW_NameInput">
+		<ScreenID>NameInput</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Editbox>
+
+	<Button item = "FW_AddButton">
+		<ScreenID>AddButton</ScreenID>
+	</Button>
+
+	<Button item = "FW_ContactButton">
+		<ScreenID>ContactButton</ScreenID>
+	</Button>
+
+	<Button item = "FW_WhoButton">
+		<ScreenID>WhoButton</ScreenID>
+	</Button>
+
+	<Button item = "FW_DeleteButton">
+		<ScreenID>DeleteButton</ScreenID>
+	</Button>
+
+	<Listbox item = "FW_FriendsList">
+		<ScreenID>FriendsList</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Columns />
+	</Listbox>
+
+	<Page item = "FW_FriendsPage">
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>FW_FriendsList</Pieces>
+		<Pieces>FW_AddButton</Pieces>
+		<Pieces>FW_NameInput</Pieces>
+		<Pieces>FW_DeleteButton</Pieces>
+		<Pieces>FW_ContactButton</Pieces>
+		<Pieces>FW_WhoButton</Pieces>
+	</Page>
+
+	<Editbox item = "FW_IgnoreNameInput">
+		<ScreenID>IgnoreNameInput</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Editbox>
+
+	<Button item = "FW_IgnoreAddButton">
+		<ScreenID>IgnoreAddButton</ScreenID>
+	</Button>
+
+	<Button item = "FW_IgnoreDeleteButton">
+		<ScreenID>IgnoreDeleteButton</ScreenID>
+	</Button>
+
+	<Listbox item = "FW_IgnoreList">
+		<ScreenID>IgnoreList</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Columns />
+	</Listbox>
+
+	<Page item = "FW_IgnorePage">
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>FW_IgnoreList</Pieces>
+		<Pieces>FW_IgnoreAddButton</Pieces>
+		<Pieces>FW_IgnoreNameInput</Pieces>
+		<Pieces>FW_IgnoreDeleteButton</Pieces>
+	</Page>
+
+	<TabBox item = "FW_Subwindows">
+		<ScreenID>Subwindows</ScreenID>
+		<RelativePosition>true</RelativePosition>
+
+		<TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
+		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+		<Pages>FW_FriendsPage</Pages>
+		<Pages>FW_IgnorePage</Pages>
+	</TabBox>
+
 	<Screen item = "FriendsWindow">
 		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>FW_Subwindows</Pieces>
 	</Screen>
+
 </XML>
