@@ -16,7 +16,7 @@
 		<Include>EQUI_ConfirmationDialog.xml</Include>			<!-- original-->
 		<Include>EQUI_CharacterSelect.xml</Include>				<!-- imotogames - in process -->
 		<Include>EQUI_FacePick.xml</Include>					<!-- original -->
-		<Include>EQUI_GroupWindow.xml</Include>					<!-- imotogames - fixed -->
+		<Include>EQUI_GroupWindow.xml</Include>					<!-- imotogames - 90% fixed (need to fix textures) -->
 		<Include>EQUI_ItemDisplay.xml</Include>					<!-- original -->
 		<Include>EQUI_BreathWindow.xml</Include>				<!-- imotogames - fixed -->
 		<Include>EQUI_NoteWindow.xml</Include>					<!-- imotogames - fixed -->
@@ -121,7 +121,8 @@
 		<Include>EQUI_MIZoneSelectWnd.xml</Include>				<!-- ?? -->
 		<Include>EQUI_EQMainWnd.xml</Include>					<!-- imotogames - disabled -->
 		<Include>EQUI_AudioTriggersWindow.xml</Include>			<!-- ?? -->
-        <Include>EQUI_TipWnd.xml</Include>
+        <Include>EQUI_TipWnd.xml</Include>                      <!-- imotogames - 100% disabled -->
+        <Include>EQUI_DynamicZoneWnd.xml</Include>
 
     </Composite>
     <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
