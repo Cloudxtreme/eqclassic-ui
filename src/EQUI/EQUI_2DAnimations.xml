@@ -813,6 +813,95 @@
 		</Frames>
 	</Ui2DAnimation>
 	<!-- Character Creation End -->
+	<!-- Confirmation Dialog Start -->
+	<Ui2DAnimation item = "Confirmation">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Size>
+				<CX>198</CX>
+				<CY>117</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Confirmation_Yes_Pressed">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>117</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Confirmation_No_Pressed">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Location>
+				<X>48</X>
+				<Y>117</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Confirmation_Yes_Normal">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Location>
+				<X>96</X>
+				<Y>117</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Confirmation_No_Normal">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Location>
+				<X>144</X>
+				<Y>117</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Confirmation_OK_Normal">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>136</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Confirmation_OK_Pressed">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Location>
+				<X>48</X>
+				<Y>136</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Configrmation Dialog End -->
 	<!-- Chat Window Start -->
 	<Ui2DAnimation item = "Chat01">
 		<Frames>

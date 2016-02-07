@@ -102,6 +102,14 @@
 		</Size>
 	</TextureInfo>
 	<!-- Character Creation End -->
+	<!-- Confirmation Dialog Start -->
+	<TextureInfo item = "EQUI/Confirmation.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<!-- Confirmation Dialog End -->
 	<!-- Chat Window Start -->
     <TextureInfo item = "EQUI/Chat01.tga">
         <Size>

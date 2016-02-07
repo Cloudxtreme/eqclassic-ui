@@ -2,6 +2,7 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
+	<!-- Character Selection Start -->
 	<StaticAnimation item = "EQUI_CharacterSelectBG01">
 		<ScreenID>CharacterSelectBG01</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -76,7 +77,8 @@
 		</Size>
 		<Animation>CharacterSelect06</Animation>
 	</StaticAnimation>
-
+	<!-- Character Selection End -->
+	<!-- Character Creation Start -->
 	<StaticAnimation item = "EQUI_CharacterCreateBG01">
 		<ScreenID>CharacterCreateBG01</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -151,7 +153,18 @@
 		</Size>
 		<Animation>CharacterCreate06</Animation>
 	</StaticAnimation>
-
+	<!-- Character Creation End -->
+	<!-- Confirmation Dialog Start -->
+	<StaticAnimation item = "EQUI_ConfirmationBG01">
+		<ScreenID>ConfirmationBG01</ScreenID>
+		<Size>
+			<CX>198</CX>
+			<CY>117</CY>
+		</Size>
+		<Animation>Confirmation</Animation>
+	</StaticAnimation>
+	<!-- Confirmation Dialog End -->
+	<!-- Chat Start -->
 	<StaticAnimation item = "EQUI_ChatBG01">
 		<ScreenID>ChatBG01</ScreenID>
 		<Size>
