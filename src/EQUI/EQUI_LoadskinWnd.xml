@@ -2,7 +2,28 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
+	<Label item ="SKINW_SkinLabel">
+		<ScreenID>SkinLabel</ScreenID>
+	</Label>
+
+	<Listbox item = "SKINW_SkinList">
+		<ScreenID>SkinList</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Columns />
+	</Listbox>
+
+	<Button item = "SKINW_INIButton">
+		<ScreenID>INIButton</ScreenID>
+	</Button>
+	<Button item = "SKINW_LoadButton">
+		<ScreenID>LoadButton</ScreenID>
+	</Button>
+
 	<Screen item = "LoadskinWnd">
 		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>SKINW_SkinList</Pieces>
+		<Pieces>SKINW_SkinLabel</Pieces>
+		<Pieces>SKINW_INIButton</Pieces>
+		<Pieces>SKINW_LoadButton</Pieces>
 	</Screen>
 </XML>
