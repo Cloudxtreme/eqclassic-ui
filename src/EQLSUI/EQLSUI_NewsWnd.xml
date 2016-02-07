@@ -16,9 +16,9 @@
 		</Size>
 		<Text>OK</Text>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>SmallBtnNormal</Normal>
@@ -34,18 +34,14 @@
 		<Font>2</Font>
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>58</LeftAnchorOffset>
-		<TopAnchorOffset>80</TopAnchorOffset>
-		<RightAnchorOffset>60</RightAnchorOffset>
-		<BottomAnchorOffset>80</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
+		<Location>
+			<X>58</X>
+			<Y>80</Y>
+		</Location>
+		<Size>
+			<CX>522</CX>
+			<CY>320</CY>
+		</Size>
 		<Style_VScroll>true</Style_VScroll>
 	</STMLbox>
 

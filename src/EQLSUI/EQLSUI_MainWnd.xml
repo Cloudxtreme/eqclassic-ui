@@ -16,9 +16,9 @@
 		</Size>
 		<Text>CONNECT</Text>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
@@ -42,9 +42,9 @@
 		</Size>
 		<Text>ACCOUNT</Text>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
@@ -100,9 +100,9 @@
 		</Size>
 		<Text>OPTIONS</Text>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
@@ -126,9 +126,9 @@
 		</Size>
 		<Text>EXIT</Text>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>

@@ -4,46 +4,10 @@
 
 	<Button item = "SplashEx_OKButton">
 		<ScreenID>SplashEx_OKButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>425</X>
-			<Y>420</Y>
-		</Location>
-		<Size>
-			<CX>135</CX>
-			<CY>31</CY>
-		</Size>
-		<Text>Close</Text>
-		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<STMLbox item = "SplashEx_Display">
 		<ScreenID>SplashEx_Display</ScreenID>
-		<Font>4</Font>
-		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
-
-		<LeftAnchorOffset>40</LeftAnchorOffset>
-		<TopAnchorOffset>70</TopAnchorOffset>
-		<RightAnchorOffset>40</RightAnchorOffset>
-		<BottomAnchorOffset>75</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 	</STMLbox>
 
 	<Screen item = "SplashExWindow">

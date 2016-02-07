@@ -2,97 +2,21 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
-<!-- Hidden Edit box that will be used as a template for dynammically generated edit boxes -->
 	<Editbox item = "POLL_EditTemplate">
 		<ScreenID>EditTemplate</ScreenID>
-		<Font>4</Font>
-		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>320</X>
-			<Y>280</Y>
-		</Location>
-		<Size>
-			<CX>250</CX>
-			<CY>30</CY>
-		</Size>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 	</Editbox>
-<!-- Done with hidden edit box -->
-<!-- Hidden label that is created just to be able to grab the font we want to use in the dynamic labels -->
+
 	<Label item = "POLL_LabelTemplate">
 		<ScreenID>LabelTemplate</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Size>
-			<CX>600</CX>
-			<CY>40</CY>
-		</Size>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
 	</Label>
-<!-- End of hidden label -->
-
 	<Label item = "POLL_QuestionLabel">
 		<ScreenID>QuestionLabel</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Text>Poll Question:</Text>
-		<Size>
-			<CX>600</CX>
-			<CY>40</CY>
-		</Size>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
 	</Label>
 	<Label item = "POLL_ChoicesLabel">
 		<ScreenID>ChoicesLabel</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Text>Choices:</Text>
-		<Size>
-			<CX>600</CX>
-			<CY>40</CY>
-		</Size>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
 	</Label>
 	<Label item = "POLL_WndLabel">
 		<ScreenID>WndLabel</ScreenID>
-		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>200</X>
-			<Y>20</Y>
-		</Location>
-		<Size>
-			<CX>270</CX>
-			<CY>25</CY>
-		</Size>
-		<Text>POLL</Text>
-		<TextColor>
-			<R>255</R>
-			<G>218</G>
-			<B>96</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
 	</Label>
 
 	<Button item = "POLL_CheckButton">
@@ -100,74 +24,14 @@
 	</Button>
 	<Button item = "POLL_SubmitButton">
 		<ScreenID>SubmitButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>100</X>
-			<Y>425</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Submit your response to the server</TooltipReference>
-		<Text>SUBMIT</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "POLL_SkipButton">
 		<ScreenID>SkipButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>425</X>
-			<Y>425</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Skip the poll</TooltipReference>
-		<Text>SKIP</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<Screen item = "POLL_WorkingArea">
 		<ScreenID>PollArea</ScreenID>
-		<Font>4</Font>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>40</X>
-			<Y>70</Y>
-		</Location>
-		<Size>
-			<CX>560</CX>
-			<CY>345</CY>
-		</Size>
-		<Style_Border>true</Style_Border>
-		<Style_VScroll>true</Style_VScroll>
 		<Pieces>POLL_QuestionLabel</Pieces>
 		<Pieces>POLL_ChoicesLabel</Pieces>
 	</Screen>
