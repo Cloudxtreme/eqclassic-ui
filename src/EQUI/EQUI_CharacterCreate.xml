@@ -2097,8 +2097,6 @@
 		<Pieces>CharacterCreationScreen1b</Pieces>
 		<Pieces>CharacterCreationScreen1c</Pieces>
 		<Pieces>CharacterCreationScreen1d</Pieces>
-		<!-- Place name window last so it's always on top at any resolution -->
-		<!--<Pieces>CharacterCreationScreen1a</Pieces>-->
 	</Screen>
 
 	<Button item="CC_Back_Button">

@@ -6,19 +6,17 @@
 		<ScreenID>Face_Down_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>15</X>
-			<Y>4</Y>
+			<X>181</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>32</CX>
+			<CY>32</CY>
 		</Size>
 		<ButtonDrawTemplate>
-  			<Normal>A_HSBLeftNormal</Normal>
-			<Pressed>A_HSBLeftPressed</Pressed>
-			<Flyby>A_HSBLeftFlyby</Flyby>
-			<Disabled>A_HSBLeftDisabled</Disabled>
-			<PressedFlyby>A_HSBLeftPressedFlyby</PressedFlyby>
+  			<Normal>CharacterCreate_LeftArrow_Normal</Normal>
+			<Pressed>CharacterCreate_LeftArrow_Pressed</Pressed>
+			<PressedFlyby>CharacterCreate_LeftArrow_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<StaticText item ="EQUI_FPW_Face_Text">
@@ -28,19 +26,17 @@
 		<ScreenID>Face_Up_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>133</X>
-			<Y>4</Y>
+			<X>277</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>32</CX>
+			<CY>32</CY>
 		</Size>
 		<ButtonDrawTemplate>
-  			<Normal>A_HSBRightNormal</Normal>
-			<Pressed>A_HSBRightPressed</Pressed>
-			<Flyby>A_HSBRightFlyby</Flyby>
-			<Disabled>A_HSBRightDisabled</Disabled>
-			<PressedFlyby>A_HSBRightPressedFlyby</PressedFlyby>
+  			<Normal>CharacterCreate_RightArrow_Normal</Normal>
+			<Pressed>CharacterCreate_RightArrow_Pressed</Pressed>
+			<PressedFlyby>CharacterCreate_RightArrow_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -118,13 +114,10 @@
 			<CX>61</CX>
 			<CY>29</CY>
 		</Size>
-		<Text>BODY</Text>
 		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+			<Normal>CharacterCreate_Body_Normal</Normal>
+			<Pressed>CharacterCreate_Body_Pressed</Pressed>
+			<PressedFlyby>CharacterCreate_Body_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "EQUI_FPW_Cancel_Button">
@@ -145,12 +138,6 @@
 			<CY>480</CY>
 		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-		<!--<Pieces>EQUI_CharacterCreateBG01</Pieces>
-		<Pieces>EQUI_CharacterCreateBG02</Pieces>
-		<Pieces>EQUI_CharacterCreateBG03</Pieces>
-		<Pieces>EQUI_CharacterCreateBG04</Pieces>
-		<Pieces>EQUI_CharacterCreateBG05</Pieces>
-		<Pieces>EQUI_CharacterCreateBG06</Pieces>-->
 		<Pieces>EQUI_FPW_Autolock</Pieces>
 		<Pieces>EQUI_FPW_Face_Down_Button</Pieces>
 		<Pieces>EQUI_FPW_Face_Text</Pieces>
