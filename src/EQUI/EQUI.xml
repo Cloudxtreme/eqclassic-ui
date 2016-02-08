@@ -100,7 +100,7 @@
 		<Include>EQUI_AdvancedDisplayOptionsWnd.xml</Include>	<!-- original -->
 		<Include>EQUI_TitleWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_VoiceMacroWnd.xml</Include>				<!-- imotogames - 100% disabled -->
-        <Include>EQUI_PvPLeaderBoardWnd.xml</Include>			<!-- ?? -->
+        <Include>EQUI_PvPLeaderBoardWnd.xml</Include>			<!-- imotogames - 100% disabled -->
         <Include>EQUI_PvPStatsWnd.xml</Include>					<!-- ?? -->
 		<Include>EQUI_PointMerchantWnd.xml</Include>			<!-- imotogames - 100% disabled -->
 		<Include>EQUI_BarterWnd.xml</Include>					<!-- imotogames - 100% disabled -->
