@@ -128,6 +128,7 @@
         <Include>EQUI_BlockedBuffWnd.xml</Include>              <!-- imotogames - 100% disabled -->
         <Include>EQUI_BlockedPetBuffWnd.xml</Include>           <!-- imotogames - 100% disabled -->
         <Include>EQUI_CharityMerchantWnd.xml</Include>          <!-- imotogames - 100% disabled -->
+        <Include>EQUI_MeleeBuffWindow.xml</Include>             <!-- imotogames - 100% disabled -->
     </Composite>
     <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 </XML>
