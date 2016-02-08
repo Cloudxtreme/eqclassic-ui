@@ -111,7 +111,7 @@
 		<Include>EQUI_ServerListWnd.xml</Include>				<!-- ?? -->
 		<Include>EQUI_BandolierWnd.xml</Include>				<!-- imotogames - disabled -->
 		<Include>EQUI_PotionBeltWnd.xml</Include>				<!-- imotogames - disabled -->
-		<Include>EQUI_LFGuildWnd.xml</Include>					<!-- imotogames - disabled -->
+		<Include>EQUI_LFGuildWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_GuildBankWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_TaskTemplateSelectWnd.xml</Include>		<!-- imotogames - 100% disabled -->
 		<Include>EQUI_RespawnWnd.xml</Include>					<!-- imotogames - 100% disabled -->
