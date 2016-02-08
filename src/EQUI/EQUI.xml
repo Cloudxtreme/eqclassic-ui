@@ -20,7 +20,7 @@
 		<Include>EQUI_ItemDisplay.xml</Include>					<!-- original -->
 		<Include>EQUI_BreathWindow.xml</Include>				<!-- imotogames - fixed -->
 		<Include>EQUI_NoteWindow.xml</Include>					<!-- imotogames - fixed -->
-		<Include>EQUI_OptionsWindow.xml</Include>				<!-- imotogames - fixed -->
+		<Include>EQUI_OptionsWindow.xml</Include>				<!-- original -->
 		<Include>EQUI_BookWindow.xml</Include>					<!-- imotogames - fixed -->
 		<Include>EQUI_PlayerWindow.xml</Include>				<!-- imotogames - fixed -->
 		<Include>EQUI_CastingWindow.xml</Include>				<!-- imotogames - fixed-->
@@ -52,8 +52,8 @@
 		<Include>EQUI_FeedbackWnd.xml</Include>					<!-- original -->
 		<Include>EQUI_BugReportWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_BazaarSearchWnd.xml</Include>				<!-- imotogames - 100% disabled -->
-		<Include>EQUI_ColorPickerWnd.xml</Include>				<!-- original -->
-		<Include>EQUI_VideoModesWnd.xml</Include>				<!-- imotogames - 100% disabled -->
+		<Include>EQUI_ColorPickerWnd.xml</Include>				<!-- imotogames - 100% disabled -->
+		<Include>EQUI_VideoModesWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_TextEntryWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_CompassWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_GemsGameWnd.xml</Include>					<!-- original -->
@@ -68,11 +68,11 @@
 		<Include>EQUI_JournalNPCWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_JournalCatWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_ShortDurationBuffWindow.xml</Include>		<!-- original -->
-		<Include>EQUI_StoryWnd.xml</Include>					<!-- imotogames - disabled -->
-		<Include>EQUI_BodyTintWnd.xml</Include>					<!-- original -->
-		<Include>EQUI_GroupSearchWnd.xml</Include>				<!-- imotogames - disabled -->
-		<Include>EQUI_MapViewWnd.xml</Include>					<!-- original - disabled -->
-		<Include>EQUI_MapToolbarWnd.xml</Include>				<!-- original - disabled -->
+		<Include>EQUI_StoryWnd.xml</Include>					<!-- imotogames - 100% disabled -->
+		<Include>EQUI_BodyTintWnd.xml</Include>					<!-- imotogames - 100% disabled -->
+		<Include>EQUI_GroupSearchWnd.xml</Include>				<!-- imotogames - 100% disabled -->
+		<Include>EQUI_MapViewWnd.xml</Include>					<!-- imotogames - 100% disabled -->
+		<Include>EQUI_MapToolbarWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_EditLabelWnd.xml</Include>				<!-- ?? -->
 		<Include>EQUI_GuildManagementWnd.xml</Include>			<!-- original -->
 		<Include>EQUI_SystemInfoWnd.xml</Include>				<!-- ?? -->
