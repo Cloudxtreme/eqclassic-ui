@@ -112,7 +112,7 @@
 		<Include>EQUI_BandolierWnd.xml</Include>				<!-- imotogames - disabled -->
 		<Include>EQUI_PotionBeltWnd.xml</Include>				<!-- imotogames - disabled -->
 		<Include>EQUI_LFGuildWnd.xml</Include>					<!-- imotogames - disabled -->
-		<Include>EQUI_GuildBankWnd.xml</Include>				<!-- original -->
+		<Include>EQUI_GuildBankWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_TaskTemplateSelectWnd.xml</Include>		<!-- imotogames - 100% disabled -->
 		<Include>EQUI_RespawnWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_AltStorageWnd.xml</Include>				<!-- imotogames - 100% disabled -->
