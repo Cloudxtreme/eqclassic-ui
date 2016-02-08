@@ -11,7 +11,7 @@
 
         <Include>EQLSUI_ChatOptionsDialog.xml</Include>     <!-- disabled -->
 		<Include>EQLSUI_ChatWnd.xml</Include>               <!-- disabled -->
-		<Include>EQLSUI_ColorPickerWnd.xml</Include>        <!-- disabled -->
+		<Include>EQLSUI_ColorPickerWnd.xml</Include>        <!-- imotogames - 100% disabled -->
 		<Include>EQLSUI_ConnectWnd.xml</Include>            <!-- imotogames - 90% fixed (need to fix help button)-->
         <Include>EQLSUI_CreditsWnd.xml</Include>            <!-- can currently only be accessed from the server select area (not working properly) -->
         <Include>EQLSUI_ESRBSplashWnd.xml</Include>         <!-- imotogames - 100% fixed -->
@@ -20,12 +20,12 @@
         <Include>EQLSUI_MainWnd.xml</Include>               <!-- imotogames - 90% fixed (need to fix credits button) -->
         <Include>EQLSUI_NewsWnd.xml</Include>               <!-- imotogames - 90% fixed (need to implement scrollbar) -->
         <Include>EQLSUI_OKDialog.xml</Include>              <!-- imotogames - 100% fixed -->
-        <Include>EQLSUI_OrderExpansionWnd.xml</Include>     <!-- disabled -->
-        <Include>EQLSUI_PollWnd.xml</Include>               <!-- disabled -->
+        <Include>EQLSUI_OrderExpansionWnd.xml</Include>     <!-- imotogames - 100% disabled (order expansion button is always disabled in server select) -->
+        <Include>EQLSUI_PollWnd.xml</Include>               <!-- imotogames - 100% disabled (never used) -->
         <Include>EQLSUI_ServerSelectWnd.xml</Include>       <!-- imotogames - 80% fixed (need to implement scrollbar and register expansion) -->
         <Include>EQLSUI_SOESplashWnd.xml</Include>          <!-- imotogames - fixed -->
-        <Include>EQLSUI_SplashExWnd.xml</Include>           <!-- ?? -->
-        <Include>EQLSUI_WebOrderWnd.xml</Include>           <!-- disabled -->
+        <Include>EQLSUI_SplashExWnd.xml</Include>           <!-- imotogames - 100% disabled (don't know what this is for) -->
+        <Include>EQLSUI_WebOrderWnd.xml</Include>           <!-- imotogames - 100% disabled -->
 		<Include>EQLSUI_YesNoDialog.xml</Include>           <!-- imotogames - 100% fixed -->
    </Composite>
    <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>

@@ -114,8 +114,8 @@
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>250</X>
-			<Y>361</Y>
+			<X>0</X>
+			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>212</CX>
@@ -131,9 +131,13 @@
 	</Label>
 	<Screen item = "SERVERSELECT_ExpansionsWindow">
 		<ScreenID>ExpansionsWindow</ScreenID>
+		<Location>
+			<X>250</X>
+			<Y>361</Y>
+		</Location>
 		<Size>
-			<CX>640</CX>
-			<CY>480</CY>
+			<CX>212</CX>
+			<CY>31</CY>
 		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>SERVERSELECT_ExpansionsLabel</Pieces>

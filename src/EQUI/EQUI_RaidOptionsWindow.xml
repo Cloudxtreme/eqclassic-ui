@@ -2,14 +2,107 @@
 <XML ID="EQInterfaceDefinitionLanguage">
     <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 
+    <Label item="RAIDOPTIONS_CurrentLootTypeLabel">
+        <ScreenID>RAIDOPTIONS_CurrentLootTypeLabel</ScreenID>
+    </Label>
+    <Label item="RAIDOPTIONS_CurrentLootType">
+        <ScreenID>RAIDOPTIONS_CurrentLootType</ScreenID>
+    </Label>
+    <Label item="RAIDOPTIONS_LooterListLabel">
+        <ScreenID>RAIDOPTIONS_LooterListLabel</ScreenID>
+    </Label>
+
     <Listbox item="RAIDOPTIONS_LooterList">
         <ScreenID>RAIDOPTIONS_LooterList</ScreenID>
         <DrawTemplate>WDT_Static</DrawTemplate>
         <Columns />
     </Listbox>
 
+    <Label item="RAIDOPTIONS_SetLootTypeLabel">
+        <ScreenID>RAIDOPTIONS_SetLootTypeLabel</ScreenID>
+    </Label>
+
+    <Combobox item="RAIDOPTIONS_SetLootTypeCombo">
+        <ScreenID>RAIDOPTIONS_SetLootTypeCombo</ScreenID>
+        <DrawTemplate>WDT_Static</DrawTemplate>
+    </Combobox>
+
+    <Label item="RAIDOPTIONS_ClassColorLabel">
+        <ScreenID>RAIDOPTIONS_ClassColorLabel</ScreenID>
+    </Label>
+
+    <Button item="RAIDOPTIONS_ClassColor0">
+        <ScreenID>RAIDOPTIONS_ClassColor0</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor1">
+        <ScreenID>RAIDOPTIONS_ClassColor1</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor2">
+        <ScreenID>RAIDOPTIONS_ClassColor2</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor3">
+        <ScreenID>RAIDOPTIONS_ClassColor3</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor4">
+        <ScreenID>RAIDOPTIONS_ClassColor4</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor5">
+        <ScreenID>RAIDOPTIONS_ClassColor5</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor6">
+        <ScreenID>RAIDOPTIONS_ClassColor6</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor7">
+        <ScreenID>RAIDOPTIONS_ClassColor7</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor8">
+        <ScreenID>RAIDOPTIONS_ClassColor8</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor9">
+        <ScreenID>RAIDOPTIONS_ClassColor9</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor10">
+        <ScreenID>RAIDOPTIONS_ClassColor10</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor11">
+        <ScreenID>RAIDOPTIONS_ClassColor11</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor12">
+        <ScreenID>RAIDOPTIONS_ClassColor12</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor13">
+        <ScreenID>RAIDOPTIONS_ClassColor13</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor14">
+        <ScreenID>RAIDOPTIONS_ClassColor14</ScreenID>
+    </Button>
+    <Button item="RAIDOPTIONS_ClassColor15">
+        <ScreenID>RAIDOPTIONS_ClassColor15</ScreenID>
+    </Button>
     <Screen item="RaidOptionsWindow">
         <DrawTemplate>WDT_Static</DrawTemplate>
+        <Pieces>RAIDOPTIONS_CurrentLootTypeLabel</Pieces>
+        <Pieces>RAIDOPTIONS_CurrentLootType</Pieces>
+        <Pieces>RAIDOPTIONS_LooterListLabel</Pieces>
         <Pieces>RAIDOPTIONS_LooterList</Pieces>
+        <Pieces>RAIDOPTIONS_SetLootTypeLabel</Pieces>
+        <Pieces>RAIDOPTIONS_SetLootTypeCombo</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColorLabel</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor0</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor1</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor2</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor3</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor4</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor5</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor6</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor7</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor8</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor9</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor10</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor11</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor12</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor13</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor14</Pieces>
+        <Pieces>RAIDOPTIONS_ClassColor15</Pieces>
     </Screen>
 </XML>

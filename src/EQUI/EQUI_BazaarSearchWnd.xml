@@ -2,6 +2,10 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
+	<Label item ="BZR_SearchResultLabel">
+		<ScreenID>BZR_SearchResultLabel</ScreenID>
+	</Label>
+
 	<Listbox item = "BZR_ItemList">
 		<ScreenID>BZR_ItemList</ScreenID>
 		<DrawTemplate>WDT_Static</DrawTemplate>
@@ -11,8 +15,155 @@
 		<Columns />
 	</Listbox>
 
+	<Button item = "BZR_Default">
+		<ScreenID>BZR_Default</ScreenID>
+	</Button>
+	<Button item = "BZR_WelcomeButton">
+		<ScreenID>BZR_WelcomeButton</ScreenID>
+	</Button>
+	<Button item = "BZR_UpdatePlayerButton">
+		<ScreenID>BZR_UpdatePlayerButton</ScreenID>
+	</Button>
+	<Button item = "BZR_RequestItemButton">
+		<ScreenID>BZR_RequestItemButton</ScreenID>
+	</Button>
+	<Button item = "BZR_FindTraderButton">
+		<ScreenID>BZR_FindTraderButton</ScreenID>
+	</Button>
+	<Button item = "BZR_HideTradersButton">
+		<ScreenID>BZR_HideTradersButton</ScreenID>
+	</Button>
+	<Button item = "BZR_QueryButton">
+		<ScreenID>BZR_QueryButton</ScreenID>
+	</Button>
+
+	<Label item ="BZR_ItemNameLabel">
+		<ScreenID>BZR_ItemNameLabel</ScreenID>
+	</Label>
+
+	<Editbox item = "BZR_ItemNameInput">
+		<ScreenID>BZR_ItemNameInput</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Editbox>
+
+	<Label item ="BZR_PlayersLabel">
+		<ScreenID>BZR_PlayersLabel</ScreenID>
+	</Label>
+
+	<Editbox item = "BZR_MaxLevelInput">
+		<ScreenID>BZR_MaxLevelInput</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Editbox>
+	<Editbox item = "BZR_MinLevelInput">
+		<ScreenID>BZR_MinLevelInput</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Editbox>
+
+	<Label item ="BZR_MaxLevelLabel">
+		<ScreenID>BZR_MaxLevelLabel</ScreenID>
+	</Label>
+	<Label item ="BZR_MinLevelLabel">
+		<ScreenID>BZR_MinLevelLabel</ScreenID>
+	</Label>
+
+	<Editbox item = "BZR_MaxPriceInput">
+		<ScreenID>BZR_MaxPriceInput</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Editbox>
+	<Editbox item = "BZR_MinPriceInput">
+		<ScreenID>BZR_MinPriceInput</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Editbox>
+
+	<Label item ="BZR_MaxPriceLabel">
+		<ScreenID>BZR_MaxPriceLabel</ScreenID>
+	</Label>
+	<Label item ="BZR_MinPriceLabel">
+		<ScreenID>BZR_MinPriceLabel</ScreenID>
+	</Label>
+
+	<Combobox item = "BZR_PlayersCombobox">
+		<ScreenID>BZR_PlayersCombobox</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Combobox>
+
+	<Label item ="BZR_ItemSlotLabel">
+		<ScreenID>BZR_ItemSlotLabel</ScreenID>
+	</Label>
+
+	<Combobox item = "BZR_ItemSlotCombobox">
+		<ScreenID>BZR_ItemSlotCombobox</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Combobox>
+
+	<Label item ="BZR_StatSlotLabel">
+		<ScreenID>BZR_StatSlotLabel</ScreenID>
+	</Label>
+
+	<Combobox item = "BZR_StatSlotCombobox">
+		<ScreenID>BZR_StatSlotCombobox</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Combobox>
+
+	<Label item ="BZR_RaceSlotLabel">
+		<ScreenID>BZR_RaceSlotLabel</ScreenID>
+	</Label>
+
+	<Combobox item = "BZR_RaceSlotCombobox">
+		<ScreenID>BZR_RaceSlotCombobox</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Combobox>
+
+	<Label item ="BZR_ClassSlotLabel">
+		<ScreenID>BZR_ClassSlotLabel</ScreenID>
+	</Label>
+
+	<Combobox item = "BZR_ClassSlotCombobox">
+		<ScreenID>BZR_ClassSlotCombobox</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Combobox>
+
+	<Label item ="BZR_ItemTypeLabel">
+		<ScreenID>BZR_ItemTypeLabel</ScreenID>
+	</Label>
+
+	<Combobox item = "BZR_ItemTypeCombobox">
+		<ScreenID>BZR_ItemTypeCombobox</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Combobox>
+
 	<Screen item = "BazaarSearchWnd">
 		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>BZR_MaxPriceInput</Pieces>
+		<Pieces>BZR_MinPriceInput</Pieces>
+		<Pieces>BZR_MaxPriceLabel</Pieces>
+		<Pieces>BZR_MinPriceLabel</Pieces>
+		<Pieces>BZR_MaxLevelInput</Pieces>
+		<Pieces>BZR_MinLevelInput</Pieces>
+		<Pieces>BZR_MaxLevelLabel</Pieces>
+		<Pieces>BZR_MinLevelLabel</Pieces>
+		<Pieces>BZR_ItemNameInput</Pieces>
+		<Pieces>BZR_QueryButton</Pieces>
+		<Pieces>BZR_ItemNameLabel</Pieces>
+		<Pieces>BZR_PlayersLabel</Pieces>
+		<Pieces>BZR_ItemSlotLabel</Pieces>
+		<Pieces>BZR_StatSlotLabel</Pieces>
+		<Pieces>BZR_RaceSlotLabel</Pieces>
+		<Pieces>BZR_ClassSlotLabel</Pieces>
+		<Pieces>BZR_ItemTypeLabel</Pieces>
+		<Pieces>BZR_ItemTypeCombobox</Pieces>
+		<Pieces>BZR_ClassSlotCombobox</Pieces>
+		<Pieces>BZR_RaceSlotCombobox</Pieces>
+		<Pieces>BZR_StatSlotCombobox</Pieces>
+		<Pieces>BZR_ItemSlotCombobox</Pieces>
+		<Pieces>BZR_PlayersCombobox</Pieces>
 		<Pieces>BZR_ItemList</Pieces>
+		<Pieces>BZR_SearchResultLabel</Pieces>
+		<Pieces>BZR_WelcomeButton</Pieces>
+		<Pieces>BZR_UpdatePlayerButton</Pieces>
+		<Pieces>BZR_RequestItemButton</Pieces>
+		<Pieces>BZR_FindTraderButton</Pieces>
+		<Pieces>BZR_HideTradersButton</Pieces>
+		<Pieces>BZR_Default</Pieces>
 	</Screen>
 </XML>

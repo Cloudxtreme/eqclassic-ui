@@ -13,10 +13,10 @@
 
 		<Include>EQUI_CharacterCreate.xml</Include>				<!-- imotogames - in process -->
 		<Include>EQUI_ChatWindow.xml</Include> 					<!-- imotogames - 90% fixed (scrollbar implementation needed) -->
-		<Include>EQUI_ConfirmationDialog.xml</Include>			<!-- original-->
+		<Include>EQUI_ConfirmationDialog.xml</Include>			<!-- imotogames - 90% fixed (slight adjustments needed)-->
 		<Include>EQUI_CharacterSelect.xml</Include>				<!-- imotogames - in process -->
-		<Include>EQUI_FacePick.xml</Include>					<!-- original -->
-		<Include>EQUI_GroupWindow.xml</Include>					<!-- imotogames - fixed -->
+		<Include>EQUI_FacePick.xml</Include>					<!-- imotogames - 100% fixed (this needs to be adjusted in the future once viewport is adjusted) -->
+		<Include>EQUI_GroupWindow.xml</Include>					<!-- imotogames - 90% fixed (need to fix textures) -->
 		<Include>EQUI_ItemDisplay.xml</Include>					<!-- original -->
 		<Include>EQUI_BreathWindow.xml</Include>				<!-- imotogames - fixed -->
 		<Include>EQUI_NoteWindow.xml</Include>					<!-- imotogames - fixed -->
@@ -58,7 +58,7 @@
 		<Include>EQUI_CompassWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_GemsGameWnd.xml</Include>					<!-- original -->
 		<Include>EQUI_PlayerNotesWindow.xml</Include>			<!-- original -->
-		<Include>EQUI_LoadskinWnd.xml</Include>					<!-- imotogames - fixed -->
+		<Include>EQUI_LoadskinWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_AlarmWnd.xml</Include>        			<!-- imotogames - 100% disabled -->
 		<Include>EQUI_RaidWindow.xml</Include>					<!-- imotogames - disabled -->
 		<Include>EQUI_RaidOptionsWindow.xml</Include>			<!-- imotogames - 100% disabled -->
@@ -121,7 +121,8 @@
 		<Include>EQUI_MIZoneSelectWnd.xml</Include>				<!-- ?? -->
 		<Include>EQUI_EQMainWnd.xml</Include>					<!-- imotogames - disabled -->
 		<Include>EQUI_AudioTriggersWindow.xml</Include>			<!-- ?? -->
-        <Include>EQUI_TipWnd.xml</Include>
+        <Include>EQUI_TipWnd.xml</Include>                      <!-- imotogames - 100% disabled -->
+        <Include>EQUI_DynamicZoneWnd.xml</Include>
 
     </Composite>
     <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>

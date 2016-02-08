@@ -2,6 +2,169 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
+	<!-- Character Selection Start -->
+	<StaticAnimation item = "EQUI_CharacterSelectBG01">
+		<ScreenID>CharacterSelectBG01</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterSelect01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterSelectBG02">
+		<ScreenID>CharacterSelectBG02</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterSelect02</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterSelectBG03">
+		<ScreenID>CharacterSelectBG03</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterSelect03</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterSelectBG04">
+		<ScreenID>CharacterSelectBG04</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterSelect04</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterSelectBG05">
+		<ScreenID>CharacterSelectBG05</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>512</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterSelect05</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterSelectBG06">
+		<ScreenID>CharacterSelectBG06</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>512</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterSelect06</Animation>
+	</StaticAnimation>
+	<!-- Character Selection End -->
+	<!-- Character Creation Start -->
+	<StaticAnimation item = "EQUI_CharacterCreateBG01">
+		<ScreenID>CharacterCreateBG01</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterCreate01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterCreateBG02">
+		<ScreenID>CharacterCreateBG02</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterCreate02</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterCreateBG03">
+		<ScreenID>CharacterCreateBG03</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterCreate03</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterCreateBG04">
+		<ScreenID>CharacterCreateBG04</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterCreate04</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterCreateBG05">
+		<ScreenID>CharacterCreateBG05</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>512</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterCreate05</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterCreateBG06">
+		<ScreenID>CharacterCreateBG06</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>512</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterCreate06</Animation>
+	</StaticAnimation>
+	<!-- Character Creation End -->
+	<!-- Confirmation Dialog Start -->
+	<StaticAnimation item = "EQUI_ConfirmationBG01">
+		<ScreenID>ConfirmationBG01</ScreenID>
+		<Size>
+			<CX>198</CX>
+			<CY>117</CY>
+		</Size>
+		<Animation>Confirmation</Animation>
+	</StaticAnimation>
+	<!-- Confirmation Dialog End -->
+	<!-- Chat Start -->
 	<StaticAnimation item = "EQUI_ChatBG01">
 		<ScreenID>ChatBG01</ScreenID>
 		<Size>
@@ -21,6 +184,32 @@
 			<CY>256</CY>
 		</Size>
 		<Animation>Chat02</Animation>
+	</StaticAnimation>
+
+	<!-- Group Window BG's (FIX THESE) -->
+	<StaticAnimation item = "GW_member_bg">
+		<ScreenID>GW_member_bg</ScreenID>
+		<Location>
+			<X>13</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>95</CX>
+			<CY>119</CY>
+		</Size>
+		<Animation>GW_member_bg_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "GW_bg">
+		<ScreenID>GW_bg</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>121</CX>
+			<CY>119</CY>
+		</Size>
+		<Animation>GW_bg_TX</Animation>
 	</StaticAnimation>
 
 	<Ui2DAnimation item = "A_CloseBtnNormal">

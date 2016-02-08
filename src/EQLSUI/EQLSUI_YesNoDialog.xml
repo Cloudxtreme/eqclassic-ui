@@ -55,43 +55,32 @@
 		</ButtonDrawTemplate>
 	</Button>
 
-<!-- Dialog text display container -->
 	<STMLbox item = "YESNO_Display">
 		<ScreenID>Display</ScreenID>
 		<Font>2</Font>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>true</Style_VScroll>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>50</LeftAnchorOffset>
-		<TopAnchorOffset>46</TopAnchorOffset>
-		<RightAnchorOffset>88</RightAnchorOffset>
-		<BottomAnchorOffset>160</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<Location>
+			<X>50</X>
+			<Y>46</Y>
+		</Location>
+		<Size>
+			<CX>198</CX>
+			<CY>100</CY>
+		</Size>
 	</STMLbox>
 
-<!-- Container for background and dialog elements -->
 	<Screen item = "YESNO_Box">
 		<ScreenID>Box</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>174</LeftAnchorOffset>
-		<TopAnchorOffset>60</TopAnchorOffset>
-		<RightAnchorOffset>166</RightAnchorOffset>
-		<BottomAnchorOffset>185</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
+		<Location>
+			<X>174</X>
+			<Y>60</Y>
+		</Location>
+		<Size>
+			<CX>300</CX>
+			<CY>235</CY>
+		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>EQLS_DialogBG01</Pieces>
 		<Pieces>EQLS_DialogBG02</Pieces>
@@ -99,8 +88,6 @@
 		<Pieces>YESNO_YesButton</Pieces>
 		<Pieces>YESNO_NoButton</Pieces>
 	</Screen>
-
-<!-- Used to obscure the backing window and prevent UI events from going through to it -->
 	<Screen item = "yesnodialog">
 		<Size>
 			<CX>640</CX>

@@ -6,23 +6,19 @@
 		<ScreenID>OKButton</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>104</LeftAnchorOffset>
-		<TopAnchorOffset>190</TopAnchorOffset>
-		<RightAnchorOffset>138</RightAnchorOffset>
-		<BottomAnchorOffset>86</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
+		<Location>
+			<X>104</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>96</CX>
+			<CY>34</CY>
+		</Size>
 		<Text>OK</Text>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>SmallBtnNormal</Normal>
@@ -33,52 +29,38 @@
 		</ButtonDrawTemplate>
 	</Button>
 
-<!-- Dialog text display container -->
 	<STMLbox item = "OK_Display">
 		<ScreenID>Display</ScreenID>
 		<Font>2</Font>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>true</Style_VScroll>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>50</LeftAnchorOffset>
-		<TopAnchorOffset>46</TopAnchorOffset>
-		<RightAnchorOffset>88</RightAnchorOffset>
-		<BottomAnchorOffset>160</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<Location>
+			<X>50</X>
+			<Y>46</Y>
+		</Location>
+		<Size>
+			<CX>198</CX>
+			<CY>100</CY>
+		</Size>
 	</STMLbox>
 
-<!-- Container for background and dialog elements -->
 	<Screen item = "OK_Box">
 		<ScreenID>Box</ScreenID>
-
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>174</LeftAnchorOffset>
-		<TopAnchorOffset>60</TopAnchorOffset>
-		<RightAnchorOffset>130</RightAnchorOffset>
-		<BottomAnchorOffset>110</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
+		<Location>
+			<X>174</X>
+			<Y>60</Y>
+		</Location>
+		<Size>
+			<CX>300</CX>
+			<CY>235</CY>
+		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>EQLS_DialogBG01</Pieces>
 		<Pieces>EQLS_DialogBG02</Pieces>
 		<Pieces>OK_Display</Pieces>
 		<Pieces>OK_OKButton</Pieces>
 	</Screen>
-
-<!-- Used to obscure the backing window and prevent UI events from going through to it -->
 	<Screen item = "okdialog">
 		<Size>
 			<CX>640</CX>

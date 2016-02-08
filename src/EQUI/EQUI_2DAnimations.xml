@@ -2,6 +2,907 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
+	<!-- Character Selection Start -->
+	<Ui2DAnimation item = "CharacterSelect01">
+		<Frames>
+			<Texture>EQUI/CharacterSelect01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterSelect02">
+		<Frames>
+			<Texture>EQUI/CharacterSelect02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterSelect03">
+		<Frames>
+			<Texture>EQUI/CharacterSelect03.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterSelect04">
+		<Frames>
+			<Texture>EQUI/CharacterSelect04.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterSelect05">
+		<Frames>
+			<Texture>EQUI/CharacterSelect05.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterSelect06">
+		<Frames>
+			<Texture>EQUI/CharacterSelect06.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Character Selection End -->
+	<!-- Character Creation Start -->
+	<Ui2DAnimation item = "CharacterCreate01">
+		<Frames>
+			<Texture>EQUI/CharacterCreate01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate02">
+		<Frames>
+			<Texture>EQUI/CharacterCreate02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate03">
+		<Frames>
+			<Texture>EQUI/CharacterCreate03.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate04">
+		<Frames>
+			<Texture>EQUI/CharacterCreate04.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate05">
+		<Frames>
+			<Texture>EQUI/CharacterCreate05.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate06">
+		<Frames>
+			<Texture>EQUI/CharacterCreate06.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Barbarian_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateRaces.tga</Texture>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_DarkElf_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateRaces.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>29</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Dwarf_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateRaces.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>58</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Erudite_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateRaces.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>87</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Gnome_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateRaces.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>116</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_HalfElf_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateRaces.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>145</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Halfling_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateRaces.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>174</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_HighElf_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateRaces.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>203</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Human_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateRaces.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Ogre_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateRaces.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>29</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Troll_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateRaces.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>58</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_WoodElf_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateRaces.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>87</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Iksar_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateRaces.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>116</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Bard_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Cleric_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>29</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Druid_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>58</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Enchanter_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>87</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Magician_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>116</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Monk_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>145</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Necromancer_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>174</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Paladin_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>203</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Ranger_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Rogue_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>29</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_ShadowKnight_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>58</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Shaman_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>87</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Warrior_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>116</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Wizard_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses01.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>145</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Bard_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Cleric_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>29</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Druid_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>58</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Enchanter_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>87</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Magician_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>116</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Monk_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>145</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Necromancer_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>174</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Paladin_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>203</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Ranger_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Rogue_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>29</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_ShadowKnight_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>58</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Shaman_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>87</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Warrior_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>116</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Wizard_Disabled">
+		<Frames>
+			<Texture>EQUI/CharacterCreateClasses02.tga</Texture>
+			<Location>
+				<X>93</X>
+				<Y>145</Y>
+			</Location>
+			<Size>
+				<CX>93</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Body_Normal">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Body_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Location>
+				<X>61</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Face_Normal">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>29</Y>
+			</Location>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Face_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Location>
+				<X>61</X>
+				<Y>29</Y>
+			</Location>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Back_Normal">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Location>
+				<X>122</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Next_Normal">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Location>
+				<X>122</X>
+				<Y>29</Y>
+			</Location>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Back_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Location>
+				<X>183</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_Next_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Location>
+				<X>183</X>
+				<Y>29</Y>
+			</Location>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_LeftArrow_Normal">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>58</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_RightArrow_Normal">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Location>
+				<X>32</X>
+				<Y>58</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_LeftArrow_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Location>
+				<X>64</X>
+				<Y>58</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_RightArrow_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Location>
+				<X>96</X>
+				<Y>58</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_GetName_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>90</Y>
+			</Location>
+			<Size>
+				<CX>102</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterCreate_CheckBox_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>109</Y>
+			</Location>
+			<Size>
+				<CX>16</CX>
+				<CY>16</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Character Creation End -->
+	<!-- Confirmation Dialog Start -->
+	<Ui2DAnimation item = "Confirmation">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Size>
+				<CX>198</CX>
+				<CY>117</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Confirmation_Yes_Pressed">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>117</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Confirmation_No_Pressed">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Location>
+				<X>48</X>
+				<Y>117</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Confirmation_Yes_Normal">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Location>
+				<X>96</X>
+				<Y>117</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Confirmation_No_Normal">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Location>
+				<X>144</X>
+				<Y>117</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Confirmation_OK_Normal">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>136</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Confirmation_OK_Pressed">
+		<Frames>
+			<Texture>EQUI/Confirmation.tga</Texture>
+			<Location>
+				<X>48</X>
+				<Y>136</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Configrmation Dialog End -->
+	<!-- Chat Window Start -->
 	<Ui2DAnimation item = "Chat01">
 		<Frames>
 			<Texture>EQUI/Chat01.tga</Texture>
@@ -18,6 +919,46 @@
 				<CX>256</CX>
 				<CY>256</CY>
 			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Chat Window End -->
+	<!-- Group Window Textures (FIX THESE) -->
+	<Ui2DAnimation item = "GW_bg_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces03.tga</Texture>
+			<Location>
+				<X>135</X>
+				<Y>101</Y>
+			</Location>
+			<Size>
+				<CX>121</CX>
+				<CY>119</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "GW_member_bg_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces03.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>85</Y>
+			</Location>
+			<Size>
+				<CX>95</CX>
+				<CY>119</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
 </XML>
