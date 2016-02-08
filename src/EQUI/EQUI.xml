@@ -114,8 +114,8 @@
 		<Include>EQUI_LFGuildWnd.xml</Include>					<!-- imotogames - disabled -->
 		<Include>EQUI_GuildBankWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_TaskTemplateSelectWnd.xml</Include>		<!-- ?? -->
-		<Include>EQUI_RespawnWnd.xml</Include>					<!-- ?? -->
-		<Include>EQUI_AltStorageWnd.xml</Include>				<!-- ?? -->
+		<Include>EQUI_RespawnWnd.xml</Include>					<!-- imotogames - 100% disabled -->
+		<Include>EQUI_AltStorageWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_ItemExpTransferWnd.xml</Include>          <!-- imotogames - 100% disabled -->
 		<Include>EQUI_ProgressionSelectionWnd.xml</Include>		<!-- imotogames - 100% disabled -->
 		<Include>EQUI_MIZoneSelectWnd.xml</Include>				<!-- imotogames - 100% disabled -->
