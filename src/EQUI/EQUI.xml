@@ -118,12 +118,11 @@
 		<Include>EQUI_AltStorageWnd.xml</Include>				<!-- ?? -->
 		<Include>EQUI_ItemExpTransferWnd.xml</Include>
 		<Include>EQUI_ProgressionSelectionWnd.xml</Include>		<!-- ?? -->
-		<Include>EQUI_MIZoneSelectWnd.xml</Include>				<!-- ?? -->
-		<Include>EQUI_EQMainWnd.xml</Include>					<!-- imotogames - disabled -->
-		<Include>EQUI_AudioTriggersWindow.xml</Include>			<!-- ?? -->
+		<Include>EQUI_MIZoneSelectWnd.xml</Include>				<!-- imotogames - 100% disabled -->
+		<Include>EQUI_EQMainWnd.xml</Include>					<!-- imotogames - 100% disabled -->
+		<Include>EQUI_AudioTriggersWindow.xml</Include>			<!-- imotogames - 100% disabled -->
         <Include>EQUI_TipWnd.xml</Include>                      <!-- imotogames - 100% disabled -->
         <Include>EQUI_DynamicZoneWnd.xml</Include>
-
     </Composite>
     <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 </XML>
