@@ -76,10 +76,10 @@
 		<Include>EQUI_EditLabelWnd.xml</Include>				<!-- ?? -->
 		<Include>EQUI_GuildManagementWnd.xml</Include>			<!-- imotogames - 100% disabled -->
 		<Include>EQUI_SystemInfoWnd.xml</Include>				<!-- ?? -->
-		<Include>EQUI_AdventureRequestWnd.xml</Include>			<!-- imotogames - disabled -->
-		<Include>EQUI_AdventureMerchantWnd.xml</Include>		<!-- original -->
-		<Include>EQUI_AdventureStatsWnd.xml</Include>			<!-- original -->
-		<Include>EQUI_AdventureLeaderboardWnd.xml</Include>		<!-- original -->
+		<Include>EQUI_AdventureRequestWnd.xml</Include>			<!-- imotogames - 100% disabled -->
+		<Include>EQUI_AdventureMerchantWnd.xml</Include>		<!-- imotogames - 100% disabled -->
+		<Include>EQUI_AdventureStatsWnd.xml</Include>			<!-- imotogames - 100% disabled -->
+		<Include>EQUI_AdventureLeaderboardWnd.xml</Include>		<!-- imotogames - 100% disabled -->
 		<Include>EQUI_BuffWindow.xml</Include>					<!-- imotogames - in process -->
 
 		<!-- imotogames - added everything below (fixes zone crashing issues) -->
