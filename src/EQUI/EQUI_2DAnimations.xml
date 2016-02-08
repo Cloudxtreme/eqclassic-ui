@@ -989,19 +989,6 @@
 	</Ui2DAnimation>
 
 	<!-- Done Button Start -->
-	<Ui2DAnimation item = "Btn_Done_Normal"> <!-- Done_Normal is temporary and will be removed -->
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>129</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>48</CX>
-				<CY>19</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
 	<Ui2DAnimation item = "Btn_Done_Pressed">
 		<Frames>
 			<Texture>EQUI/DoneButton.tga</Texture>

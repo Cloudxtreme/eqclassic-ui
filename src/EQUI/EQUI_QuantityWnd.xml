@@ -40,8 +40,6 @@
 
 	<Button item = "QTYW_Accept_Button">
 		<ScreenID>QTYW_Accept_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>57</X>
 			<Y>6</Y>
@@ -50,20 +48,8 @@
 			<CX>48</CX>
 			<CY>19</CY>
 		</Size>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>Btn_Done_Normal</Normal>
 			<Pressed>Btn_Done_Pressed</Pressed>
-			<Flyby>Btn_Done_Normal</Flyby>
-			<Disabled>Btn_Done_Pressed</Disabled>
 			<PressedFlyby>Btn_Done_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
