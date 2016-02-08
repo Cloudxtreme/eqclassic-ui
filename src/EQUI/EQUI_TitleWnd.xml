@@ -1,8 +1,87 @@
 <?xml version = "1.0"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	
+
+	<Label item = "Title_CurrentNameLabel">
+		<ScreenID>Title_CurrentNameLabel</ScreenID>
+	</Label>
+	<Label item = "Title_CurrentName">
+		<ScreenID>Title_CurrentName</ScreenID>
+	</Label>
+	<Label item = "Title_ProposedNameLabel">
+		<ScreenID>Title_ProposedNameLabel</ScreenID>
+	</Label>
+	<Label item = "Title_ProposedName">
+		<ScreenID>Title_ProposedName</ScreenID>
+	</Label>
+
+	<Listbox item = "Title_AvailableTitles">
+		<ScreenID>Title_AvailableTitles</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Columns />
+		<Columns />
+	</Listbox>
+
+	<Button item = "Title_ChangeTitlePrefix">
+		<ScreenID>Title_ChangeTitlePrefix</ScreenID>
+	</Button>
+	<Button item = "Title_ClearTitlePrefix">
+		<ScreenID>Title_ClearTitlePrefix</ScreenID>
+	</Button>
+
+	<Page item = "Title_PrefixPage">
+		<ScreenID>Title_PrefixPage</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>Title_AvailableTitles</Pieces>
+		<Pieces>Title_ChangeTitlePrefix</Pieces>
+		<Pieces>Title_ClearTitlePrefix</Pieces>
+	</Page>
+
+	<Listbox item = "Title_AvailableSuffixes">
+		<ScreenID>Title_AvailableSuffixes</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Columns />
+		<Columns />
+	</Listbox>
+
+	<Button item = "Title_ChangeTitleSuffix">
+		<ScreenID>Title_ChangeTitleSuffix</ScreenID>
+	</Button>
+	<Button item = "Title_ClearTitleSuffix">
+		<ScreenID>Title_ClearTitleSuffix</ScreenID>
+	</Button>
+
+	<Page item = "Title_SuffixPage">
+		<ScreenID>Title_SuffixPage</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>Title_AvailableSuffixes</Pieces>
+		<Pieces>Title_ChangeTitleSuffix</Pieces>
+		<Pieces>Title_ClearTitleSuffix</Pieces>
+	</Page>
+
+	<TabBox item = "Title_TitleSheet">
+		<ScreenID>Title_TitleSheet</ScreenID>
+		<TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
+		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+		<Pages>Title_PrefixPage</Pages>
+		<Pages>Title_SuffixPage</Pages>
+	</TabBox>
+
+	<Label item = "Title_NotifyNewTitlesLabel">
+		<ScreenID>Title_NotifyNewTitlesLabel</ScreenID>
+	</Label>
+	<Button item = "Title_NotifyNewTitles">
+		<ScreenID>Title_NotifyNewTitles</ScreenID>
+	</Button>
+
 	<Screen item = "TitleWnd">
 		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>Title_CurrentNameLabel</Pieces>
+		<Pieces>Title_CurrentName</Pieces>
+		<Pieces>Title_ProposedNameLabel</Pieces>
+		<Pieces>Title_ProposedName</Pieces>
+		<Pieces>Title_NotifyNewTitlesLabel</Pieces>
+		<Pieces>Title_NotifyNewTitles</Pieces>
+		<Pieces>Title_TitleSheet</Pieces>
 	</Screen>
 </XML>

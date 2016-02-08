@@ -2,7 +2,53 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
+	<Label item = "ALRW_ReminderLabel">
+		<ScreenID>ALRW_ReminderLabel</ScreenID>
+	</Label>
+
+	<Label item = "ALRW_HoursLabel">
+		<ScreenID>ALRW_HoursLabel</ScreenID>
+	</Label>
+
+	<Editbox item = "ALRW_HoursEditbox">
+		<ScreenID>ALRW_HoursEditbox</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Editbox>
+
+	<Label item = "ALRW_MinutesLabel">
+		<ScreenID>ALRW_MinutesLabel</ScreenID>
+	</Label>
+
+	<Editbox item = "ALRW_MinutesEditbox">
+		<ScreenID>ALRW_MinutesEditbox</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Editbox>
+
+	<Button item = "ALRW_NeverShowAgainCheckbox">
+		<ScreenID>ALRW_NeverShowAgainCheckbox</ScreenID>
+	</Button>
+
+	<Label item = "ALRW_NeverShowAgainLabel">
+		<ScreenID>ALRW_NeverShowAgainLabel</ScreenID>
+	</Label>
+
+	<Button item = "ALRW_CancelButton">
+		<ScreenID>ALRW_CancelButton</ScreenID>
+	</Button>
+	<Button item = "ALRW_OkButton">
+		<ScreenID>ALRW_OkButton</ScreenID>
+	</Button>
+
 	<Screen item = "AlarmWnd">
 		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>ALRW_ReminderLabel</Pieces>
+		<Pieces>ALRW_HoursLabel</Pieces>
+		<Pieces>ALRW_HoursEditbox</Pieces>
+		<Pieces>ALRW_MinutesLabel</Pieces>
+		<Pieces>ALRW_MinutesEditbox</Pieces>
+		<Pieces>ALRW_NeverShowAgainCheckbox</Pieces>
+		<Pieces>ALRW_NeverShowAgainLabel</Pieces>
+		<Pieces>ALRW_CancelButton</Pieces>
+		<Pieces>ALRW_OkButton</Pieces>
 	</Screen>
 </XML>
