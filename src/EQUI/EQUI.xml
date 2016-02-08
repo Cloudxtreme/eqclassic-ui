@@ -64,7 +64,7 @@
 		<Include>EQUI_RaidOptionsWindow.xml</Include>			<!-- imotogames - 100% disabled -->
 		<Include>EQUI_MusicPlayerWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_FileSelectionWnd.xml</Include>			<!-- original -->
-		<Include>EQUI_BigBankWnd.xml</Include>					<!-- ?? -->
+		<Include>EQUI_BigBankWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_JournalNPCWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_JournalCatWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_ShortDurationBuffWindow.xml</Include>		<!-- original -->
