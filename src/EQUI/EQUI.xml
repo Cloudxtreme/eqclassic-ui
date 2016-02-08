@@ -45,7 +45,7 @@
 		<Include>EQUI_SelectorWnd.xml</Include>					<!-- imotogames - fixed -->
 		<Include>EQUI_BazaarWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_GiveWnd.xml</Include>						<!-- imotogames - fixed -->
-		<Include>EQUI_TrackingWnd.xml</Include>					<!-- original -->
+		<Include>EQUI_TrackingWnd.xml</Include>					<!-- imotogames - fixed -->
 		<Include>EQUI_HotButtonWnd.xml</Include>				<!-- imotogames - fixed -->
 		<Include>EQUI_InspectWnd.xml</Include>					<!-- original -->
 		<Include>EQUI_SocialEditWnd.xml</Include>				<!-- original -->
@@ -87,7 +87,7 @@
         <Include>EQUI_CombatAbilityWnd.xml</Include>			<!-- imotogames - disabled -->
         <Include>EQUI_CombatSkillsSelectWindow.xml</Include>	<!-- imotogames - disabled -->
         <Include>EQUI_TradeskillWnd.xml</Include>               <!-- imotogames - 100% disabled -->
-        <Include>EQUI_TextMessageWindow.xml</Include>			<!-- ?? -->
+        <Include>EQUI_TextMessageWindow.xml</Include>			<!-- imotogames - 100% disabled -->
         <Include>EQUI_TributeBenefitWnd.xml</Include>			<!-- imotogames - 100% disabled -->
 	    <Include>EQUI_TributeMasterWnd.xml</Include>			<!-- imotogames - 100% disabled -->
 		<Include>EQUI_LeadershipWnd.xml</Include>				<!-- imotogames - 100% disabled -->
