@@ -69,7 +69,7 @@
 		<Include>EQUI_JournalCatWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_ShortDurationBuffWindow.xml</Include>		<!-- original -->
 		<Include>EQUI_StoryWnd.xml</Include>					<!-- imotogames - 100% disabled -->
-		<Include>EQUI_BodyTintWnd.xml</Include>					<!-- original -->
+		<Include>EQUI_BodyTintWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_GroupSearchWnd.xml</Include>				<!-- imotogames - disabled -->
 		<Include>EQUI_MapViewWnd.xml</Include>					<!-- original - disabled -->
 		<Include>EQUI_MapToolbarWnd.xml</Include>				<!-- original - disabled -->
