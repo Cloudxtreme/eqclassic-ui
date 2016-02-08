@@ -333,9 +333,55 @@
 		<Pieces>BZR_BazaarSlot79</Pieces>
 	</Screen>
 
+	<Button item = "BZW_Money0">
+		<ScreenID>BZW_Money0</ScreenID>
+	</Button>
+	<Button item = "BZW_Money1">
+		<ScreenID>BZW_Money1</ScreenID>
+	</Button>
+	<Button item = "BZW_Money2">
+		<ScreenID>BZW_Money2</ScreenID>
+	</Button>
+	<Button item = "BZW_Money3">
+		<ScreenID>BZW_Money3</ScreenID>
+	</Button>
+
+	<Button item = "BZW_SetPrice_Button">
+		<ScreenID>BZW_SetPrice_Button</ScreenID>
+	</Button>
+	<Button item = "BZW_Clear_Button">
+		<ScreenID>BZW_Clear_Button</ScreenID>
+	</Button>
+	<Button item = "BZW_List_Button">
+		<ScreenID>BZW_List_Button</ScreenID>
+	</Button>
+	<Button item = "BZW_Start_Button">
+		<ScreenID>BZW_Start_Button</ScreenID>
+	</Button>
+	<Button item = "BZW_End_Button">
+		<ScreenID>BZW_End_Button</ScreenID>
+	</Button>
+	<Button item = "BZW_Add_Button">
+		<ScreenID>BZW_Add_Button</ScreenID>
+	</Button>
+	<Button item = "BZW_Remove_Button">
+		<ScreenID>BZW_Remove_Button</ScreenID>
+	</Button>
+
 	<Screen item = "BazaarWnd">
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>BZW_BazaarText</Pieces>
 		<Pieces>BZW_BazaarSlotsWnd</Pieces>
+		<Pieces>BZW_Money0</Pieces>
+		<Pieces>BZW_Money1</Pieces>
+		<Pieces>BZW_Money2</Pieces>
+		<Pieces>BZW_Money3</Pieces>
+		<Pieces>BZW_SetPrice_Button</Pieces>
+		<Pieces>BZW_Clear_Button</Pieces>
+		<Pieces>BZW_End_Button</Pieces>
+		<Pieces>BZW_Start_Button</Pieces>
+		<Pieces>BZW_List_Button</Pieces>
+		<Pieces>BZW_Remove_Button</Pieces>
+		<Pieces>BZW_Add_Button</Pieces>
 	</Screen>
 </XML>
