@@ -67,6 +67,7 @@
 		<Include>EQUI_BigBankWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_JournalNPCWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_JournalCatWnd.xml</Include>				<!-- original -->
+        <Include>EQUI_JournalTextWnd.xml</Include>              <!-- imotogames - 100% disabled -->
 		<Include>EQUI_ShortDurationBuffWindow.xml</Include>		<!-- imotogames - 100% disabled -->
 		<Include>EQUI_StoryWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_BodyTintWnd.xml</Include>					<!-- imotogames - 100% disabled -->
