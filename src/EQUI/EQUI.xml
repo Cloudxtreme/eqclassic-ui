@@ -97,7 +97,7 @@
 		<Include>EQUI_TicketWindow.xml</Include>				<!-- ?? -->
 		<Include>EQUI_TicketCommentWindow.xml</Include>			<!-- ?? -->
 		<Include>EQUI_GuildTributeMasterWnd.xml</Include>		<!-- imotogames - disabled -->
-		<Include>EQUI_TaskWnd.xml</Include>						<!-- imotogames - disabled -->
+		<Include>EQUI_TaskWnd.xml</Include>						<!-- imotogames - 100% disabled -->
 		<Include>EQUI_TaskSelectWnd.xml</Include>				<!-- ?? -->
 		<Include>EQUI_AdvancedDisplayOptionsWnd.xml</Include>	<!-- original -->
 		<Include>EQUI_TitleWnd.xml</Include>					<!-- imotogames - 100% disabled -->
