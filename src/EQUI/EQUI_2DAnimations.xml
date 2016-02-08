@@ -922,9 +922,46 @@
 		</Frames>
 	</Ui2DAnimation>
 	<!-- Chat Window End -->
+	<!-- Note Window Start -->
+	<Ui2DAnimation item = "Note01">
+		<Frames>
+			<Texture>EQUI/Note01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Note02">
+		<Frames>
+			<Texture>EQUI/Note02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Note03">
+		<Frames>
+			<Texture>EQUI/Note03.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Note04">
+		<Frames>
+			<Texture>EQUI/Note04.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Note Window End -->
 	<!-- Group Window Textures (FIX THESE) -->
 	<Ui2DAnimation item = "GW_bg_TX">
-		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>classic_pieces03.tga</Texture>
 			<Location>
@@ -935,15 +972,9 @@
 				<CX>121</CX>
 				<CY>119</CY>
 			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
 	<Ui2DAnimation item = "GW_member_bg_TX">
-		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>classic_pieces03.tga</Texture>
 			<Location>
@@ -954,11 +985,31 @@
 				<CX>95</CX>
 				<CY>119</CY>
 			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
+
+	<!-- Done Button Start -->
+	<Ui2DAnimation item = "Btn_Done_Normal"> <!-- Done_Normal is temporary and will be removed -->
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>129</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Done_Pressed">
+		<Frames>
+			<Texture>EQUI/DoneButton.tga</Texture>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Done Button End -->
 </XML>

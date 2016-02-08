@@ -124,6 +124,40 @@
         </Size>
     </TextureInfo>
 	<!-- Chat Window End -->
+	<!-- Note Window Start -->
+	<TextureInfo item = "EQUI/Note01.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Note02.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Note03.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Note04.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<!-- Note Window End -->
+	<!-- Done Button Start -->
+	<TextureInfo item = "EQUI/DoneButton.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+	<!-- Done Button End -->
 
 	<TextureInfo item = "CS_Buttons.bmp">
 		<Size>
@@ -285,33 +319,6 @@
 		</Size>
 	</TextureInfo>
 	<TextureInfo item = "book04.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-
-	<!-- imotogames - note textures -->
-
-	<TextureInfo item = "note01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "note02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "note03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "note04.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>

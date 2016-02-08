@@ -19,7 +19,7 @@
 		<Include>EQUI_GroupWindow.xml</Include>					<!-- imotogames - 90% fixed (need to fix textures) -->
 		<Include>EQUI_ItemDisplay.xml</Include>					<!-- original -->
 		<Include>EQUI_BreathWindow.xml</Include>				<!-- imotogames - fixed -->
-		<Include>EQUI_NoteWindow.xml</Include>					<!-- imotogames - fixed -->
+		<Include>EQUI_NoteWindow.xml</Include>					<!-- imotogames - 100% fixed -->
 		<Include>EQUI_OptionsWindow.xml</Include>				<!-- original -->
 		<Include>EQUI_BookWindow.xml</Include>					<!-- imotogames - fixed -->
 		<Include>EQUI_PlayerWindow.xml</Include>				<!-- imotogames - fixed -->
@@ -81,8 +81,6 @@
 		<Include>EQUI_AdventureStatsWnd.xml</Include>			<!-- imotogames - 100% disabled -->
 		<Include>EQUI_AdventureLeaderboardWnd.xml</Include>		<!-- imotogames - 100% disabled -->
 		<Include>EQUI_BuffWindow.xml</Include>					<!-- imotogames - 90% fixed (needs proper icon border) -->
-
-		<!-- imotogames - added everything below (fixes zone crashing issues) -->
 		<Include>EQUI_FindLocationWnd.xml</Include>				<!-- imotogames - 100% disabled -->
         <Include>EQUI_CombatAbilityWnd.xml</Include>			<!-- imotogames - 100% disabled -->
         <Include>EQUI_CombatSkillsSelectWindow.xml</Include>	<!-- imotogames - 100% disabled -->

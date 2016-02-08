@@ -164,7 +164,7 @@
 		<Animation>Confirmation</Animation>
 	</StaticAnimation>
 	<!-- Confirmation Dialog End -->
-	<!-- Chat Start -->
+	<!-- Chat Window Start -->
 	<StaticAnimation item = "EQUI_ChatBG01">
 		<ScreenID>ChatBG01</ScreenID>
 		<Size>
@@ -185,6 +185,57 @@
 		</Size>
 		<Animation>Chat02</Animation>
 	</StaticAnimation>
+	<!-- Chat Window End -->
+	<!-- Note Window Start -->
+	<StaticAnimation item = "EQUI_NoteBG01">
+		<ScreenID>NoteBG1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Note01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_NoteBG02">
+		<ScreenID>NoteBG2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Note02</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_NoteBG03">
+		<ScreenID>NoteBG3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Note03</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_NoteBG04">
+		<ScreenID>NoteBG4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Note04</Animation>
+	</StaticAnimation>
+	<!-- Note Window End -->
 
 	<!-- Group Window BG's (FIX THESE) -->
 	<StaticAnimation item = "GW_member_bg">
