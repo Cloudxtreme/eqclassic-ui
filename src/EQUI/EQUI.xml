@@ -86,7 +86,7 @@
 		<Include>EQUI_FindLocationWnd.xml</Include>				<!-- imotogames - disabled -->
         <Include>EQUI_CombatAbilityWnd.xml</Include>			<!-- imotogames - disabled -->
         <Include>EQUI_CombatSkillsSelectWindow.xml</Include>	<!-- imotogames - disabled -->
-        <Include>EQUI_TradeskillWnd.xml</Include>
+        <Include>EQUI_TradeskillWnd.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_TextMessageWindow.xml</Include>			<!-- ?? -->
         <Include>EQUI_TributeBenefitWnd.xml</Include>			<!-- imotogames - 100% disabled -->
 	    <Include>EQUI_TributeMasterWnd.xml</Include>			<!-- imotogames - 100% disabled -->
