@@ -90,7 +90,7 @@
         <Include>EQUI_TextMessageWindow.xml</Include>			<!-- ?? -->
         <Include>EQUI_TributeBenefitWnd.xml</Include>			<!-- imotogames - 100% disabled -->
 	    <Include>EQUI_TributeMasterWnd.xml</Include>			<!-- imotogames - 100% disabled -->
-		<Include>EQUI_LeadershipWnd.xml</Include>				<!-- imotogames - disabled -->
+		<Include>EQUI_LeadershipWnd.xml</Include>				<!-- imotogames - 100% disabled -->
         <Include>EQUI_TargetOfTargetWindow.xml</Include>		<!-- imotogames - 100% disabled -->
         <Include>EQUI_GmAttentionTextWnd.xml</Include>			<!-- ?? -->
         <Include>EQUI_LargeDialogWnd.xml</Include>				<!-- ?? -->
