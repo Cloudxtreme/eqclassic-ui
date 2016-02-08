@@ -45,9 +45,9 @@
 		<Include>EQUI_SelectorWnd.xml</Include>					<!-- imotogames - fixed -->
 		<Include>EQUI_BazaarWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_GiveWnd.xml</Include>						<!-- imotogames - fixed -->
-		<Include>EQUI_TrackingWnd.xml</Include>					<!-- original -->
+		<Include>EQUI_TrackingWnd.xml</Include>					<!-- imotogames - fixed -->
 		<Include>EQUI_HotButtonWnd.xml</Include>				<!-- imotogames - fixed -->
-		<Include>EQUI_InspectWnd.xml</Include>					<!-- original - needs to have charm area removed ???? -->
+		<Include>EQUI_InspectWnd.xml</Include>					<!-- original -->
 		<Include>EQUI_SocialEditWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_FeedbackWnd.xml</Include>					<!-- original -->
 		<Include>EQUI_BugReportWnd.xml</Include>				<!-- original -->
@@ -60,70 +60,69 @@
 		<Include>EQUI_PlayerNotesWindow.xml</Include>			<!-- original -->
 		<Include>EQUI_LoadskinWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_AlarmWnd.xml</Include>        			<!-- imotogames - 100% disabled -->
-		<Include>EQUI_RaidWindow.xml</Include>					<!-- imotogames - disabled -->
+		<Include>EQUI_RaidWindow.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_RaidOptionsWindow.xml</Include>			<!-- imotogames - 100% disabled -->
 		<Include>EQUI_MusicPlayerWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_FileSelectionWnd.xml</Include>			<!-- original -->
-		<Include>EQUI_BigBankWnd.xml</Include>					<!-- ?? -->
+		<Include>EQUI_BigBankWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_JournalNPCWnd.xml</Include>				<!-- original -->
 		<Include>EQUI_JournalCatWnd.xml</Include>				<!-- original -->
-		<Include>EQUI_ShortDurationBuffWindow.xml</Include>		<!-- original -->
+		<Include>EQUI_ShortDurationBuffWindow.xml</Include>		<!-- imotogames - 100% disabled -->
 		<Include>EQUI_StoryWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_BodyTintWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_GroupSearchWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_MapViewWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_MapToolbarWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_EditLabelWnd.xml</Include>				<!-- ?? -->
-		<Include>EQUI_GuildManagementWnd.xml</Include>			<!-- original -->
+		<Include>EQUI_GuildManagementWnd.xml</Include>			<!-- imotogames - 100% disabled -->
 		<Include>EQUI_SystemInfoWnd.xml</Include>				<!-- ?? -->
-		<Include>EQUI_AdventureRequestWnd.xml</Include>			<!-- imotogames - disabled -->
-		<Include>EQUI_AdventureMerchantWnd.xml</Include>		<!-- original -->
-		<Include>EQUI_AdventureStatsWnd.xml</Include>			<!-- original -->
-		<Include>EQUI_AdventureLeaderboardWnd.xml</Include>		<!-- original -->
+		<Include>EQUI_AdventureRequestWnd.xml</Include>			<!-- imotogames - 100% disabled -->
+		<Include>EQUI_AdventureMerchantWnd.xml</Include>		<!-- imotogames - 100% disabled -->
+		<Include>EQUI_AdventureStatsWnd.xml</Include>			<!-- imotogames - 100% disabled -->
+		<Include>EQUI_AdventureLeaderboardWnd.xml</Include>		<!-- imotogames - 100% disabled -->
 		<Include>EQUI_BuffWindow.xml</Include>					<!-- imotogames - in process -->
 
 		<!-- imotogames - added everything below (fixes zone crashing issues) -->
-		<Include>EQUI_FindLocationWnd.xml</Include>				<!-- imotogames - disabled -->
-        <Include>EQUI_CombatAbilityWnd.xml</Include>			<!-- imotogames - disabled -->
-        <Include>EQUI_CombatSkillsSelectWindow.xml</Include>	<!-- imotogames - disabled -->
-        <Include>EQUI_TradeskillWnd.xml</Include>
-        <Include>EQUI_TextMessageWindow.xml</Include>			<!-- ?? -->
+		<Include>EQUI_FindLocationWnd.xml</Include>				<!-- imotogames - 100% disabled -->
+        <Include>EQUI_CombatAbilityWnd.xml</Include>			<!-- imotogames - 100% disabled -->
+        <Include>EQUI_CombatSkillsSelectWindow.xml</Include>	<!-- imotogames - 100% disabled -->
+        <Include>EQUI_TradeskillWnd.xml</Include>               <!-- imotogames - 100% disabled -->
+        <Include>EQUI_TextMessageWindow.xml</Include>			<!-- imotogames - 100% disabled -->
         <Include>EQUI_TributeBenefitWnd.xml</Include>			<!-- imotogames - 100% disabled -->
 	    <Include>EQUI_TributeMasterWnd.xml</Include>			<!-- imotogames - 100% disabled -->
-		<Include>EQUI_LeadershipWnd.xml</Include>				<!-- imotogames - disabled -->
-        <Include>EQUI_TargetOfTargetWindow.xml</Include>		<!-- imotogames - disabled -->
+		<Include>EQUI_LeadershipWnd.xml</Include>				<!-- imotogames - 100% disabled -->
+        <Include>EQUI_TargetOfTargetWindow.xml</Include>		<!-- imotogames - 100% disabled -->
         <Include>EQUI_GmAttentionTextWnd.xml</Include>			<!-- ?? -->
         <Include>EQUI_LargeDialogWnd.xml</Include>				<!-- ?? -->
 		<Include>EQUI_TicketWindow.xml</Include>				<!-- ?? -->
 		<Include>EQUI_TicketCommentWindow.xml</Include>			<!-- ?? -->
-		<Include>EQUI_GuildTributeMasterWnd.xml</Include>		<!-- imotogames - disabled -->
-		<Include>EQUI_TaskWnd.xml</Include>						<!-- imotogames - disabled -->
-		<Include>EQUI_TaskSelectWnd.xml</Include>				<!-- ?? -->
+		<Include>EQUI_GuildTributeMasterWnd.xml</Include>		<!-- imotogames - 100% disabled -->
+		<Include>EQUI_TaskWnd.xml</Include>						<!-- imotogames - 100% disabled -->
+		<Include>EQUI_TaskSelectWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_AdvancedDisplayOptionsWnd.xml</Include>	<!-- original -->
 		<Include>EQUI_TitleWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_VoiceMacroWnd.xml</Include>				<!-- imotogames - 100% disabled -->
         <Include>EQUI_PvPLeaderBoardWnd.xml</Include>			<!-- ?? -->
         <Include>EQUI_PvPStatsWnd.xml</Include>					<!-- ?? -->
-		<Include>EQUI_PointMerchantWnd.xml</Include>			<!-- ?? -->
-		<Include>EQUI_BarterWnd.xml</Include>					<!-- ?? -->
-		<Include>EQUI_BarterMerchantWnd.xml</Include>			<!-- ?? -->
-		<Include>EQUI_BarterSearchWnd.xml</Include>				<!-- ?? -->
+		<Include>EQUI_PointMerchantWnd.xml</Include>			<!-- imotogames - 100% disabled -->
+		<Include>EQUI_BarterWnd.xml</Include>					<!-- imotogames - 100% disabled -->
+		<Include>EQUI_BarterMerchantWnd.xml</Include>			<!-- imotogames - 100% disabled -->
+		<Include>EQUI_BarterSearchWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_ServerListWnd.xml</Include>				<!-- ?? -->
-		<Include>EQUI_BandolierWnd.xml</Include>				<!-- imotogames - disabled -->
-		<Include>EQUI_PotionBeltWnd.xml</Include>				<!-- imotogames - disabled -->
-		<Include>EQUI_LFGuildWnd.xml</Include>					<!-- imotogames - disabled -->
-		<Include>EQUI_GuildBankWnd.xml</Include>				<!-- original -->
-		<Include>EQUI_TaskTemplateSelectWnd.xml</Include>		<!-- ?? -->
-		<Include>EQUI_RespawnWnd.xml</Include>					<!-- ?? -->
-		<Include>EQUI_AltStorageWnd.xml</Include>				<!-- ?? -->
-		<Include>EQUI_ItemExpTransferWnd.xml</Include>
-		<Include>EQUI_ProgressionSelectionWnd.xml</Include>		<!-- ?? -->
-		<Include>EQUI_MIZoneSelectWnd.xml</Include>				<!-- ?? -->
-		<Include>EQUI_EQMainWnd.xml</Include>					<!-- imotogames - disabled -->
-		<Include>EQUI_AudioTriggersWindow.xml</Include>			<!-- ?? -->
+		<Include>EQUI_BandolierWnd.xml</Include>				<!-- imotogames - 100% disabled -->
+		<Include>EQUI_PotionBeltWnd.xml</Include>				<!-- imotogames - 100% disabled -->
+		<Include>EQUI_LFGuildWnd.xml</Include>					<!-- imotogames - 100% disabled -->
+		<Include>EQUI_GuildBankWnd.xml</Include>				<!-- imotogames - 100% disabled -->
+		<Include>EQUI_TaskTemplateSelectWnd.xml</Include>		<!-- imotogames - 100% disabled -->
+		<Include>EQUI_RespawnWnd.xml</Include>					<!-- imotogames - 100% disabled -->
+		<Include>EQUI_AltStorageWnd.xml</Include>				<!-- imotogames - 100% disabled -->
+		<Include>EQUI_ItemExpTransferWnd.xml</Include>          <!-- imotogames - 100% disabled -->
+		<Include>EQUI_ProgressionSelectionWnd.xml</Include>		<!-- imotogames - 100% disabled -->
+		<Include>EQUI_MIZoneSelectWnd.xml</Include>				<!-- imotogames - 100% disabled -->
+		<Include>EQUI_EQMainWnd.xml</Include>					<!-- imotogames - 100% disabled -->
+		<Include>EQUI_AudioTriggersWindow.xml</Include>			<!-- imotogames - 100% disabled -->
         <Include>EQUI_TipWnd.xml</Include>                      <!-- imotogames - 100% disabled -->
-        <Include>EQUI_DynamicZoneWnd.xml</Include>
-
+        <Include>EQUI_DynamicZoneWnd.xml</Include>              <!-- imotogames - 100% disabled -->
     </Composite>
     <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 </XML>
