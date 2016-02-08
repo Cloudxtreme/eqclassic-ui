@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <XML ID="EQInterfaceDefinitionLanguage">
     <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-    
+
     <Button item="BW_BLOCKEDBUFF0_Button">
         <ScreenID>BBuff0</ScreenID>
     </Button>
@@ -62,6 +62,7 @@
     <Button item="BW_BLOCKEDBUFF19_Button">
         <ScreenID>BBuff19</ScreenID>
     </Button>
+    
     <Screen item="BlockedBuffWnd">
         <DrawTemplate>WDT_Static</DrawTemplate>
         <Pieces>BW_BLOCKEDBUFF0_Button</Pieces>
