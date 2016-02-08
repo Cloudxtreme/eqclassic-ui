@@ -106,7 +106,7 @@
 		<Include>EQUI_BarterWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_BarterMerchantWnd.xml</Include>			<!-- imotogames - 100% disabled -->
 		<Include>EQUI_BarterSearchWnd.xml</Include>				<!-- imotogames - 100% disabled -->
-		<Include>EQUI_ServerListWnd.xml</Include>				<!-- ?? -->
+		<Include>EQUI_ServerListWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_BandolierWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_PotionBeltWnd.xml</Include>				<!-- imotogames - 100% disabled -->
 		<Include>EQUI_LFGuildWnd.xml</Include>					<!-- imotogames - 100% disabled -->
