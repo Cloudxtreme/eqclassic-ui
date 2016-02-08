@@ -123,6 +123,7 @@
         <Include>EQUI_DynamicZoneWnd.xml</Include>              <!-- imotogames - 100% disabled -->
         <Include>EQUI_MailAddressBookWindow.xml</Include>       <!-- imotogames - 100% disabled -->
         <Include>EQUI_MailCompositionWindow.xml</Include>       <!-- imotogames - 100% disabled -->
+        <Include>EQUI_AuraWnd.xml</Include>                     <!-- imotogames - 100% disabled -->
     </Composite>
     <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 </XML>
