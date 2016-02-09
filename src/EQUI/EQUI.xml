@@ -98,7 +98,7 @@
         <Include>EQUI_PotionBeltWnd.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_ProgressionSelectionWnd.xml</Include>     <!-- imotogames - 100% disabled -->
         <Include>EQUI_PvPLeaderBoardWnd.xml</Include>           <!-- imotogames - 100% disabled -->
-        <!-- <Include>EQUI_PvPMerchantWnd.xml</Include> -->
+        <Include>EQUI_PvPMerchantWnd.xml</Include>              <!-- imotogames - 100% disabled -->
         <Include>EQUI_PvPStatsWnd.xml</Include>                 <!-- imotogames - 100% disabled -->
         <Include>EQUI_QuantityWnd.xml</Include>                 <!-- original -->
         <Include>EQUI_RaidOptionsWindow.xml</Include>           <!-- imotogames - 100% disabled -->
