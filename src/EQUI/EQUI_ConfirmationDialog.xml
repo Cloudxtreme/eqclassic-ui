@@ -4,7 +4,6 @@
 
 	<Button item = "CD_Yes_Button">
 		<ScreenID>Yes_Button</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>15</X>
 			<Y>84</Y>
@@ -22,7 +21,6 @@
 
 	<Button item = "CD_No_Button">
 		<ScreenID>No_Button</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>134</X>
 			<Y>84</Y>
@@ -40,7 +38,6 @@
 
 	<Button item = "CD_OK_Button">
 		<ScreenID>OK_Button</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>15</X>
 			<Y>84</Y>
@@ -59,7 +56,6 @@
 	<STMLbox item = "CD_TextOutput">
 		<ScreenID>TextOutput</ScreenID>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>17</X>
 			<Y>13</Y>
