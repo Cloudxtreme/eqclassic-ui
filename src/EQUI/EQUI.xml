@@ -121,7 +121,7 @@
         <Include>EQUI_TextEntryWnd.xml</Include>                <!-- original -->
         <Include>EQUI_TextMessageWindow.xml</Include>           <!-- imotogames - 100% disabled -->
         <Include>EQUI_TicketCommentWindow.xml</Include>         <!-- ?? -->
-        <Include>EQUI_TicketWindow.xml</Include>
+        <Include>EQUI_TicketWindow.xml</Include>                <!-- imotogames - 100% disabled (help window) -->
         <Include>EQUI_TipWnd.xml</Include>                      <!-- imotogames - 100% disabled -->
         <Include>EQUI_TitleWnd.xml</Include>                    <!-- imotogames - 100% disabled -->
         <Include>EQUI_TrackingWnd.xml</Include>                 <!-- imotogames - 100% fixed -->
