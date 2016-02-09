@@ -66,7 +66,6 @@
         <Include>EQUI_GuildBankWnd.xml</Include>                <!-- imotogames - 100% disabled -->
         <Include>EQUI_GuildManagementWnd.xml</Include>          <!-- imotogames - 100% disabled -->
         <Include>EQUI_GuildTributeMasterWnd.xml</Include>       <!-- imotogames - 100% disabled -->
-        <!-- <Include>EQUI_HelpWnd.xml</Include> -->
         <Include>EQUI_HotButtonWnd.xml</Include>                <!-- imotogames - fixed -->
         <Include>EQUI_InspectWnd.xml</Include>                  <!-- original -->
         <Include>EQUI_Inventory.xml</Include>                   <!-- imotogames - fixed -->
@@ -122,7 +121,7 @@
         <Include>EQUI_TextEntryWnd.xml</Include>                <!-- original -->
         <Include>EQUI_TextMessageWindow.xml</Include>           <!-- imotogames - 100% disabled -->
         <Include>EQUI_TicketCommentWindow.xml</Include>         <!-- ?? -->
-        <!-- <Include>EQUI_TicketWindow.xml</Include> -->
+        <Include>EQUI_TicketWindow.xml</Include>
         <Include>EQUI_TipWnd.xml</Include>                      <!-- imotogames - 100% disabled -->
         <Include>EQUI_TitleWnd.xml</Include>                    <!-- imotogames - 100% disabled -->
         <Include>EQUI_TrackingWnd.xml</Include>                 <!-- imotogames - 100% fixed -->
