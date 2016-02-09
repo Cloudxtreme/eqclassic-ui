@@ -1,6 +1,6 @@
 <?xml version = "1.0"?>
-
 <XML ID = "EQInterfaceDefinitionLanguage">
+
     <Composite>
 		<Include>SIDL.xml</Include>								<!-- original-->
 
@@ -45,7 +45,7 @@
 		<Include>EQUI_SelectorWnd.xml</Include>					<!-- imotogames - fixed -->
 		<Include>EQUI_BazaarWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_GiveWnd.xml</Include>						<!-- imotogames - fixed -->
-		<Include>EQUI_TrackingWnd.xml</Include>					<!-- imotogames - fixed -->
+		<Include>EQUI_TrackingWnd.xml</Include>					<!-- imotogames - 100% fixed -->
 		<Include>EQUI_HotButtonWnd.xml</Include>				<!-- imotogames - fixed -->
 		<Include>EQUI_InspectWnd.xml</Include>					<!-- original -->
 		<Include>EQUI_SocialEditWnd.xml</Include>				<!-- original -->

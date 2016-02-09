@@ -5,7 +5,6 @@
 	<!-- Character Selection Start -->
 	<StaticAnimation item = "EQUI_CharacterSelectBG01">
 		<ScreenID>CharacterSelectBG01</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
@@ -14,7 +13,6 @@
 	</StaticAnimation>
 	<StaticAnimation item = "EQUI_CharacterSelectBG02">
 		<ScreenID>CharacterSelectBG02</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>256</Y>
@@ -27,7 +25,6 @@
 	</StaticAnimation>
 	<StaticAnimation item = "EQUI_CharacterSelectBG03">
 		<ScreenID>CharacterSelectBG03</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>256</X>
 			<Y>0</Y>
@@ -40,7 +37,6 @@
 	</StaticAnimation>
 	<StaticAnimation item = "EQUI_CharacterSelectBG04">
 		<ScreenID>CharacterSelectBG04</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>256</X>
 			<Y>256</Y>
@@ -53,7 +49,6 @@
 	</StaticAnimation>
 	<StaticAnimation item = "EQUI_CharacterSelectBG05">
 		<ScreenID>CharacterSelectBG05</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>512</X>
 			<Y>0</Y>
@@ -66,7 +61,6 @@
 	</StaticAnimation>
 	<StaticAnimation item = "EQUI_CharacterSelectBG06">
 		<ScreenID>CharacterSelectBG06</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>512</X>
 			<Y>256</Y>
@@ -81,7 +75,6 @@
 	<!-- Character Creation Start -->
 	<StaticAnimation item = "EQUI_CharacterCreateBG01">
 		<ScreenID>CharacterCreateBG01</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
@@ -90,7 +83,6 @@
 	</StaticAnimation>
 	<StaticAnimation item = "EQUI_CharacterCreateBG02">
 		<ScreenID>CharacterCreateBG02</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>256</Y>
@@ -103,7 +95,6 @@
 	</StaticAnimation>
 	<StaticAnimation item = "EQUI_CharacterCreateBG03">
 		<ScreenID>CharacterCreateBG03</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>256</X>
 			<Y>0</Y>
@@ -116,7 +107,6 @@
 	</StaticAnimation>
 	<StaticAnimation item = "EQUI_CharacterCreateBG04">
 		<ScreenID>CharacterCreateBG04</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>256</X>
 			<Y>256</Y>
@@ -129,7 +119,6 @@
 	</StaticAnimation>
 	<StaticAnimation item = "EQUI_CharacterCreateBG05">
 		<ScreenID>CharacterCreateBG05</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>512</X>
 			<Y>0</Y>
@@ -142,7 +131,6 @@
 	</StaticAnimation>
 	<StaticAnimation item = "EQUI_CharacterCreateBG06">
 		<ScreenID>CharacterCreateBG06</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>512</X>
 			<Y>256</Y>
@@ -189,7 +177,6 @@
 	<!-- Note Window Start -->
 	<StaticAnimation item = "EQUI_NoteBG01">
 		<ScreenID>NoteBG1</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
@@ -198,7 +185,6 @@
 	</StaticAnimation>
 	<StaticAnimation item = "EQUI_NoteBG02">
 		<ScreenID>NoteBG2</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>256</X>
 			<Y>0</Y>
@@ -211,7 +197,6 @@
 	</StaticAnimation>
 	<StaticAnimation item = "EQUI_NoteBG03">
 		<ScreenID>NoteBG3</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>256</Y>
@@ -224,7 +209,6 @@
 	</StaticAnimation>
 	<StaticAnimation item = "EQUI_NoteBG04">
 		<ScreenID>NoteBG4</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>256</X>
 			<Y>256</Y>
@@ -236,6 +220,28 @@
 		<Animation>Note04</Animation>
 	</StaticAnimation>
 	<!-- Note Window End -->
+	<!-- Tracking Window Start -->
+	<StaticAnimation item = "EQUI_TrackingBG01">
+		<ScreenID>TrackingBG01</ScreenID>
+		<Size>
+			<CX>119</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Tracking01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_TrackingBG02">
+		<ScreenID>TrackingBG02</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Tracking02</Animation>
+	</StaticAnimation>
+	<!-- Tracking Window End -->
 
 	<!-- Group Window BG's (FIX THESE) -->
 	<StaticAnimation item = "GW_member_bg">

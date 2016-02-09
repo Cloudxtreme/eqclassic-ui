@@ -999,4 +999,50 @@
 		</Frames>
 	</Ui2DAnimation>
 	<!-- Done Button End -->
+	<!-- Tracking Window Start -->
+	<Ui2DAnimation item = "Tracking01">
+		<Frames>
+			<Texture>EQUI/Tracking.tga</Texture>
+			<Size>
+				<CX>119</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Tracking02">
+		<Frames>
+			<Texture>EQUI/Tracking.tga</Texture>
+			<Location>
+				<X>119</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>119</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Tracking_Track_Pressed">
+		<Frames>
+			<Texture>EQUI/TrackingButtons.tga</Texture>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Tracking_Cancel_Pressed">
+		<Frames>
+			<Texture>EQUI/TrackingButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Tracking Window End -->
 </XML>
