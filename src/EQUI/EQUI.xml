@@ -82,10 +82,10 @@
         <Include>EQUI_LootWnd.xml</Include>                     <!-- imotogames - in process -->
         <Include>EQUI_MailAddressBookWindow.xml</Include>       <!-- imotogames - 100% disabled -->
         <Include>EQUI_MailCompositionWindow.xml</Include>       <!-- imotogames - 100% disabled -->
-        <!-- <Include>EQUI_MailWindow.xml</Include> -->
+        <Include>EQUI_MailWindow.xml</Include>                  <!-- imotogames - 100% disabled -->
         <Include>EQUI_MapToolbarWnd.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_MapViewWnd.xml</Include>                  <!-- imotogames - 100% disabled -->
-        <Include>EQUI_MeleeBuffWindow.xml</Include>              <!-- imotogames - 100% disabled -->
+        <Include>EQUI_MeleeBuffWindow.xml</Include>             <!-- imotogames - 100% disabled -->
         <Include>EQUI_MerchantWnd.xml</Include>                 <!-- imotogames - 80% fixed (needs a proper menu and button implementation) -->
         <Include>EQUI_MIZoneSelectWnd.xml</Include>             <!-- imotogames - 100% disabled -->
         <Include>EQUI_MusicPlayerWnd.xml</Include>              <!-- imotogames - 100% disabled -->
