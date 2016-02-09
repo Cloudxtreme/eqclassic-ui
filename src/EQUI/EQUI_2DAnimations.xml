@@ -960,6 +960,44 @@
 		</Frames>
 	</Ui2DAnimation>
 	<!-- Note Window End -->
+    <!-- Book Window Start -->
+    <Ui2DAnimation item = "Book01">
+        <Frames>
+            <Texture>EQUI/Book01.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Book02">
+        <Frames>
+            <Texture>EQUI/Book02.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Book03">
+        <Frames>
+            <Texture>EQUI/Book03.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Book04">
+        <Frames>
+            <Texture>EQUI/Book04.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Book Window End -->
 	<!-- Tracking Window Start -->
 	<Ui2DAnimation item = "Tracking01">
 		<Frames>

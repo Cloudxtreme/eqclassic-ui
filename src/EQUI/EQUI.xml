@@ -33,7 +33,7 @@
         <Include>EQUI_BlockedBuffWnd.xml</Include>              <!-- imotogames - 100% disabled -->
         <Include>EQUI_BlockedPetBuffWnd.xml</Include>           <!-- imotogames - 100% disabled -->
         <Include>EQUI_BodyTintWnd.xml</Include>                 <!-- imotogames - 100% disabled -->
-        <Include>EQUI_BookWindow.xml</Include>                  <!-- imotogames - fixed -->
+        <Include>EQUI_BookWindow.xml</Include>                  <!-- imotogames - 100% fixed -->
         <Include>EQUI_BreathWindow.xml</Include>                <!-- imotogames - fixed -->
         <Include>EQUI_BuffWindow.xml</Include>                  <!-- imotogames - 90% fixed (needs a proper buff icon border) -->
         <Include>EQUI_BugReportWnd.xml</Include>                <!-- original -->

@@ -150,6 +150,32 @@
 		</Size>
 	</TextureInfo>
 	<!-- Note Window End -->
+    <!-- Book Window Start -->
+	<TextureInfo item = "EQUI/Book01.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Book02.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Book03.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Book04.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+    <!-- Book Window End -->
 	<!-- Tracking Window Start -->
 	<TextureInfo item = "EQUI/Tracking.tga">
 		<Size>
@@ -351,33 +377,6 @@
 		<Size>
 			<CX>256</CX>
 			<CY>128</CY>
-		</Size>
-	</TextureInfo>
-
-	<!-- book lore textures -->
-
-	<TextureInfo item = "book01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "book02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "book03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "book04.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
 		</Size>
 	</TextureInfo>
 
