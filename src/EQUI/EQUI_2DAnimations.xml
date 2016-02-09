@@ -960,6 +960,93 @@
 		</Frames>
 	</Ui2DAnimation>
 	<!-- Note Window End -->
+	<!-- Tracking Window Start -->
+	<Ui2DAnimation item = "Tracking01">
+		<Frames>
+			<Texture>EQUI/Tracking.tga</Texture>
+			<Size>
+				<CX>119</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Tracking02">
+		<Frames>
+			<Texture>EQUI/Tracking.tga</Texture>
+			<Location>
+				<X>119</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>119</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Track_Pressed">
+		<Frames>
+			<Texture>EQUI/TrackingButtons.tga</Texture>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Give Window Start -->
+	<Ui2DAnimation item = "Give01">
+		<Frames>
+			<Texture>EQUI/Give.tga</Texture>
+			<Size>
+				<CX>119</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Give02">
+		<Frames>
+			<Texture>EQUI/Give.tga</Texture>
+			<Location>
+				<X>119</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>119</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Give_Pressed">
+		<Frames>
+			<Texture>EQUI/GiveButton.tga</Texture>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Give Window End -->
+
+	<!-- General Purpose Buttons Start -->
+	<Ui2DAnimation item = "Btn_Done_Pressed">
+		<Frames>
+			<Texture>EQUI/DoneButton.tga</Texture>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Big_Cancel_Pressed">
+		<Frames>
+			<Texture>EQUI/BigCancelButton.tga</Texture>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- General Purpose Buttons End -->
+
 	<!-- Group Window Textures (FIX THESE) -->
 	<Ui2DAnimation item = "GW_bg_TX">
 		<Frames>
@@ -987,62 +1074,4 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-
-	<!-- Done Button Start -->
-	<Ui2DAnimation item = "Btn_Done_Pressed">
-		<Frames>
-			<Texture>EQUI/DoneButton.tga</Texture>
-			<Size>
-				<CX>48</CX>
-				<CY>19</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<!-- Done Button End -->
-	<!-- Tracking Window Start -->
-	<Ui2DAnimation item = "Tracking01">
-		<Frames>
-			<Texture>EQUI/Tracking.tga</Texture>
-			<Size>
-				<CX>119</CX>
-				<CY>256</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "Tracking02">
-		<Frames>
-			<Texture>EQUI/Tracking.tga</Texture>
-			<Location>
-				<X>119</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>119</CX>
-				<CY>256</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "Tracking_Track_Pressed">
-		<Frames>
-			<Texture>EQUI/TrackingButtons.tga</Texture>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "Tracking_Cancel_Pressed">
-		<Frames>
-			<Texture>EQUI/TrackingButtons.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>40</Y>
-			</Location>
-			<Size>
-				<CX>61</CX>
-				<CY>29</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<!-- Tracking Window End -->
 </XML>

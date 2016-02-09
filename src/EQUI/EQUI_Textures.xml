@@ -150,14 +150,6 @@
 		</Size>
 	</TextureInfo>
 	<!-- Note Window End -->
-	<!-- Done Button Start -->
-	<TextureInfo item = "EQUI/DoneButton.tga">
-		<Size>
-			<CX>64</CX>
-			<CY>64</CY>
-		</Size>
-	</TextureInfo>
-	<!-- Done Button End -->
 	<!-- Tracking Window Start -->
 	<TextureInfo item = "EQUI/Tracking.tga">
 		<Size>
@@ -165,13 +157,42 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQUI/TrackingButtons.tga">
+	<TextureInfo item = "EQUI/TrackButton.tga">
 		<Size>
-			<CX>128</CX>
-			<CY>128</CY>
+			<CX>64</CX>
+			<CY>64</CY>
 		</Size>
 	</TextureInfo>
 	<!-- Tracking Window End -->
+	<!-- Give Window Start -->
+	<TextureInfo item = "EQUI/Give.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/GiveButton.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+	<!-- Give Window End -->
+	<!-- General Purpose Buttons Start -->
+	<TextureInfo item = "EQUI/DoneButton.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/BigCancelButton.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+	<!-- General Purpose Buttons End -->
+
 
 	<!-- OLD TEXTURE INFO AND NEEDS TO BE UPDATED -->
 	<TextureInfo item = "CS_Buttons.bmp">

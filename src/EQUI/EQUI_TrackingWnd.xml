@@ -29,8 +29,8 @@
 			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
-			<Pressed>Tracking_Track_Pressed</Pressed>
-			<PressedFlyby>Tracking_Track_Pressed</PressedFlyby>
+			<Pressed>Btn_Track_Pressed</Pressed>
+			<PressedFlyby>Btn_Track_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "TRW_DoneButton">
@@ -44,8 +44,8 @@
 			<CY>29</CY>
 		</Size>
 		<ButtonDrawTemplate>
-			<Pressed>Tracking_Cancel_Pressed</Pressed>
-			<PressedFlyby>Tracking_Cancel_Pressed</PressedFlyby>
+			<Pressed>Btn_Big_Cancel_Pressed</Pressed>
+			<PressedFlyby>Btn_Big_Cancel_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
