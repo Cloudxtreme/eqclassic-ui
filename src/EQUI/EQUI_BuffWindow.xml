@@ -4,31 +4,14 @@
 
 	<Button item = "BW_Buff0_Button">
 		<ScreenID>Buff0</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>   -->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>   -->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--
-			<SoundPressed/>
-			<SoundUp/>
-			<SoundFlyby/>
-		-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -38,34 +21,16 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff1_Button">
 		<ScreenID>Buff1</ScreenID>
-		<!--<Font>3</Font>   -->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>   -->
-		<Style_Checkbox>false</Style_Checkbox>
-		<RadioGroup/>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--
-			<SoundPressed/>
-			<SoundUp/>
-			<SoundFlyby/>
-		-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -75,34 +40,16 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff2_Button">
 		<ScreenID>Buff2</ScreenID>
-		<!--<Font>3</Font>   -->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>   -->
-		<Style_Checkbox>false</Style_Checkbox>
-		<RadioGroup/>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--
-			<SoundPressed/>
-			<SoundUp/>
-			<SoundFlyby/>
-		-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -112,34 +59,16 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff3_Button">
 		<ScreenID>Buff3</ScreenID>
-		<!--<Font>3</Font>   -->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>   -->
-		<Style_Checkbox>false</Style_Checkbox>
-		<RadioGroup/>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!-- Default and not used
-			<SoundPressed/>
-			<SoundUp/>
-			<SoundFlyby/>
-		-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -149,34 +78,16 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff4_Button">
 		<ScreenID>Buff4</ScreenID>
-		<!--<Font>3</Font> Default -->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference/>
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/> Default -->
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--Default
-			<SoundPressed/>
-			<SoundUp/>
-			<SoundFlyby/>
-		-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -186,11 +97,8 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff5_Button">
 		<ScreenID>Buff5</ScreenID>
-		<!--<Font>3</Font> Default -->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -199,21 +107,10 @@
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/> Default -->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/> Default -->
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--
-			<SoundPressed/>
-			<SoundUp/>
-			<SoundFlyby/>
-		-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -223,34 +120,16 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff6_Button">
 		<ScreenID>Buff6</ScreenID>
-		<!--<Font>3</Font> Default -->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference/>
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/> Default -->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--
-			<SoundPressed/>
-			<SoundUp/>
-			<SoundFlyby/>
-		-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -260,34 +139,16 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff7_Button">
 		<ScreenID>Buff7</ScreenID>
-		<!--<Font>3</Font> Use defaults -->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/> Use defaults -->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/> Use Defaults -->
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!-- Use defaults
-			<SoundPressed/>
-			<SoundUp/>
-			<SoundFlyby/>
-		-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -297,34 +158,16 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff8_Button">
 		<ScreenID>Buff8</ScreenID>
-		<!--<Font>3</Font>Defaults-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/> Use default -->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>Use default-->
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<!--
-			<SoundPressed/>
-			<SoundUp/>
-			<SoundFlyby/>
-		-->
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -334,25 +177,12 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff9_Button">
 		<ScreenID>Buff9</ScreenID>
-		<!--<Font>3</Font>Use Defaults -->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/> Use Defaults -->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>  -->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
@@ -366,25 +196,12 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff10_Button">
 		<ScreenID>Buff10</ScreenID>
-		<!--<Font>3</Font> -->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
@@ -398,25 +215,12 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff11_Button">
 		<ScreenID>Buff11</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
@@ -430,25 +234,12 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff12_Button">
 		<ScreenID>Buff12</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
@@ -462,25 +253,12 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff13_Button">
 		<ScreenID>Buff13</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
@@ -494,25 +272,12 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "BW_Buff14_Button">
 		<ScreenID>Buff14</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>39</CX>
 			<CY>39</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
@@ -526,7 +291,6 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item="BW_Buff15_Button">
 		<ScreenID>Buff15</ScreenID>
 	</Button>
@@ -560,41 +324,13 @@
 
 	<Button item = "BW_Buff_Autolock">
 		<ScreenID>BW_Buff_Autolock</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>105</CX>
 			<CY>320</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>true</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text></Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
-			<Pressed>faB_Spacer</Pressed>
-			<Flyby>faB_Spacer</Flyby>
-			<Disabled>faB_Spacer</Disabled>
-			<PressedFlyby>faB_Spacer</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<Screen item = "BuffWindow">
-		<!--<ScreenID/>-->
-		<Text>Effects</Text>
-		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>415</X>
 			<Y>0</Y>
@@ -603,19 +339,8 @@
 			<CX>105</CX>
 			<CY>320</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>true</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
-
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>BW_Buff_Autolock</Pieces>
-
 		<Pieces>BW_Buff0_Button</Pieces>
 		<Pieces>BW_Buff1_Button</Pieces>
 		<Pieces>BW_Buff2_Button</Pieces>
@@ -642,5 +367,4 @@
        	<Pieces>BW_Buff23_Button</Pieces>
        	<Pieces>BW_Buff24_Button</Pieces>
 	</Screen>
-
 </XML>

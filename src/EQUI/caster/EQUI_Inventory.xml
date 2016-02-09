@@ -3002,8 +3002,6 @@
 
 	<Button item = "IW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>556</X>
 			<Y>452</Y>
@@ -3012,21 +3010,8 @@
 				<CX>48</CX>
 				<CY>19</CY>
 		</Size>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text></Text>
-		<TextColor>
-			<R>200</R>
-			<G>200</G>
-			<B>200</B>
-		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>Btn_Done_Normal</Normal>
 			<Pressed>Btn_Done_Pressed</Pressed>
-			<Flyby>Btn_Done_Normal</Flyby>
-			<Disabled>Btn_Done_Pressed</Disabled>
 			<PressedFlyby>Btn_Done_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>

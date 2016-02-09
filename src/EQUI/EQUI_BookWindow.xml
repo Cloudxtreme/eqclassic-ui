@@ -81,8 +81,6 @@
 
 	<Button item = "BOOK_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>176</X>
 			<Y>279</Y>
@@ -91,21 +89,8 @@
 			<CX>48</CX>
 			<CY>19</CY>
 		</Size>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text></Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>Btn_Done_Normal</Normal>
 			<Pressed>Btn_Done_Pressed</Pressed>
-			<Flyby>Btn_Done_Normal</Flyby>
-			<Disabled>Btn_Done_Pressed</Disabled>
 			<PressedFlyby>Btn_Done_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>

@@ -333,46 +333,6 @@
 		</Frames>
 	</Ui2DAnimation>
 
-<!-- small DONE button, text is in the graphic! -->
-	<Ui2DAnimation item = "Btn_Done_Normal">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>129</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>48</CX>
-				<CY>19</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "Btn_Done_Pressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>129</X>
-				<Y>20</Y>
-			</Location>
-			<Size>
-				<CX>48</CX>
-				<CY>19</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
 	<!-- imotogames classic action menu buttons -->
 
 	<Ui2DAnimation item = "Btn_Who_Normal">
@@ -871,46 +831,6 @@
 			<Location>
 				<X>61</X>
 				<Y>132</Y>
-			</Location>
-			<Size>
-				<CX>61</CX>
-				<CY>29</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "TRW_Track_Pressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces08.tga</Texture>
-			<Location>
-				<X>82</X>
-				<Y>186</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "Btn_Big_Cancel_Pressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces08.tga</Texture>
-			<Location>
-				<X>82</X>
-				<Y>227</Y>
 			</Location>
 			<Size>
 				<CX>61</CX>
