@@ -20,6 +20,12 @@
 		</TextColor>
 		<NoWrap>true</NoWrap>
 	</Label>
+    <Label item ="MW_SelectedItemLabel">
+        <ScreenID>MW_SelectedItemLabel</ScreenID>
+    </Label>
+    <Label item ="MW_SelectedPriceLabel">
+        <ScreenID>MW_SelectedPriceLabel</ScreenID>
+    </Label>
 
 	<Listbox item = "MW_ItemList">
 		<ScreenID>ItemList</ScreenID>
@@ -60,7 +66,6 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "MW_Buy_Button">
 		<ScreenID>MW_Buy_Button</ScreenID>
 		<Location>
@@ -76,7 +81,6 @@
 			<PressedFlyby>Btn_Purchase_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "MW_Sell_Button">
 		<ScreenID>MW_Sell_Button</ScreenID>
 		<Location>
@@ -94,7 +98,6 @@
 			<PressedFlyby>Btn_Sell_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "MW_Up_Button">
 		<ScreenID>MW_Up_Button</ScreenID>
 		<Location>
@@ -110,7 +113,6 @@
 			<PressedFlyby>Btn_Big_Arrow_Up_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "MW_Down_Button">
 		<ScreenID>MW_Down_Button</ScreenID>
 		<Location>
@@ -126,6 +128,9 @@
 			<PressedFlyby>Btn_Big_Arrow_Down_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
+    <Button item = "MW_Done_Button">
+        <ScreenID>MW_Done_Button</ScreenID>
+    </Button>
 
 	<Button item = "MW_Small_Autolock">
 		<ScreenID>MW_Small_Autolock</ScreenID>
@@ -154,9 +159,12 @@
 		<Pieces>MW_Autolock</Pieces>
 		<Pieces>MW_ItemList</Pieces>
 		<Pieces>MW_Small_Autolock</Pieces>
+        <Pieces>MW_SelectedItemLabel</Pieces>
+        <Pieces>MW_SelectedPriceLabel</Pieces>
 		<Pieces>MW_SelectedItem</Pieces>
 		<Pieces>MW_Buy_Button</Pieces>
 		<Pieces>MW_Sell_Button</Pieces>
+        <Pieces>MW_Done_Button</Pieces>
 		<!-- Does not currently have functionality -->
 		<Pieces>MW_Up_Button</Pieces>
 		<Pieces>MW_Down_Button</Pieces>
