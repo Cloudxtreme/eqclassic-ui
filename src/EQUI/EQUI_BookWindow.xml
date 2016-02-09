@@ -148,11 +148,11 @@
 		<Pieces>EQUI_BookBG02</Pieces>
 		<Pieces>EQUI_BookBG03</Pieces>
 		<Pieces>EQUI_BookBG04</Pieces>
-		<Pieces>BOOK_Autolock</Pieces>
 		<Pieces>BOOK_Page0</Pieces>
 		<Pieces>BOOK_Page1</Pieces>
 		<Pieces>BOOK_Page0Number</Pieces>
 		<Pieces>BOOK_Page1Number</Pieces>
+        <Pieces>BOOK_Autolock</Pieces>
 		<Pieces>BOOK_DoneButton</Pieces>
 		<Pieces>BOOK_RightButton</Pieces>
 		<Pieces>BOOK_LeftButton</Pieces>
