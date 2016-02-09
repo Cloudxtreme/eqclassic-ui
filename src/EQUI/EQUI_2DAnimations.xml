@@ -1025,6 +1025,91 @@
 		</Frames>
 	</Ui2DAnimation>
 	<!-- Give Window End -->
+	<!-- Merchant Window Start -->
+	<Ui2DAnimation item = "Merchant01">
+		<Frames>
+			<Texture>EQUI/Merchant.tga</Texture>
+			<Size>
+				<CX>119</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Merchant02">
+		<Frames>
+			<Texture>EQUI/Merchant.tga</Texture>
+			<Location>
+				<X>119</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>119</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Sell_Normal">
+		<Frames>
+			<Texture>EQUI/MerchantButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>48</Y>
+			</Location>
+			<Size>
+				<CX>79</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Sell_Pressed">
+		<Frames>
+			<Texture>EQUI/MerchantButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>67</Y>
+			</Location>
+			<Size>
+				<CX>79</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Purchase_Pressed">
+		<Frames>
+			<Texture>EQUI/MerchantButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>86</Y>
+			</Location>
+			<Size>
+				<CX>79</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Big_Arrow_Up_Pressed">
+		<Frames>
+			<Texture>EQUI/BigArrowButtons.tga</Texture>
+			<Size>
+				<CX>39</CX>
+				<CY>32</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Big_Arrow_Down_Pressed">
+		<Frames>
+			<Texture>EQUI/BigArrowButtons.tga</Texture>
+			<Location>
+				<X>39</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>39</CX>
+				<CY>32</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Merchant Window End -->
 
 	<!-- General Purpose Buttons Start -->
 	<Ui2DAnimation item = "Btn_Done_Pressed">

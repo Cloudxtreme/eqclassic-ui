@@ -41,8 +41,8 @@
 		<Include>EQUI_SkillsWindow.xml</Include>				<!-- imotogames - needs consideration -->
 		<Include>EQUI_SkillsSelectWindow.xml</Include>			<!-- imotogames - needs consideration -->
 		<Include>EQUI_TradeWnd.xml</Include>					<!-- original -->
-		<Include>EQUI_MerchantWnd.xml</Include>					<!-- imotogames - needs consideration -->
-		<Include>EQUI_SelectorWnd.xml</Include>					<!-- imotogames - fixed -->
+		<Include>EQUI_MerchantWnd.xml</Include>					<!-- imotogames - 80% fixed (needs a proper menu and button implementation) -->
+		<Include>EQUI_SelectorWnd.xml</Include>					<!-- imotogames - in process -->
 		<Include>EQUI_BazaarWnd.xml</Include>					<!-- imotogames - 100% disabled -->
 		<Include>EQUI_GiveWnd.xml</Include>						<!-- imotogames - 100% fixed -->
 		<Include>EQUI_TrackingWnd.xml</Include>					<!-- imotogames - 100% fixed -->

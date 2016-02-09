@@ -178,6 +178,20 @@
 		</Size>
 	</TextureInfo>
 	<!-- Give Window End -->
+	<!-- Merchant Window Start -->
+	<TextureInfo item = "EQUI/Merchant.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/MerchantButtons.tga">
+		<Size>
+			<CX>128</CX>
+			<CY>128</CY>
+		</Size>
+	</TextureInfo>
+	<!-- Merchant Window End -->
 	<!-- General Purpose Buttons Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>
@@ -189,6 +203,12 @@
 		<Size>
 			<CX>64</CX>
 			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/BigArrowButtons.tga">
+		<Size>
+			<CX>128</CX>
+			<CY>128</CY>
 		</Size>
 	</TextureInfo>
 	<!-- General Purpose Buttons End -->

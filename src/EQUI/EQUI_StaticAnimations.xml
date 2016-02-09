@@ -264,6 +264,28 @@
 		<Animation>Give02</Animation>
 	</StaticAnimation>
 	<!-- Give Window End -->
+	<!-- Merchant Window Start -->
+	<StaticAnimation item = "EQUI_MerchantBG01">
+		<ScreenID>MerchantBG01</ScreenID>
+		<Size>
+			<CX>119</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Merchant01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_MerchantBG02">
+		<ScreenID>MerchantBG02</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Merchant02</Animation>
+	</StaticAnimation>
+	<!-- Merchant Window End -->
 
 	<!-- Group Window BG's (FIX THESE) -->
 	<StaticAnimation item = "GW_member_bg">

@@ -162,7 +162,6 @@
 			<PressedFlyby>Btn_Give_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "GVW_Cancel_Button">
 		<ScreenID>GVW_Cancel_Button</ScreenID>
 		<Location>

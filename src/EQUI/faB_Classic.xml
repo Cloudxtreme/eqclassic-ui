@@ -77,18 +77,6 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "classic_pieces09.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "merchant.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
 	<TextureInfo item = "loot.tga">
 		<Size>
 			<CX>256</CX>
@@ -228,102 +216,6 @@
 			<Size>
 				<CX>67</CX>
 				<CY>24</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "Btn_Big_Arrow_Up_Pressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces09.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>39</CX>
-				<CY>32</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "Btn_Big_Arrow_Down_Pressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces09.tga</Texture>
-			<Location>
-				<X>39</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>39</CX>
-				<CY>32</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "Btn_Sell_Normal">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces09.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>80</Y>
-			</Location>
-			<Size>
-				<CX>79</CX>
-				<CY>19</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "Btn_Sell_Pressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces09.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>118</Y>
-			</Location>
-			<Size>
-				<CX>79</CX>
-				<CY>19</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "Btn_Purchase_Pressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces09.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>99</Y>
-			</Location>
-			<Size>
-				<CX>79</CX>
-				<CY>19</CY>
 			</Size>
 			<Hotspot>
 				<X>0</X>
