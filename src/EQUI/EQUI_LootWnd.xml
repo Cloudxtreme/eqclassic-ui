@@ -21,6 +21,10 @@
 		<NoWrap>true</NoWrap>
 	</Label>
 
+    <Button item = "LW_BroadcastButton">
+        <ScreenID>BroadcastButton</ScreenID>
+    </Button>
+
 	<InvSlot item = "LW_LootSlot0">
 		<ScreenID>LW_LootSlot0</ScreenID>
 		<Location>
@@ -287,6 +291,9 @@
 	<InvSlot item = "LW_LootSlot29">
 		<ScreenID>LW_LootSlot29</ScreenID>
 	</InvSlot>
+    <InvSlot item = "LW_LootSlot30">
+		<ScreenID>LW_LootSlot30</ScreenID>
+	</InvSlot>
 
 	<Screen item = "LW_LootInvWnd">
 		<ScreenID>LootInvWnd</ScreenID>
@@ -329,7 +336,12 @@
 		<Pieces>LW_LootSlot27</Pieces>
 		<Pieces>LW_LootSlot28</Pieces>
 		<Pieces>LW_LootSlot29</Pieces>
+        <Pieces>LW_LootSlot30</Pieces>
 	</Screen>
+
+    <Button item = "LW_DoneButton">
+		<ScreenID>DoneButton</ScreenID>
+	</Button>
 
 	<Button item = "LW_Up_Button">
 		<ScreenID>LW_Up_Button</ScreenID>
@@ -382,5 +394,7 @@
 		<Pieces>LW_Up_Button</Pieces>
 		<Pieces>LW_Down_Button</Pieces>
 		<Pieces>LW_LootInvWnd</Pieces>
+        <Pieces>LW_BroadcastButton</Pieces>
+        <Pieces>LW_DoneButton</Pieces>
 	</Screen>
 </XML>
