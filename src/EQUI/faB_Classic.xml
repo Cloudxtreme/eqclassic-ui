@@ -77,12 +77,6 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "loot.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
 	<!-- left side bar repeating background -->
 	<TextureInfo item = "classic_bg_left.tga">
 		<Size>
@@ -94,13 +88,6 @@
 	<TextureInfo item = "classic_bg_right.tga">
 		<Size>
 			<CX>128</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-<!-- window title bars TESTING -->
-	<TextureInfo item = "classic_bars.tga">
-		<Size>
-			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>

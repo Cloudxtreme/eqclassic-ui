@@ -1181,6 +1181,30 @@
         </Frames>
     </Ui2DAnimation>
     <!-- Bank Window End -->
+    <!-- Loot Window Start -->
+    <Ui2DAnimation item = "Loot01">
+        <Frames>
+            <Texture>EQUI/Loot.tga</Texture>
+            <Size>
+                <CX>119</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Loot02">
+        <Frames>
+            <Texture>EQUI/Loot.tga</Texture>
+            <Location>
+                <X>119</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>119</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Loot Window End -->
     <!-- Casting Meter Window Start -->
     <Ui2DAnimation item = "CastingMeter01">
         <Frames>

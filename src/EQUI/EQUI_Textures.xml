@@ -264,6 +264,14 @@
         </Size>
     </TextureInfo>
     <!-- Bank Window End -->
+    <!-- Loot Window Start -->
+    <TextureInfo item = "EQUI/Loot.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Loot Window End -->
     <!-- Casting Meter Window Start -->
     <TextureInfo item = "EQUI/CastingMeter.tga">
         <Size>

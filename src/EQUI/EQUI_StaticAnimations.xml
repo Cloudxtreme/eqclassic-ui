@@ -400,6 +400,32 @@
         <Animation>Bank02</Animation>
     </StaticAnimation>
     <!-- Bank Window End -->
+    <!-- Loot Window Start -->
+	<StaticAnimation item = "EQUI_LootBG01">
+		<ScreenID>LootBG01</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Loot01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_LootBG02">
+		<ScreenID>LootBG01</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Loot02</Animation>
+	</StaticAnimation>
+    <!-- Loot Window End -->
     <!-- Casting Meter Window Start -->
     <StaticAnimation item = "EQUI_CastingMeterBG01">
         <ScreenID>CastingMeterBG01</ScreenID>
