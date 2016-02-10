@@ -182,14 +182,14 @@
 		<ScreenID>GVW_Autolock</ScreenID>i
 		<Size>
 			<CX>119</CX>
-			<CY>472</CY>
+			<CY>480</CY>
 		</Size>
 	</Button>
 
 	<Screen item = "GiveWnd">
 		<Size>
 			<CX>119</CX>
-			<CY>472</CY>
+			<CY>480</CY>
 		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>EQUI_GiveBG01</Pieces>

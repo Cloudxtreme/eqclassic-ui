@@ -256,6 +256,14 @@
 		</Size>
 	</TextureInfo>
 	<!-- Merchant Window End -->
+    <!-- Bank Window Start -->
+    <TextureInfo item = "EQUI/Bank.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Bank Window End -->
 	<!-- General Purpose Buttons Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>

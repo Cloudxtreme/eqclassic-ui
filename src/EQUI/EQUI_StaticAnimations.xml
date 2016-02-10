@@ -378,6 +378,28 @@
 		<Animation>Merchant02</Animation>
 	</StaticAnimation>
 	<!-- Merchant Window End -->
+    <!-- Bank Window Start -->
+    <StaticAnimation item = "EQUI_BankBG01">
+        <ScreenID>BankBG01</ScreenID>
+        <Size>
+            <CX>119</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Bank01</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_BankBG02">
+        <ScreenID>BankBG01</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>119</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Bank02</Animation>
+    </StaticAnimation>
+    <!-- Bank Window End -->
 
 	<!-- Group Window BG's (FIX THESE) -->
 	<StaticAnimation item = "GW_member_bg">
