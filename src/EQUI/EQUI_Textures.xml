@@ -264,6 +264,22 @@
         </Size>
     </TextureInfo>
     <!-- Bank Window End -->
+    <!-- Casting Meter Window Start -->
+    <TextureInfo item = "EQUI/CastingMeter.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Casting Meter Window End -->
+    <!-- Breath Meter Window Start -->
+    <TextureInfo item = "EQUI/BreathMeter.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Breath Meter Window End -->
 	<!-- General Purpose Buttons Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>

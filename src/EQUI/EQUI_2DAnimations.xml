@@ -1181,6 +1181,28 @@
         </Frames>
     </Ui2DAnimation>
     <!-- Bank Window End -->
+    <!-- Casting Meter Window Start -->
+    <Ui2DAnimation item = "CastingMeter01">
+        <Frames>
+            <Texture>EQUI/CastingMeter.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>57</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Casting Meter Window End -->
+    <!-- Breath Meter Window Start -->
+    <Ui2DAnimation item = "BreathMeter01">
+        <Frames>
+            <Texture>EQUI/BreathMeter.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>57</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Breath Meter Window End -->
 	<!-- General Purpose Buttons Start -->
 	<Ui2DAnimation item = "Btn_Done_Pressed">
 		<Frames>
