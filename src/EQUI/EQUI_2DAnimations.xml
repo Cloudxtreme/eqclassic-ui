@@ -734,64 +734,12 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "CharacterCreate_LeftArrow_Normal">
-		<Frames>
-			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>58</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "CharacterCreate_RightArrow_Normal">
-		<Frames>
-			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
-			<Location>
-				<X>32</X>
-				<Y>58</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "CharacterCreate_LeftArrow_Pressed">
-		<Frames>
-			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
-			<Location>
-				<X>64</X>
-				<Y>58</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "CharacterCreate_RightArrow_Pressed">
-		<Frames>
-			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
-			<Location>
-				<X>96</X>
-				<Y>58</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
 	<Ui2DAnimation item = "CharacterCreate_GetName_Pressed">
 		<Frames>
 			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>90</Y>
+				<Y>58</Y>
 			</Location>
 			<Size>
 				<CX>102</CX>
@@ -804,7 +752,7 @@
 			<Texture>EQUI/CharacterCreateButtons.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>109</Y>
+				<Y>77</Y>
 			</Location>
 			<Size>
 				<CX>16</CX>
@@ -998,6 +946,89 @@
         </Frames>
     </Ui2DAnimation>
     <!-- Book Window End -->
+    <!-- Spell Book Window Start -->
+    <Ui2DAnimation item = "SpellBook01">
+        <Frames>
+            <Texture>EQUI/SpellBook01.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBook02">
+        <Frames>
+            <Texture>EQUI/SpellBook02.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBook03">
+        <Frames>
+            <Texture>EQUI/SpellBook03.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBook04">
+        <Frames>
+            <Texture>EQUI/SpellBook04.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Meditate_Normal">
+        <Cycle>true</Cycle>
+        <Frames>
+            <Texture>EQUI/MeditateButton.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>26</Y>
+            </Location>
+            <Size>
+                <CX>61</CX>
+                <CY>25</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Meditate_Pressed">
+        <Frames>
+            <Texture>EQUI/MeditateButton.tga</Texture>
+            <Size>
+                <CX>61</CX>
+                <CY>25</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBook_Gauge_Background">
+        <Frames>
+            <Texture>EQUI/SpellBookGauge.tga</Texture>
+            <Size>
+                <CX>113</CX>
+                <CY>13</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBook_Gauge_Fill">
+        <Frames>
+            <Texture>EQUI/SpellBookGauge.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>15</Y>
+            </Location>
+            <Size>
+                <CX>113</CX>
+                <CY>13</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Spell Book Window End -->
 	<!-- Tracking Window Start -->
 	<Ui2DAnimation item = "Tracking01">
 		<Frames>
@@ -1125,7 +1156,27 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "Btn_Big_Arrow_Up_Pressed">
+	<!-- Merchant Window End -->
+	<!-- General Purpose Buttons Start -->
+	<Ui2DAnimation item = "Btn_Done_Pressed">
+		<Frames>
+			<Texture>EQUI/DoneButton.tga</Texture>
+			<Size>
+				<CX>48</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Big_Cancel_Pressed">
+		<Frames>
+			<Texture>EQUI/BigCancelButton.tga</Texture>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Big_Arrow_Up_Pressed">
 		<Frames>
 			<Texture>EQUI/BigArrowButtons.tga</Texture>
 			<Size>
@@ -1147,24 +1198,51 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Merchant Window End -->
-
-	<!-- General Purpose Buttons Start -->
-	<Ui2DAnimation item = "Btn_Done_Pressed">
+    <Ui2DAnimation item = "Btn_Small_Arrow_Left_Normal">
 		<Frames>
-			<Texture>EQUI/DoneButton.tga</Texture>
+			<Texture>EQUI/SmallArrowButtons.tga</Texture>
 			<Size>
-				<CX>48</CX>
-				<CY>19</CY>
+				<CX>32</CX>
+				<CY>32</CY>
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "Btn_Big_Cancel_Pressed">
+	<Ui2DAnimation item = "Btn_Small_Arrow_Right_Normal">
 		<Frames>
-			<Texture>EQUI/BigCancelButton.tga</Texture>
+			<Texture>EQUI/SmallArrowButtons.tga</Texture>
+			<Location>
+				<X>32</X>
+				<Y>0</Y>
+			</Location>
 			<Size>
-				<CX>61</CX>
-				<CY>29</CY>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Small_Arrow_Left_Pressed">
+		<Frames>
+			<Texture>EQUI/SmallArrowButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>32</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Small_Arrow_Right_Pressed">
+		<Frames>
+			<Texture>EQUI/SmallArrowButtons.tga</Texture>
+			<Location>
+				<X>32</X>
+				<Y>32</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
 			</Size>
 		</Frames>
 	</Ui2DAnimation>

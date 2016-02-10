@@ -110,7 +110,7 @@
         <Include>EQUI_SkillsSelectWindow.xml</Include>          <!-- imotogames - needs consideration -->
         <Include>EQUI_SkillsWindow.xml</Include>                <!-- imotogames - needs consideration -->
         <Include>EQUI_SocialEditWnd.xml</Include>               <!-- original -->
-        <Include>EQUI_SpellBookWnd.xml</Include>                <!-- imotogames - fixed  -->
+        <Include>EQUI_SpellBookWnd.xml</Include>                <!-- imotogames - 100% fixed  -->
         <Include>EQUI_StoryWnd.xml</Include>                    <!-- imotogames - 100% disabled -->
         <Include>EQUI_SystemInfoWnd.xml</Include>               <!-- ?? -->
         <Include>EQUI_TargetOfTargetWindow.xml</Include>        <!-- imotogames - 100% disabled -->

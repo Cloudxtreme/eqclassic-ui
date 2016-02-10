@@ -14,9 +14,9 @@
 			<CY>32</CY>
 		</Size>
 		<ButtonDrawTemplate>
-  			<Normal>CharacterCreate_LeftArrow_Normal</Normal>
-			<Pressed>CharacterCreate_LeftArrow_Pressed</Pressed>
-			<PressedFlyby>CharacterCreate_LeftArrow_Pressed</PressedFlyby>
+  			<Normal>Btn_Small_Arrow_Left_Normal</Normal>
+			<Pressed>Btn_Small_Arrow_Left_Pressed</Pressed>
+			<PressedFlyby>Btn_Small_Arrow_Left_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<StaticText item ="EQUI_FPW_Face_Text">
@@ -34,9 +34,9 @@
 			<CY>32</CY>
 		</Size>
 		<ButtonDrawTemplate>
-  			<Normal>CharacterCreate_RightArrow_Normal</Normal>
-			<Pressed>CharacterCreate_RightArrow_Pressed</Pressed>
-			<PressedFlyby>CharacterCreate_RightArrow_Pressed</PressedFlyby>
+  			<Normal>Btn_Small_Arrow_Right_Normal</Normal>
+			<Pressed>Btn_Small_Arrow_Right_Pressed</Pressed>
+			<PressedFlyby>Btn_Small_Arrow_Right_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 

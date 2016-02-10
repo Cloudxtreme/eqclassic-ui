@@ -29,8 +29,8 @@
 			<CY>32</CY>
 		</Size>
 		<ButtonDrawTemplate>
-			<Pressed>A_RightArrowBtnPressed</Pressed>
-			<PressedFlyby>A_RightArrowBtnPressedFlyby</PressedFlyby>
+			<Pressed>Btn_Small_Arrow_Right_Pressed</Pressed>
+			<PressedFlyby>Btn_Small_Arrow_Right_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -45,8 +45,8 @@
 			<CY>32</CY>
 		</Size>
 		<ButtonDrawTemplate>
-			<Pressed>A_LeftArrowBtnPressed</Pressed>
-			<PressedFlyby>A_LeftArrowBtnPressedFlyby</PressedFlyby>
+			<Pressed>Btn_Small_Arrow_Left_Pressed</Pressed>
+			<PressedFlyby>Btn_Small_Arrow_Left_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 

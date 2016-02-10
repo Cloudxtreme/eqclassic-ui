@@ -265,8 +265,53 @@
 		</Size>
 		<Animation>Book04</Animation>
 	</StaticAnimation>
-
     <!-- Book Window End -->
+    <!-- Spell Book Window Start -->
+    <StaticAnimation item = "EQUI_SpellBookBG01">
+        <ScreenID>SpellBookBG01</ScreenID>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>SpellBook01</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_SpellBookBG02">
+        <ScreenID>SpellBookBG02</ScreenID>
+        <Location>
+            <X>199</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>SpellBook02</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_SpellBookBG03">
+        <ScreenID>SpellBookBG03</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>SpellBook03</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_SpellBookBG04">
+        <ScreenID>SpellBookBG04</ScreenID>
+        <Location>
+            <X>199</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>SpellBook04</Animation>
+    </StaticAnimation>
+    <!-- Spell Book Window End -->
 	<!-- Tracking Window Start -->
 	<StaticAnimation item = "EQUI_TrackingBG01">
 		<ScreenID>TrackingBG01</ScreenID>
@@ -3093,104 +3138,6 @@
 		</Frames>
 	</Ui2DAnimation>
 
-	<!-- Spellbook meditate button -->
-
-	<Ui2DAnimation item = "A_MeditateBtnNormal">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_debug01.tga</Texture>
-			<Location>
-				<X>144</X>
-				<Y>230</Y>
-			</Location>
-			<Size>
-				<CX>61</CX>
-				<CY>25</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MeditateBtnPressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_debug01.tga</Texture>
-			<Location>
-				<X>144</X>
-				<Y>204</Y>
-			</Location>
-			<Size>
-				<CX>61</CX>
-				<CY>25</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MeditateBtnFlyby">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_debug01.tga</Texture>
-			<Location>
-				<X>144</X>
-				<Y>230</Y>
-			</Location>
-			<Size>
-				<CX>61</CX>
-				<CY>25</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MeditateBtnPressedFlyby">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_debug01.tga</Texture>
-			<Location>
-				<X>144</X>
-				<Y>204</Y>
-			</Location>
-			<Size>
-				<CX>61</CX>
-				<CY>25</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MeditateBtnDisabled">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_debug01.tga</Texture>
-			<Location>
-				<X>144</X>
-				<Y>230</Y>
-			</Location>
-			<Size>
-				<CX>61</CX>
-				<CY>25</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
 	<!-- Inventory Buttons -->
 
 	<Ui2DAnimation item = "A_StatsBtnNormal">
@@ -4569,123 +4516,6 @@
 		</Frames>
 	</Ui2DAnimation>
 
-<!-- Spellbook Guage background -->
-
-<Ui2DAnimation item = "A_SpellbookGaugeBackground">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>110</X>
-				<Y>7</Y>
-			</Location>
-			<Size>
-				<CX>113</CX>
-				<CY>13</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SpellbookGaugeFill">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>110</X>
-				<Y>22</Y>
-			</Location>
-			<Size>
-				<CX>113</CX>
-				<CY>13</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SpellbookGaugeLines">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>0</CX>
-				<CY>0</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SpellbookGaugeLinesFill">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>110</X>
-				<Y>40</Y>
-			</Location>
-			<Size>
-				<CX>0</CX>
-				<CY>0</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SpellbookGaugeEndCapLeft">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>216</X>
-				<Y>20</Y>
-			</Location>
-			<Size>
-				<CX>0</CX>
-				<CY>0</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SpellbookGaugeEndCapRight">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>212</X>
-				<Y>10</Y>
-			</Location>
-			<Size>
-				<CX>0</CX>
-				<CY>0</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
 <!-- Slider parts -->
 
 	<Ui2DAnimation item = "A_SliderBackground">
@@ -4854,198 +4684,6 @@
 			<Size>
 				<CX>48</CX>
 				<CY>48</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "A_LeftArrowBtnNormal">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces01.tga</Texture>
-			<Location>
-				<X>224</X>
-				<Y>180</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_LeftArrowBtnFlyby">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces01.tga</Texture>
-			<Location>
-				<X>224</X>
-				<Y>180</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_LeftArrowBtnPressedFlyby">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces01.tga</Texture>
-			<Location>
-				<X>224</X>
-				<Y>147</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_LeftArrowBtnPressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces01.tga</Texture>
-			<Location>
-				<X>224</X>
-				<Y>147</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_LeftArrowBtnDisabled">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces01.tga</Texture>
-			<Location>
-				<X>224</X>
-				<Y>180</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "A_RightArrowBtnNormal">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces01.tga</Texture>
-			<Location>
-				<X>224</X>
-				<Y>114</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RightArrowBtnFlyby">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces01.tga</Texture>
-			<Location>
-				<X>224</X>
-				<Y>114</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RightArrowBtnPressedFlyby">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces01.tga</Texture>
-			<Location>
-				<X>224</X>
-				<Y>81</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RightArrowBtnPressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces01.tga</Texture>
-			<Location>
-				<X>224</X>
-				<Y>81</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RightArrowBtnDisabled">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces01.tga</Texture>
-			<Location>
-				<X>224</X>
-				<Y>114</Y>
-			</Location>
-			<Size>
-				<CX>32</CX>
-				<CY>32</CY>
 			</Size>
 			<Hotspot>
 				<X>0</X>
@@ -11187,34 +10825,4 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-
-<!-- Compass art -->
-	<Ui2DAnimation item = "A_CompassStrip">
-		<Frames>
-			<Texture>window_pieces04.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>180</CX>
-				<CY>24</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "A_CompassOverlay">
-		<Frames>
-			<Texture>window_pieces04.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>24</Y>
-			</Location>
-			<Size>
-				<CX>98</CX>
-				<CY>24</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-
 </XML>
