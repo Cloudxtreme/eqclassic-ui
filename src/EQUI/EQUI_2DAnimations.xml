@@ -1054,7 +1054,7 @@
 	</Ui2DAnimation>
 	<Ui2DAnimation item = "Btn_Track_Pressed">
 		<Frames>
-			<Texture>EQUI/TrackingButtons.tga</Texture>
+			<Texture>EQUI/TrackButton.tga</Texture>
 			<Size>
 				<CX>40</CX>
 				<CY>40</CY>

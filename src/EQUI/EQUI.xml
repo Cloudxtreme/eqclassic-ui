@@ -78,7 +78,7 @@
         <Include>EQUI_LeadershipWnd.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_LFGuildWnd.xml</Include>                  <!-- imotogames - 100% disabled -->
         <Include>EQUI_LoadskinWnd.xml</Include>                 <!-- imotogames - 100% disabled -->
-        <Include>EQUI_LootWnd.xml</Include>                     <!-- imotogames - in process -->
+        <Include>EQUI_LootWnd.xml</Include>                     <!-- imotogames - 100% fixed (needs proper button implementation)-->
         <Include>EQUI_MailAddressBookWindow.xml</Include>       <!-- imotogames - 100% disabled -->
         <Include>EQUI_MailCompositionWindow.xml</Include>       <!-- imotogames - 100% disabled -->
         <Include>EQUI_MailWindow.xml</Include>                  <!-- imotogames - 100% disabled -->
