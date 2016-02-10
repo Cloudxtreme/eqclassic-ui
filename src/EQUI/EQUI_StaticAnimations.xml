@@ -446,6 +446,40 @@
         <Animation>BreathMeter01</Animation>
     </StaticAnimation>
     <!-- Breath Meter Window End -->
+    <!-- Spell Bar Window Start -->
+    <StaticAnimation item = "EQUI_SpellBarBG01">
+        <ScreenID>SpellBarBG01</ScreenID>
+        <Size>
+            <CX>38</CX>
+            <CY>128</CY>
+        </Size>
+        <Animation>SpellBar01</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_SpellBarBG02">
+        <ScreenID>SpellBarBG02</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>128</Y>
+        </Location>
+        <Size>
+            <CX>38</CX>
+            <CY>128</CY>
+        </Size>
+        <Animation>SpellBar02</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_SpellBarBG03">
+        <ScreenID>SpellBarBG03</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>38</CX>
+            <CY>128</CY>
+        </Size>
+        <Animation>SpellBar03</Animation>
+    </StaticAnimation>
+    <!-- Spell Bar Window End -->
 
 	<!-- Group Window BG's (FIX THESE) -->
 	<StaticAnimation item = "GW_member_bg">

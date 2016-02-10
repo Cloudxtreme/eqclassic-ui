@@ -1227,6 +1227,46 @@
         </Frames>
     </Ui2DAnimation>
     <!-- Breath Meter Window End -->
+    <!-- Spell Bar Window Start -->
+    <Ui2DAnimation item = "SpellBar01">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>EQUI/SpellBar.tga</Texture>
+			<Size>
+				<CX>38</CX>
+				<CY>128</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBar02">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>EQUI/SpellBar.tga</Texture>
+			<Location>
+				<X>38</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>38</CX>
+				<CY>128</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBar03">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>EQUI/SpellBar.tga</Texture>
+			<Location>
+				<X>76</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>38</CX>
+				<CY>128</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <!-- Spell Bar Window End -->
 	<!-- General Purpose Buttons Start -->
 	<Ui2DAnimation item = "Btn_Done_Pressed">
 		<Frames>

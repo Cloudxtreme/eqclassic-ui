@@ -288,6 +288,14 @@
         </Size>
     </TextureInfo>
     <!-- Breath Meter Window End -->
+    <!-- Spellbar Window Start -->
+    <TextureInfo item = "EQUI/SpellBar.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Spellbar Window End -->
 	<!-- General Purpose Buttons Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>
