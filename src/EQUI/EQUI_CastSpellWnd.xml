@@ -148,6 +148,10 @@
 	</SpellGem>
     <SpellGem item = "CSPW_Spell8">
         <ScreenID>CSPW_Spell8</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>-40</Y>
+        </Location>
     </SpellGem>
 
 	<Button item = "CSPW_SpellBook">
