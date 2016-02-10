@@ -316,7 +316,6 @@
 	<Button item = "SELW_HelpToggleButton">
 		<ScreenID>SELW_HelpToggleButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
-<!-- faB -->
 		<Location>
 			<X>11</X>
 			<Y>16</Y>
@@ -325,8 +324,6 @@
 			<CX>70</CX>
 			<CY>19</CY>
 		</Size>
-<!-- faB -->
-		<Style_Checkbox>true</Style_Checkbox>
 		<ButtonDrawTemplate>
 			<Normal>A_HelpBtnNormal</Normal>
 			<Pressed>A_HelpBtnPressed</Pressed>

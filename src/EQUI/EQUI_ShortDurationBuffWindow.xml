@@ -20,6 +20,24 @@
 	<Button item = "SDBW_Buff5_Button">
 		<ScreenID>Buff5</ScreenID>
 	</Button>
+    <Button item = "SDBW_Buff6_Button">
+        <ScreenID>Buff6</ScreenID>
+    </Button>
+    <Button item = "SDBW_Buff7_Button">
+        <ScreenID>Buff7</ScreenID>
+    </Button>
+    <Button item = "SDBW_Buff8_Button">
+        <ScreenID>Buff8</ScreenID>
+    </Button>
+    <Button item = "SDBW_Buff9_Button">
+        <ScreenID>Buff9</ScreenID>
+    </Button>
+    <Button item = "SDBW_Buff10_Button">
+        <ScreenID>Buff10</ScreenID>
+    </Button>
+    <Button item = "SDBW_Buff11_Button">
+        <ScreenID>Buff11</ScreenID>
+    </Button>
 
 	<Screen item = "ShortDurationBuffWindow">
 		<DrawTemplate>WDT_Static</DrawTemplate>
@@ -29,5 +47,11 @@
 		<Pieces>SDBW_Buff3_Button</Pieces>
 		<Pieces>SDBW_Buff4_Button</Pieces>
 		<Pieces>SDBW_Buff5_Button</Pieces>
+        <Pieces>SDBW_Buff6_Button</Pieces>
+        <Pieces>SDBW_Buff7_Button</Pieces>
+        <Pieces>SDBW_Buff8_Button</Pieces>
+        <Pieces>SDBW_Buff9_Button</Pieces>
+        <Pieces>SDBW_Buff10_Button</Pieces>
+        <Pieces>SDBW_Buff11_Button</Pieces>
 	</Screen>
 </XML>

@@ -2,6 +2,25 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
+    <Button item = "TRW_FilterRedButton">
+		<ScreenID>TRW_FilterRedButton</ScreenID>
+	</Button>
+	<Button item = "TRW_FilterYellowButton">
+		<ScreenID>TRW_FilterYellowButton</ScreenID>
+	</Button>
+	<Button item = "TRW_FilterWhiteButton">
+		<ScreenID>TRW_FilterWhiteButton</ScreenID>
+	</Button>
+	<Button item = "TRW_FilterBlueButton">
+		<ScreenID>TRW_FilterBlueButton</ScreenID>
+	</Button>
+	<Button item = "TRW_FilterLightBlueButton">
+		<ScreenID>TRW_FilterLightBlueButton</ScreenID>
+	</Button>
+	<Button item = "TRW_FilterGreenButton">
+		<ScreenID>TRW_FilterGreenButton</ScreenID>
+	</Button>
+
 	<Listbox item = "TRW_TrackingList">
 		<ScreenID>TRW_TrackingList</ScreenID>
 		<DrawTemplate>WDT_Static</DrawTemplate>
@@ -18,6 +37,16 @@
 		<!-- <Style_VScroll>true</Style_VScroll> - scroll disabled until known if it's meant to be there -->
 	</Listbox>
 
+    <Combobox item = "TRW_TrackSortCombobox">
+		<ScreenID>TRW_TrackSortCombobox</ScreenID>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+	</Combobox>
+
+    <Combobox item = "TRW_TrackPlayersCombobox">
+        <ScreenID>TRW_TrackPlayersCombobox</ScreenID>
+        <DrawTemplate>WDT_Static</DrawTemplate>
+    </Combobox>
+
 	<Button item = "TRW_TrackButton">
 		<ScreenID>TRW_TrackButton</ScreenID>
 		<Location>
@@ -29,8 +58,8 @@
 			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
-			<Pressed>Tracking_Track_Pressed</Pressed>
-			<PressedFlyby>Tracking_Track_Pressed</PressedFlyby>
+			<Pressed>Btn_Track_Pressed</Pressed>
+			<PressedFlyby>Btn_Track_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "TRW_DoneButton">
@@ -44,8 +73,8 @@
 			<CY>29</CY>
 		</Size>
 		<ButtonDrawTemplate>
-			<Pressed>Tracking_Cancel_Pressed</Pressed>
-			<PressedFlyby>Tracking_Cancel_Pressed</PressedFlyby>
+			<Pressed>Btn_Big_Cancel_Pressed</Pressed>
+			<PressedFlyby>Btn_Big_Cancel_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -66,8 +95,16 @@
 		<Pieces>EQUI_TrackingBG01</Pieces>
 		<Pieces>EQUI_TrackingBG02</Pieces>
 		<Pieces>TRW_Autolock</Pieces>
+        <Pieces>TRW_FilterRedButton</Pieces>
+        <Pieces>TRW_FilterYellowButton</Pieces>
+        <Pieces>TRW_FilterWhiteButton</Pieces>
+        <Pieces>TRW_FilterBlueButton</Pieces>
+        <Pieces>TRW_FilterLightBlueButton</Pieces>
+        <Pieces>TRW_FilterGreenButton</Pieces>
 		<Pieces>TRW_TrackingList</Pieces>
 		<Pieces>TRW_TrackButton</Pieces>
 		<Pieces>TRW_DoneButton</Pieces>
+        <Pieces>TRW_TrackPlayersCombobox</Pieces>
+        <Pieces>TRW_TrackSortCombobox</Pieces>
 	</Screen>
 </XML>

@@ -2,76 +2,9 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
-	<Ui2DAnimation item = "MW_BG1_TX">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>merchant.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>119</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "MW_BG2_TX">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>merchant.tga</Texture>
-			<Location>
-				<X>119</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>119</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<StaticAnimation item = "MW_BG1">
-		<ScreenID>MW_BG1</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>119</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>MW_BG1_TX</Animation>
-	</StaticAnimation>
-	<StaticAnimation item = "MW_BG2">
-		<ScreenID>MW_BG2</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>256</Y>
-		</Location>
-		<Size>
-			<CX>119</CX>
-			<CY>256</CY>
-		</Size>
-		<Animation>MW_BG2_TX</Animation>
-	</StaticAnimation>
-
 	<Label item ="MW_MerchantName">
 		<ScreenID>MW_MerchantName</ScreenID>
 		<Font>2</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>12</X>
 			<Y>14</Y>
@@ -80,53 +13,42 @@
 			<CX>98</CX>
 			<CY>40</CY>
 		</Size>
-		<Text>Banker Name</Text>
 		<TextColor>
-				<R>200</R>
-				<G>200</G>
-				<B>200</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
+    <Label item ="MW_SelectedItemLabel">
+        <ScreenID>MW_SelectedItemLabel</ScreenID>
+    </Label>
+    <Label item ="MW_SelectedPriceLabel">
+        <ScreenID>MW_SelectedPriceLabel</ScreenID>
+    </Label>
 
 	<Listbox item = "MW_ItemList">
 		<ScreenID>ItemList</ScreenID>
 		<Font>2</Font>
 		<!-- imotogames - changed item list to have no visible vscroll bar for the time being (still scrollable) -->
-		<DrawTemplate>WDT_Inner_NoVScroll</DrawTemplate>
-
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorOffset>10</LeftAnchorOffset>
-		<TopAnchorOffset>29</TopAnchorOffset>
-		<RightAnchorOffset>10</RightAnchorOffset>
-		<BottomAnchorOffset>144</BottomAnchorOffset>
-		<TextColor>
-				<R>200</R>
-				<G>200</G>
-				<B>200</B>
-		</TextColor>
-		<Style_Border>false</Style_Border>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Location>
+			<X>10</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>99</CX>
+			<CY>307</CY>
+		</Size>
 		<Style_VScroll>true</Style_VScroll>
+		<Columns />
 		<Columns>
-			<Width>24</Width>
-		</Columns>
-		<Columns>
-			<Width>100</Width>
+			<Width>150</Width>
 		</Columns>
 	</Listbox>
 
 	<Button item = "MW_SelectedItem">
 		<ScreenID>MW_SelectedItem</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>false</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
 		<Location>
 			<X>38</X>
 			<Y>401</Y>
@@ -135,13 +57,6 @@
 			<CX>42</CX>
 			<CY>42</CY>
 		</Size>
-
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
-			<NormalDecal>A_DragItem</NormalDecal>
-		</ButtonDrawTemplate>
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -151,13 +66,8 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "MW_Buy_Button">
 		<ScreenID>MW_Buy_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>false</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
 		<Location>
 			<X>21</X>
 			<Y>450</Y>
@@ -166,31 +76,13 @@
 			<CX>79</CX>
 			<CY>19</CY>
 		</Size>
-
-		<Style_Transparent>false</Style_Transparent>
-		<!-- <TooltipReference>Click here to buy the selected item</TooltipReference> -->
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
-		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
 			<Pressed>Btn_Purchase_Pressed</Pressed>
-			<Flyby>faB_Spacer</Flyby>
-			<Disabled>faB_Spacer</Disabled>
 			<PressedFlyby>Btn_Purchase_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "MW_Sell_Button">
 		<ScreenID>MW_Sell_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>false</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
 		<Location>
 			<X>21</X>
 			<Y>450</Y>
@@ -199,31 +91,15 @@
 			<CX>79</CX>
 			<CY>19</CY>
 		</Size>
-
-		<Style_Transparent>false</Style_Transparent>
-		<!-- <TooltipReference>Click here to sell the selected item</TooltipReference> -->
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>Btn_Sell_Normal</Normal>
 			<Pressed>Btn_Sell_Pressed</Pressed>
 			<Flyby>Btn_Sell_Normal</Flyby>
-			<Disabled>Btn_Sell_Normal</Disabled>
 			<PressedFlyby>Btn_Sell_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "MW_Up_Button">
 		<ScreenID>MW_Up_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>false</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
 		<Location>
 			<X>14</X>
 			<Y>344</Y>
@@ -232,31 +108,13 @@
 			<CX>39</CX>
 			<CY>32</CY>
 		</Size>
-
-		<Style_Transparent>false</Style_Transparent>
-		<!-- <TooltipReference>Click here to buy the selected item</TooltipReference> -->
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
-		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
 			<Pressed>Btn_Big_Arrow_Up_Pressed</Pressed>
-			<Flyby>faB_Spacer</Flyby>
-			<Disabled>faB_Spacer</Disabled>
 			<PressedFlyby>Btn_Big_Arrow_Up_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "MW_Down_Button">
 		<ScreenID>MW_Down_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>false</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
 		<Location>
 			<X>64</X>
 			<Y>344</Y>
@@ -265,91 +123,50 @@
 			<CX>39</CX>
 			<CY>32</CY>
 		</Size>
-
-		<Style_Transparent>false</Style_Transparent>
-		<!-- <TooltipReference>Click here to buy the selected item</TooltipReference> -->
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
-		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
 			<Pressed>Btn_Big_Arrow_Down_Pressed</Pressed>
-			<Flyby>faB_Spacer</Flyby>
-			<Disabled>faB_Spacer</Disabled>
 			<PressedFlyby>Btn_Big_Arrow_Down_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
+    <Button item = "MW_Done_Button">
+        <ScreenID>MW_Done_Button</ScreenID>
+    </Button>
 
+	<Button item = "MW_Small_Autolock">
+		<ScreenID>MW_Small_Autolock</ScreenID>
+		<Size>
+			<CX>119</CX>
+			<CY>47</CY>
+		</Size>
+	</Button>
 	<Button item = "MW_Autolock">
 		<ScreenID>MW_Autolock</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>119</CX>
 			<CY>480</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>true</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text></Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
-			<Pressed>faB_Spacer</Pressed>
-			<Flyby>faB_Spacer</Flyby>
-			<Disabled>faB_Spacer</Disabled>
-			<PressedFlyby>faB_Spacer</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<Screen item = "MerchantWnd">
-		<RelativePosition>false</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>119</CX>
 			<CY>480</CY>
 		</Size>
-		<Text>Merchant</Text>
-		<Style_Transparent>true</Style_Transparent>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
-
-		<Pieces>MW_BG1</Pieces>
-		<Pieces>MW_BG2</Pieces>
-
-		<Pieces>MW_Autolock</Pieces>
-
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>EQUI_MerchantBG01</Pieces>
+		<Pieces>EQUI_MerchantBG02</Pieces>
 		<Pieces>MW_MerchantName</Pieces>
+		<Pieces>MW_Autolock</Pieces>
 		<Pieces>MW_ItemList</Pieces>
+		<Pieces>MW_Small_Autolock</Pieces>
+        <Pieces>MW_SelectedItemLabel</Pieces>
+        <Pieces>MW_SelectedPriceLabel</Pieces>
 		<Pieces>MW_SelectedItem</Pieces>
 		<Pieces>MW_Buy_Button</Pieces>
 		<Pieces>MW_Sell_Button</Pieces>
-
+        <Pieces>MW_Done_Button</Pieces>
+		<!-- Does not currently have functionality -->
 		<Pieces>MW_Up_Button</Pieces>
 		<Pieces>MW_Down_Button</Pieces>
 	</Screen>
-
-
 </XML>

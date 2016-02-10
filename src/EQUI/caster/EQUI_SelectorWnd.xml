@@ -313,7 +313,6 @@
 			<CX>70</CX>
 			<CY>19</CY>
 		</Size>
-		<Style_Checkbox>true</Style_Checkbox>
 		<ButtonDrawTemplate>
 			<Normal>A_HelpBtnNormal</Normal>
 			<Pressed>A_HelpBtnPressed</Pressed>

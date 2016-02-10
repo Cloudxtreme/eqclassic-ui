@@ -150,14 +150,70 @@
 		</Size>
 	</TextureInfo>
 	<!-- Note Window End -->
-	<!-- Done Button Start -->
-	<TextureInfo item = "EQUI/DoneButton.tga">
+    <!-- Book Window Start -->
+	<TextureInfo item = "EQUI/Book01.tga">
 		<Size>
-			<CX>64</CX>
-			<CY>64</CY>
+			<CX>256</CX>
+			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<!-- Done Button End -->
+	<TextureInfo item = "EQUI/Book02.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Book03.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Book04.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+    <!-- Book Window End -->
+    <!-- Spell Book Window Start -->
+    <TextureInfo item = "EQUI/SpellBook01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/SpellBook02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/SpellBook03.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/SpellBook04.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/SpellBookGauge.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/MeditateButton.tga">
+        <Size>
+            <CX>64</CX>
+            <CY>64</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Spell Book Window End -->
 	<!-- Tracking Window Start -->
 	<TextureInfo item = "EQUI/Tracking.tga">
 		<Size>
@@ -165,13 +221,68 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQUI/TrackingButtons.tga">
+	<TextureInfo item = "EQUI/TrackButton.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+	<!-- Tracking Window End -->
+	<!-- Give Window Start -->
+	<TextureInfo item = "EQUI/Give.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/GiveButton.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+	<!-- Give Window End -->
+	<!-- Merchant Window Start -->
+	<TextureInfo item = "EQUI/Merchant.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/MerchantButtons.tga">
 		<Size>
 			<CX>128</CX>
 			<CY>128</CY>
 		</Size>
 	</TextureInfo>
-	<!-- Tracking Window End -->
+	<!-- Merchant Window End -->
+	<!-- General Purpose Buttons Start -->
+	<TextureInfo item = "EQUI/DoneButton.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/BigCancelButton.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/BigArrowButtons.tga">
+		<Size>
+			<CX>128</CX>
+			<CY>128</CY>
+		</Size>
+	</TextureInfo>
+    <TextureInfo item = "EQUI/SmallArrowButtons.tga">
+        <Size>
+            <CX>64</CX>
+            <CY>64</CY>
+        </Size>
+    </TextureInfo>
+	<!-- General Purpose Buttons End -->
+
 
 	<!-- OLD TEXTURE INFO AND NEEDS TO BE UPDATED -->
 	<TextureInfo item = "CS_Buttons.bmp">
@@ -288,58 +399,6 @@
 			<CY>16</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "spellbook01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "spellbook02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "spellbook03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>128</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "spellbook04.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>128</CY>
-		</Size>
-	</TextureInfo>
-
-	<!-- book lore textures -->
-
-	<TextureInfo item = "book01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "book02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "book03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "book04.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-
 	<TextureInfo item = "dragitem1.tga">
 		<Size>
 			<CX>256</CX>
