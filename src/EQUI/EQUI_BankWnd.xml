@@ -133,7 +133,19 @@
 		<ItemOffsetX>2</ItemOffsetX>
 		<ItemOffsetY>2</ItemOffsetY>
 	</InvSlot>
+    <InvSlot item = "BW_SharedBankSlot0">
+        <ScreenID>BW_SharedBankSlot0</ScreenID>
+    </InvSlot>
+    <InvSlot item = "BW_SharedBankSlot1">
+        <ScreenID>BW_SharedBankSlot1</ScreenID>
+    </InvSlot>
 
+    <Button item = "BW_SharedMoney0">
+        <ScreenID>BW_SharedMoney0</ScreenID>
+    </Button>
+    <Button item = "BW_AltStorageButton">
+        <ScreenID>AltStorageButton</ScreenID>
+    </Button>
 	<Button item = "BW_Money0">
 		<ScreenID>BW_Money0</ScreenID>
 		<Font>2</Font>
@@ -203,6 +215,9 @@
 		</TextColor>
 	</Button>
 
+    <Button item = "BW_ChangeButton">
+        <ScreenID>ChangeButton</ScreenID>
+    </Button>
 	<Button item = "BW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
 	</Button>
@@ -237,6 +252,11 @@
     	<Pieces>BW_Money1</Pieces>
     	<Pieces>BW_Money2</Pieces>
     	<Pieces>BW_Money3</Pieces>
+        <Pieces>BW_SharedBankSlot0</Pieces>
+        <Pieces>BW_SharedBankSlot1</Pieces>
+        <Pieces>BW_SharedMoney0</Pieces>
+        <Pieces>BW_AltStorageButton</Pieces>
         <Pieces>BW_DoneButton</Pieces>
+        <Pieces>BW_ChangeButton</Pieces>
 	</Screen>
 </XML>
