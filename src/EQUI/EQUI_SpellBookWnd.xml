@@ -450,8 +450,11 @@
 		</ButtonDrawTemplate>
 	</Button>
 
+    <Button item = "SBW_DoneButton">
+		<ScreenID>DoneButton</ScreenID>
+	</Button>
+
 	<Button item = "SBW_Autolock">
-		<ScreenID>SBW_Autolock</ScreenID>
 		<Size>
 			<CX>400</CX>
 			<CY>320</CY>
@@ -514,5 +517,6 @@
 		<Pieces>SBW_PageDown_Button</Pieces>
 		<Pieces>SBW_PageUp_Button</Pieces>
 		<Pieces>SBW_MeditateButton</Pieces>
+        <Pieces>SBW_DoneButton</Pieces>
 	</Screen>
 </XML>

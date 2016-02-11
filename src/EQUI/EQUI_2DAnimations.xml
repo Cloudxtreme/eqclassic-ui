@@ -1054,7 +1054,7 @@
 	</Ui2DAnimation>
 	<Ui2DAnimation item = "Btn_Track_Pressed">
 		<Frames>
-			<Texture>EQUI/TrackingButtons.tga</Texture>
+			<Texture>EQUI/TrackButton.tga</Texture>
 			<Size>
 				<CX>40</CX>
 				<CY>40</CY>
@@ -1157,6 +1157,237 @@
 		</Frames>
 	</Ui2DAnimation>
 	<!-- Merchant Window End -->
+    <!-- Bank Window Start -->
+    <Ui2DAnimation item = "Bank01">
+        <Frames>
+            <Texture>EQUI/Bank.tga</Texture>
+            <Size>
+                <CX>119</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Bank02">
+        <Frames>
+            <Texture>EQUI/Bank.tga</Texture>
+            <Location>
+                <X>119</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>119</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Bank Window End -->
+    <!-- Loot Window Start -->
+    <Ui2DAnimation item = "Loot01">
+        <Frames>
+            <Texture>EQUI/Loot.tga</Texture>
+            <Size>
+                <CX>119</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Loot02">
+        <Frames>
+            <Texture>EQUI/Loot.tga</Texture>
+            <Location>
+                <X>119</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>119</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Loot Window End -->
+    <!-- Casting Meter Window Start -->
+    <Ui2DAnimation item = "CastingMeter01">
+        <Frames>
+            <Texture>EQUI/CastingMeter.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>57</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Casting Meter Window End -->
+    <!-- Breath Meter Window Start -->
+    <Ui2DAnimation item = "BreathMeter01">
+        <Frames>
+            <Texture>EQUI/BreathMeter.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>57</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Breath Meter Window End -->
+    <!-- Spell Bar Window Start -->
+    <Ui2DAnimation item = "SpellBar01">
+		<Frames>
+			<Texture>EQUI/SpellBar.tga</Texture>
+			<Size>
+				<CX>38</CX>
+				<CY>128</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBar02">
+		<Frames>
+			<Texture>EQUI/SpellBar.tga</Texture>
+			<Location>
+				<X>38</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>38</CX>
+				<CY>128</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBar03">
+		<Frames>
+			<Texture>EQUI/SpellBar.tga</Texture>
+			<Location>
+				<X>76</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>38</CX>
+				<CY>128</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <!-- Spell Bar Window End -->
+    <!-- Selector Window Start -->
+    <Ui2DAnimation item = "Selector01">
+		<Frames>
+			<Texture>EQUI/Selector.tga</Texture>
+			<Size>
+				<CX>81</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <Ui2DAnimation item = "Selector02">
+        <Frames>
+            <Texture>EQUI/Selector.tga</Texture>
+            <Location>
+                <X>81</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>81</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Help_Pressed">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Size>
+                <CX>70</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Options_Pressed">
+		<Frames>
+			<Texture>EQUI/SelectorButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>19</Y>
+			</Location>
+			<Size>
+				<CX>70</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Persona_Pressed">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>38</Y>
+            </Location>
+            <Size>
+                <CX>70</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_View_Pressed">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>57</Y>
+            </Location>
+            <Size>
+                <CX>70</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_SpellBook_Normal">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>76</Y>
+            </Location>
+            <Size>
+                <CX>71</CX>
+                <CY>76</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_SpellBook_Pressed">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>152</Y>
+            </Location>
+            <Size>
+                <CX>71</CX>
+                <CY>76</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_SpellBook_Flyby">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Location>
+                <X>71</X>
+                <Y>76</Y>
+            </Location>
+            <Size>
+                <CX>71</CX>
+                <CY>76</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_SpellBook_PressedFlyby">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Location>
+                <X>142</X>
+                <Y>76</Y>
+            </Location>
+            <Size>
+                <CX>71</CX>
+                <CY>76</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Selector Window End -->
 	<!-- General Purpose Buttons Start -->
 	<Ui2DAnimation item = "Btn_Done_Pressed">
 		<Frames>

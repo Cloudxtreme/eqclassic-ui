@@ -15,13 +15,6 @@
 		</Size>
 	</TextureInfo>
 
-	<TextureInfo item = "classic_selector.tga">
-		<Size>
-			<CX>80</CX>
-			<CY>329</CY>
-		</Size>
-	</TextureInfo>
-
 	<!-- left & right background + frames + selector buttons + castbar slots -->
 	<TextureInfo item = "classic_pieces01.tga">
 		<Size>
@@ -77,12 +70,6 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "loot.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
 	<!-- left side bar repeating background -->
 	<TextureInfo item = "classic_bg_left.tga">
 		<Size>
@@ -94,13 +81,6 @@
 	<TextureInfo item = "classic_bg_right.tga">
 		<Size>
 			<CX>128</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-<!-- window title bars TESTING -->
-	<TextureInfo item = "classic_bars.tga">
-		<Size>
-			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
@@ -1965,105 +1945,6 @@
 			<Size>
 				<CX>66</CX>
 				<CY>66</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-<!-- old style square buttons -->
-	<Ui2DAnimation item = "A_GiveBtn_Normal">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces05.tga</Texture>
-			<Location>
-				<X>216</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_GiveBtn_Pressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces05.tga</Texture>
-			<Location>
-				<X>216</X>
-				<Y>40</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-<!-- Castbar Background, 3 pieces -->
-	<Ui2DAnimation item = "A_Castbar_bg1a_TX">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces02.tga</Texture>
-			<Location>
-				<X>73</X>
-				<Y>120</Y>
-			</Location>
-			<Size>
-				<CX>38</CX>
-				<CY>136</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_Castbar_bg1b_TX">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces02.tga</Texture>
-			<Location>
-				<X>112</X>
-				<Y>120</Y>
-			</Location>
-			<Size>
-				<CX>38</CX>
-				<CY>136</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_Castbar_bg1c_TX">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces02.tga</Texture>
-			<Location>
-				<X>151</X>
-				<Y>120</Y>
-			</Location>
-			<Size>
-				<CX>38</CX>
-				<CY>59</CY>
 			</Size>
 			<Hotspot>
 				<X>0</X>

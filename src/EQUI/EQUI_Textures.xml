@@ -256,6 +256,60 @@
 		</Size>
 	</TextureInfo>
 	<!-- Merchant Window End -->
+    <!-- Bank Window Start -->
+    <TextureInfo item = "EQUI/Bank.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Bank Window End -->
+    <!-- Loot Window Start -->
+    <TextureInfo item = "EQUI/Loot.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Loot Window End -->
+    <!-- Casting Meter Window Start -->
+    <TextureInfo item = "EQUI/CastingMeter.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Casting Meter Window End -->
+    <!-- Breath Meter Window Start -->
+    <TextureInfo item = "EQUI/BreathMeter.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Breath Meter Window End -->
+    <!-- Spellbar Window Start -->
+    <TextureInfo item = "EQUI/SpellBar.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Spellbar Window End -->
+    <!-- Selector Window Start -->
+    <TextureInfo item = "EQUI/Selector.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/SelectorButtons.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Selector Window End -->
 	<!-- General Purpose Buttons Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>
@@ -370,12 +424,6 @@
 		</Size>
 	</TextureInfo>
 	<TextureInfo item = "window_pieces03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "window_pieces04.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>

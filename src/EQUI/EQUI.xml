@@ -23,7 +23,7 @@
         <Include>EQUI_AudioTriggersWindow.xml</Include>         <!-- imotogames - 100% disabled -->
         <Include>EQUI_AuraWnd.xml</Include>                     <!-- imotogames - 100% disabled -->
         <Include>EQUI_BandolierWnd.xml</Include>                <!-- imotogames - 100% disabled -->
-        <Include>EQUI_BankWnd.xml</Include>                     <!-- imotogames - fixed -->
+        <Include>EQUI_BankWnd.xml</Include>                     <!-- imotogames - 100% fixed -->
         <Include>EQUI_BarterMerchantWnd.xml</Include>           <!-- imotogames - 100% disabled -->
         <Include>EQUI_BarterSearchWnd.xml</Include>             <!-- imotogames - 100% disabled -->
         <Include>EQUI_BarterWnd.xml</Include>                   <!-- imotogames - 100% disabled -->
@@ -34,10 +34,10 @@
         <Include>EQUI_BlockedPetBuffWnd.xml</Include>           <!-- imotogames - 100% disabled -->
         <Include>EQUI_BodyTintWnd.xml</Include>                 <!-- imotogames - 100% disabled -->
         <Include>EQUI_BookWindow.xml</Include>                  <!-- imotogames - 100% fixed -->
-        <Include>EQUI_BreathWindow.xml</Include>                <!-- imotogames - fixed -->
+        <Include>EQUI_BreathWindow.xml</Include>                <!-- imotogames - 90% fixed (need to abstract gauge implementation)-->
         <Include>EQUI_BuffWindow.xml</Include>                  <!-- imotogames - 90% fixed (needs a proper buff icon border) -->
         <Include>EQUI_BugReportWnd.xml</Include>                <!-- original -->
-        <Include>EQUI_CastingWindow.xml</Include>               <!-- imotogames - fixed -->
+        <Include>EQUI_CastingWindow.xml</Include>               <!-- imotogames - 90% fixed (need to abstract gauge implementation)-->
         <Include>EQUI_CastSpellWnd.xml</Include>                <!-- imotogames - fixed -->
         <Include>EQUI_CharacterCreate.xml</Include>             <!-- imotogames - in process -->
         <Include>EQUI_CharacterSelect.xml</Include>             <!-- imotogames - in process -->
@@ -78,7 +78,7 @@
         <Include>EQUI_LeadershipWnd.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_LFGuildWnd.xml</Include>                  <!-- imotogames - 100% disabled -->
         <Include>EQUI_LoadskinWnd.xml</Include>                 <!-- imotogames - 100% disabled -->
-        <Include>EQUI_LootWnd.xml</Include>                     <!-- imotogames - in process -->
+        <Include>EQUI_LootWnd.xml</Include>                     <!-- imotogames - 100% fixed (needs proper button implementation)-->
         <Include>EQUI_MailAddressBookWindow.xml</Include>       <!-- imotogames - 100% disabled -->
         <Include>EQUI_MailCompositionWindow.xml</Include>       <!-- imotogames - 100% disabled -->
         <Include>EQUI_MailWindow.xml</Include>                  <!-- imotogames - 100% disabled -->
@@ -103,7 +103,7 @@
         <Include>EQUI_RaidOptionsWindow.xml</Include>           <!-- imotogames - 100% disabled -->
         <Include>EQUI_RaidWindow.xml</Include>                  <!-- imotogames - 100% disabled -->
         <Include>EQUI_RespawnWnd.xml</Include>                  <!-- imotogames - 100% disabled -->
-        <Include>EQUI_SelectorWnd.xml</Include>                 <!-- imotogames - in process -->
+        <Include>EQUI_SelectorWnd.xml</Include>                 <!-- imotogames - 100% fixed (need proper button and animation implementation) -->
         <Include>EQUI_Screens.xml</Include>                     <!-- imotogames - 100% disabled -->
         <Include>EQUI_ServerListWnd.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_ShortDurationBuffWindow.xml</Include>     <!-- imotogames - 100% disabled -->

@@ -67,6 +67,18 @@
 		<Style_VScroll>true</Style_VScroll>
 	</STMLbox>
 
+    <Button item = "CD_Autolock">
+        <ScreenID>CD_Autolock</ScreenID>
+        <Location>
+			<X>17</X>
+			<Y>13</Y>
+		</Location>
+		<Size>
+			<CX>165</CX>
+			<CY>65</CY>
+		</Size>
+    </Button>
+
 	<Screen item = "ConfirmationDialogBox">
 		<Location>
 			<X>154</X>
@@ -78,9 +90,11 @@
 		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>EQUI_ConfirmationBG01</Pieces>
+        <Pieces>CD_TextOutput</Pieces>
+        <!-- Autolock may need to be adjusted to the full dialog box -->
+        <Pieces>CD_Autolock</Pieces>
 		<Pieces>CD_Yes_Button</Pieces>
 		<Pieces>CD_No_Button</Pieces>
 		<Pieces>CD_OK_Button</Pieces>
-		<Pieces>CD_TextOutput</Pieces>
 	</Screen>
 </XML>
