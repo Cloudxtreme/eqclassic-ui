@@ -15,13 +15,6 @@
 		</Size>
 	</TextureInfo>
 
-	<TextureInfo item = "classic_selector.tga">
-		<Size>
-			<CX>80</CX>
-			<CY>329</CY>
-		</Size>
-	</TextureInfo>
-
 	<!-- left & right background + frames + selector buttons + castbar slots -->
 	<TextureInfo item = "classic_pieces01.tga">
 		<Size>

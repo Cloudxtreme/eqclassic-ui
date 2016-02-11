@@ -296,6 +296,20 @@
         </Size>
     </TextureInfo>
     <!-- Spellbar Window End -->
+    <!-- Selector Window Start -->
+    <TextureInfo item = "EQUI/Selector.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/SelectorButtons.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Selector Window End -->
 	<!-- General Purpose Buttons Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>
@@ -410,12 +424,6 @@
 		</Size>
 	</TextureInfo>
 	<TextureInfo item = "window_pieces03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "window_pieces04.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>

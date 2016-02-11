@@ -103,7 +103,7 @@
         <Include>EQUI_RaidOptionsWindow.xml</Include>           <!-- imotogames - 100% disabled -->
         <Include>EQUI_RaidWindow.xml</Include>                  <!-- imotogames - 100% disabled -->
         <Include>EQUI_RespawnWnd.xml</Include>                  <!-- imotogames - 100% disabled -->
-        <Include>EQUI_SelectorWnd.xml</Include>                 <!-- imotogames - in process -->
+        <Include>EQUI_SelectorWnd.xml</Include>                 <!-- imotogames - 100% fixed (need proper button and animation implementation) -->
         <Include>EQUI_Screens.xml</Include>                     <!-- imotogames - 100% disabled -->
         <Include>EQUI_ServerListWnd.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_ShortDurationBuffWindow.xml</Include>     <!-- imotogames - 100% disabled -->
