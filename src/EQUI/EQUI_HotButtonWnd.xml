@@ -382,6 +382,10 @@
         <ScreenID>HB_SpellGem10</ScreenID>
     </SpellGem>
 
+    <Button item = "HB_FileButton">
+        <ScreenID>HB_FileButton</ScreenID>
+    </Button>
+
 	<Button item = "HB_Autolock">
 		<Size>
 			<CX>119</CX>
@@ -434,5 +438,6 @@
         <Pieces>HB_SpellGem8</Pieces>
         <Pieces>HB_SpellGem9</Pieces>
         <Pieces>HB_SpellGem10</Pieces>
+        <Pieces>HB_FileButton</Pieces>
 	</Screen>
 </XML>

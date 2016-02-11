@@ -334,9 +334,9 @@
 		</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
 		<FillTint>
-			<R>200</R>
-			<G>0</G>
-			<B>200</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</FillTint>
 		<EQType>9</EQType>
 		<GaugeDrawTemplate>
@@ -356,9 +356,9 @@
 		</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
 		<FillTint>
-			<R>200</R>
-			<G>0</G>
-			<B>200</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</FillTint>
 		<EQType>10</EQType>
 		<GaugeDrawTemplate>
