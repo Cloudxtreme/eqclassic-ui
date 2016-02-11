@@ -209,7 +209,7 @@
         </Label>
         <Combobox item="OGP_PlayerTradeCombobox">
                 <ScreenID>OGP_PlayerTradeCombobox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Static</DrawTemplate>
                 <Location>
                         <X>200</X>
                         <Y>250</Y>
@@ -587,7 +587,7 @@
         </Label>
         <Combobox item="OGP_ItemDroppingCombobox">
                 <ScreenID>OGP_ItemDroppingCombobox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Location>
                         <X>200</X>
                         <Y>199</Y>
@@ -648,7 +648,7 @@
         </Label>
         <Combobox item="OGP_FontSelector">
                 <ScreenID>OGP_FontSelector</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Location>
                         <X>200</X>
                         <Y>305</Y>
@@ -1713,7 +1713,7 @@
         </Label>
         <Combobox item="ODP_LoadScreenCombobox">
                 <ScreenID>ODP_LoadScreenCombobox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Location>
                         <X>272</X>
                         <Y>8</Y>
@@ -1757,7 +1757,7 @@
         </Label>
         <Combobox item="ODP_SkyCombobox">
                 <ScreenID>ODP_SkyCombobox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Location>
                         <X>272</X>
                         <Y>35</Y>
@@ -1931,7 +1931,7 @@
         </Label>
         <Combobox item="ODP_SpellParticlesNearClipCombobox">
                 <ScreenID>ODP_SpellParticlesNearClipCombobox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Location>
                         <X>75</X>
                         <Y>6</Y>
@@ -1972,7 +1972,7 @@
         </Label>
         <Combobox item="ODP_SpellParticlesDensityCombobox">
                 <ScreenID>ODP_SpellParticlesDensityCombobox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Location>
                         <X>75</X>
                         <Y>36</Y>
@@ -2013,7 +2013,7 @@
         </Label>
         <Combobox item="ODP_SpellParticlesFilterCombobox">
                 <ScreenID>ODP_SpellParticlesFilterCombobox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Location>
                         <X>75</X>
                         <Y>66</Y>
@@ -2144,7 +2144,7 @@
         </Label>
         <Combobox item="ODP_EnvironmentParticlesNearClipCombobox">
                 <ScreenID>ODP_EnvironmentParticlesNearClipCombobox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Location>
                         <X>75</X>
                         <Y>6</Y>
@@ -2185,7 +2185,7 @@
         </Label>
         <Combobox item="ODP_EnvironmentParticlesDensityCombobox">
                 <ScreenID>ODP_EnvironmentParticlesDensityCombobox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Location>
                         <X>75</X>
                         <Y>36</Y>
@@ -2310,7 +2310,7 @@
         </Label>
         <Combobox item="ODP_ActorParticlesNearClipCombobox">
                 <ScreenID>ODP_ActorParticlesNearClipCombobox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Location>
                         <X>75</X>
                         <Y>6</Y>
@@ -2351,7 +2351,7 @@
         </Label>
         <Combobox item="ODP_ActorParticlesDensityCombobox">
                 <ScreenID>ODP_ActorParticlesDensityCombobox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Location>
                         <X>75</X>
                         <Y>36</Y>
@@ -2392,7 +2392,7 @@
         </Label>
         <Combobox item="ODP_ActorParticlesFilterCombobox">
                 <ScreenID>ODP_ActorParticlesFilterCombobox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Location>
                         <X>75</X>
                         <Y>66</Y>
@@ -2892,7 +2892,7 @@
         </Label>
         <Combobox item="OKP_KeyboardFilterCombobox">
                 <ScreenID>OKP_KeyboardFilterCombobox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Location>
                         <X>20</X>
                         <Y>24</Y>
@@ -2949,7 +2949,7 @@
         <!-- Keyboard assignment list -->
         <Listbox item="OKP_KeyboardAssignmentList">
                 <ScreenID>OKP_KeyboardAssignmentList</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <RelativePosition>true</RelativePosition>
                 <AutoStretch>true</AutoStretch>
                 <TopAnchorToTop>true</TopAnchorToTop>
@@ -3012,7 +3012,7 @@
         <!-- *********** Options Tab Window, Chat Filters Page *********** -->
         <Listbox item="OFP_FilterList">
                 <ScreenID>FilterList</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <RelativePosition>true</RelativePosition>
                 <AutoStretch>true</AutoStretch>
                 <TopAnchorToTop>true</TopAnchorToTop>
@@ -3036,7 +3036,7 @@
         </Listbox>
         <Combobox item="OFP_FilterComboBox">
                 <ScreenID>FilterComboBox</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <AutoStretch>true</AutoStretch>
                 <TopAnchorToTop>false</TopAnchorToTop>
                 <BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3113,7 +3113,7 @@
         </Button>
         <Listbox item="OCP_ColorChooseList">
                 <ScreenID>ColorChooseList</ScreenID>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <RelativePosition>true</RelativePosition>
                 <AutoStretch>true</AutoStretch>
                 <TopAnchorToTop>true</TopAnchorToTop>
@@ -3222,7 +3222,7 @@
                 <ScreenID>PathToAddressBookField</ScreenID>
                 <RelativePosition>true</RelativePosition>
                 <AutoStretch>true</AutoStretch>
-                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <DrawTemplate>WDT_Def</DrawTemplate>
                 <Style_Border>true</Style_Border>
                 <LeftAnchorOffset>10</LeftAnchorOffset>
                 <TopAnchorOffset>30</TopAnchorOffset>

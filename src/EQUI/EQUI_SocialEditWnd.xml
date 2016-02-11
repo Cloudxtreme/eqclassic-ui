@@ -26,7 +26,7 @@
 
 	<Editbox item = "SEW_NameInput">
 		<ScreenID>SEW_NameInput</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Style_Border>true</Style_Border>
 		<AutoStretch>true</AutoStretch>
@@ -610,7 +610,7 @@
 
 	<Editbox item = "SEW_Line0Input">
 		<ScreenID>SEW_Line0Input</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Style_Border>true</Style_Border>
 		<AutoStretch>true</AutoStretch>
@@ -631,7 +631,7 @@
 
 	<Editbox item = "SEW_Line1Input">
 		<ScreenID>SEW_Line1Input</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Style_Border>true</Style_Border>
 		<AutoStretch>true</AutoStretch>
@@ -652,7 +652,7 @@
 
 	<Editbox item = "SEW_Line2Input">
 		<ScreenID>SEW_Line2Input</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Style_Border>true</Style_Border>
 		<AutoStretch>true</AutoStretch>
@@ -673,7 +673,7 @@
 
 	<Editbox item = "SEW_Line3Input">
 		<ScreenID>SEW_Line3Input</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Style_Border>true</Style_Border>
 		<AutoStretch>true</AutoStretch>
@@ -694,7 +694,7 @@
 
 	<Editbox item = "SEW_Line4Input">
 		<ScreenID>SEW_Line4Input</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Style_Border>true</Style_Border>
 		<AutoStretch>true</AutoStretch>

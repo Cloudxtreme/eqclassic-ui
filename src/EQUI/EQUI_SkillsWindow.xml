@@ -23,7 +23,7 @@
 
 	<Listbox item = "SKLW_SkillList">
 		<ScreenID>SkillList</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>false</BottomAnchorToTop>

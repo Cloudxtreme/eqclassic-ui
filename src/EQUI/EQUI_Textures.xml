@@ -310,6 +310,14 @@
         </Size>
     </TextureInfo>
     <!-- Selector Window End -->
+    <!-- Hotbar Window Start -->
+    <TextureInfo item = "EQUI/HotBar.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Hotbar Window End -->
 	<!-- General Purpose Buttons Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>
@@ -330,6 +338,12 @@
 		</Size>
 	</TextureInfo>
     <TextureInfo item = "EQUI/SmallArrowButtons.tga">
+        <Size>
+            <CX>64</CX>
+            <CY>64</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/PrevNextArrowButtons.tga">
         <Size>
             <CX>64</CX>
             <CY>64</CY>
@@ -424,18 +438,6 @@
 		</Size>
 	</TextureInfo>
 	<TextureInfo item = "window_pieces03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "window_pieces06.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "window_pieces07.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>

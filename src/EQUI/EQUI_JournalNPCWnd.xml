@@ -21,7 +21,7 @@
 
 	<Listbox item = "CJNPC_NPCList">
 		<ScreenID>NPCList</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Columns />
 		<Columns />
 		<Columns />

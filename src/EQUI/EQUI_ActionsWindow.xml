@@ -166,8 +166,6 @@
 
 	<Button item = "ASP_SocialPageLeftButton">
 		<ScreenID>ASP_SocialPageLeftButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>20</X>
 			<Y>47</Y>
@@ -176,25 +174,16 @@
 			<CX>21</CX>
 			<CY>13</CY>
 		</Size>
-		<Text></Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_Prev_Normal</Normal>
-			<Pressed>A_Prev_Pressed</Pressed>
-			<Flyby>A_Prev_Normal</Flyby>
-			<Disabled>A_Prev_Disabled</Disabled>
-			<PressedFlyby>A_Prev_Pressed</PressedFlyby>
+			<Normal>Btn_Prev_Normal</Normal>
+			<Pressed>Btn_Prev_Pressed</Pressed>
+			<PressedFlyby>Btn_Prev_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
 	<Label item ="ASP_CurrentSocialPageLabel">
 		<ScreenID>ASP_CurrentSocialPageLabel</ScreenID>
 		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>40</X>
 			<Y>47</Y>
@@ -205,19 +194,15 @@
 		</Size>
 		<Text>1</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
-		<NoWrap>false</NoWrap>
 		<AlignCenter>true</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 
 	<Button item = "ASP_SocialPageRightButton">
 		<ScreenID>ASP_SocialPageRightButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>58</X>
 			<Y>47</Y>
@@ -226,18 +211,10 @@
 			<CX>21</CX>
 			<CY>13</CY>
 		</Size>
-		<Text></Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_Next_Normal</Normal>
-			<Pressed>A_Next_Pressed</Pressed>
-			<Flyby>A_Next_Normal</Flyby>
-			<Disabled>A_Next_Disabled</Disabled>
-			<PressedFlyby>A_Next_Pressed</PressedFlyby>
+			<Normal>Btn_Next_Normal</Normal>
+			<Pressed>Btn_Next_Pressed</Pressed>
+			<PressedFlyby>Btn_Next_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -1314,9 +1291,6 @@
 	</Button>
 
 	<Screen item = "ActionsWindow">
-		<!--<ScreenID/>-->
-		<!--<Font>3</Font>-->
-		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>529</X>
 			<Y>247</Y>
@@ -1325,24 +1299,10 @@
 			<CX>121</CX>
 			<CY>233</CY>
 		</Size>
-		<Text>Actions</Text>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>true</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_RIGHT</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
-
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>ACTW_bg_bottom</Pieces>
 		<Pieces>ACTW_bg_top</Pieces>
-
 		<Pieces>ACTW_Autolock</Pieces>
-
 		<Pieces>ACTW_ActionsSubwindows</Pieces>
 	</Screen>
-
 </XML>

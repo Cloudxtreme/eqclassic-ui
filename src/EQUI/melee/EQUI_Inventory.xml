@@ -2962,8 +2962,6 @@
 
 	<Screen item = "IW_CharacterView">
 		<ScreenID>IW_CharacterView</ScreenID>
-		<RelativePosition>true</RelativePosition>
-
 		<Location>
 			<X>533</X>
 			<Y>30</Y>
@@ -2972,20 +2970,8 @@
 			<CX>96</CX>
 			<CY>192</CY>
 		</Size>
-
 		<Pieces>ClassAnim</Pieces>
-
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>true</Style_Transparent>
-		<TooltipReference>Drop Item Here to Auto Equip</TooltipReference>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
-
+		<DrawTemplate>WDT_Static</DrawTemplate>
 	</Screen>
 
 	<StaticAnimation item= "ClassAnim">
@@ -3110,7 +3096,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>true</Style_Transparent>
 		<TooltipReference>Inventory</TooltipReference>
-		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

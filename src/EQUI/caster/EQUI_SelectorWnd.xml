@@ -83,7 +83,6 @@
     </Button>
 	<Button item = "SELW_SpellBookToggleButton">
 		<ScreenID>SELW_SpellBookToggleButton</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
 			<Y>199</Y>

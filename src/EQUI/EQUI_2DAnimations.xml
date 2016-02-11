@@ -1388,6 +1388,17 @@
         </Frames>
     </Ui2DAnimation>
     <!-- Selector Window End -->
+    <!-- Hotbar Window Start -->
+    <Ui2DAnimation item = "HotBar01">
+        <Frames>
+            <Texture>EQUI/HotBar.tga</Texture>
+            <Size>
+                <CX>119</CX>
+                <CY>172</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Hotbar Window End -->
 	<!-- General Purpose Buttons Start -->
 	<Ui2DAnimation item = "Btn_Done_Pressed">
 		<Frames>
@@ -1477,6 +1488,54 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Prev_Normal">
+        <Frames>
+            <Texture>EQUI/PrevNextArrowButtons.tga</Texture>
+            <Size>
+                <CX>21</CX>
+                <CY>13</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Prev_Pressed">
+        <Frames>
+            <Texture>EQUI/PrevNextArrowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>26</Y>
+            </Location>
+            <Size>
+                <CX>21</CX>
+                <CY>13</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Next_Normal">
+        <Frames>
+            <Texture>EQUI/PrevNextArrowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>13</Y>
+            </Location>
+            <Size>
+                <CX>21</CX>
+                <CY>13</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Next_Pressed">
+        <Frames>
+            <Texture>EQUI/PrevNextArrowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>39</Y>
+            </Location>
+            <Size>
+                <CX>21</CX>
+                <CY>13</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
 	<!-- General Purpose Buttons End -->
 
 	<!-- Group Window Textures (FIX THESE) -->

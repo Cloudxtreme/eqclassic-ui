@@ -4,7 +4,7 @@
 
 	<STMLbox item = "IDW_ItemDescription">
 		<ScreenID>ItemDescription</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>true</Style_VScroll>
 		<AutoStretch>true</AutoStretch>
