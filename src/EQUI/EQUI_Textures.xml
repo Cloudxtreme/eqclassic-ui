@@ -374,6 +374,20 @@
         </Size>
     </TextureInfo>
     <!-- Inventory Window End -->
+    <!-- Player Window Start -->
+    <TextureInfo item = "EQUI/PlayerWindow.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/AttackIndicator.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Player Window End -->
 	<!-- General Purpose Buttons Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>

@@ -2,80 +2,10 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
-<!-- background for stats -->
-	<Ui2DAnimation item = "PW_bg_stats_TX">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces03.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>95</CX>
-				<CY>82</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "PW_bg_TX">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces03.tga</Texture>
-			<Location>
-				<X>135</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>121</CX>
-				<CY>101</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<StaticAnimation item = "PW_bg">
-		<ScreenID>PW_bg</ScreenID>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>121</CX>
-			<CY>101</CY>
-		</Size>
-		<Animation>PW_bg_TX</Animation>
-	</StaticAnimation>
-
-<!-- top edge -->
-	<StaticAnimation item = "PW_bg_stats">
-		<ScreenID>PW_bg_stats</ScreenID>
-		<Location>
-			<X>13</X>
-			<Y>10</Y>
-		</Location>
-		<Size>
-			<CX>95</CX>
-			<CY>82</CY>
-		</Size>
-		<Animation>PW_bg_stats_TX</Animation>
-	</StaticAnimation>
-
-<!-- name -->
 	<Label item ="PW_Name">
 		<ScreenID>PW_Name</ScreenID>
 		<EQType>1</EQType>
 		<Font>2</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>21</X>
 			<Y>13</Y>
@@ -84,21 +14,16 @@
 			<CX>84</CX>
 			<CY>16</CY>
 		</Size>
-		<Text></Text>
 		<TextColor>
-				<R>198</R>
-				<G>198</G>
-				<B>198</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item ="PW_Surname">
 		<ScreenID>PW_Surname</ScreenID>
 		<EQType>73</EQType>
 		<Font>2</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>21</X>
 			<Y>23</Y>
@@ -107,51 +32,23 @@
 			<CX>84</CX>
 			<CY>16</CY>
 		</Size>
-		<Text></Text>
 		<TextColor>
-				<R>198</R>
-				<G>198</G>
-				<B>198</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
-
-	<TextureInfo item = "AttackIndicator.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-
-	<Ui2DAnimation item = "A_AttackIndicator">
-		<Cycle>false</Cycle>
-		<Frames>
-			<Texture>AttackIndicator.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>136</CX>
-				<CY>80</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
 
 	<StaticAnimation item = "A_AttackIndicatorAnim">
 		<ScreenID>A_AttackIndicatorAnim</ScreenID>
-		<Animation>A_AttackIndicator</Animation>
+		<Animation>AttackIndicator</Animation>
 	</StaticAnimation>
 
 	<Gauge item = "Player_HP">
 		<ScreenID>PlayerHP</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>18</X>
-			<Y>39</Y>
+			<Y>42</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
@@ -159,105 +56,66 @@
 		</Size>
 		<TextOffsetY>-32</TextOffsetY>
 		<GaugeOffsetY>0</GaugeOffsetY>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<FillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</FillTint>
-		<LinesFillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</LinesFillTint>
-		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>1</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill</Fill>
 			<Lines>A_Classic_GaugeLines</Lines>
-			<!--<LinesFill>A_Classic_GaugeLinesFill</LinesFill>-->
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-
 	<Gauge item = "Player_Mana">
 		<ScreenID>PlayerMana</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>18</X>
-			<Y>50</Y>
+			<Y>53</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
 			<CY>12</CY>
 		</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<FillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</FillTint>
-		<LinesFillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</LinesFillTint>
-		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>2</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill5</Fill>
 			<Lines>A_Classic_GaugeLines</Lines>
-			<!--<LinesFill>A_Classic_GaugeLinesFill</LinesFill>-->
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-
 	<Gauge item = "Player_Fatigue">
 		<ScreenID>PlayerFatigue</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>18</X>
-			<Y>61</Y>
+			<Y>64</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
 			<CY>12</CY>
 		</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<FillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</FillTint>
-		<LinesFillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</LinesFillTint>
-		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>3</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill2</Fill>
 			<Lines>A_Classic_GaugeLines</Lines>
-			<!--<LinesFill>A_Classic_GaugeLinesFill</LinesFill>-->
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
@@ -265,104 +123,46 @@
 
 	<Button item = "PW_EffectsButton">
 		<ScreenID>EffectsButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
-			<Y>80</Y>
+			<Y>83</Y>
 		</Location>
 		<Size>
 			<CX>102</CX>
 			<CY>19</CY>
 		</Size>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>true</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text></Text>
-		<TextColor>
-			<R>40</R>
-			<G>40</G>
-			<B>32</B>
-		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_EffectsBtnPressed</Normal>
-			<Pressed>A_EffectsBtnNormal</Pressed>
-			<Flyby>A_EffectsBtnPressed</Flyby>
-			<Disabled>A_EffectsBtnNormal</Disabled>
-			<PressedFlyby>A_EffectsBtnNormal</PressedFlyby>
+			<Pressed>Btn_Effects_Pressed</Pressed>
+			<PressedFlyby>Btn_Effects_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
 	<Button item = "PW_Autolock">
-		<ScreenID>PW_Autolock</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>121</CX>
 			<CY>101</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>true</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text></Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
-			<Pressed>faB_Spacer</Pressed>
-			<Flyby>faB_Spacer</Flyby>
-			<Disabled>faB_Spacer</Disabled>
-			<PressedFlyby>faB_Spacer</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<Screen item = "PlayerWindow">
-		<!--<ScreenID/>-->
-		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>529</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>121</CX>
-			<CY>101</CY>
+			<CY>104</CY>
 		</Size>
-		<Text>Player</Text>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>true</Style_Transparent>
-		<TooltipReference>The Breath Meter</TooltipReference>
-		<DrawTemplate>WDT_Def</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
-
-		<Pieces>PW_bg</Pieces>
-		<Pieces>PW_bg_stats</Pieces>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+        <Pieces>EQUI_PlayerWindowBG01</Pieces>
 		<Pieces>PW_Name</Pieces>
 		<Pieces>PW_Surname</Pieces>
-
+        <Pieces>Player_HP</Pieces>
+        <Pieces>Player_Mana</Pieces>
+        <Pieces>Player_Fatigue</Pieces>
 		<Pieces>PW_Autolock</Pieces>
-
-		<Pieces>Player_HP</Pieces>
-		<Pieces>Player_Mana</Pieces>
-		<Pieces>Player_Fatigue</Pieces>
 		<Pieces>A_AttackIndicatorAnim</Pieces>
-
 		<Pieces>PW_EffectsButton</Pieces>
 	</Screen>
-
 </XML>

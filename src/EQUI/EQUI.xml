@@ -92,7 +92,7 @@
         <Include>EQUI_OptionsWindow.xml</Include>               <!-- original -->
         <Include>EQUI_PetInfoWindow.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_PlayerNotesWindow.xml</Include>           <!-- imotogames - 100% disabled (until otherwise noted) -->
-        <Include>EQUI_PlayerWindow.xml</Include>                <!-- imotogames - fixed -->
+        <Include>EQUI_PlayerWindow.xml</Include>                <!-- imotogames - 100% fixed (needs a proper button implementation)-->
         <Include>EQUI_PointMerchantWnd.xml</Include>            <!-- imotogames - 100% disabled -->
         <Include>EQUI_PotionBeltWnd.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_ProgressionSelectionWnd.xml</Include>     <!-- imotogames - 100% disabled -->
