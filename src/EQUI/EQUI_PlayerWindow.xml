@@ -70,6 +70,9 @@
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
+    <Gauge item = "Pet_HP">
+        <ScreenID>PetHP</ScreenID>
+    </Gauge>
 	<Gauge item = "Player_Mana">
 		<ScreenID>PlayerMana</ScreenID>
 		<Location>
@@ -159,6 +162,7 @@
 		<Pieces>PW_Name</Pieces>
 		<Pieces>PW_Surname</Pieces>
         <Pieces>Player_HP</Pieces>
+        <Pieces>Pet_HP</Pieces>
         <Pieces>Player_Mana</Pieces>
         <Pieces>Player_Fatigue</Pieces>
 		<Pieces>PW_Autolock</Pieces>
