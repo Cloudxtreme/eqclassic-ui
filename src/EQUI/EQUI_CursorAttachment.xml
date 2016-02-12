@@ -41,11 +41,11 @@
 			<CX>40</CX>
 			<CY>32</CY>
 		</Size>
-		<SpellGemDrawTemplate>
+		<!--<SpellGemDrawTemplate>
 			<Holder>A_SpellGemHolder</Holder>
 			<Background>A_SpellGemBackground</Background>
 			<Highlight>A_SpellGemHighlight</Highlight>
-		</SpellGemDrawTemplate>
+		</SpellGemDrawTemplate>-->
 		<SpellIconOffsetX>8</SpellIconOffsetX>
 		<SpellIconOffsetY>4</SpellIconOffsetY>
 	</SpellGem>

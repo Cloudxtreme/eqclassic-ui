@@ -318,6 +318,62 @@
         </Size>
     </TextureInfo>
     <!-- Hotbar Window End -->
+    <!-- Inventory Window Start -->
+    <TextureInfo item = "EQUI/Inventory01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Inventory02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Inventory03.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Inventory04.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Inventory05.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Inventory06.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/InventoryMain.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/InventoryEquipment.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/InventoryButtons.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Inventory Window End -->
 	<!-- General Purpose Buttons Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>
@@ -426,12 +482,6 @@
 		</Size>
 	</TextureInfo>
 	<TextureInfo item = "window_pieces01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "window_pieces02.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>

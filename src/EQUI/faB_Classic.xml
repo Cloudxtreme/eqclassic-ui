@@ -15,13 +15,6 @@
 		</Size>
 	</TextureInfo>
 
-	<!-- left & right background + frames + selector buttons + castbar slots -->
-	<TextureInfo item = "classic_pieces01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
 	<!-- container -->
 	<TextureInfo item = "classic_pieces02.tga">
 		<Size>
@@ -70,13 +63,6 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<!-- left side bar repeating background -->
-	<TextureInfo item = "classic_bg_left.tga">
-		<Size>
-			<CX>128</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
 	<!-- right side bar repeating background -->
 	<TextureInfo item = "classic_bg_right.tga">
 		<Size>
@@ -118,84 +104,6 @@
 			<Size>
 				<CX>128</CX>
 				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-<!-- backgrounds for cash boxes -->
-	<Ui2DAnimation item = "A_RecessedPlatinum">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces02.tga</Texture>
-			<Location>
-				<X>4</X>
-				<Y>120</Y>
-			</Location>
-			<Size>
-				<CX>67</CX>
-				<CY>24</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RecessedGold">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces02.tga</Texture>
-			<Location>
-				<X>4</X>
-				<Y>154</Y>
-			</Location>
-			<Size>
-				<CX>67</CX>
-				<CY>24</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RecessedSilver">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces02.tga</Texture>
-			<Location>
-				<X>4</X>
-				<Y>188</Y>
-			</Location>
-			<Size>
-				<CX>67</CX>
-				<CY>24</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RecessedCopper">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces02.tga</Texture>
-			<Location>
-				<X>4</X>
-				<Y>222</Y>
-			</Location>
-			<Size>
-				<CX>67</CX>
-				<CY>24</CY>
 			</Size>
 			<Hotspot>
 				<X>0</X>
@@ -716,7 +624,6 @@
 		</Frames>
 	</Ui2DAnimation>
 
-
 	<!-- 48x48 item slot 'frame' to draw behind 40x40 InvSlot's -->
 	<Ui2DAnimation item = "A_InvSlotFrame">
 		<Cycle>true</Cycle>
@@ -735,196 +642,6 @@
 				<Y>0</Y>
 			</Hotspot>
 			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<!-- Inv slots not in new UI -->
-	<Ui2DAnimation item = "A_InvEar2">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>82</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InvWrist2">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>41</X>
-				<Y>82</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InvRing2">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>82</X>
-				<Y>82</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "A_InvMain1">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>123</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InvMain2">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>41</X>
-				<Y>123</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InvMain3">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>82</X>
-				<Y>123</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InvMain4">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>123</X>
-				<Y>123</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InvMain5">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>164</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InvMain6">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>41</X>
-				<Y>164</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InvMain7">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>82</X>
-				<Y>164</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InvMain8">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>123</X>
-				<Y>164</Y>
-			</Location>
-			<Size>
-				<CX>40</CX>
-				<CY>40</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
 		</Frames>
 	</Ui2DAnimation>
 
@@ -1462,46 +1179,6 @@
 		</Frames>
 	</Ui2DAnimation>
 
-<!-- Background bits common to Left Side Windows -->
-
-	<Ui2DAnimation item = "LEFTW_Overlap_bg_1_TX">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_bg_left.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>119</CX>
-				<CY>256</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "LEFTW_Overlap_bg_2_TX">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_bg_left.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>119</CX>
-				<CY>240</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
 	<!-- Target Name Box  -->
 	<Ui2DAnimation item = "A_TargetNameBox">
 		<Cycle>true</Cycle>
@@ -1514,26 +1191,6 @@
 			<Size>
 				<CX>103</CX>
 				<CY>14</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<!-- Divider between left side windows & hotbuttons -->
-	<Ui2DAnimation item = "A_LEFT_Divider">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces01.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>76</Y>
-			</Location>
-			<Size>
-				<CX>119</CX>
-				<CY>11</CY>
 			</Size>
 			<Hotspot>
 				<X>0</X>

@@ -5,22 +5,6 @@
   <!-- IS_CHARM		0 -->
   <InvSlot item="INSW_InvSlot0">
     <ScreenID>InvSlot0</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>165</X>
-      <Y>280</Y>
-    </Location>
-    <Size>
-      <CX>40</CX>
-      <CY>40</CY>
-    </Size>
-    <Background>A_InvCharm</Background>
-    <EQType>8000</EQType>
-    <Style_VScroll>false</Style_VScroll>
-    <Style_HScroll>false</Style_HScroll>
-    <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
   </InvSlot>
 
   <!-- IS_L_EAR		1 -->
@@ -36,7 +20,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvEar</Background>
+    <Background>Inventory_Slot_Ear</Background>
     <EQType>8001</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -56,7 +40,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvHead</Background>
+    <Background>Inventory_Slot_Head</Background>
     <EQType>8002</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -76,7 +60,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvFace</Background>
+    <Background>Inventory_Slot_Face</Background>
     <EQType>8003</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -96,7 +80,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvEar</Background>
+    <Background>Inventory_Slot_Ear</Background>
     <EQType>8004</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -116,7 +100,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvNeck</Background>
+    <Background>Inventory_Slot_Neck</Background>
     <EQType>8005</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -136,7 +120,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvShoulders</Background>
+    <Background>Inventory_Slot_Shoulders</Background>
     <EQType>8006</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -156,14 +140,14 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvArms</Background>
+    <Background>Inventory_Slot_Arms</Background>
     <EQType>8007</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference />
   </InvSlot>
-  <!-- IS_ABOUT_BODY	8 -->
+  <!-- IS_BACK	8 -->
   <InvSlot item="INSW_InvSlot8">
     <ScreenID>InvSlot8</ScreenID>
     <!--<Font>3</Font>-->
@@ -176,7 +160,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvAboutBody</Background>
+    <Background>Inventory_Slot_Back</Background>
     <EQType>8008</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -196,7 +180,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvWrist</Background>
+    <Background>Inventory_Slot_Wrist</Background>
     <EQType>8009</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -216,7 +200,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvWrist</Background>
+    <Background>Inventory_Slot_Wrist</Background>
     <EQType>8010</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -236,7 +220,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvRange</Background>
+    <Background>Inventory_Slot_Range</Background>
     <EQType>8011</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -256,7 +240,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvHands</Background>
+    <Background>Inventory_Slot_Hands</Background>
     <EQType>8012</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -276,7 +260,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvPrimary</Background>
+    <Background>Inventory_Slot_Primary</Background>
     <EQType>8013</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -296,7 +280,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvSecondary</Background>
+    <Background>Inventory_Slot_Secondary</Background>
     <EQType>8014</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -316,7 +300,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvRing</Background>
+    <Background>Inventory_Slot_Ring</Background>
     <EQType>8015</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -336,7 +320,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvRing</Background>
+    <Background>Inventory_Slot_Ring</Background>
     <EQType>8016</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -356,7 +340,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvChest</Background>
+    <Background>Inventory_Slot_Chest</Background>
     <EQType>8017</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -376,7 +360,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvLegs</Background>
+    <Background>Inventory_Slot_Legs</Background>
     <EQType>8018</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -396,7 +380,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvFeet</Background>
+    <Background>Inventory_Slot_Feet</Background>
     <EQType>8019</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -416,7 +400,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvWaist</Background>
+    <Background>Inventory_Slot_Waist</Background>
     <EQType>8020</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -436,7 +420,7 @@
       <CX>40</CX>
       <CY>40</CY>
     </Size>
-    <Background>A_InvAmmo</Background>
+    <Background>Inventory_Slot_Ammo</Background>
     <EQType>8021</EQType>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>

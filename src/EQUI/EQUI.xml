@@ -68,7 +68,7 @@
         <Include>EQUI_GuildTributeMasterWnd.xml</Include>       <!-- imotogames - 100% disabled -->
         <Include>EQUI_HotButtonWnd.xml</Include>                <!-- imotogames - 80% fixed (needs a proper spell gem and better skill button implementation) -->
         <Include>EQUI_InspectWnd.xml</Include>                  <!-- original -->
-        <Include>EQUI_Inventory.xml</Include>                   <!-- imotogames - fixed -->
+        <Include>EQUI_Inventory.xml</Include>                   <!-- imotogames - 100% fixed -->
         <Include>EQUI_ItemDisplay.xml</Include>                 <!-- original -->
         <Include>EQUI_ItemExpTransferWnd.xml</Include>          <!-- imotogames - 100% disabled -->
         <Include>EQUI_JournalCatWnd.xml</Include>               <!-- imotogames - 100% disabled -->
