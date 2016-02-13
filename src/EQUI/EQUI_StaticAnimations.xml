@@ -602,6 +602,16 @@
 		<Animation>GroupWindow01</Animation>
 	</StaticAnimation>
     <!-- Group Window End -->
+    <!-- Target Window Start -->
+    <StaticAnimation item = "EQUI_TargetWindowBG01">
+		<ScreenID>TargetWindowBG01</ScreenID>
+		<Size>
+			<CX>121</CX>
+			<CY>27</CY>
+		</Size>
+		<Animation>TargetWindow01</Animation>
+	</StaticAnimation>
+    <!-- Target Window End -->
 
 	<Ui2DAnimation item = "A_CloseBtnNormal">
 		<Cycle>true</Cycle>

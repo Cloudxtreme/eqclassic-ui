@@ -1916,6 +1916,30 @@
         </Frames>
     </Ui2DAnimation>
     <!-- Group Window End -->
+    <!-- Target Window Start -->
+    <Ui2DAnimation item = "TargetWindow01">
+        <Frames>
+            <Texture>EQUI/TargetWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>27</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "TargetWindow_Gauge">
+        <Frames>
+            <Texture>EQUI/TargetWindow.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>27</Y>
+            </Location>
+            <Size>
+                <CX>99</CX>
+                <CY>10</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Target Window End -->
 	<!-- General Purpose Buttons Start -->
 	<Ui2DAnimation item = "Btn_Done_Pressed">
 		<Frames>
@@ -2054,32 +2078,4 @@
         </Frames>
     </Ui2DAnimation>
 	<!-- General Purpose Buttons End -->
-
-	<!-- Group Window Textures (FIX THESE) -->
-	<Ui2DAnimation item = "GW_bg_TX">
-		<Frames>
-			<Texture>classic_pieces03.tga</Texture>
-			<Location>
-				<X>135</X>
-				<Y>101</Y>
-			</Location>
-			<Size>
-				<CX>121</CX>
-				<CY>119</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "GW_member_bg_TX">
-		<Frames>
-			<Texture>classic_pieces03.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>85</Y>
-			</Location>
-			<Size>
-				<CX>95</CX>
-				<CY>119</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
 </XML>

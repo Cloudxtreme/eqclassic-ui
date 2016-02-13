@@ -396,6 +396,14 @@
         </Size>
     </TextureInfo>
     <!-- Group Window End -->
+    <!-- Target Window Start -->
+    <TextureInfo item = "EQUI/TargetWindow.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Target Window End -->
 	<!-- General Purpose Buttons Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>

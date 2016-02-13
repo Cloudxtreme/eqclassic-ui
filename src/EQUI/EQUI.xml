@@ -47,7 +47,7 @@
         <Include>EQUI_CombatAbilityWnd.xml</Include>            <!-- imotogames - 100% disabled -->
         <Include>EQUI_CombatSkillsSelectWindow.xml</Include>    <!-- imotogames - 100% disabled -->
         <Include>EQUI_CompassWnd.xml</Include>                  <!-- imotogames - 100% disabled -->
-        <Include>EQUI_ConfirmationDialog.xml</Include>          <!-- imotogames - 100% fixed (text may need adjusting)-->
+        <Include>EQUI_ConfirmationDialog.xml</Include>          <!-- imotogames - 100% fixed -->
         <Include>EQUI_Container.xml</Include>                   <!-- imotogames - in process -->
         <Include>EQUI_CursorAttachment.xml</Include>            <!-- original -->
         <Include>EQUI_DynamicZoneWnd.xml</Include>              <!-- imotogames - 100% disabled -->
@@ -62,7 +62,7 @@
         <Include>EQUI_GiveWnd.xml</Include>                     <!-- imotogames - 100% fixed -->
         <Include>EQUI_GmAttentionTextWnd.xml</Include>          <!-- ?? -->
         <Include>EQUI_GroupSearchWnd.xml</Include>              <!-- imotogames - 100% disabled -->
-        <Include>EQUI_GroupWindow.xml</Include>                 <!-- imotogames - 90% fixed (need to fix textures) -->
+        <Include>EQUI_GroupWindow.xml</Include>                 <!-- imotogames - 100% fixed (needs proper gauge implementations) -->
         <Include>EQUI_GuildBankWnd.xml</Include>                <!-- imotogames - 100% disabled -->
         <Include>EQUI_GuildManagementWnd.xml</Include>          <!-- imotogames - 100% disabled -->
         <Include>EQUI_GuildTributeMasterWnd.xml</Include>       <!-- imotogames - 100% disabled -->
