@@ -91,6 +91,7 @@
 			<CX>70</CX>
 			<CY>19</CY>
 		</Size>
+        <TooltipReference>(/help)</TooltipReference>
 		<ButtonDrawTemplate>
 			<Pressed>Btn_Help_Pressed</Pressed>
 			<PressedFlyby>Btn_Help_Pressed</PressedFlyby>
@@ -106,6 +107,7 @@
 			<CX>70</CX>
 			<CY>19</CY>
 		</Size>
+        <TooltipReference>(F9)</TooltipReference>
 		<ButtonDrawTemplate>
 			<Pressed>Btn_View_Pressed</Pressed>
 			<PressedFlyby>Btn_View_Pressed</PressedFlyby>

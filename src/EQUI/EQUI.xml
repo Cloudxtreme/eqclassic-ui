@@ -12,7 +12,7 @@
         <Include>faB_Classic.xml</Include>                      <!-- imotogames - updated -->
 
         <Include>EQUI_AAWindow.xml</Include>                    <!-- imotogames - 100% disabled -->
-        <Include>EQUI_ActionsWindow.xml</Include>               <!-- imotogames - in process -->
+        <Include>EQUI_ActionsWindow.xml</Include>               <!-- imotogames - 90% fixed (need to abstract small buttons and change arrow buttons) -->
         <Include>EQUI_AdvancedDisplayOptionsWnd.xml</Include>   <!-- original -->
         <Include>EQUI_AdventureLeaderboardWnd.xml</Include>     <!-- imotogames - 100% disabled -->
         <Include>EQUI_AdventureMerchantWnd.xml</Include>        <!-- imotogames - 100% disabled -->
@@ -114,7 +114,7 @@
         <Include>EQUI_StoryWnd.xml</Include>                    <!-- imotogames - 100% disabled -->
         <Include>EQUI_SystemInfoWnd.xml</Include>               <!-- ?? -->
         <Include>EQUI_TargetOfTargetWindow.xml</Include>        <!-- imotogames - 100% disabled -->
-        <Include>EQUI_TargetWindow.xml</Include>                <!-- imotogames - fixed -->
+        <Include>EQUI_TargetWindow.xml</Include>                <!-- imotogames - 100% fixed -->
         <Include>EQUI_TaskSelectWnd.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_TaskTemplateSelectWnd.xml</Include>       <!-- imotogames - 100% disabled -->
         <Include>EQUI_TaskWnd.xml</Include>                     <!-- imotogames - 100% disabled -->

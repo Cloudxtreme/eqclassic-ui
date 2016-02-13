@@ -404,6 +404,38 @@
         </Size>
     </TextureInfo>
     <!-- Target Window End -->
+    <!-- Actions Window Start -->
+    <TextureInfo item = "EQUI/ActionsMainWindow.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/ActionsAbilitiesWindow.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/ActionsCombatWindow.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/ActionsSocialWindow.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/ActionsWindowButtons.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Actions Window End -->
 	<!-- General Purpose Buttons Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>

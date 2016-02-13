@@ -184,28 +184,28 @@
 	</FrameTemplate>
 
 	<FrameTemplate item = "FT_DefTabBorder">
-		<TopLeft>A_TabFrameTopLeft</TopLeft>
-		<Top>A_TabFrameTop</Top>
-		<TopRight>A_TabFrameTopRight</TopRight>
-		<RightTop>A_TabFrameRightTop</RightTop>
-		<Right>A_TabFrameRight</Right>
-		<RightBottom>A_TabRightBottom</RightBottom>
-		<LeftTop>A_TabFrameLeftTop</LeftTop>
-		<Left>A_TabFrameLeft</Left>
-		<LeftBottom>A_TabLeftBottom</LeftBottom>
+		<TopLeft>EQUI_Blank</TopLeft>
+		<Top>EQUI_Blank</Top>
+		<TopRight>EQUI_Blank</TopRight>
+		<RightTop>EQUI_Blank</RightTop>
+		<Right>EQUI_Blank</Right>
+		<RightBottom>EQUI_Blank</RightBottom>
+		<LeftTop>EQUI_Blank</LeftTop>
+		<Left>EQUI_Blank</Left>
+		<LeftBottom>EQUI_Blank</LeftBottom>
 	</FrameTemplate>
 	<FrameTemplate item = "FT_DefPageBorder">
-		<TopLeft>A_TabFrameTopLeft</TopLeft>
-		<Top>A_TabFrameTop</Top>
-		<TopRight>A_TabFrameTopRight</TopRight>
-		<RightTop>A_TabFrameRightTop</RightTop>
-		<Right>A_TabFrameRight</Right>
-		<RightBottom>A_TabFrameRightBottom</RightBottom>
-		<BottomRight>A_TabFrameBottomRight</BottomRight>
-		<Bottom>A_TabFrameBottom</Bottom>
-		<BottomLeft>A_TabFrameBottomLeft</BottomLeft>
-		<LeftTop>A_TabFrameLeftTop</LeftTop>
-		<Left>A_TabFrameLeft</Left>
-		<LeftBottom>A_TabFrameLeftBottom</LeftBottom>
+		<TopLeft>EQUI_Blank</TopLeft>
+		<Top>EQUI_Blank</Top>
+		<TopRight>EQUI_Blank</TopRight>
+		<RightTop>EQUI_Blank</RightTop>
+		<Right>EQUI_Blank</Right>
+		<RightBottom>EQUI_Blank</RightBottom>
+		<BottomRight>EQUI_Blank</BottomRight>
+		<Bottom>EQUI_Blank</Bottom>
+		<BottomLeft>EQUI_Blank</BottomLeft>
+		<LeftTop>EQUI_Blank</LeftTop>
+		<Left>EQUI_Blank</Left>
+		<LeftBottom>EQUI_Blank</LeftBottom>
 	</FrameTemplate>
 </XML>

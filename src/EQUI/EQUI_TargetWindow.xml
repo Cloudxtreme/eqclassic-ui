@@ -43,6 +43,13 @@
 			<B>255</B>
 		</TextColor>
 	</Label>
+    <Label item ="Target_HPLabel">
+        <ScreenID>HPLabel</ScreenID>
+    </Label>
+    <Label item ="Target_HPPercLabel">
+        <ScreenID>HPPercLabel</ScreenID>
+    </Label>
+
 
 	<Button item = "TW_Autolock">
 		<Size>
@@ -63,6 +70,8 @@
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>EQUI_TargetWindowBG01</Pieces>
 		<Pieces>Target_HP</Pieces>
+        <!--<Pieces>Target_HPLabel</Pieces>
+        <Pieces>Target_HPPercLabel</Pieces>-->
 		<Pieces>TW_TargetName</Pieces>
 		<Pieces>TW_Autolock</Pieces>
 	</Screen>

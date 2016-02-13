@@ -134,6 +134,7 @@
 			<CX>102</CX>
 			<CY>19</CY>
 		</Size>
+        <TooltipReference>(Alt+B)</TooltipReference>
 		<Style_Checkbox>true</Style_Checkbox>
 		<ButtonDrawTemplate>
 			<Pressed>Btn_Effects_Pressed</Pressed>

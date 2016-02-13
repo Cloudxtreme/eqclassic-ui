@@ -1940,6 +1940,235 @@
         </Frames>
     </Ui2DAnimation>
     <!-- Target Window End -->
+    <!-- Actions Window Start -->
+    <Ui2DAnimation item = "ActionsWindow01">
+        <Frames>
+            <Texture>EQUI/ActionsMainWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>230</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "ActionsWindow02">
+        <Frames>
+            <Texture>EQUI/ActionsAbilitiesWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>230</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "ActionsWindow03">
+        <Frames>
+            <Texture>EQUI/ActionsCombatWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>230</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "ActionsWindow04">
+        <Frames>
+            <Texture>EQUI/ActionsSocialWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>230</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Abilities_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Combat_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>19</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Main_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>38</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Socials_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>57</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Who_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>228</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Invite_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>102</X>
+                <Y>152</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Follow_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>152</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Disband_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>95</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Camp_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>133</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Sit_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>190</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Stand_Normal">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>76</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Stand_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>102</X>
+                <Y>76</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Walk_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>209</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Run_Normal">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>114</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Run_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>102</X>
+                <Y>114</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Actions Window End -->
 	<!-- General Purpose Buttons Start -->
 	<Ui2DAnimation item = "Btn_Done_Pressed">
 		<Frames>
@@ -2078,4 +2307,5 @@
         </Frames>
     </Ui2DAnimation>
 	<!-- General Purpose Buttons End -->
+    <Ui2DAnimation item = "EQUI_Blank" />
 </XML>

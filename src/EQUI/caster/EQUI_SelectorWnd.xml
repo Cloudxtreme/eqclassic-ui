@@ -91,6 +91,7 @@
 			<CX>71</CX>
 			<CY>76</CY>
 		</Size>
+        <TooltipReference>(Ctrl+B or /book)</TooltipReference>
 		<Style_Checkbox>true</Style_Checkbox>
 		<ButtonDrawTemplate>
 			<Normal>Btn_SpellBook_Normal</Normal>
@@ -109,6 +110,7 @@
 			<CX>70</CX>
 			<CY>19</CY>
 		</Size>
+        <TooltipReference>(/help)</TooltipReference>
 		<ButtonDrawTemplate>
 			<Pressed>Btn_Help_Pressed</Pressed>
 			<PressedFlyby>Btn_Help_Pressed</PressedFlyby>
@@ -124,6 +126,7 @@
 			<CX>70</CX>
 			<CY>19</CY>
 		</Size>
+        <TooltipReference>(F9)</TooltipReference>
 		<ButtonDrawTemplate>
 			<Pressed>Btn_View_Pressed</Pressed>
 			<PressedFlyby>Btn_View_Pressed</PressedFlyby>
