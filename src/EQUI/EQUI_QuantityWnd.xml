@@ -50,6 +50,13 @@
 		</ButtonDrawTemplate>
 	</Button>
 
+    <Button item = "QTYW_Autolock">
+		<Size>
+			<CX>128</CX>
+			<CY>64</CY>
+		</Size>
+	</Button>
+
 	<Screen item = "QuantityWnd">
 		<Size>
 			<CX>128</CX>
@@ -57,6 +64,7 @@
 		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
         <Pieces>EQUI_QuantityWindowBG01</Pieces>
+        <Pieces>QTYW_Autolock</Pieces>
 		<Pieces>QTYW_Slider</Pieces>
 		<Pieces>QTYW_SliderInput</Pieces>
 		<Pieces>QTYW_Accept_Button</Pieces>

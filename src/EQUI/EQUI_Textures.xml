@@ -475,10 +475,10 @@
             <CY>64</CY>
         </Size>
     </TextureInfo>
-    <TextureInfo item = "EQUI/ClassicSlider.tga">
+    <TextureInfo item = "EQUI/SliderThumb.tga">
 		<Size>
-			<CX>128</CX>
-			<CY>128</CY>
+			<CX>32</CX>
+			<CY>32</CY>
 		</Size>
 	</TextureInfo>
 	<!-- General Purpose End -->
