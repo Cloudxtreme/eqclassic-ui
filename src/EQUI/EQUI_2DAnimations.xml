@@ -2169,7 +2169,18 @@
         </Frames>
     </Ui2DAnimation>
     <!-- Actions Window End -->
-	<!-- General Purpose Buttons Start -->
+    <!-- Quantity Window Start -->
+    <Ui2DAnimation item = "QuantityWindow01">
+        <Frames>
+            <Texture>EQUI/QuantityWindow.tga</Texture>
+            <Size>
+                <CX>128</CX>
+                <CY>64</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Quantity Window End -->
+	<!-- General Purpose Start -->
 	<Ui2DAnimation item = "Btn_Done_Pressed">
 		<Frames>
 			<Texture>EQUI/DoneButton.tga</Texture>
@@ -2306,6 +2317,36 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-	<!-- General Purpose Buttons End -->
+    <Ui2DAnimation item = "Slider_Background">
+        <Frames>
+            <Size>
+                <CX>65</CX>
+                <CY>11</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Slider_EndCap">
+        <Frames>
+            <Size>
+                <CX>18</CX>
+                <CY>11</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Slider_Thumb">
+        <Frames>
+            <Texture>EQUI/ClassicSlider.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>11</Y>
+            </Location>
+            <Size>
+                <CX>11</CX>
+                <CY>22</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+	<!-- General Purpose End -->
+
     <Ui2DAnimation item = "EQUI_Blank" />
 </XML>

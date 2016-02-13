@@ -99,7 +99,7 @@
         <Include>EQUI_PvPLeaderBoardWnd.xml</Include>           <!-- imotogames - 100% disabled -->
         <Include>EQUI_PvPMerchantWnd.xml</Include>              <!-- imotogames - 100% disabled -->
         <Include>EQUI_PvPStatsWnd.xml</Include>                 <!-- imotogames - 100% disabled -->
-        <Include>EQUI_QuantityWnd.xml</Include>                 <!-- original -->
+        <Include>EQUI_QuantityWnd.xml</Include>                 <!-- imotogames - 100% finished (needs a proper slider implementation, preferably a horizontal scroll) -->
         <Include>EQUI_RaidOptionsWindow.xml</Include>           <!-- imotogames - 100% disabled -->
         <Include>EQUI_RaidWindow.xml</Include>                  <!-- imotogames - 100% disabled -->
         <Include>EQUI_RespawnWnd.xml</Include>                  <!-- imotogames - 100% disabled -->

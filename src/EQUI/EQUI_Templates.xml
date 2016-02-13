@@ -142,17 +142,23 @@
 		<!-- Use this for windows with no border and non-visible scrollbars -->
 	</WindowDrawTemplate>
 
+    <!-- This will be removed eventually -->
 	<SliderDrawTemplate item = "SDT_DefSlider">
 		<Thumb>
 			<Normal>A_SliderThumbNormal</Normal>
-			<Pressed>A_SliderThumbPressed</Pressed>
-			<Flyby>A_SliderThumbFlyby</Flyby>
-			<Disabled>A_SliderThumbDisabled</Disabled>
-			<PressedFlyby>A_SliderThumbPressedFlyby</PressedFlyby>
 		</Thumb>
 		<Background>A_SliderBackground</Background>
 		<EndCapRight>A_SliderEndCapRight</EndCapRight>
 		<EndCapLeft>A_SliderEndCapLeft</EndCapLeft>
+	</SliderDrawTemplate>
+
+    <SliderDrawTemplate item = "SDT_Classic">
+		<Thumb>
+			<Normal>Slider_Thumb</Normal>
+		</Thumb>
+		<Background>Slider_Background</Background>
+		<EndCapRight>Slider_EndCap</EndCapRight>
+		<EndCapLeft>Slider_EndCap</EndCapLeft>
 	</SliderDrawTemplate>
 
 	<ButtonDrawTemplate item = "BDT_Combo">

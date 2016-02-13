@@ -646,6 +646,16 @@
 		<Animation>ActionsWindow04</Animation>
 	</StaticAnimation>
     <!-- Actions Window End -->
+    <!-- Quantity Window Start -->
+    <StaticAnimation item = "EQUI_QuantityWindowBG01">
+		<ScreenID>QuantityWindowBG01</ScreenID>
+		<Size>
+			<CX>128</CX>
+			<CY>64</CY>
+		</Size>
+		<Animation>QuantityWindow01</Animation>
+	</StaticAnimation>
+    <!-- Quantity Window End -->
 
 	<Ui2DAnimation item = "A_CloseBtnNormal">
 		<Cycle>true</Cycle>
@@ -2748,10 +2758,7 @@
 		</Frames>
 	</Ui2DAnimation>
 
-<!-- Slider parts -->
-
 	<Ui2DAnimation item = "A_SliderBackground">
-		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
 			<Location>
@@ -2762,15 +2769,9 @@
 				<CX>2</CX>
 				<CY>12</CY>
 			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
 	<Ui2DAnimation item = "A_SliderEndCapLeft">
-		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
 			<Location>
@@ -2781,15 +2782,9 @@
 				<CX>4</CX>
 				<CY>12</CY>
 			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
 	<Ui2DAnimation item = "A_SliderEndCapRight">
-		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
 			<Location>
@@ -2800,15 +2795,9 @@
 				<CX>4</CX>
 				<CY>12</CY>
 			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
 	<Ui2DAnimation item = "A_SliderThumbNormal">
-		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
 			<Location>
@@ -2819,109 +2808,6 @@
 				<CX>9</CX>
 				<CY>18</CY>
 			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderThumbPressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>92</X>
-				<Y>50</Y>
-			</Location>
-			<Size>
-				<CX>9</CX>
-				<CY>18</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderThumbFlyby">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>91</X>
-				<Y>30</Y>
-			</Location>
-			<Size>
-				<CX>9</CX>
-				<CY>18</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderThumbDisabled">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>81</X>
-				<Y>30</Y>
-			</Location>
-			<Size>
-				<CX>9</CX>
-				<CY>18</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderThumbPressedFlyby">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>82</X>
-				<Y>50</Y>
-			</Location>
-			<Size>
-				<CX>9</CX>
-				<CY>18</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-<!-- Art for book and spell book -->
-
-	<Ui2DAnimation item = "A_SpellBookSlot">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>130</X>
-				<Y>170</Y>
-			</Location>
-			<Size>
-				<CX>48</CX>
-				<CY>48</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
 

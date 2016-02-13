@@ -436,7 +436,15 @@
         </Size>
     </TextureInfo>
     <!-- Actions Window End -->
-	<!-- General Purpose Buttons Start -->
+    <!-- Quanity Window Start -->
+    <TextureInfo item = "EQUI/QuantityWindow.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Quantity Window End -->
+	<!-- General Purpose Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>
 			<CX>64</CX>
@@ -467,7 +475,13 @@
             <CY>64</CY>
         </Size>
     </TextureInfo>
-	<!-- General Purpose Buttons End -->
+    <TextureInfo item = "EQUI/ClassicSlider.tga">
+		<Size>
+			<CX>128</CX>
+			<CY>128</CY>
+		</Size>
+	</TextureInfo>
+	<!-- General Purpose End -->
 
 
 	<!-- OLD TEXTURE INFO AND NEEDS TO BE UPDATED -->
