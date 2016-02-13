@@ -893,4 +893,47 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
+
+    <!-- Fabrice's old code -->
+    <TextureInfo item = "classic_debug01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- container -->
+    <TextureInfo item = "classic_pieces02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- actions -->
+    <TextureInfo item = "classic_pieces04.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- inventory -->
+    <TextureInfo item = "classic_pieces05.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- classic character select textures -->
+    <TextureInfo item = "classic_pieces07.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "classic_pieces08.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Fabrice's old code -->
 </XML>
