@@ -1905,6 +1905,17 @@
         </Frames>
     </Ui2DAnimation>
     <!-- Player Window End -->
+    <!-- Group Window Start -->
+    <Ui2DAnimation item = "GroupWindow01">
+        <Frames>
+            <Texture>EQUI/GroupWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>120</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Group Window End -->
 	<!-- General Purpose Buttons Start -->
 	<Ui2DAnimation item = "Btn_Done_Pressed">
 		<Frames>

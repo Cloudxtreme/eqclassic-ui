@@ -23,7 +23,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>19</X>
-			<Y>2</Y>
+			<Y>5</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
@@ -45,7 +45,6 @@
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill</Fill>
-			<Lines>A_Classic_GaugeLines</Lines>
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
@@ -58,7 +57,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>19</X>
-			<Y>22</Y>
+			<Y>25</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
@@ -80,7 +79,6 @@
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill</Fill>
-			<Lines>A_Classic_GaugeLines</Lines>
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
@@ -93,7 +91,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>19</X>
-			<Y>44</Y>
+			<Y>47</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
@@ -115,7 +113,6 @@
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill</Fill>
-			<Lines>A_Classic_GaugeLines</Lines>
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
@@ -128,7 +125,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>19</X>
-			<Y>66</Y>
+			<Y>69</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
@@ -150,7 +147,6 @@
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill</Fill>
-			<Lines>A_Classic_GaugeLines</Lines>
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
@@ -163,7 +159,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>19</X>
-			<Y>88</Y>
+			<Y>91</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
@@ -185,7 +181,6 @@
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill</Fill>
-			<Lines>A_Classic_GaugeLines</Lines>
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
@@ -229,7 +224,7 @@
 		<ScreenID>GW_Autolock</ScreenID>
 		<Size>
 			<CX>121</CX>
-			<CY>124</CY>
+			<CY>120</CY>
 		</Size>
 	</Button>
 
@@ -237,18 +232,14 @@
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Location>
 			<X>529</X>
-			<Y>101</Y>
+			<Y>104</Y>
 		</Location>
 		<Size>
 			<CX>121</CX>
-			<CY>124</CY>
+			<CY>120</CY>
 		</Size>
-
-		<Pieces>GW_bg</Pieces>
-		<Pieces>GW_member_bg</Pieces>
-
+        <Pieces>EQUI_GroupWindowBG01</Pieces>
 		<Pieces>GW_Autolock</Pieces>
-
 		<Pieces>GW_InviteButton</Pieces>
 		<Pieces>GW_DisbandButton</Pieces>
 		<Pieces>GW_FollowButton</Pieces>

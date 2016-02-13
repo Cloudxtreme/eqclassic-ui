@@ -388,6 +388,14 @@
         </Size>
     </TextureInfo>
     <!-- Player Window End -->
+    <!-- Group Window Start -->
+    <TextureInfo item = "EQUI/GroupWindow.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Group Window End -->
 	<!-- General Purpose Buttons Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>
