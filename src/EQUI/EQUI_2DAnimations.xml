@@ -2180,6 +2180,39 @@
         </Frames>
     </Ui2DAnimation>
     <!-- Quantity Window End -->
+    <!-- Social Edit Window Start -->
+    <Ui2DAnimation item = "Social01">
+        <Frames>
+            <Texture>EQUI/Social01.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>160</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Social02">
+        <Frames>
+            <Texture>EQUI/Social02.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>160</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Cancel_Pressed">
+        <Frames>
+            <Texture>EQUI/Social01.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>48</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Social Edit Window End -->
 	<!-- General Purpose Start -->
 	<Ui2DAnimation item = "Btn_Done_Pressed">
 		<Frames>

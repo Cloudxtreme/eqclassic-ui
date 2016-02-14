@@ -444,6 +444,20 @@
         </Size>
     </TextureInfo>
     <!-- Quantity Window End -->
+    <!-- Social Edit Window Start -->
+    <TextureInfo item = "EQUI/Social01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Social02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Social Edit Window End -->
 	<!-- General Purpose Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>

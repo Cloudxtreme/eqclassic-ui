@@ -8,7 +8,7 @@
         <Include>EQUI_2DAnimations.xml</Include>                <!-- imotogames - updated -->
         <Include>EQUI_StaticAnimations.xml</Include>            <!-- imotogames - updated -->
         <Include>EQUI_Templates.xml</Include>                   <!-- imotogames - updated -->
-        
+
         <Include>EQUI_AAWindow.xml</Include>                    <!-- imotogames - 100% disabled -->
         <Include>EQUI_ActionsWindow.xml</Include>               <!-- imotogames - 90% fixed (need to abstract small buttons and change arrow buttons) -->
         <Include>EQUI_AdvancedDisplayOptionsWnd.xml</Include>   <!-- original -->
@@ -107,7 +107,7 @@
         <Include>EQUI_ShortDurationBuffWindow.xml</Include>     <!-- imotogames - 100% disabled -->
         <Include>EQUI_SkillsSelectWindow.xml</Include>          <!-- imotogames - needs consideration -->
         <Include>EQUI_SkillsWindow.xml</Include>                <!-- imotogames - needs consideration -->
-        <Include>EQUI_SocialEditWnd.xml</Include>               <!-- original -->
+        <Include>EQUI_SocialEditWnd.xml</Include>               <!-- imotogames - 100% fixed (needs a cancel button implementation, which cant be done without rework) -->
         <Include>EQUI_SpellBookWnd.xml</Include>                <!-- imotogames - 100% fixed  -->
         <Include>EQUI_StoryWnd.xml</Include>                    <!-- imotogames - 100% disabled -->
         <Include>EQUI_SystemInfoWnd.xml</Include>               <!-- ?? -->
