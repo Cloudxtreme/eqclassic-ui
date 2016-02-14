@@ -72,7 +72,7 @@
         <Include>EQUI_JournalCatWnd.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_JournalNPCWnd.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_JournalTextWnd.xml</Include>              <!-- imotogames - 100% disabled -->
-        <Include>EQUI_LargeDialogWnd.xml</Include>              <!-- ?? -->
+        <Include>EQUI_LargeDialogWnd.xml</Include>              <!-- imotogames - 100% disabled -->
         <Include>EQUI_LeadershipWnd.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_LFGuildWnd.xml</Include>                  <!-- imotogames - 100% disabled -->
         <Include>EQUI_LoadskinWnd.xml</Include>                 <!-- imotogames - 100% disabled -->
