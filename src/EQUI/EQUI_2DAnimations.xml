@@ -2213,6 +2213,48 @@
         </Frames>
     </Ui2DAnimation>
     <!-- Social Edit Window End -->
+    <!-- Inspect Window Start -->
+    <Ui2DAnimation item = "Inspect01">
+        <Frames>
+            <Texture>EQUI/Inspect01.tga</Texture>
+            <Location>
+                <X>96</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>160</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inspect02">
+        <Frames>
+            <Texture>EQUI/Inspect02.tga</Texture>
+            <Size>
+                <CX>62</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inspect03">
+        <Frames>
+            <Texture>EQUI/Inspect03.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inspect04">
+        <Frames>
+            <Texture>EQUI/Inspect04.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>224</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Inspect Window End -->
 	<!-- General Purpose Start -->
 	<Ui2DAnimation item = "Btn_Done_Pressed">
 		<Frames>

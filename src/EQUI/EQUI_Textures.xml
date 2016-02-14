@@ -458,6 +458,32 @@
         </Size>
     </TextureInfo>
     <!-- Social Edit Window End -->
+    <!-- Inspect Window Start -->
+    <TextureInfo item = "EQUI/Inspect01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Inspect02.tga">
+        <Size>
+            <CX>64</CX>
+            <CY>64</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Inspect03.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Inspect04.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <!-- Inspect Window End -->
 	<!-- General Purpose Start -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>
