@@ -57,6 +57,58 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Quit_Pressed">
+        <Frames>
+            <Texture>classic_pieces07.tga</Texture>
+            <Location>
+                <X>61</X>
+                <Y>132</Y>
+            </Location>
+            <Size>
+                <CX>61</CX>
+                <CY>29</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Enter_World_Pressed">
+        <Frames>
+            <Texture>classic_pieces07.tga</Texture>
+            <Location>
+                <X>93</X>
+                <Y>74</Y>
+            </Location>
+            <Size>
+                <CX>93</CX>
+                <CY>29</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Delete_Pressed">
+		<Frames>
+			<Texture>classic_pieces07.tga</Texture>
+			<Location>
+				<X>61</X>
+				<Y>103</Y>
+			</Location>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Character_Pressed">
+		<Frames>
+			<Texture>classic_pieces07.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>32</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>32</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
 	<!-- Character Selection End -->
 	<!-- Character Creation Start -->
 	<Ui2DAnimation item = "CharacterCreate01">
@@ -2042,7 +2094,20 @@
         <Frames>
             <Texture>EQUI/ActionsWindowButtons.tga</Texture>
             <Location>
-                <X>102</X>
+                <X>0</X>
+                <Y>171</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Follow_Normal">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
                 <Y>152</Y>
             </Location>
             <Size>
@@ -2055,7 +2120,7 @@
         <Frames>
             <Texture>EQUI/ActionsWindowButtons.tga</Texture>
             <Location>
-                <X>0</X>
+                <X>102</X>
                 <Y>152</Y>
             </Location>
             <Size>
@@ -2449,162 +2514,6 @@
 				<CX>128</CX>
 				<CY>256</CY>
 			</Size>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "CSW_Big_Button_Normal">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces07.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>32</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "CSW_Big_Button_Pressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces07.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>32</Y>
-			</Location>
-			<Size>
-				<CX>256</CX>
-				<CY>32</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "CSW_Enter_World_Normal">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces07.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>74</Y>
-			</Location>
-			<Size>
-				<CX>93</CX>
-				<CY>29</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "CSW_Enter_World_Pressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces07.tga</Texture>
-			<Location>
-				<X>93</X>
-				<Y>74</Y>
-			</Location>
-			<Size>
-				<CX>93</CX>
-				<CY>29</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "CSW_Delete_Normal">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces07.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>103</Y>
-			</Location>
-			<Size>
-				<CX>61</CX>
-				<CY>29</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "CSW_Delete_Pressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces07.tga</Texture>
-			<Location>
-				<X>61</X>
-				<Y>103</Y>
-			</Location>
-			<Size>
-				<CX>61</CX>
-				<CY>29</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "CSW_Quit_Normal">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces07.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>132</Y>
-			</Location>
-			<Size>
-				<CX>61</CX>
-				<CY>29</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "CSW_Quit_Pressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces07.tga</Texture>
-			<Location>
-				<X>61</X>
-				<Y>132</Y>
-			</Location>
-			<Size>
-				<CX>61</CX>
-				<CY>29</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
 

@@ -418,6 +418,7 @@
 			<CY>19</CY>
 		</Size>
 		<ButtonDrawTemplate>
+            <Normal>Btn_Follow_Normal</Normal>
 			<Pressed>Btn_Follow_Pressed</Pressed>
 			<PressedFlyby>Btn_Follow_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
