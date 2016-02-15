@@ -42,6 +42,7 @@
 			<G>255</G>
 			<B>255</B>
 		</TextColor>
+        <NoWrap>true</NoWrap>
 	</Label>
     <Label item ="Target_HPLabel">
         <ScreenID>HPLabel</ScreenID>
