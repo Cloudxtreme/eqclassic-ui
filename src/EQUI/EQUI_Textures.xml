@@ -39,6 +39,12 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
+    <TextureInfo item = "EQUI/CharacterSelectButtons.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
 	<!-- Character Selection End -->
 	<!-- Character Creation Start -->
 	<TextureInfo item = "EQUI/CharacterCreate01.tga">
@@ -523,6 +529,37 @@
 	</TextureInfo>
 	<!-- General Purpose End -->
 
+    <TextureInfo item = "EQUI/Spells01.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Spells02.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Spells03.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Spells04.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Spells05.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
 
 	<!-- OLD TEXTURE INFO AND NEEDS TO BE UPDATED -->
 	<TextureInfo item = "CS_Buttons.bmp">
@@ -532,36 +569,6 @@
 		</Size>
 	</TextureInfo>
 	<TextureInfo item = "Spell_Icons.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "Spells01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "Spells02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "Spells03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "Spells04.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "Spells05.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
@@ -957,19 +964,6 @@
     </TextureInfo>
     <!-- inventory -->
     <TextureInfo item = "classic_pieces05.tga">
-        <Size>
-            <CX>256</CX>
-            <CY>256</CY>
-        </Size>
-    </TextureInfo>
-    <!-- classic character select textures -->
-    <TextureInfo item = "classic_pieces07.tga">
-        <Size>
-            <CX>256</CX>
-            <CY>256</CY>
-        </Size>
-    </TextureInfo>
-    <TextureInfo item = "classic_pieces08.tga">
         <Size>
             <CX>256</CX>
             <CY>256</CY>

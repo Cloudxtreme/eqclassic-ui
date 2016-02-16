@@ -7,7 +7,6 @@
 	</Button>
 	<Button item = "CSW_Delete_Button">
 		<ScreenID>Delete_Button</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>176</X>
 			<Y>430</Y>
@@ -17,11 +16,8 @@
 			<CY>29</CY>
 		</Size>
 		<ButtonDrawTemplate>
-			<Normal>CSW_Delete_Normal</Normal>
-			<Pressed>CSW_Delete_Pressed</Pressed>
-			<Flyby>CSW_Delete_Normal</Flyby>
-			<Disabled>CSW_Delete_Normal</Disabled>
-			<PressedFlyby>CSW_Delete_Pressed</PressedFlyby>
+			<Pressed>Btn_Delete_Pressed</Pressed>
+			<PressedFlyby>Btn_Delete_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CSW_Rotate_Button">
@@ -33,11 +29,11 @@
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>50</X>
+			<X>49</X>
 			<Y>50</Y>
 		</Location>
 		<Size>
-			<CX>256</CX>
+			<CX>257</CX>
 			<CY>32</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
@@ -48,25 +44,21 @@
 			<G>0</G>
 			<B>0</B>
 		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>CSW_Big_Button_Normal</Normal>
-			<Pressed>CSW_Big_Button_Pressed</Pressed>
-			<Flyby>CSW_Big_Button_Normal</Flyby>
-			<Disabled>CSW_Big_Button_Normal</Disabled>
-			<PressedFlyby>CSW_Big_Button_Pressed</PressedFlyby>
+        <ButtonDrawTemplate>
+			<Pressed>Btn_Character_Pressed</Pressed>
+			<PressedFlyby>Btn_Character_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "CSW_Char2_Button">
 		<ScreenID>Char2_Button</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>50</X>
+			<X>49</X>
 			<Y>97</Y>
 		</Location>
 		<Size>
-			<CX>256</CX>
+			<CX>257</CX>
 			<CY>32</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
@@ -77,12 +69,9 @@
 			<G>0</G>
 			<B>0</B>
 		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>CSW_Big_Button_Normal</Normal>
-			<Pressed>CSW_Big_Button_Pressed</Pressed>
-			<Flyby>CSW_Big_Button_Normal</Flyby>
-			<Disabled>CSW_Big_Button_Normal</Disabled>
-			<PressedFlyby>CSW_Big_Button_Pressed</PressedFlyby>
+        <ButtonDrawTemplate>
+			<Pressed>Btn_Character_Pressed</Pressed>
+			<PressedFlyby>Btn_Character_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CSW_Char3_Button">
@@ -90,11 +79,11 @@
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>50</X>
+			<X>49</X>
 			<Y>144</Y>
 		</Location>
 		<Size>
-			<CX>256</CX>
+			<CX>257</CX>
 			<CY>32</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
@@ -105,12 +94,9 @@
 			<G>0</G>
 			<B>0</B>
 		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>CSW_Big_Button_Normal</Normal>
-			<Pressed>CSW_Big_Button_Pressed</Pressed>
-			<Flyby>CSW_Big_Button_Normal</Flyby>
-			<Disabled>CSW_Big_Button_Normal</Disabled>
-			<PressedFlyby>CSW_Big_Button_Pressed</PressedFlyby>
+        <ButtonDrawTemplate>
+			<Pressed>Btn_Character_Pressed</Pressed>
+			<PressedFlyby>Btn_Character_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CSW_Char4_Button">
@@ -118,11 +104,11 @@
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>50</X>
+			<X>49</X>
 			<Y>191</Y>
 		</Location>
 		<Size>
-			<CX>256</CX>
+			<CX>257</CX>
 			<CY>32</CY>
 		</Size>>
 		<Style_Checkbox>true</Style_Checkbox>
@@ -133,12 +119,9 @@
 			<G>0</G>
 			<B>0</B>
 		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>CSW_Big_Button_Normal</Normal>
-			<Pressed>CSW_Big_Button_Pressed</Pressed>
-			<Flyby>CSW_Big_Button_Normal</Flyby>
-			<Disabled>CSW_Big_Button_Normal</Disabled>
-			<PressedFlyby>CSW_Big_Button_Pressed</PressedFlyby>
+        <ButtonDrawTemplate>
+			<Pressed>Btn_Character_Pressed</Pressed>
+			<PressedFlyby>Btn_Character_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CSW_Char5_Button">
@@ -146,11 +129,11 @@
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>50</X>
+			<X>49</X>
 			<Y>238</Y>
 		</Location>
 		<Size>
-			<CX>256</CX>
+			<CX>257</CX>
 			<CY>32</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
@@ -161,12 +144,9 @@
 			<G>0</G>
 			<B>0</B>
 		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>CSW_Big_Button_Normal</Normal>
-			<Pressed>CSW_Big_Button_Pressed</Pressed>
-			<Flyby>CSW_Big_Button_Normal</Flyby>
-			<Disabled>CSW_Big_Button_Normal</Disabled>
-			<PressedFlyby>CSW_Big_Button_Pressed</PressedFlyby>
+        <ButtonDrawTemplate>
+			<Pressed>Btn_Character_Pressed</Pressed>
+			<PressedFlyby>Btn_Character_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CSW_Char6_Button">
@@ -174,11 +154,11 @@
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>50</X>
+			<X>49</X>
 			<Y>285</Y>
 		</Location>
 		<Size>
-			<CX>256</CX>
+			<CX>257</CX>
 			<CY>32</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
@@ -189,12 +169,9 @@
 			<G>0</G>
 			<B>0</B>
 		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>CSW_Big_Button_Normal</Normal>
-			<Pressed>CSW_Big_Button_Pressed</Pressed>
-			<Flyby>CSW_Big_Button_Normal</Flyby>
-			<Disabled>CSW_Big_Button_Normal</Disabled>
-			<PressedFlyby>CSW_Big_Button_Pressed</PressedFlyby>
+        <ButtonDrawTemplate>
+			<Pressed>Btn_Character_Pressed</Pressed>
+			<PressedFlyby>Btn_Character_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CSW_Char7_Button">
@@ -202,11 +179,11 @@
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>50</X>
+			<X>49</X>
 			<Y>332</Y>
 		</Location>
 		<Size>
-			<CX>256</CX>
+			<CX>257</CX>
 			<CY>32</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
@@ -217,12 +194,9 @@
 			<G>0</G>
 			<B>0</B>
 		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>CSW_Big_Button_Normal</Normal>
-			<Pressed>CSW_Big_Button_Pressed</Pressed>
-			<Flyby>CSW_Big_Button_Normal</Flyby>
-			<Disabled>CSW_Big_Button_Normal</Disabled>
-			<PressedFlyby>CSW_Big_Button_Pressed</PressedFlyby>
+        <ButtonDrawTemplate>
+			<Pressed>Btn_Character_Pressed</Pressed>
+			<PressedFlyby>Btn_Character_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CSW_Char8_Button">
@@ -230,11 +204,11 @@
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>50</X>
+			<X>49</X>
 			<Y>379</Y>
 		</Location>
 		<Size>
-			<CX>256</CX>
+			<CX>257</CX>
 			<CY>32</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
@@ -246,17 +220,13 @@
 			<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>CSW_Big_Button_Normal</Normal>
-			<Pressed>CSW_Big_Button_Pressed</Pressed>
-			<Flyby>CSW_Big_Button_Normal</Flyby>
-			<Disabled>CSW_Big_Button_Normal</Disabled>
-			<PressedFlyby>CSW_Big_Button_Pressed</PressedFlyby>
+			<Pressed>Btn_Character_Pressed</Pressed>
+			<PressedFlyby>Btn_Character_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
 	<Button item = "CSW_Enter_World_Button">
 		<ScreenID>Enter_World_Button</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>47</X>
 			<Y>430</Y>
@@ -266,11 +236,8 @@
 			<CY>29</CY>
 		</Size>
 		<ButtonDrawTemplate>
-			<Normal>CSW_Enter_World_Normal</Normal>
-			<Pressed>CSW_Enter_World_Pressed</Pressed>
-			<Flyby>CSW_Enter_World_Normal</Flyby>
-			<Disabled>CSW_Enter_World_Normal</Disabled>
-			<PressedFlyby>CSW_Enter_World_Pressed</PressedFlyby>
+			<Pressed>Btn_Enter_World_Pressed</Pressed>
+			<PressedFlyby>Btn_Enter_World_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CSW_Go_Home_Button">
@@ -281,7 +248,6 @@
 	</Button>
 	<Button item = "CSW_Quit_Button">
 		<ScreenID>Quit_Button</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>247</X>
 			<Y>430</Y>
@@ -291,16 +257,12 @@
 			<CY>29</CY>
 		</Size>
 		<ButtonDrawTemplate>
-			<Normal>CSW_Quit_Normal</Normal>
-			<Pressed>CSW_Quit_Pressed</Pressed>
-			<Flyby>CSW_Quit_Normal</Flyby>
-			<Disabled>CSW_Quit_Normal</Disabled>
-			<PressedFlyby>CSW_Quit_Pressed</PressedFlyby>
+			<Pressed>Btn_Quit_Pressed</Pressed>
+			<PressedFlyby>Btn_Quit_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
 	<Button item = "CSW_Autolock">
-		<ScreenID>CSW_Autolock</ScreenID>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>
@@ -308,7 +270,6 @@
 	</Button>
 
 	<Screen item = "CharacterSelectWindow">
-		<RelativePosition>false</RelativePosition>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>

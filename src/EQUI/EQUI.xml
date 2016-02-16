@@ -107,7 +107,7 @@
         <Include>EQUI_ShortDurationBuffWindow.xml</Include>     <!-- imotogames - 100% disabled -->
         <Include>EQUI_SkillsSelectWindow.xml</Include>          <!-- imotogames - needs consideration -->
         <Include>EQUI_SkillsWindow.xml</Include>                <!-- imotogames - needs consideration -->
-        <Include>EQUI_SocialEditWnd.xml</Include>               <!-- imotogames - 100% fixed (needs a cancel button implementation, which cant be done without rework) -->
+        <Include>EQUI_SocialEditWnd.xml</Include>               <!-- imotogames - 100% fixed (needs a cancel button implementation) -->
         <Include>EQUI_SpellBookWnd.xml</Include>                <!-- imotogames - 100% fixed  -->
         <Include>EQUI_StoryWnd.xml</Include>                    <!-- imotogames - 100% disabled -->
         <Include>EQUI_SystemInfoWnd.xml</Include>               <!-- ?? -->

@@ -65,6 +65,10 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
+        <DecalSize>
+            <CX>40</CX>
+            <CY>40</CY>
+        </DecalSize>
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
@@ -84,6 +88,10 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
+        <DecalSize>
+            <CX>40</CX>
+            <CY>40</CY>
+        </DecalSize>
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
@@ -103,6 +111,10 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
+        <DecalSize>
+            <CX>40</CX>
+            <CY>40</CY>
+        </DecalSize>
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
@@ -122,6 +134,10 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
+        <DecalSize>
+            <CX>40</CX>
+            <CY>40</CY>
+        </DecalSize>
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
@@ -141,6 +157,10 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
+        <DecalSize>
+            <CX>40</CX>
+            <CY>40</CY>
+        </DecalSize>
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
@@ -160,6 +180,10 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
+        <DecalSize>
+            <CX>40</CX>
+            <CY>40</CY>
+        </DecalSize>
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
