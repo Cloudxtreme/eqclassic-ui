@@ -2,7 +2,7 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
-	<!-- Character Selection Start -->
+	<!-- Character Selection -->
 	<Ui2DAnimation item = "CharacterSelect01">
 		<Frames>
 			<Texture>EQUI/CharacterSelect01.tga</Texture>
@@ -57,8 +57,55 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Character Selection End -->
-	<!-- Character Creation Start -->
+    <Ui2DAnimation item = "Btn_Quit_Pressed">
+        <Frames>
+            <Texture>EQUI/CharacterSelectButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>90</Y>
+            </Location>
+            <Size>
+                <CX>61</CX>
+                <CY>29</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Enter_World_Pressed">
+        <Frames>
+            <Texture>EQUI/CharacterSelectButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>32</Y>
+            </Location>
+            <Size>
+                <CX>93</CX>
+                <CY>29</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Delete_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterSelectButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>61</Y>
+			</Location>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Character_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterSelectButtons.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>32</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Character Creation -->
 	<Ui2DAnimation item = "CharacterCreate01">
 		<Frames>
 			<Texture>EQUI/CharacterCreate01.tga</Texture>
@@ -760,8 +807,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Character Creation End -->
-	<!-- Confirmation Dialog Start -->
+	<!-- Confirmation Dialog -->
 	<Ui2DAnimation item = "Confirmation">
 		<Frames>
 			<Texture>EQUI/Confirmation.tga</Texture>
@@ -849,8 +895,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Configrmation Dialog End -->
-	<!-- Chat Window Start -->
+	<!-- Chat Window -->
 	<Ui2DAnimation item = "Chat01">
 		<Frames>
 			<Texture>EQUI/Chat01.tga</Texture>
@@ -869,8 +914,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Chat Window End -->
-	<!-- Note Window Start -->
+	<!-- Note Window -->
 	<Ui2DAnimation item = "Note01">
 		<Frames>
 			<Texture>EQUI/Note01.tga</Texture>
@@ -907,8 +951,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Note Window End -->
-    <!-- Book Window Start -->
+    <!-- Book Window -->
     <Ui2DAnimation item = "Book01">
         <Frames>
             <Texture>EQUI/Book01.tga</Texture>
@@ -945,8 +988,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Book Window End -->
-    <!-- Spell Book Window Start -->
+    <!-- Spell Book Window -->
     <Ui2DAnimation item = "SpellBook01">
         <Frames>
             <Texture>EQUI/SpellBook01.tga</Texture>
@@ -1028,8 +1070,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Spell Book Window End -->
-	<!-- Tracking Window Start -->
+	<!-- Tracking Window -->
 	<Ui2DAnimation item = "Tracking01">
 		<Frames>
 			<Texture>EQUI/Tracking.tga</Texture>
@@ -1061,7 +1102,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Give Window Start -->
+	<!-- Give Window -->
 	<Ui2DAnimation item = "Give01">
 		<Frames>
 			<Texture>EQUI/Give.tga</Texture>
@@ -1093,8 +1134,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Give Window End -->
-	<!-- Merchant Window Start -->
+	<!-- Merchant Window -->
 	<Ui2DAnimation item = "Merchant01">
 		<Frames>
 			<Texture>EQUI/Merchant.tga</Texture>
@@ -1156,8 +1196,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Merchant Window End -->
-    <!-- Bank Window Start -->
+    <!-- Bank Window -->
     <Ui2DAnimation item = "Bank01">
         <Frames>
             <Texture>EQUI/Bank.tga</Texture>
@@ -1180,8 +1219,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Bank Window End -->
-    <!-- Loot Window Start -->
+    <!-- Loot Window -->
     <Ui2DAnimation item = "Loot01">
         <Frames>
             <Texture>EQUI/Loot.tga</Texture>
@@ -1204,8 +1242,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Loot Window End -->
-    <!-- Casting Meter Window Start -->
+    <!-- Casting Meter Window -->
     <Ui2DAnimation item = "CastingMeter01">
         <Frames>
             <Texture>EQUI/CastingMeter.tga</Texture>
@@ -1215,8 +1252,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Casting Meter Window End -->
-    <!-- Breath Meter Window Start -->
+    <!-- Breath Meter Window -->
     <Ui2DAnimation item = "BreathMeter01">
         <Frames>
             <Texture>EQUI/BreathMeter.tga</Texture>
@@ -1226,8 +1262,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Breath Meter Window End -->
-    <!-- Spell Bar Window Start -->
+    <!-- Spell Bar Window -->
     <Ui2DAnimation item = "SpellBar01">
 		<Frames>
 			<Texture>EQUI/SpellBar.tga</Texture>
@@ -1263,8 +1298,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-    <!-- Spell Bar Window End -->
-    <!-- Selector Window Start -->
+    <!-- Selector Window -->
     <Ui2DAnimation item = "Selector01">
 		<Frames>
 			<Texture>EQUI/Selector.tga</Texture>
@@ -1387,8 +1421,878 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Selector Window End -->
-	<!-- General Purpose Buttons Start -->
+    <!-- Hotbar Window -->
+    <Ui2DAnimation item = "HotBar01">
+        <Frames>
+            <Texture>EQUI/HotBar.tga</Texture>
+            <Size>
+                <CX>119</CX>
+                <CY>172</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Inventory Window -->
+    <Ui2DAnimation item = "Inventory01">
+        <Frames>
+            <Texture>EQUI/Inventory01.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory02">
+        <Frames>
+            <Texture>EQUI/Inventory02.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory03">
+        <Frames>
+            <Texture>EQUI/Inventory03.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory04">
+        <Frames>
+            <Texture>EQUI/Inventory04.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory05">
+        <Frames>
+            <Texture>EQUI/Inventory05.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory06">
+        <Frames>
+            <Texture>EQUI/Inventory06.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Skills_Pressed">
+        <Frames>
+            <Texture>EQUI/InventoryButtons.tga</Texture>
+            <Size>
+                <CX>48</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Stats_Pressed">
+        <Frames>
+            <Texture>EQUI/InventoryButtons.tga</Texture>
+            <Location>
+                <X>48</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>48</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Destroy_Pressed">
+        <Frames>
+            <Texture>EQUI/InventoryButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>38</Y>
+            </Location>
+            <Size>
+                <CX>79</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Inventory_Pressed">
+        <Frames>
+            <Texture>EQUI/InventoryButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>19</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory_Slot_Main1">
+        <Frames>
+            <Texture>EQUI/InventoryMain.tga</Texture>
+            <Size>
+                <CX>40</CX>
+                <CY>40</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory_Slot_Main2">
+        <Frames>
+            <Texture>EQUI/InventoryMain.tga</Texture>
+            <Location>
+                <X>40</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>40</CX>
+                <CY>40</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory_Slot_Main3">
+        <Frames>
+            <Texture>EQUI/InventoryMain.tga</Texture>
+            <Location>
+                <X>80</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>40</CX>
+                <CY>40</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory_Slot_Main4">
+        <Frames>
+            <Texture>EQUI/InventoryMain.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>40</Y>
+            </Location>
+            <Size>
+                <CX>40</CX>
+                <CY>40</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory_Slot_Main5">
+        <Frames>
+            <Texture>EQUI/InventoryMain.tga</Texture>
+            <Location>
+                <X>40</X>
+                <Y>40</Y>
+            </Location>
+            <Size>
+                <CX>40</CX>
+                <CY>40</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory_Slot_Main6">
+        <Frames>
+            <Texture>EQUI/InventoryMain.tga</Texture>
+            <Location>
+                <X>80</X>
+                <Y>40</Y>
+            </Location>
+            <Size>
+                <CX>40</CX>
+                <CY>40</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory_Slot_Main7">
+        <Frames>
+            <Texture>EQUI/InventoryMain.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>80</Y>
+            </Location>
+            <Size>
+                <CX>40</CX>
+                <CY>40</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory_Slot_Main8">
+        <Frames>
+            <Texture>EQUI/InventoryMain.tga</Texture>
+            <Location>
+                <X>40</X>
+                <Y>80</Y>
+            </Location>
+            <Size>
+                <CX>40</CX>
+                <CY>40</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory_Slot_Ear">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Neck">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>40</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Head">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Face">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>120</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Chest">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>160</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Back">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Arms">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>40</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Shoulders">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Wrist">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>120</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Waist">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>160</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Hands">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Ring">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>40</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Legs">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Feet">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>120</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Primary">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>160</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Secondary">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Range">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Inventory_Slot_Ammo">
+		<Frames>
+			<Texture>EQUI/InventoryEquipment.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory_Slot_Ear2">
+        <Frames>
+            <Texture>EQUI/InventoryEquipment.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>120</Y>
+            </Location>
+            <Size>
+                <CX>40</CX>
+                <CY>40</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory_Slot_Wrist2">
+        <Frames>
+            <Texture>EQUI/InventoryEquipment.tga</Texture>
+            <Location>
+                <X>40</X>
+                <Y>120</Y>
+            </Location>
+            <Size>
+                <CX>40</CX>
+                <CY>40</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inventory_Slot_Ring2">
+        <Frames>
+            <Texture>EQUI/InventoryEquipment.tga</Texture>
+            <Location>
+                <X>80</X>
+                <Y>120</Y>
+            </Location>
+            <Size>
+                <CX>40</CX>
+                <CY>40</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Player Window -->
+    <Ui2DAnimation item = "PlayerWindow01">
+        <Frames>
+            <Texture>EQUI/PlayerWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>104</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "AttackIndicator">
+        <Frames>
+            <Texture>EQUI/AttackIndicator.tga</Texture>
+            <Size>
+                <CX>136</CX>
+                <CY>81</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Effects_Pressed">
+        <Frames>
+            <Texture>EQUI/PlayerWindow.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>104</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Group Window -->
+    <Ui2DAnimation item = "GroupWindow01">
+        <Frames>
+            <Texture>EQUI/GroupWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>120</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Target Window -->
+    <Ui2DAnimation item = "TargetWindow01">
+        <Frames>
+            <Texture>EQUI/TargetWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>27</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "TargetWindow_Gauge">
+        <Frames>
+            <Texture>EQUI/TargetWindow.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>27</Y>
+            </Location>
+            <Size>
+                <CX>99</CX>
+                <CY>10</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Actions Window -->
+    <Ui2DAnimation item = "ActionsWindow01">
+        <Frames>
+            <Texture>EQUI/ActionsMainWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>230</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "ActionsWindow02">
+        <Frames>
+            <Texture>EQUI/ActionsAbilitiesWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>230</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "ActionsWindow03">
+        <Frames>
+            <Texture>EQUI/ActionsCombatWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>230</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "ActionsWindow04">
+        <Frames>
+            <Texture>EQUI/ActionsSocialWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>230</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Abilities_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Combat_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>19</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Main_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>38</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Socials_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>57</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Who_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>228</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Invite_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>171</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Follow_Normal">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>152</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Follow_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>102</X>
+                <Y>152</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Disband_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>95</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Camp_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>133</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Sit_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>190</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Stand_Normal">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>76</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Stand_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>102</X>
+                <Y>76</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Walk_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>209</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Run_Normal">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>114</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Run_Pressed">
+        <Frames>
+            <Texture>EQUI/ActionsWindowButtons.tga</Texture>
+            <Location>
+                <X>102</X>
+                <Y>114</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Quantity Window -->
+    <Ui2DAnimation item = "QuantityWindow01">
+        <Frames>
+            <Texture>EQUI/QuantityWindow.tga</Texture>
+            <Size>
+                <CX>128</CX>
+                <CY>64</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Social Edit Window -->
+    <Ui2DAnimation item = "Social01">
+        <Frames>
+            <Texture>EQUI/Social01.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>160</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Social02">
+        <Frames>
+            <Texture>EQUI/Social02.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>160</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Cancel_Pressed">
+        <Frames>
+            <Texture>EQUI/Social01.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>48</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Inspect Window -->
+    <Ui2DAnimation item = "Inspect01">
+        <Frames>
+            <Texture>EQUI/Inspect01.tga</Texture>
+            <Location>
+                <X>96</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>160</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inspect02">
+        <Frames>
+            <Texture>EQUI/Inspect02.tga</Texture>
+            <Size>
+                <CX>62</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inspect03">
+        <Frames>
+            <Texture>EQUI/Inspect03.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inspect04">
+        <Frames>
+            <Texture>EQUI/Inspect04.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>224</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+	<!-- General Purpose Buttons -->
 	<Ui2DAnimation item = "Btn_Done_Pressed">
 		<Frames>
 			<Texture>EQUI/DoneButton.tga</Texture>
@@ -1477,33 +2381,1185 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- General Purpose Buttons End -->
-
-	<!-- Group Window Textures (FIX THESE) -->
-	<Ui2DAnimation item = "GW_bg_TX">
+    <Ui2DAnimation item = "Btn_Prev_Normal">
+        <Frames>
+            <Texture>EQUI/PrevNextArrowButtons.tga</Texture>
+            <Size>
+                <CX>21</CX>
+                <CY>13</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Prev_Pressed">
+        <Frames>
+            <Texture>EQUI/PrevNextArrowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>26</Y>
+            </Location>
+            <Size>
+                <CX>21</CX>
+                <CY>13</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Next_Normal">
+        <Frames>
+            <Texture>EQUI/PrevNextArrowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>13</Y>
+            </Location>
+            <Size>
+                <CX>21</CX>
+                <CY>13</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Next_Pressed">
+        <Frames>
+            <Texture>EQUI/PrevNextArrowButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>39</Y>
+            </Location>
+            <Size>
+                <CX>21</CX>
+                <CY>13</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Sliders -->
+    <Ui2DAnimation item = "Slider_Background">
+        <Frames>
+            <Texture>EQUI/SliderThumb.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>11</Y>
+            </Location>
+            <Size>
+                <CX>65</CX>
+                <CY>11</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Slider_EndCap">
+        <Frames>
+            <Texture>EQUI/SliderThumb.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>11</Y>
+            </Location>
+            <Size>
+                <CX>18</CX>
+                <CY>11</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Slider_Thumb">
+        <Frames>
+            <Texture>EQUI/SliderThumb.tga</Texture>
+            <Size>
+                <CX>11</CX>
+                <CY>22</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Spells Icons & Backgrounds-->
+    <Ui2DAnimation item = "A_SpellIcons">
+        <Cycle>false</Cycle>
+        <Grid>true</Grid>
+        <Vertical>false</Vertical>
+        <CellHeight>40</CellHeight>
+        <CellWidth>40</CellWidth>
+        <Frames>
+            <Texture>EQUI/Spells01.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+        <Frames>
+            <Texture>EQUI/Spells02.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+        <Frames>
+            <Texture>EQUI/Spells03.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+        <Frames>
+            <Texture>EQUI/Spells04.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+        <Frames>
+            <Texture>EQUI/Spells05.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_SpellGems">
+		<Cycle>false</Cycle>
+		<Grid>true</Grid>
+		<Vertical>false</Vertical>
+		<CellHeight>28</CellHeight>
+		<CellWidth>36</CellWidth>
 		<Frames>
-			<Texture>classic_pieces03.tga</Texture>
-			<Location>
-				<X>135</X>
-				<Y>101</Y>
-			</Location>
+			<Texture>EQUI/GemIcons01.tga</Texture>
 			<Size>
-				<CX>121</CX>
-				<CY>119</CY>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+		<Frames>
+			<Texture>EQUI/GemIcons02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+		<Frames>
+			<Texture>EQUI/GemIcons03.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "GW_member_bg_TX">
+    <Ui2DAnimation item = "BuffIcons">
+		<Cycle>false</Cycle>
+		<Grid>true</Grid>
+		<Vertical>false</Vertical>
+		<CellHeight>40</CellHeight>
+		<CellWidth>40</CellWidth>
 		<Frames>
-			<Texture>classic_pieces03.tga</Texture>
+			<Texture>EQUI/Spell_Icons.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "BlueIconBackground">
+		<Frames>
+			<Texture>EQUI/CS_Buttons.bmp</Texture>
+			<Location>
+				<X>4</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>124</CX>
+				<CY>20</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "RedIconBackground">
+		<Frames>
+			<Texture>EQUI/CS_Buttons.bmp</Texture>
+			<Location>
+				<X>4</X>
+				<Y>104</Y>
+			</Location>
+			<Size>
+				<CX>120</CX>
+				<CY>20</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <!-- Right Click Menu Border -->
+    <Ui2DAnimation item = "A_RoundedFrameTopLeft">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>10</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameTop">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>191</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameTopRight">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>196</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>10</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameRightTop">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>207</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>8</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameRight">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>207</X>
+                <Y>169</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameRightBottom">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>207</X>
+                <Y>174</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>6</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameBottomRight">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>195</X>
+                <Y>182</Y>
+            </Location>
+            <Size>
+                <CX>10</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameBottom">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>190</X>
+                <Y>182</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameBottomLeft">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>182</Y>
+            </Location>
+            <Size>
+                <CX>8</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameLeftBottom">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>177</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameLeft">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>172</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameLeftTop">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>165</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>6</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Vertical Scroll Bars -->
+	<Ui2DAnimation item = "A_VSBUpNormal">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>90</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBUpPressed">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>34</X>
+				<Y>90</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBUpFlyby">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>22</X>
+				<Y>90</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBUpDisabled">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>46</X>
+				<Y>90</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBUpPressedFlyby">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>34</X>
+				<Y>90</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBDownNormal">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>112</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBDownPressed">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>34</X>
+				<Y>112</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBDownFlyby">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>22</X>
+				<Y>112</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBDownDisabled">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>46</X>
+				<Y>112</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBDownPressedFlyby">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>34</X>
+				<Y>112</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBThumbTop">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>70</X>
+				<Y>110</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>4</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBThumbMiddle">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>70</X>
+				<Y>130</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>2</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBThumbBottom">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>70</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>4</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+    <!-- Code below this line needs to get removed eventually -->
+    <Ui2DAnimation item = "A_SliderBackground">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>10</Y>
+			</Location>
+			<Size>
+				<CX>2</CX>
+				<CY>12</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_SliderEndCapLeft">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>60</X>
+				<Y>10</Y>
+			</Location>
+			<Size>
+				<CX>4</CX>
+				<CY>12</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_SliderEndCapRight">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>70</X>
+				<Y>10</Y>
+			</Location>
+			<Size>
+				<CX>4</CX>
+				<CY>12</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_SliderThumbNormal">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>91</X>
+				<Y>10</Y>
+			</Location>
+			<Size>
+				<CX>9</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <!-- Fabrice's old code -->
+    <!-- Background used with Listbox, squarish -->
+	<Ui2DAnimation item = "A_Listbox_Background1">
+		<Frames>
+			<Texture>wnd_bg_dark_rock.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Listbox_Background2">
+		<Frames>
+			<Texture>wnd_bg_dark_rock.tga</Texture>
+			<Size>
+				<CX>128</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<!-- 48x48 item slot 'frame' to draw behind 40x40 InvSlot's -->
+	<Ui2DAnimation item = "A_InvSlotFrame">
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Size>
+				<CX>48</CX>
+				<CY>48</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Classic_GaugeBackground">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>206</Y>
+			</Location>
+			<Size>
+				<CX>65</CX>
+				<CY>12</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- red fill -->
+	<Ui2DAnimation item = "A_Classic_GaugeFill">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>242</Y>
+			</Location>
+			<Size>
+				<CX>65</CX>
+				<CY>12</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Classic_GaugeLines">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>218</Y>
+			</Location>
+			<Size>
+				<CX>65</CX>
+				<CY>12</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Classic_GaugeLinesFill">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>230</Y>
+			</Location>
+			<Size>
+				<CX>65</CX>
+				<CY>12</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Classic_GaugeEndCapLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>85</Y>
+				<Y>206</Y>
 			</Location>
 			<Size>
-				<CX>95</CX>
-				<CY>119</CY>
+				<CX>10</CX>
+				<CY>12</CY>
 			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Classic_GaugeEndCapRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>218</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>12</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- Other Classic Gauge Fill Colors -->
+	<!-- yellow -->
+	<Ui2DAnimation item = "A_Classic_GaugeFill2">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>76</X>
+				<Y>242</Y>
+			</Location>
+			<Size>
+				<CX>65</CX>
+				<CY>12</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- orange -->
+	<Ui2DAnimation item = "A_Classic_GaugeFill3">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>76</X>
+				<Y>230</Y>
+			</Location>
+			<Size>
+				<CX>65</CX>
+				<CY>12</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- cyan/green -->
+	<Ui2DAnimation item = "A_Classic_GaugeFill4">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>76</X>
+				<Y>218</Y>
+			</Location>
+			<Size>
+				<CX>65</CX>
+				<CY>12</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- blue -->
+	<Ui2DAnimation item = "A_Classic_GaugeFill5">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>76</X>
+				<Y>206</Y>
+			</Location>
+			<Size>
+				<CX>65</CX>
+				<CY>12</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- pink -->
+	<Ui2DAnimation item = "A_Classic_GaugeFill6">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>142</X>
+				<Y>242</Y>
+			</Location>
+			<Size>
+				<CX>65</CX>
+				<CY>12</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- Classic Window Pieces -->
+	<Ui2DAnimation item = "A_ClassicTopLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>51</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>7</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>s
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicTop">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>8</X>
+				<Y>51</Y>
+			</Location>
+			<Size>
+				<CX>96</CX>
+				<CY>7</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicTopRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>105</X>
+				<Y>51</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>7</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_ClassicRightTop">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>68</X>
+				<Y>10</Y>
+			</Location>
+			<Size>
+				<CX>0</CX>
+				<CY>0</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>248</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicRightBottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>68</X>
+				<Y>28</Y>
+			</Location>
+			<Size>
+				<CX>0</CX>
+				<CY>0</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_ClassicBottomRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>105</X>
+				<Y>59</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>7</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicBottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>8</X>
+				<Y>59</Y>
+			</Location>
+			<Size>
+				<CX>96</CX>
+				<CY>7</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicBottomLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>59</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>7</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_ClassicLeftBottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>50</X>
+				<Y>28</Y>
+			</Location>
+			<Size>
+				<CX>0</CX>
+				<CY>0</CY>
+			</Size>
+			<Hotspot>
+				<X>8</X>
+				<Y>8</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>240</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicLeftTop">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>50</X>
+				<Y>10</Y>
+			</Location>
+			<Size>
+				<CX>0</CX>
+				<CY>0</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_ClassicTitleLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>67</Y>
+			</Location>
+			<Size>
+				<CX>4</CX>
+				<CY>14 </CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicTitleMiddle">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>5</X>
+				<Y>67</Y>
+			</Location>
+			<Size>
+				<CX>88</CX>
+				<CY>14</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicTitleRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>94</X>
+				<Y>67</Y>
+			</Location>
+			<Size>
+				<CX>4</CX>
+				<CY>14</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<!-- Target Name Box  -->
+	<Ui2DAnimation item = "A_TargetNameBox">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>99</X>
+				<Y>67</Y>
+			</Location>
+			<Size>
+				<CX>103</CX>
+				<CY>14</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Give/Trade Cash Box -->
+	<Ui2DAnimation item = "A_RecessedCashBox">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces04.tga</Texture>
+			<Location>
+				<X>153</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>103</CX>
+				<CY>85</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- thick frame for important 40x40 button -->
+	<Ui2DAnimation item = "A_ThickBtnFrame">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces04.tga</Texture>
+			<Location>
+				<X>190</X>
+				<Y>170</Y>
+			</Location>
+			<Size>
+				<CX>66</CX>
+				<CY>66</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+    <!-- Fabrice's old code -->
+
+    <!-- Extra -->
+    <Ui2DAnimation item = "EQUI_Blank" />
 </XML>

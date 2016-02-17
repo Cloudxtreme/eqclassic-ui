@@ -1,0 +1,172 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<Label item ="MW_MerchantName">
+		<ScreenID>MW_MerchantName</ScreenID>
+		<Font>2</Font>
+		<Location>
+			<X>12</X>
+			<Y>14</Y>
+		</Location>
+		<Size>
+			<CX>98</CX>
+			<CY>40</CY>
+		</Size>
+		<TextColor>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+    <Label item ="MW_SelectedItemLabel">
+        <ScreenID>MW_SelectedItemLabel</ScreenID>
+    </Label>
+    <Label item ="MW_SelectedPriceLabel">
+        <ScreenID>MW_SelectedPriceLabel</ScreenID>
+    </Label>
+
+	<Listbox item = "MW_ItemList">
+		<ScreenID>ItemList</ScreenID>
+		<Font>2</Font>
+		<!-- imotogames - changed item list to have no visible vscroll bar for the time being (still scrollable) -->
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Location>
+			<X>10</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>99</CX>
+			<CY>307</CY>
+		</Size>
+		<Style_VScroll>true</Style_VScroll>
+		<Columns />
+		<Columns>
+			<Width>150</Width>
+		</Columns>
+	</Listbox>
+
+	<Button item = "MW_SelectedItem">
+		<ScreenID>MW_SelectedItem</ScreenID>
+		<Location>
+			<X>38</X>
+			<Y>401</Y>
+		</Location>
+		<Size>
+			<CX>42</CX>
+			<CY>42</CY>
+		</Size>
+		<DecalOffset>
+			<X>2</X>
+			<Y>2</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+	</Button>
+	<Button item = "MW_Buy_Button">
+		<ScreenID>MW_Buy_Button</ScreenID>
+		<Location>
+			<X>21</X>
+			<Y>450</Y>
+		</Location>
+		<Size>
+			<CX>79</CX>
+			<CY>19</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Pressed>Btn_Purchase_Pressed</Pressed>
+			<PressedFlyby>Btn_Purchase_Pressed</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "MW_Sell_Button">
+		<ScreenID>MW_Sell_Button</ScreenID>
+		<Location>
+			<X>21</X>
+			<Y>450</Y>
+		</Location>
+		<Size>
+			<CX>79</CX>
+			<CY>19</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>Btn_Sell_Normal</Normal>
+			<Pressed>Btn_Sell_Pressed</Pressed>
+			<Flyby>Btn_Sell_Normal</Flyby>
+			<PressedFlyby>Btn_Sell_Pressed</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "MW_Up_Button">
+		<ScreenID>MW_Up_Button</ScreenID>
+		<Location>
+			<X>14</X>
+			<Y>344</Y>
+		</Location>
+		<Size>
+			<CX>39</CX>
+			<CY>32</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Pressed>Btn_Big_Arrow_Up_Pressed</Pressed>
+			<PressedFlyby>Btn_Big_Arrow_Up_Pressed</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "MW_Down_Button">
+		<ScreenID>MW_Down_Button</ScreenID>
+		<Location>
+			<X>64</X>
+			<Y>344</Y>
+		</Location>
+		<Size>
+			<CX>39</CX>
+			<CY>32</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Pressed>Btn_Big_Arrow_Down_Pressed</Pressed>
+			<PressedFlyby>Btn_Big_Arrow_Down_Pressed</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    <Button item = "MW_Done_Button">
+        <ScreenID>MW_Done_Button</ScreenID>
+    </Button>
+
+	<Button item = "MW_Small_Autolock">
+		<ScreenID>MW_Small_Autolock</ScreenID>
+		<Size>
+			<CX>119</CX>
+			<CY>47</CY>
+		</Size>
+	</Button>
+	<Button item = "MW_Autolock">
+		<ScreenID>MW_Autolock</ScreenID>
+		<Size>
+			<CX>119</CX>
+			<CY>480</CY>
+		</Size>
+	</Button>
+
+	<Screen item = "MerchantWnd">
+		<Size>
+			<CX>119</CX>
+			<CY>480</CY>
+		</Size>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>EQUI_MerchantBG01</Pieces>
+		<Pieces>EQUI_MerchantBG02</Pieces>
+		<Pieces>MW_MerchantName</Pieces>
+		<Pieces>MW_Autolock</Pieces>
+		<Pieces>MW_ItemList</Pieces>
+		<Pieces>MW_Small_Autolock</Pieces>
+        <Pieces>MW_SelectedItemLabel</Pieces>
+        <Pieces>MW_SelectedPriceLabel</Pieces>
+		<Pieces>MW_SelectedItem</Pieces>
+		<Pieces>MW_Buy_Button</Pieces>
+		<Pieces>MW_Sell_Button</Pieces>
+        <Pieces>MW_Done_Button</Pieces>
+		<!-- Does not currently have functionality -->
+		<Pieces>MW_Up_Button</Pieces>
+		<Pieces>MW_Down_Button</Pieces>
+	</Screen>
+</XML>

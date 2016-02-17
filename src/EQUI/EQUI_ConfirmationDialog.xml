@@ -55,6 +55,7 @@
 
 	<STMLbox item = "CD_TextOutput">
 		<ScreenID>TextOutput</ScreenID>
+        <Font>2</Font>
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Location>
 			<X>17</X>

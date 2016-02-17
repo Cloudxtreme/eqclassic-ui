@@ -4,7 +4,7 @@
 
 	<Listbox item = "TRNW_SkillList">
 		<ScreenID>SkillList</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Location>
 			<X>2</X>
 			<Y>2</Y>
@@ -411,7 +411,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
 		<Text>Training Window</Text>
-		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Minimizebox>true</Style_Minimizebox>

@@ -26,7 +26,7 @@
 
 	<Listbox item = "VIDW_VideoResolutionsList">
 		<ScreenID>VIDW_VideoResolutionsList</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
@@ -91,7 +91,7 @@
 
 	<Combobox item = "VIDW_RefreshRateCombobox">
 		<ScreenID>VIDW_RefreshRateCombobox</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Location>
 			<X>120</X>
 			<Y>30</Y>
@@ -109,10 +109,10 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-	
+
 	<Combobox item = "VIDW_BitDepthCombobox">
 		<ScreenID>VIDW_BitDepthCombobox</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Location>
 			<X>120</X>
 			<Y>80</Y>
@@ -176,7 +176,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Minimizebox>true</Style_Minimizebox>

@@ -17,13 +17,13 @@
 
 		<ButtonDrawTemplate>
 			<Normal>A_Listbox_Background2</Normal>
-			<NormalDecal>faB_Spacer</NormalDecal>
+			<NormalDecal>EQUI_Blank</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
 
 	<Listbox item = "SKLW_SkillList">
 		<ScreenID>SkillList</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>false</BottomAnchorToTop>

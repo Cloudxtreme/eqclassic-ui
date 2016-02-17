@@ -480,7 +480,7 @@
 				<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
+			<Normal>EQUI_Blank</Normal>
 			<NormalDecal>A_PlatinumCoin</NormalDecal>
 		</ButtonDrawTemplate>
 		<!--<SoundPressed/>-->
@@ -518,7 +518,7 @@
 				<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
+			<Normal>EQUI_Blank</Normal>
 			<NormalDecal>A_GoldCoin</NormalDecal>
 		</ButtonDrawTemplate>
 		<!--<SoundPressed/>-->
@@ -556,7 +556,7 @@
 				<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
+			<Normal>EQUI_Blank</Normal>
 			<NormalDecal>A_SilverCoin</NormalDecal>
 		</ButtonDrawTemplate>
 		<!--<SoundPressed/>-->
@@ -594,7 +594,7 @@
 				<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
+			<Normal>EQUI_Blank</Normal>
 			<NormalDecal>A_CopperCoin</NormalDecal>
 		</ButtonDrawTemplate>
 		<!--<SoundPressed/>-->
@@ -795,7 +795,7 @@
 				<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
+			<Normal>EQUI_Blank</Normal>
 		</ButtonDrawTemplate>
 		<!--<SoundPressed/>-->
 		<!--<SoundUp/>-->
@@ -832,7 +832,7 @@
 				<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
+			<Normal>EQUI_Blank</Normal>
 		</ButtonDrawTemplate>
 		<!--<SoundPressed/>-->
 		<!--<SoundUp/>-->
@@ -869,7 +869,7 @@
 				<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
+			<Normal>EQUI_Blank</Normal>
 		</ButtonDrawTemplate>
 		<!--<SoundPressed/>-->
 		<!--<SoundUp/>-->
@@ -906,7 +906,7 @@
 				<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
+			<Normal>EQUI_Blank</Normal>
 		</ButtonDrawTemplate>
 		<!--<SoundPressed/>-->
 		<!--<SoundUp/>-->

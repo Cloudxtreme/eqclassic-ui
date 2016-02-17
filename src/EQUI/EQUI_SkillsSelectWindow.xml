@@ -4,7 +4,7 @@
 
 	<Listbox item = "SKSW_SkillSelectorList">
 		<ScreenID>SKSW_SkillSelectorList</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>false</BottomAnchorToTop>

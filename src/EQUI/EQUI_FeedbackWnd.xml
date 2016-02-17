@@ -5,18 +5,18 @@
 	<Label item ="FBKW_UserName">
 		<ScreenID>FBKW_UserName</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		
+
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
-		
+
 		<LeftAnchorOffset>8</LeftAnchorOffset>
 		<TopAnchorOffset>4</TopAnchorOffset>
 		<RightAnchorOffset>120</RightAnchorOffset>
 		<BottomAnchorOffset>18</BottomAnchorOffset>
-		
+
 		<Text>Playername123456</Text>
 		<TextColor>
 				<R>255</R>
@@ -32,21 +32,21 @@
 
 	<Editbox item = "FBKW_FeedbackInput">
 		<ScreenID>FBKW_FeedbackInput</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
-		
+		<DrawTemplate>WDT_Def</DrawTemplate>
+
 		<RelativePosition>true</RelativePosition>
-		
+
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
-		
+
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<TopAnchorOffset>20</TopAnchorOffset>
 		<RightAnchorOffset>2</RightAnchorOffset>
 		<BottomAnchorOffset>24</BottomAnchorOffset>
-		
+
 		<Style_Multiline>true</Style_Multiline>
 
 		<TextColor>
@@ -56,7 +56,7 @@
 		</TextColor>
 
 	</Editbox>
-	
+
 	<Button item = "FBKW_CancelButton">
 		<ScreenID>FBKW_CancelButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -66,7 +66,7 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
-		
+
 		<LeftAnchorOffset>120</LeftAnchorOffset>
 		<TopAnchorOffset>22</TopAnchorOffset>
 		<RightAnchorOffset>70</RightAnchorOffset>
@@ -96,7 +96,7 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
-		
+
 		<LeftAnchorOffset>60</LeftAnchorOffset>
 		<TopAnchorOffset>22</TopAnchorOffset>
 		<RightAnchorOffset>10</RightAnchorOffset>

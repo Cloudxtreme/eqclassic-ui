@@ -2,7 +2,6 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
-<!-- graphic buttons, containing background to hide the repeating slots in bg -->
 	<Ui2DAnimation item = "Btn_Combine_Normal">
 		<Cycle>true</Cycle>
 		<Frames>
@@ -58,7 +57,6 @@
 	<Label item ="Container_Label">
 		<ScreenID>Container_Label</ScreenID>
 		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>2</Y>
@@ -67,21 +65,16 @@
 			<CX>88</CX>
 			<CY>32</CY>
 		</Size>
-		<Text>Container Name Here</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
-		<NoWrap>false</NoWrap>
 		<AlignCenter>true</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 
 	<Button item = "Container_Icon">
 		<ScreenID>Container_Icon</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>25</X>
 			<Y>18</Y>
@@ -90,26 +83,6 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text/>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>faB_Spacer</Normal>
-			<NormalDecal>faB_Spacer</NormalDecal>
-		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>0</X>
-			<Y>0</Y>
-		</DecalOffset>
 		<DecalSize>
 			<CX>40</CX>
 			<CY>40</CY>
@@ -118,8 +91,6 @@
 
 	<InvSlot item = "ContainerSlot1">
 		<ScreenID>ContainerSlot1</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
 			<Y>84</Y>
@@ -130,16 +101,10 @@
 		</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>30</EQType>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference/>
 	</InvSlot>
 
 	<InvSlot item = "ContainerSlot2">
 		<ScreenID>ContainerSlot2</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
 			<Y>84</Y>
@@ -150,15 +115,10 @@
 		</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>31</EQType>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference/>
 	</InvSlot>
 
 	<InvSlot item = "ContainerSlot3">
 		<ScreenID>ContainerSlot3</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
 			<Y>125</Y>
@@ -169,15 +129,10 @@
 		</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>32</EQType>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference/>
 	</InvSlot>
 
 	<InvSlot item = "ContainerSlot4">
 		<ScreenID>ContainerSlot4</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
 			<Y>125</Y>
@@ -188,15 +143,10 @@
 		</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>33</EQType>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference/>
 	</InvSlot>
 
 	<InvSlot item = "ContainerSlot5">
 		<ScreenID>ContainerSlot5</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
 			<Y>166</Y>
@@ -207,15 +157,10 @@
 		</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>34</EQType>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference/>
 	</InvSlot>
 
 	<InvSlot item = "ContainerSlot6">
 		<ScreenID>ContainerSlot6</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
 			<Y>166</Y>
@@ -226,15 +171,10 @@
 		</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>35</EQType>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference/>
 	</InvSlot>
 
 	<InvSlot item = "ContainerSlot7">
 		<ScreenID>ContainerSlot7</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
 			<Y>207</Y>
@@ -245,15 +185,10 @@
 		</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>36</EQType>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference/>
 	</InvSlot>
 
 	<InvSlot item = "ContainerSlot8">
 		<ScreenID>ContainerSlot8</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
 			<Y>207</Y>
@@ -264,15 +199,10 @@
 		</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>37</EQType>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference/>
 	</InvSlot>
 
 	<InvSlot item = "ContainerSlot9">
 		<ScreenID>ContainerSlot9</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
 			<Y>248</Y>
@@ -283,15 +213,10 @@
 		</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>38</EQType>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference/>
 	</InvSlot>
 
 	<InvSlot item = "ContainerSlot10">
 		<ScreenID>ContainerSlot10</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
 			<Y>248</Y>
@@ -302,16 +227,10 @@
 		</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>39</EQType>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference/>
 	</InvSlot>
 
 	<Button item = "Container_Combine">
 		<ScreenID>Container_Combine</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -320,18 +239,6 @@
 			<CX>79</CX>
 			<CY>19</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text></Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>Btn_Combine_Normal</Normal>
 			<Pressed>Btn_Combine_Pressed</Pressed>
@@ -354,32 +261,17 @@
 	</Button>
 
 	<Screen item = "ContainerWindow">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
-		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>350</X>
 			<Y>100</Y>
 		</Location>
 		<Size>
-<!-- 96 -->
-			<CX>112</CX>
-			<CY>366</CY>
+			<CX>119</CX>
+			<CY>50</CY>
 		</Size>
-		<Text>Container</Text>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Container</TooltipReference>
-		<DrawTemplate>WDT_Def</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
+		<DrawTemplate>WDT_Container</DrawTemplate>
 		<Style_Border>true</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
-
 	    <Pieces>ContainerIconFrame</Pieces>
-
 		<Pieces>Container_Label</Pieces>
 		<Pieces>Container_Icon</Pieces>
 		<Pieces>ContainerSlot1</Pieces>
@@ -395,5 +287,4 @@
 		<Pieces>Container_Combine</Pieces>
 		<Pieces>Container_DoneButton</Pieces>
 	</Screen>
-
 </XML>

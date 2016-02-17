@@ -1598,7 +1598,7 @@
 			<CX>218</CX>
 			<CY>430</CY>
 		</Size>
-		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Border>true</Style_Border>
 		<Pieces>CC1_DeityLabelBorder</Pieces>
 		<Pieces>CC1_Deity0_Button</Pieces>
@@ -1640,7 +1640,6 @@
 	</Label>
 	<Screen item="CC1_CityLabelBorder">
 		<ScreenID>CC1_CityLabelBorder</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
 			<Y>8</Y>
@@ -1649,15 +1648,8 @@
 			<CX>100</CX>
 			<CY>25</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Border>true</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
 		<Pieces>CC1_CityLabel</Pieces>
 	</Screen>
 	<Button item="CC1_City0_Button">
@@ -2032,24 +2024,12 @@
 	</Button>
 	<Screen item="CharacterCreationScreen1c">
 		<ScreenID>CharacterCreationScreen1c</ScreenID>
-		<RelativePosition>false</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>128</CX>
 			<CY>389</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Border>true</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
 		<Pieces>CC1_CityLabelBorder</Pieces>
 		<Pieces>CC1_City0_Button</Pieces>
 		<Pieces>CC1_City1_Button</Pieces>

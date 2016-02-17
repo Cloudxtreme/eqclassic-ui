@@ -4,45 +4,41 @@
 
 	<Slider item = "QTYW_Slider">
 		<ScreenID>QTYW_Slider</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>4</X>
-			<Y>33</Y>
+			<X>14</X>
+			<Y>41</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>20</CY>
+			<CX>91</CX>
+			<CY>11</CY>
 		</Size>
-		<SliderArt>SDT_DefSlider</SliderArt>
+		<SliderArt>SDT_Classic</SliderArt>
 	</Slider>
 
 	<Editbox item = "QTYW_SliderInput">
 		<ScreenID>QTYW_SliderInput</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
-		<Style_Border>true</Style_Border>
+		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Font>2</Font>
 		<Location>
-			<X>9</X>
-			<Y>6</Y>
+			<X>20</X>
+			<Y>16</Y>
 		</Location>
 		<Size>
-			<CX>32</CX>
-			<CY>18</CY>
+			<CX>27</CX>
+			<CY>15</CY>
 		</Size>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 	</Editbox>
 
 	<Button item = "QTYW_Accept_Button">
 		<ScreenID>QTYW_Accept_Button</ScreenID>
 		<Location>
-			<X>57</X>
-			<Y>6</Y>
+			<X>65</X>
+			<Y>14</Y>
 		</Location>
 		<Size>
 			<CX>48</CX>
@@ -54,31 +50,23 @@
 		</ButtonDrawTemplate>
 	</Button>
 
-
-	<Screen item = "QuantityWnd">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
-		<RelativePosition>false</RelativePosition>
-		<Location>
-			<X>300</X>
-			<Y>10</Y>
-		</Location>
+    <Button item = "QTYW_Autolock">
 		<Size>
-			<CX>127</CX>
+			<CX>128</CX>
 			<CY>64</CY>
 		</Size>
-		<Text>Quantity</Text>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_Rounded</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>true</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
+	</Button>
+
+	<Screen item = "QuantityWnd">
+		<Size>
+			<CX>128</CX>
+			<CY>64</CY>
+		</Size>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+        <Pieces>EQUI_QuantityWindowBG01</Pieces>
+        <Pieces>QTYW_Autolock</Pieces>
 		<Pieces>QTYW_Slider</Pieces>
 		<Pieces>QTYW_SliderInput</Pieces>
 		<Pieces>QTYW_Accept_Button</Pieces>
 	</Screen>
-
 </XML>
