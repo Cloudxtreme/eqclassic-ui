@@ -17,7 +17,7 @@
 
 		<ButtonDrawTemplate>
 			<Normal>A_Listbox_Background2</Normal>
-			<NormalDecal>faB_Spacer</NormalDecal>
+			<NormalDecal>EQUI_Blank</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
 

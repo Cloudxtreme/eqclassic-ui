@@ -2,7 +2,7 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
-	<!-- Character Selection Start -->
+	<!-- Character Selection -->
 	<TextureInfo item = "EQUI/CharacterSelect01.tga">
 		<Size>
 			<CX>256</CX>
@@ -45,8 +45,7 @@
             <CY>256</CY>
         </Size>
     </TextureInfo>
-	<!-- Character Selection End -->
-	<!-- Character Creation Start -->
+	<!-- Character Creation -->
 	<TextureInfo item = "EQUI/CharacterCreate01.tga">
 		<Size>
 			<CX>256</CX>
@@ -107,16 +106,14 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<!-- Character Creation End -->
-	<!-- Confirmation Dialog Start -->
+	<!-- Confirmation Dialog -->
 	<TextureInfo item = "EQUI/Confirmation.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<!-- Confirmation Dialog End -->
-	<!-- Chat Window Start -->
+	<!-- Chat Window -->
     <TextureInfo item = "EQUI/Chat01.tga">
         <Size>
             <CX>256</CX>
@@ -129,8 +126,7 @@
             <CY>256</CY>
         </Size>
     </TextureInfo>
-	<!-- Chat Window End -->
-	<!-- Note Window Start -->
+	<!-- Note Window -->
 	<TextureInfo item = "EQUI/Note01.tga">
 		<Size>
 			<CX>256</CX>
@@ -155,8 +151,7 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<!-- Note Window End -->
-    <!-- Book Window Start -->
+    <!-- Book Window -->
 	<TextureInfo item = "EQUI/Book01.tga">
 		<Size>
 			<CX>256</CX>
@@ -181,8 +176,7 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-    <!-- Book Window End -->
-    <!-- Spell Book Window Start -->
+    <!-- Spell Book Window -->
     <TextureInfo item = "EQUI/SpellBook01.tga">
         <Size>
             <CX>256</CX>
@@ -219,8 +213,7 @@
             <CY>64</CY>
         </Size>
     </TextureInfo>
-    <!-- Spell Book Window End -->
-	<!-- Tracking Window Start -->
+	<!-- Tracking Window -->
 	<TextureInfo item = "EQUI/Tracking.tga">
 		<Size>
 			<CX>256</CX>
@@ -233,8 +226,7 @@
 			<CY>64</CY>
 		</Size>
 	</TextureInfo>
-	<!-- Tracking Window End -->
-	<!-- Give Window Start -->
+	<!-- Give Window -->
 	<TextureInfo item = "EQUI/Give.tga">
 		<Size>
 			<CX>256</CX>
@@ -247,8 +239,7 @@
 			<CY>64</CY>
 		</Size>
 	</TextureInfo>
-	<!-- Give Window End -->
-	<!-- Merchant Window Start -->
+	<!-- Merchant Window -->
 	<TextureInfo item = "EQUI/Merchant.tga">
 		<Size>
 			<CX>256</CX>
@@ -261,48 +252,42 @@
 			<CY>128</CY>
 		</Size>
 	</TextureInfo>
-	<!-- Merchant Window End -->
-    <!-- Bank Window Start -->
+    <!-- Bank Window -->
     <TextureInfo item = "EQUI/Bank.tga">
         <Size>
             <CX>256</CX>
             <CY>256</CY>
         </Size>
     </TextureInfo>
-    <!-- Bank Window End -->
-    <!-- Loot Window Start -->
+    <!-- Loot Window -->
     <TextureInfo item = "EQUI/Loot.tga">
         <Size>
             <CX>256</CX>
             <CY>256</CY>
         </Size>
     </TextureInfo>
-    <!-- Loot Window End -->
-    <!-- Casting Meter Window Start -->
+    <!-- Casting Meter Window -->
     <TextureInfo item = "EQUI/CastingMeter.tga">
         <Size>
             <CX>128</CX>
             <CY>128</CY>
         </Size>
     </TextureInfo>
-    <!-- Casting Meter Window End -->
-    <!-- Breath Meter Window Start -->
+    <!-- Breath Meter Window -->
     <TextureInfo item = "EQUI/BreathMeter.tga">
         <Size>
             <CX>128</CX>
             <CY>128</CY>
         </Size>
     </TextureInfo>
-    <!-- Breath Meter Window End -->
-    <!-- Spellbar Window Start -->
+    <!-- Spellbar Window -->
     <TextureInfo item = "EQUI/SpellBar.tga">
         <Size>
             <CX>128</CX>
             <CY>128</CY>
         </Size>
     </TextureInfo>
-    <!-- Spellbar Window End -->
-    <!-- Selector Window Start -->
+    <!-- Selector Window -->
     <TextureInfo item = "EQUI/Selector.tga">
         <Size>
             <CX>256</CX>
@@ -315,16 +300,14 @@
             <CY>256</CY>
         </Size>
     </TextureInfo>
-    <!-- Selector Window End -->
-    <!-- Hotbar Window Start -->
+    <!-- Hotbar Window -->
     <TextureInfo item = "EQUI/HotBar.tga">
         <Size>
             <CX>256</CX>
             <CY>256</CY>
         </Size>
     </TextureInfo>
-    <!-- Hotbar Window End -->
-    <!-- Inventory Window Start -->
+    <!-- Inventory Window -->
     <TextureInfo item = "EQUI/Inventory01.tga">
         <Size>
             <CX>256</CX>
@@ -379,8 +362,7 @@
             <CY>128</CY>
         </Size>
     </TextureInfo>
-    <!-- Inventory Window End -->
-    <!-- Player Window Start -->
+    <!-- Player Window -->
     <TextureInfo item = "EQUI/PlayerWindow.tga">
         <Size>
             <CX>128</CX>
@@ -393,24 +375,21 @@
             <CY>128</CY>
         </Size>
     </TextureInfo>
-    <!-- Player Window End -->
-    <!-- Group Window Start -->
+    <!-- Group Window -->
     <TextureInfo item = "EQUI/GroupWindow.tga">
         <Size>
             <CX>128</CX>
             <CY>128</CY>
         </Size>
     </TextureInfo>
-    <!-- Group Window End -->
-    <!-- Target Window Start -->
+    <!-- Target Window -->
     <TextureInfo item = "EQUI/TargetWindow.tga">
         <Size>
             <CX>128</CX>
             <CY>128</CY>
         </Size>
     </TextureInfo>
-    <!-- Target Window End -->
-    <!-- Actions Window Start -->
+    <!-- Actions Window -->
     <TextureInfo item = "EQUI/ActionsMainWindow.tga">
         <Size>
             <CX>256</CX>
@@ -441,16 +420,14 @@
             <CY>256</CY>
         </Size>
     </TextureInfo>
-    <!-- Actions Window End -->
-    <!-- Quanity Window Start -->
+    <!-- Quanity Window -->
     <TextureInfo item = "EQUI/QuantityWindow.tga">
         <Size>
             <CX>128</CX>
             <CY>128</CY>
         </Size>
     </TextureInfo>
-    <!-- Quantity Window End -->
-    <!-- Social Edit Window Start -->
+    <!-- Social Edit Window -->
     <TextureInfo item = "EQUI/Social01.tga">
         <Size>
             <CX>256</CX>
@@ -463,8 +440,7 @@
             <CY>256</CY>
         </Size>
     </TextureInfo>
-    <!-- Social Edit Window End -->
-    <!-- Inspect Window Start -->
+    <!-- Inspect Window -->
     <TextureInfo item = "EQUI/Inspect01.tga">
         <Size>
             <CX>256</CX>
@@ -489,8 +465,7 @@
             <CY>256</CY>
         </Size>
     </TextureInfo>
-    <!-- Inspect Window End -->
-	<!-- General Purpose Start -->
+	<!-- General Purpose -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>
 			<CX>64</CX>
@@ -527,8 +502,13 @@
 			<CY>32</CY>
 		</Size>
 	</TextureInfo>
-	<!-- General Purpose End -->
-
+    <!-- Spell Icons & Backgrounds-->
+    <TextureInfo item = "EQUI/Spell_Icons.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
     <TextureInfo item = "EQUI/Spells01.tga">
 		<Size>
 			<CX>256</CX>
@@ -559,39 +539,32 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-
+    <TextureInfo item = "EQUI/GemIcons01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/GemIcons02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/GemIcons03.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/CS_Buttons.bmp">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
 
 	<!-- OLD TEXTURE INFO AND NEEDS TO BE UPDATED -->
-	<TextureInfo item = "CS_Buttons.bmp">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "Spell_Icons.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "gemicons01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "gemicons02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "gemicons03.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
 	<TextureInfo item = "wnd_bg_dark_rock.tga">
 		<Size>
 			<CX>256</CX>
@@ -942,12 +915,6 @@
 	</TextureInfo>
 
     <!-- Fabrice's old code -->
-    <TextureInfo item = "classic_debug01.tga">
-        <Size>
-            <CX>256</CX>
-            <CY>256</CY>
-        </Size>
-    </TextureInfo>
     <!-- container -->
     <TextureInfo item = "classic_pieces02.tga">
         <Size>

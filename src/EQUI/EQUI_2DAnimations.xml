@@ -2,7 +2,7 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
-	<!-- Character Selection Start -->
+	<!-- Character Selection -->
 	<Ui2DAnimation item = "CharacterSelect01">
 		<Frames>
 			<Texture>EQUI/CharacterSelect01.tga</Texture>
@@ -105,8 +105,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Character Selection End -->
-	<!-- Character Creation Start -->
+	<!-- Character Creation -->
 	<Ui2DAnimation item = "CharacterCreate01">
 		<Frames>
 			<Texture>EQUI/CharacterCreate01.tga</Texture>
@@ -808,8 +807,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Character Creation End -->
-	<!-- Confirmation Dialog Start -->
+	<!-- Confirmation Dialog -->
 	<Ui2DAnimation item = "Confirmation">
 		<Frames>
 			<Texture>EQUI/Confirmation.tga</Texture>
@@ -897,8 +895,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Configrmation Dialog End -->
-	<!-- Chat Window Start -->
+	<!-- Chat Window -->
 	<Ui2DAnimation item = "Chat01">
 		<Frames>
 			<Texture>EQUI/Chat01.tga</Texture>
@@ -917,8 +914,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Chat Window End -->
-	<!-- Note Window Start -->
+	<!-- Note Window -->
 	<Ui2DAnimation item = "Note01">
 		<Frames>
 			<Texture>EQUI/Note01.tga</Texture>
@@ -955,8 +951,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Note Window End -->
-    <!-- Book Window Start -->
+    <!-- Book Window -->
     <Ui2DAnimation item = "Book01">
         <Frames>
             <Texture>EQUI/Book01.tga</Texture>
@@ -993,8 +988,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Book Window End -->
-    <!-- Spell Book Window Start -->
+    <!-- Spell Book Window -->
     <Ui2DAnimation item = "SpellBook01">
         <Frames>
             <Texture>EQUI/SpellBook01.tga</Texture>
@@ -1076,8 +1070,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Spell Book Window End -->
-	<!-- Tracking Window Start -->
+	<!-- Tracking Window -->
 	<Ui2DAnimation item = "Tracking01">
 		<Frames>
 			<Texture>EQUI/Tracking.tga</Texture>
@@ -1109,7 +1102,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Give Window Start -->
+	<!-- Give Window -->
 	<Ui2DAnimation item = "Give01">
 		<Frames>
 			<Texture>EQUI/Give.tga</Texture>
@@ -1141,8 +1134,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Give Window End -->
-	<!-- Merchant Window Start -->
+	<!-- Merchant Window -->
 	<Ui2DAnimation item = "Merchant01">
 		<Frames>
 			<Texture>EQUI/Merchant.tga</Texture>
@@ -1204,8 +1196,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Merchant Window End -->
-    <!-- Bank Window Start -->
+    <!-- Bank Window -->
     <Ui2DAnimation item = "Bank01">
         <Frames>
             <Texture>EQUI/Bank.tga</Texture>
@@ -1228,8 +1219,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Bank Window End -->
-    <!-- Loot Window Start -->
+    <!-- Loot Window -->
     <Ui2DAnimation item = "Loot01">
         <Frames>
             <Texture>EQUI/Loot.tga</Texture>
@@ -1252,8 +1242,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Loot Window End -->
-    <!-- Casting Meter Window Start -->
+    <!-- Casting Meter Window -->
     <Ui2DAnimation item = "CastingMeter01">
         <Frames>
             <Texture>EQUI/CastingMeter.tga</Texture>
@@ -1263,8 +1252,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Casting Meter Window End -->
-    <!-- Breath Meter Window Start -->
+    <!-- Breath Meter Window -->
     <Ui2DAnimation item = "BreathMeter01">
         <Frames>
             <Texture>EQUI/BreathMeter.tga</Texture>
@@ -1274,8 +1262,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Breath Meter Window End -->
-    <!-- Spell Bar Window Start -->
+    <!-- Spell Bar Window -->
     <Ui2DAnimation item = "SpellBar01">
 		<Frames>
 			<Texture>EQUI/SpellBar.tga</Texture>
@@ -1311,8 +1298,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-    <!-- Spell Bar Window End -->
-    <!-- Selector Window Start -->
+    <!-- Selector Window -->
     <Ui2DAnimation item = "Selector01">
 		<Frames>
 			<Texture>EQUI/Selector.tga</Texture>
@@ -1435,8 +1421,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Selector Window End -->
-    <!-- Hotbar Window Start -->
+    <!-- Hotbar Window -->
     <Ui2DAnimation item = "HotBar01">
         <Frames>
             <Texture>EQUI/HotBar.tga</Texture>
@@ -1446,8 +1431,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Hotbar Window End -->
-    <!-- Inventory Window Start -->
+    <!-- Inventory Window -->
     <Ui2DAnimation item = "Inventory01">
         <Frames>
             <Texture>EQUI/Inventory01.tga</Texture>
@@ -1919,8 +1903,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Inventory Window End -->
-    <!-- Player Window Start -->
+    <!-- Player Window -->
     <Ui2DAnimation item = "PlayerWindow01">
         <Frames>
             <Texture>EQUI/PlayerWindow.tga</Texture>
@@ -1952,8 +1935,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Player Window End -->
-    <!-- Group Window Start -->
+    <!-- Group Window -->
     <Ui2DAnimation item = "GroupWindow01">
         <Frames>
             <Texture>EQUI/GroupWindow.tga</Texture>
@@ -1963,8 +1945,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Group Window End -->
-    <!-- Target Window Start -->
+    <!-- Target Window -->
     <Ui2DAnimation item = "TargetWindow01">
         <Frames>
             <Texture>EQUI/TargetWindow.tga</Texture>
@@ -1987,8 +1968,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Target Window End -->
-    <!-- Actions Window Start -->
+    <!-- Actions Window -->
     <Ui2DAnimation item = "ActionsWindow01">
         <Frames>
             <Texture>EQUI/ActionsMainWindow.tga</Texture>
@@ -2229,8 +2209,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Actions Window End -->
-    <!-- Quantity Window Start -->
+    <!-- Quantity Window -->
     <Ui2DAnimation item = "QuantityWindow01">
         <Frames>
             <Texture>EQUI/QuantityWindow.tga</Texture>
@@ -2240,8 +2219,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Quantity Window End -->
-    <!-- Social Edit Window Start -->
+    <!-- Social Edit Window -->
     <Ui2DAnimation item = "Social01">
         <Frames>
             <Texture>EQUI/Social01.tga</Texture>
@@ -2273,8 +2251,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Social Edit Window End -->
-    <!-- Inspect Window Start -->
+    <!-- Inspect Window -->
     <Ui2DAnimation item = "Inspect01">
         <Frames>
             <Texture>EQUI/Inspect01.tga</Texture>
@@ -2315,8 +2292,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Inspect Window End -->
-	<!-- General Purpose Start -->
+	<!-- General Purpose Buttons -->
 	<Ui2DAnimation item = "Btn_Done_Pressed">
 		<Frames>
 			<Texture>EQUI/DoneButton.tga</Texture>
@@ -2453,6 +2429,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
+    <!-- Sliders -->
     <Ui2DAnimation item = "Slider_Background">
         <Frames>
             <Texture>EQUI/SliderThumb.tga</Texture>
@@ -2488,10 +2465,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-
-    <Ui2DAnimation item = "EQUI_Blank" />
-	<!-- General Purpose End -->
-
+    <!-- Spells Icons & Backgrounds-->
     <Ui2DAnimation item = "A_SpellIcons">
         <Cycle>false</Cycle>
         <Grid>true</Grid>
@@ -2534,7 +2508,455 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
+    <Ui2DAnimation item = "A_SpellGems">
+		<Cycle>false</Cycle>
+		<Grid>true</Grid>
+		<Vertical>false</Vertical>
+		<CellHeight>28</CellHeight>
+		<CellWidth>36</CellWidth>
+		<Frames>
+			<Texture>EQUI/GemIcons01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+		<Frames>
+			<Texture>EQUI/GemIcons02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+		<Frames>
+			<Texture>EQUI/GemIcons03.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <Ui2DAnimation item = "BuffIcons">
+		<Cycle>false</Cycle>
+		<Grid>true</Grid>
+		<Vertical>false</Vertical>
+		<CellHeight>40</CellHeight>
+		<CellWidth>40</CellWidth>
+		<Frames>
+			<Texture>EQUI/Spell_Icons.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "BlueIconBackground">
+		<Frames>
+			<Texture>EQUI/CS_Buttons.bmp</Texture>
+			<Location>
+				<X>4</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>124</CX>
+				<CY>20</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "RedIconBackground">
+		<Frames>
+			<Texture>EQUI/CS_Buttons.bmp</Texture>
+			<Location>
+				<X>4</X>
+				<Y>104</Y>
+			</Location>
+			<Size>
+				<CX>120</CX>
+				<CY>20</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <!-- Right Click Menu Border -->
+    <Ui2DAnimation item = "A_RoundedFrameTopLeft">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>10</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameTop">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>191</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameTopRight">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>196</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>10</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameRightTop">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>207</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>8</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameRight">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>207</X>
+                <Y>169</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameRightBottom">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>207</X>
+                <Y>174</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>6</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameBottomRight">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>195</X>
+                <Y>182</Y>
+            </Location>
+            <Size>
+                <CX>10</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameBottom">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>190</X>
+                <Y>182</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameBottomLeft">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>182</Y>
+            </Location>
+            <Size>
+                <CX>8</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameLeftBottom">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>177</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameLeft">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>172</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameLeftTop">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>165</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>6</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <!-- Vertical Scroll Bars -->
+	<Ui2DAnimation item = "A_VSBUpNormal">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>90</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBUpPressed">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>34</X>
+				<Y>90</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBUpFlyby">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>22</X>
+				<Y>90</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBUpDisabled">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>46</X>
+				<Y>90</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBUpPressedFlyby">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>34</X>
+				<Y>90</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBDownNormal">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>10</X>
+				<Y>112</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBDownPressed">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>34</X>
+				<Y>112</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBDownFlyby">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>22</X>
+				<Y>112</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBDownDisabled">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>46</X>
+				<Y>112</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBDownPressedFlyby">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>34</X>
+				<Y>112</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBThumbTop">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>70</X>
+				<Y>110</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>4</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBThumbMiddle">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>70</X>
+				<Y>130</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>2</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_VSBThumbBottom">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>70</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>4</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
 
+    <!-- Code below this line needs to get removed eventually -->
+    <Ui2DAnimation item = "A_SliderBackground">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>10</Y>
+			</Location>
+			<Size>
+				<CX>2</CX>
+				<CY>12</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_SliderEndCapLeft">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>60</X>
+				<Y>10</Y>
+			</Location>
+			<Size>
+				<CX>4</CX>
+				<CY>12</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_SliderEndCapRight">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>70</X>
+				<Y>10</Y>
+			</Location>
+			<Size>
+				<CX>4</CX>
+				<CY>12</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_SliderThumbNormal">
+		<Frames>
+			<Texture>window_pieces01.tga</Texture>
+			<Location>
+				<X>91</X>
+				<Y>10</Y>
+			</Location>
+			<Size>
+				<CX>9</CX>
+				<CY>18</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
     <!-- Fabrice's old code -->
     <!-- Background used with Listbox, squarish -->
 	<Ui2DAnimation item = "A_Listbox_Background1">
@@ -2566,8 +2988,6 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "faB_Spacer" />
 
 	<Ui2DAnimation item = "A_Classic_GaugeBackground">
 		<Cycle>true</Cycle>
@@ -2676,27 +3096,6 @@
 			<Size>
 				<CX>10</CX>
 				<CY>12</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-<!-- Pet Health Gauge -->
-	<Ui2DAnimation item = "A_Classic_PetGaugeFill">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>76</X>
-				<Y>234</Y>
-			</Location>
-			<Size>
-				<CX>65</CX>
-				<CY>3</CY>
 			</Size>
 			<Hotspot>
 				<X>0</X>
@@ -3159,317 +3558,8 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-
-<!-- Note Window pieces for sizable Notes window -->
-	<Ui2DAnimation item = "PNW_TopLeft">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>note01.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>54</CX>
-				<CY>70</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "PNW_Top">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>note01.tga</Texture>
-			<Location>
-				<X>54</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>201</CX>
-				<CY>70</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "PNW_TopRight">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>note02.tga</Texture>
-			<Location>
-				<X>65</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>52</CX>
-				<CY>70</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "PNW_RightTop">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>note02.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>0</CX>
-				<CY>0</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "PNW_Right">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>note02.tga</Texture>
-			<Location>
-				<X>65</X>
-				<Y>70</Y>
-			</Location>
-			<Size>
-				<CX>52</CX>
-				<CY>185</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "PNW_RightBottom">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>note02.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>0</CX>
-				<CY>0</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "PNW_BottomRight">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>note04.tga</Texture>
-			<Location>
-				<X>65</X>
-				<Y>6</Y>
-			</Location>
-			<Size>
-				<CX>52</CX>
-				<CY>68</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "PNW_Bottom">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>note03.tga</Texture>
-			<Location>
-				<X>54</X>
-				<Y>6</Y>
-			</Location>
-			<Size>
-				<CX>201</CX>
-				<CY>68</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "PNW_BottomLeft">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>note03.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>6</Y>
-			</Location>
-			<Size>
-				<CX>54</CX>
-				<CY>68</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "PNW_LeftBottom">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>note02.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>0</CX>
-				<CY>0</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "PNW_Left">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>note01.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>70</Y>
-			</Location>
-			<Size>
-				<CX>54</CX>
-				<CY>185</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "PNW_LeftTop">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>note02.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>0</CX>
-				<CY>0</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "PNW_TitleLeft">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>67</Y>
-			</Location>
-			<Size>
-				<CX>4</CX>
-				<CY>14 </CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "PNW_TitleMiddle">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>5</X>
-				<Y>67</Y>
-			</Location>
-			<Size>
-				<CX>88</CX>
-				<CY>14</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "PNW_TitleRight">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>94</X>
-				<Y>67</Y>
-			</Location>
-			<Size>
-				<CX>4</CX>
-				<CY>14</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-<!-- Sizable Notes Window, Background Texture (stretched to fit) -->
-	<Ui2DAnimation item = "PNW_BackgroundTexture">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>note01.tga</Texture>
-			<Location>
-				<X>54</X>
-				<Y>70</Y>
-			</Location>
-			<Size>
-				<CX>201</CX>
-				<CY>185</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
     <!-- Fabrice's old code -->
+
+    <!-- Extra -->
+    <Ui2DAnimation item = "EQUI_Blank" />
 </XML>

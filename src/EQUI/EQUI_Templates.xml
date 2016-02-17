@@ -31,55 +31,6 @@
 				<B>128</B>
 			</MiddleTint>
 		</VSBTemplate>
-		<HSBTemplate>
-			<UpButton>
-				<Normal>A_HSBLeftNormal</Normal>
-				<Pressed>A_HSBLeftPressed</Pressed>
-				<Flyby>A_HSBLeftFlyby</Flyby>
-				<Disabled>A_HSBLeftDisabled</Disabled>
-				<PressedFlyby>A_HSBLeftPressedFlyby</PressedFlyby>
-			</UpButton>
-			<DownButton>
-				<Normal>A_HSBRightNormal</Normal>
-				<Pressed>A_HSBRightPressed</Pressed>
-				<Flyby>A_HSBRightFlyby</Flyby>
-				<Disabled>A_HSBRightDisabled</Disabled>
-				<PressedFlyby>A_HSBRightPressedFlyby</PressedFlyby>
-			</DownButton>
-			<Thumb>
-				<Right>A_HSBThumbRight</Right>
-				<Left>A_HSBThumbLeft</Left>
-				<Middle>A_HSBThumbMiddle</Middle>
-			</Thumb>
-			<MiddleTextureInfo>scrollbar_gutter.tga</MiddleTextureInfo>
-			<MiddleTint>
-				<Alpha>255</Alpha>
-				<R>128</R>
-				<G>128</G>
-				<B>128</B>
-			</MiddleTint>
-		</HSBTemplate>
-		<CloseBox>
-			<Normal>A_CloseBtnNormal</Normal>
-			<Pressed>A_CloseBtnPressed</Pressed>
-			<Flyby>A_CloseBtnFlyby</Flyby>
-			<Disabled>A_CloseBtnDisabled</Disabled>
-			<PressedFlyby>A_CloseBtnPressedFlyby</PressedFlyby>
-		</CloseBox>
-		<MinimizeBox>
-			<Normal>A_MinimizeBtnNormal</Normal>
-			<Pressed>A_MinimizeBtnPressed</Pressed>
-			<Flyby>A_MinimizeBtnFlyby</Flyby>
-			<Disabled>A_MinimizeBtnDisabled</Disabled>
-			<PressedFlyby>A_MinimizeBtnPressedFlyby</PressedFlyby>
-		</MinimizeBox>
-		<TileBox>
-			<Normal>A_TileBtnNormal</Normal>
-			<Pressed>A_TileBtnPressed</Pressed>
-			<Flyby>A_TileBtnFlyby</Flyby>
-			<Disabled>A_TileBtnDisabled</Disabled>
-			<PressedFlyby>A_TileBtnPressedFlyby</PressedFlyby>
-		</TileBox>
 		<Border>
 			<TopLeft>A_ClassicTopLeft</TopLeft>
 			<Top>A_ClassicTop</Top>
