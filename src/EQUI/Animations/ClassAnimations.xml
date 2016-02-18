@@ -5,7 +5,7 @@
     <Ui2DAnimation item = "A_ClassAnim01">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>Warrior01.tga</Texture>
+            <Texture>EQUI/Warrior01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -13,7 +13,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior01.tga</Texture>
+            <Texture>EQUI/Warrior01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -25,7 +25,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior01.tga</Texture>
+            <Texture>EQUI/Warrior01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -37,7 +37,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior01.tga</Texture>
+            <Texture>EQUI/Warrior01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -49,7 +49,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior01.tga</Texture>
+            <Texture>EQUI/Warrior01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -61,7 +61,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior01.tga</Texture>
+            <Texture>EQUI/Warrior01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -73,7 +73,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior01.tga</Texture>
+            <Texture>EQUI/Warrior01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -85,7 +85,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior01.tga</Texture>
+            <Texture>EQUI/Warrior01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>
@@ -97,7 +97,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior02.tga</Texture>
+            <Texture>EQUI/Warrior02.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>0</Y>
@@ -109,7 +109,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior02.tga</Texture>
+            <Texture>EQUI/Warrior02.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -121,7 +121,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior02.tga</Texture>
+            <Texture>EQUI/Warrior02.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -133,7 +133,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior02.tga</Texture>
+            <Texture>EQUI/Warrior02.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -145,7 +145,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior02.tga</Texture>
+            <Texture>EQUI/Warrior02.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -157,7 +157,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior02.tga</Texture>
+            <Texture>EQUI/Warrior02.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -169,7 +169,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior02.tga</Texture>
+            <Texture>EQUI/Warrior02.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -181,7 +181,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>Warrior02.tga</Texture>
+            <Texture>EQUI/Warrior02.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>
@@ -196,7 +196,7 @@
     <Ui2DAnimation item = "A_ClassAnim02">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>cleric01.tga</Texture>
+            <Texture>EQUI/Cleric01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -204,7 +204,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>cleric01.tga</Texture>
+            <Texture>EQUI/Cleric01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -216,7 +216,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>cleric01.tga</Texture>
+            <Texture>EQUI/Cleric01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -228,7 +228,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>cleric01.tga</Texture>
+            <Texture>EQUI/Cleric01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -240,7 +240,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>cleric01.tga</Texture>
+            <Texture>EQUI/Cleric01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -252,7 +252,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>cleric01.tga</Texture>
+            <Texture>EQUI/Cleric01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -264,7 +264,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>cleric01.tga</Texture>
+            <Texture>EQUI/Cleric01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -276,7 +276,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>cleric01.tga</Texture>
+            <Texture>EQUI/Cleric01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>
@@ -288,7 +288,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>cleric02.tga</Texture>
+            <Texture>EQUI/Cleric02.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>0</Y>
@@ -300,7 +300,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>cleric02.tga</Texture>
+            <Texture>EQUI/Cleric02.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -312,7 +312,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>cleric02.tga</Texture>
+            <Texture>EQUI/Cleric02.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -324,7 +324,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>cleric02.tga</Texture>
+            <Texture>EQUI/Cleric02.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -339,7 +339,7 @@
     <Ui2DAnimation item = "A_ClassAnim03">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>paladin01.tga</Texture>
+            <Texture>EQUI/Paladin01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -347,7 +347,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>paladin01.tga</Texture>
+            <Texture>EQUI/Paladin01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -359,7 +359,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>paladin01.tga</Texture>
+            <Texture>EQUI/Paladin01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -371,7 +371,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>paladin01.tga</Texture>
+            <Texture>EQUI/Paladin01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -383,7 +383,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>paladin01.tga</Texture>
+            <Texture>EQUI/Paladin01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -395,7 +395,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>paladin01.tga</Texture>
+            <Texture>EQUI/Paladin01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -407,7 +407,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>paladin01.tga</Texture>
+            <Texture>EQUI/Paladin01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -419,7 +419,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>paladin01.tga</Texture>
+            <Texture>EQUI/Paladin01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>
@@ -431,7 +431,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>paladin01.tga</Texture>
+            <Texture>EQUI/Paladin01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -442,7 +442,7 @@
     <Ui2DAnimation item = "A_ClassAnim04">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>ranger01.tga</Texture>
+            <Texture>EQUI/Ranger01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -450,7 +450,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>ranger01.tga</Texture>
+            <Texture>EQUI/Ranger01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -462,7 +462,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>ranger01.tga</Texture>
+            <Texture>EQUI/Ranger01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -474,7 +474,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>ranger01.tga</Texture>
+            <Texture>EQUI/Ranger01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -486,7 +486,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>ranger01.tga</Texture>
+            <Texture>EQUI/Ranger01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -498,7 +498,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>ranger01.tga</Texture>
+            <Texture>EQUI/Ranger01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -510,7 +510,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>ranger01.tga</Texture>
+            <Texture>EQUI/Ranger01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -522,7 +522,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>ranger01.tga</Texture>
+            <Texture>EQUI/Ranger01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>
@@ -534,7 +534,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>ranger02.tga</Texture>
+            <Texture>EQUI/Ranger02.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -542,7 +542,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>ranger01.tga</Texture>
+            <Texture>EQUI/Ranger01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -557,7 +557,7 @@
     <Ui2DAnimation item = "A_ClassAnim05">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>shadowknight01.tga</Texture>
+            <Texture>EQUI/ShadowKnight01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -565,7 +565,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>shadowknight01.tga</Texture>
+            <Texture>EQUI/ShadowKnight01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -577,7 +577,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>shadowknight01.tga</Texture>
+            <Texture>EQUI/ShadowKnight01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -589,7 +589,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>shadowknight01.tga</Texture>
+            <Texture>EQUI/ShadowKnight01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -601,7 +601,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>shadowknight01.tga</Texture>
+            <Texture>EQUI/ShadowKnight01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -613,7 +613,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>shadowknight01.tga</Texture>
+            <Texture>EQUI/ShadowKnight01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -625,7 +625,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>shadowknight01.tga</Texture>
+            <Texture>EQUI/ShadowKnight01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -637,7 +637,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>shadowknight01.tga</Texture>
+            <Texture>EQUI/ShadowKnight01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>
@@ -652,7 +652,7 @@
     <Ui2DAnimation item = "A_ClassAnim06">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -660,7 +660,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -672,7 +672,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -684,7 +684,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -696,7 +696,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -708,7 +708,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -720,7 +720,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -732,7 +732,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>
@@ -744,7 +744,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid02.tga</Texture>
+            <Texture>EQUI/Druid02.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -752,7 +752,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid02.tga</Texture>
+            <Texture>EQUI/Druid02.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -764,7 +764,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid02.tga</Texture>
+            <Texture>EQUI/Druid02.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -776,7 +776,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid02.tga</Texture>
+            <Texture>EQUI/Druid02.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -788,7 +788,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid02.tga</Texture>
+            <Texture>EQUI/Druid02.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -800,7 +800,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid02.tga</Texture>
+            <Texture>EQUI/Druid02.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -812,7 +812,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid02.tga</Texture>
+            <Texture>EQUI/Druid02.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -824,7 +824,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid02.tga</Texture>
+            <Texture>EQUI/Druid02.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -832,7 +832,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>
@@ -844,7 +844,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -856,7 +856,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -868,7 +868,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -880,7 +880,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -892,7 +892,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -904,7 +904,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -916,7 +916,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>druid01.tga</Texture>
+            <Texture>EQUI/Druid01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -927,7 +927,7 @@
     <Ui2DAnimation item = "A_ClassAnim07">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>monk01.tga</Texture>
+            <Texture>EQUI/Monk01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -935,7 +935,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>monk01.tga</Texture>
+            <Texture>EQUI/Monk01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -947,7 +947,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>monk01.tga</Texture>
+            <Texture>EQUI/Monk01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -959,7 +959,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>monk01.tga</Texture>
+            <Texture>EQUI/Monk01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -971,7 +971,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>monk01.tga</Texture>
+            <Texture>EQUI/Monk01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -983,7 +983,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>monk01.tga</Texture>
+            <Texture>EQUI/Monk01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -995,7 +995,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>monk01.tga</Texture>
+            <Texture>EQUI/Monk01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -1007,7 +1007,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>monk01.tga</Texture>
+            <Texture>EQUI/Monk01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>
@@ -1019,7 +1019,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>monk02.tga</Texture>
+            <Texture>EQUI/Monk02.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>0</Y>
@@ -1031,7 +1031,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>monk02.tga</Texture>
+            <Texture>EQUI/Monk02.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -1043,7 +1043,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>monk02.tga</Texture>
+            <Texture>EQUI/Monk02.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -1055,7 +1055,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>monk02.tga</Texture>
+            <Texture>EQUI/Monk02.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -1067,7 +1067,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>monk02.tga</Texture>
+            <Texture>EQUI/Monk02.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -1079,7 +1079,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>monk01.tga</Texture>
+            <Texture>EQUI/Monk01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -1090,7 +1090,7 @@
     <Ui2DAnimation item = "A_ClassAnim08">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>bard01.tga</Texture>
+            <Texture>EQUI/Bard01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -1098,7 +1098,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>bard01.tga</Texture>
+            <Texture>EQUI/Bard01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -1110,7 +1110,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>bard01.tga</Texture>
+            <Texture>EQUI/Bard01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -1122,7 +1122,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>bard01.tga</Texture>
+            <Texture>EQUI/Bard01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -1134,7 +1134,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>bard01.tga</Texture>
+            <Texture>EQUI/Bard01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -1146,7 +1146,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>bard01.tga</Texture>
+            <Texture>EQUI/Bard01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -1161,7 +1161,7 @@
     <Ui2DAnimation item = "A_ClassAnim09">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>rogue01.tga</Texture>
+            <Texture>EQUI/Rogue01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -1169,7 +1169,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>rogue01.tga</Texture>
+            <Texture>EQUI/Rogue01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -1181,7 +1181,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>rogue01.tga</Texture>
+            <Texture>EQUI/Rogue01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -1193,7 +1193,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>rogue01.tga</Texture>
+            <Texture>EQUI/Rogue01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -1205,7 +1205,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>rogue01.tga</Texture>
+            <Texture>EQUI/Rogue01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -1217,7 +1217,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>rogue01.tga</Texture>
+            <Texture>EQUI/Rogue01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -1229,7 +1229,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>rogue01.tga</Texture>
+            <Texture>EQUI/Rogue01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -1241,7 +1241,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>rogue01.tga</Texture>
+            <Texture>EQUI/Rogue01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -1252,7 +1252,7 @@
     <Ui2DAnimation item = "A_ClassAnim10">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>shaman01.tga</Texture>
+            <Texture>EQUI/Shaman01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -1260,7 +1260,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>shaman01.tga</Texture>
+            <Texture>EQUI/Shaman01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -1272,7 +1272,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>shaman01.tga</Texture>
+            <Texture>EQUI/Shaman01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -1284,7 +1284,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>shaman01.tga</Texture>
+            <Texture>EQUI/Shaman01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -1296,7 +1296,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>shaman01.tga</Texture>
+            <Texture>EQUI/Shaman01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -1308,7 +1308,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>shaman01.tga</Texture>
+            <Texture>EQUI/Shaman01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -1319,7 +1319,7 @@
     <Ui2DAnimation item = "A_ClassAnim11">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>necromancer01.tga</Texture>
+            <Texture>EQUI/Necromancer01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -1327,7 +1327,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>necromancer01.tga</Texture>
+            <Texture>EQUI/Necromancer01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -1339,7 +1339,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>necromancer01.tga</Texture>
+            <Texture>EQUI/Necromancer01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -1351,7 +1351,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>necromancer01.tga</Texture>
+            <Texture>EQUI/Necromancer01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -1363,7 +1363,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>necromancer01.tga</Texture>
+            <Texture>EQUI/Necromancer01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -1375,7 +1375,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>necromancer01.tga</Texture>
+            <Texture>EQUI/Necromancer01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -1387,7 +1387,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>necromancer01.tga</Texture>
+            <Texture>EQUI/Necromancer01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -1402,7 +1402,7 @@
     <Ui2DAnimation item = "A_ClassAnim12">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -1410,7 +1410,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -1422,7 +1422,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -1434,7 +1434,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -1446,7 +1446,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -1458,7 +1458,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -1470,7 +1470,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -1482,7 +1482,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>
@@ -1494,7 +1494,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -1502,7 +1502,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -1514,7 +1514,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -1526,7 +1526,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -1538,7 +1538,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -1550,7 +1550,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -1562,7 +1562,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -1574,7 +1574,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>
@@ -1586,7 +1586,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>0</Y>
@@ -1598,7 +1598,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -1610,7 +1610,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -1622,7 +1622,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -1634,7 +1634,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -1646,7 +1646,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -1658,7 +1658,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -1670,7 +1670,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>
@@ -1682,7 +1682,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>wizard01.tga</Texture>
+            <Texture>EQUI/Wizard01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -1697,7 +1697,7 @@
     <Ui2DAnimation item = "A_ClassAnim13">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>magician01.tga</Texture>
+            <Texture>EQUI/Magician01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -1705,7 +1705,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician01.tga</Texture>
+            <Texture>EQUI/Magician01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -1717,7 +1717,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician01.tga</Texture>
+            <Texture>EQUI/Magician01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -1729,7 +1729,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician01.tga</Texture>
+            <Texture>EQUI/Magician01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -1741,7 +1741,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician01.tga</Texture>
+            <Texture>EQUI/Magician01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -1753,7 +1753,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician01.tga</Texture>
+            <Texture>EQUI/Magician01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -1765,7 +1765,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician01.tga</Texture>
+            <Texture>EQUI/Magician01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -1777,7 +1777,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician01.tga</Texture>
+            <Texture>EQUI/Magician01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>
@@ -1789,7 +1789,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician02.tga</Texture>
+            <Texture>EQUI/Magician02.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>0</Y>
@@ -1801,7 +1801,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician02.tga</Texture>
+            <Texture>EQUI/Magician02.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -1813,7 +1813,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician02.tga</Texture>
+            <Texture>EQUI/Magician02.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -1825,7 +1825,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician02.tga</Texture>
+            <Texture>EQUI/Magician02.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -1837,7 +1837,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician02.tga</Texture>
+            <Texture>EQUI/Magician02.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -1849,7 +1849,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician02.tga</Texture>
+            <Texture>EQUI/Magician02.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -1861,7 +1861,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician02.tga</Texture>
+            <Texture>EQUI/Magician02.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -1873,7 +1873,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>magician01.tga</Texture>
+            <Texture>EQUI/Magician01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -1884,7 +1884,7 @@
     <Ui2DAnimation item = "A_ClassAnim14">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -1892,7 +1892,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -1904,7 +1904,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -1916,7 +1916,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -1928,7 +1928,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -1940,7 +1940,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -1952,7 +1952,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -1964,7 +1964,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -1976,7 +1976,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>128</Y>
@@ -1988,7 +1988,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -2000,7 +2000,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>0</Y>
@@ -2012,7 +2012,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -2024,7 +2024,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -2036,7 +2036,7 @@
             <Duration>125</Duration>
         </Frames>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -2044,94 +2044,10 @@
             <Duration>4375</Duration>
         </Frames>
     </Ui2DAnimation>
-    <Ui2DAnimation item = "A_ClassAnim15">
-        <Cycle>true</Cycle>
-        <Frames>
-            <Texture>beastlord01.tga</Texture>
-            <Size>
-                <CX>64</CX>
-                <CY>128</CY>
-            </Size>
-            <Duration>125</Duration>
-        </Frames>
-        <Frames>
-            <Texture>beastlord01.tga</Texture>
-            <Location>
-                <X>64</X>
-                <Y>0</Y>
-            </Location>
-            <Size>
-                <CX>64</CX>
-                <CY>128</CY>
-            </Size>
-            <Duration>125</Duration>
-        </Frames>
-        <Frames>
-            <Texture>beastlord01.tga</Texture>
-            <Location>
-                <X>128</X>
-                <Y>0</Y>
-            </Location>
-            <Size>
-                <CX>64</CX>
-                <CY>128</CY>
-            </Size>
-            <Duration>125</Duration>
-        </Frames>
-        <Frames>
-            <Texture>beastlord01.tga</Texture>
-            <Location>
-                <X>192</X>
-                <Y>0</Y>
-            </Location>
-            <Size>
-                <CX>64</CX>
-                <CY>128</CY>
-            </Size>
-            <Duration>125</Duration>
-        </Frames>
-        <Frames>
-            <Texture>beastlord01.tga</Texture>
-            <Location>
-                <X>0</X>
-                <Y>128</Y>
-            </Location>
-            <Size>
-                <CX>64</CX>
-                <CY>128</CY>
-            </Size>
-            <Duration>125</Duration>
-        </Frames>
-        <Frames>
-            <Texture>beastlord01.tga</Texture>
-            <Location>
-                <X>64</X>
-                <Y>128</Y>
-            </Location>
-            <Size>
-                <CX>64</CX>
-                <CY>128</CY>
-            </Size>
-            <Duration>125</Duration>
-        </Frames>
-        <Frames>
-            <Texture>beastlord01.tga</Texture>
-            <Location>
-                <X>128</X>
-                <Y>128</Y>
-            </Location>
-            <Size>
-                <CX>64</CX>
-                <CY>128</CY>
-            </Size>
-            <Duration>5250</Duration>
-        </Frames>
-    </Ui2DAnimation>
-
     <Ui2DAnimation item = "A_ClassAnimHighlight01">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>Warrior03.tga</Texture>
+            <Texture>EQUI/Warrior03.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -2142,7 +2058,7 @@
     <Ui2DAnimation item = "A_ClassAnimHighlight02">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>cleric02.tga</Texture>
+            <Texture>EQUI/Cleric02.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -2157,7 +2073,7 @@
     <Ui2DAnimation item = "A_ClassAnimHighlight03">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>paladin02.tga</Texture>
+            <Texture>EQUI/Paladin02.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -2172,7 +2088,7 @@
     <Ui2DAnimation item = "A_ClassAnimHighlight04">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>ranger02.tga</Texture>
+            <Texture>EQUI/Ranger02.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>0</Y>
@@ -2187,7 +2103,7 @@
     <Ui2DAnimation item = "A_ClassAnimHighlight05">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>shadowknight02.tga</Texture>
+            <Texture>EQUI/ShadowKnight02.tga</Texture>
             <Size>
                 <CX>64</CX>
                 <CY>128</CY>
@@ -2198,7 +2114,7 @@
     <Ui2DAnimation item = "A_ClassAnimHighlight06">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>druid02.tga</Texture>
+            <Texture>EQUI/Druid02.tga</Texture>
             <Location>
                 <X>0</X>
                 <Y>128</Y>
@@ -2213,7 +2129,7 @@
     <Ui2DAnimation item = "A_ClassAnimHighlight07">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>monk02.tga</Texture>
+            <Texture>EQUI/Monk02.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -2228,7 +2144,7 @@
     <Ui2DAnimation item = "A_ClassAnimHighlight08">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>bard01.tga</Texture>
+            <Texture>EQUI/Bard01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>192</Y>
@@ -2243,7 +2159,7 @@
     <Ui2DAnimation item = "A_ClassAnimHighlight09">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>rogue.tga</Texture>
+            <Texture>EQUI/Rogue.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>192</Y>
@@ -2258,7 +2174,7 @@
     <Ui2DAnimation item = "A_ClassAnimHighlight10">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>shaman01.tga</Texture>
+            <Texture>EQUI/Shaman01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>128</Y>
@@ -2273,7 +2189,7 @@
     <Ui2DAnimation item = "A_ClassAnimHighlight11">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>necromancer01.tga</Texture>
+            <Texture>EQUI/Necromancer01.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y>192</Y>
@@ -2288,7 +2204,7 @@
     <Ui2DAnimation item = "A_ClassAnimHighlight12">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>wizard02.tga</Texture>
+            <Texture>EQUI/Wizard02.tga</Texture>
             <Location>
                 <X>128</X>
                 <Y></Y>
@@ -2303,7 +2219,7 @@
     <Ui2DAnimation item = "A_ClassAnimHighlight13">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>magician03.tga</Texture>
+            <Texture>EQUI/Magician03.tga</Texture>
             <Location>
                 <X>64</X>
                 <Y>0</Y>
@@ -2318,22 +2234,7 @@
     <Ui2DAnimation item = "A_ClassAnimHighlight14">
         <Cycle>true</Cycle>
         <Frames>
-            <Texture>enchanter01.tga</Texture>
-            <Location>
-                <X>192</X>
-                <Y>128</Y>
-            </Location>
-            <Size>
-                <CX>64</CX>
-                <CY>128</CY>
-            </Size>
-            <Duration>125</Duration>
-        </Frames>
-    </Ui2DAnimation>
-    <Ui2DAnimation item = "A_ClassAnimHighlight15">
-        <Cycle>true</Cycle>
-        <Frames>
-            <Texture>beastlord01.tga</Texture>
+            <Texture>EQUI/Enchanter01.tga</Texture>
             <Location>
                 <X>192</X>
                 <Y>128</Y>

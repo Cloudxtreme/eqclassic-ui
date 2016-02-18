@@ -157,7 +157,7 @@
         <Include>EQUI_TitleWnd.xml</Include>                    <!-- imotogames - 100% disabled -->
         <Include>EQUI_TrackingWnd.xml</Include>                 <!-- imotogames - 100% fixed -->
         <Include>EQUI_TradeskillWnd.xml</Include>               <!-- imotogames - 100% disabled -->
-        <Include>EQUI_TradeWnd.xml</Include>                    <!-- original -->
+        <Include>EQUI_TradeWnd.xml</Include>                    <!-- imotogames - 100% fixed -->
         <Include>EQUI_TrainWindow.xml</Include>                 <!-- original -->
         <Include>EQUI_TributeBenefitWnd.xml</Include>           <!-- imotogames - 100% disabled -->
         <Include>EQUI_TributeMasterWnd.xml</Include>            <!-- imotogames - 100% disabled -->

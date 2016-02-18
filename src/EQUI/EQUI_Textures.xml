@@ -745,6 +745,157 @@
             <CY>256</CY>
         </Size>
     </TextureInfo>
+    <!-- Class Animations -->
+    <TextureInfo item = "EQUI/Bard01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Cleric01.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Cleric02.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+    <TextureInfo item = "EQUI/Druid01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Druid02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Enchanter01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Magician01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Magician02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Monk01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Monk02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Necromancer01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Necromancer02.tga">
+        <Size>
+            <CX>64</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Paladin01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Paladin02.tga">
+        <Size>
+            <CX>64</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Ranger01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Ranger02.tga">
+        <Size>
+            <CX>128</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Rogue01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/ShadowKnight01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/ShadowKnight02.tga">
+        <Size>
+            <CX>64</CX>
+            <CY>128</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Shaman01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+	<TextureInfo item = "EQUI/Warrior01.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Warrior02.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Warrior03.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>128</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Wizard01.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item = "EQUI/Wizard02.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>128</CY>
+		</Size>
+	</TextureInfo>
 
 	<!-- OLD TEXTURE INFO AND NEEDS TO BE UPDATED -->
 	<TextureInfo item = "wnd_bg_dark_rock.tga">
@@ -775,162 +926,6 @@
 		<Size>
 			<CX>16</CX>
 			<CY>16</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "cleric01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "cleric02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "Warrior01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "Warrior02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "Warrior03.tga">
-		<Size>
-			<CX>64</CX>
-			<CY>128</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "paladin01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "paladin02.tga">
-		<Size>
-			<CX>64</CX>
-			<CY>128</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "ranger01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "ranger02.tga">
-		<Size>
-			<CX>128</CX>
-			<CY>128</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "shadowknight01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "shadowknight02.tga">
-		<Size>
-			<CX>64</CX>
-			<CY>128</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "druid01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "druid02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "monk01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "monk02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "bard01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "rogue01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "shaman01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "necromancer01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "necromancer02.tga">
-		<Size>
-			<CX>64</CX>
-			<CY>128</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "wizard01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "wizard02.tga">
-		<Size>
-			<CX>64</CX>
-			<CY>128</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "magician01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "magician02.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "enchanter01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "beastlord01.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
 		</Size>
 	</TextureInfo>
 
