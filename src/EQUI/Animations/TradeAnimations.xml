@@ -1,0 +1,53 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <Ui2DAnimation item = "Trade01">
+		<Frames>
+			<Texture>EQUI/Trade01.tga</Texture>
+			<Size>
+				<CX>224</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Trade02">
+		<Frames>
+			<Texture>EQUI/Trade02.tga</Texture>
+			<Size>
+				<CX>224</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Trade_Pressed">
+		<Frames>
+			<Texture>EQUI/TradeButton.tga</Texture>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<StaticAnimation item = "EQUI_TradeBG01">
+		<ScreenID>TradeBG01</ScreenID>
+		<Size>
+			<CX>224</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Trade01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_TradeBG02">
+		<ScreenID>TradeBG02</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>224</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Trade02</Animation>
+	</StaticAnimation>
+</XML>

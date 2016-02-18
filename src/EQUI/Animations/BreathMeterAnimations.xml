@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <Ui2DAnimation item = "BreathMeter01">
+        <Frames>
+            <Texture>EQUI/BreathMeter.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>57</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_BreathMeterBG01">
+        <ScreenID>BreathMeterBG01</ScreenID>
+        <Size>
+            <CX>121</CX>
+            <CY>57</CY>
+        </Size>
+        <Animation>BreathMeter01</Animation>
+    </StaticAnimation>
+</XML>

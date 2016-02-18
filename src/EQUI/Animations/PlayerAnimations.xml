@@ -1,0 +1,45 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <Ui2DAnimation item = "PlayerWindow01">
+        <Frames>
+            <Texture>EQUI/PlayerWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>104</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "AttackIndicator">
+        <Frames>
+            <Texture>EQUI/AttackIndicator.tga</Texture>
+            <Size>
+                <CX>136</CX>
+                <CY>81</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Effects_Pressed">
+        <Frames>
+            <Texture>EQUI/PlayerWindow.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>104</Y>
+            </Location>
+            <Size>
+                <CX>102</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_PlayerWindowBG01">
+		<ScreenID>PlayerWindowBG01</ScreenID>
+		<Size>
+			<CX>121</CX>
+			<CY>104</CY>
+		</Size>
+		<Animation>PlayerWindow01</Animation>
+	</StaticAnimation>
+</XML>

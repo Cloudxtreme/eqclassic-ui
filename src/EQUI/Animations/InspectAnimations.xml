@@ -1,0 +1,91 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <!-- Inspect Window -->
+    <Ui2DAnimation item = "Inspect01">
+        <Frames>
+            <Texture>EQUI/Inspect01.tga</Texture>
+            <Location>
+                <X>96</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>160</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inspect02">
+        <Frames>
+            <Texture>EQUI/Inspect02.tga</Texture>
+            <Size>
+                <CX>62</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inspect03">
+        <Frames>
+            <Texture>EQUI/Inspect03.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Inspect04">
+        <Frames>
+            <Texture>EQUI/Inspect04.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>224</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_InspectBG01">
+        <ScreenID>InspectBG01</ScreenID>
+        <Size>
+            <CX>160</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Inspect01</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_InspectBG02">
+        <ScreenID>InspectBG02</ScreenID>
+        <Location>
+            <X>98</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>62</CX>
+            <CY>4</CY>
+        </Size>
+        <Animation>Inspect02</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_InspectBG03">
+        <ScreenID>InspectBG03</ScreenID>
+        <Location>
+            <X>160</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Inspect03</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_InspectBG04">
+        <ScreenID>InspectBG04</ScreenID>
+        <Location>
+            <X>160</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>224</CY>
+        </Size>
+        <Animation>Inspect04</Animation>
+    </StaticAnimation>
+</XML>

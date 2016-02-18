@@ -1,0 +1,58 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <!-- Social Edit Window -->
+    <Ui2DAnimation item = "Social01">
+        <Frames>
+            <Texture>EQUI/Social01.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>160</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Social02">
+        <Frames>
+            <Texture>EQUI/Social02.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>160</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Cancel_Pressed">
+        <Frames>
+            <Texture>EQUI/Social01.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>48</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_SocialBG01">
+		<ScreenID>SocialBG01</ScreenID>
+		<Size>
+			<CX>256</CX>
+			<CY>160</CY>
+		</Size>
+		<Animation>Social01</Animation>
+	</StaticAnimation>
+    <StaticAnimation item = "EQUI_SocialBG02">
+		<ScreenID>SocialBG02</ScreenID>
+        <Location>
+            <X>256</X>
+            <Y>0</Y>
+        </Location>
+		<Size>
+			<CX>256</CX>
+			<CY>160</CY>
+		</Size>
+		<Animation>Social02</Animation>
+	</StaticAnimation>
+</XML>

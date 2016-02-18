@@ -465,6 +465,25 @@
             <CY>256</CY>
         </Size>
     </TextureInfo>
+    <!-- Trade Window -->
+    <TextureInfo item = "EQUI/Trade01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/Trade02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/TradeButton.tga">
+        <Size>
+            <CX>64</CX>
+            <CY>64</CY>
+        </Size>
+    </TextureInfo>
 	<!-- General Purpose -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>
@@ -563,6 +582,169 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
+    <!-- Drag Item -->
+    <TextureInfo item = "EQUI/DragItem01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem03.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem04.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem05.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem06.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem07.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem08.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem09.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem10.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem11.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem12.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem13.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem14.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem15.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem16.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem17.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem18.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem19.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem20.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem21.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem22.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem23.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem24.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem25.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem26.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/DragItem27.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
 
 	<!-- OLD TEXTURE INFO AND NEEDS TO BE UPDATED -->
 	<TextureInfo item = "wnd_bg_dark_rock.tga">
@@ -593,168 +775,6 @@
 		<Size>
 			<CX>16</CX>
 			<CY>16</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem1.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem2.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem3.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem4.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem5.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem6.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem7.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem8.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem9.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem10.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem11.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem12.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem13.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem14.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem15.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem16.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem17.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem18.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem19.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem20.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem21.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem22.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem23.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem24.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem25.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem26.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
-	<TextureInfo item = "dragitem27.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
 		</Size>
 	</TextureInfo>
 	<TextureInfo item = "cleric01.tga">

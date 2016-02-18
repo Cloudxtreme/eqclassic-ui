@@ -1,0 +1,213 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <Ui2DAnimation item = "A_RoundedFrameTopLeft">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>10</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameTop">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>191</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameTopRight">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>196</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>10</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameRightTop">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>207</X>
+                <Y>160</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>8</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameRight">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>207</X>
+                <Y>169</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameRightBottom">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>207</X>
+                <Y>174</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>6</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameBottomRight">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>195</X>
+                <Y>182</Y>
+            </Location>
+            <Size>
+                <CX>10</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameBottom">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>190</X>
+                <Y>182</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameBottomLeft">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>182</Y>
+            </Location>
+            <Size>
+                <CX>8</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameLeftBottom">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>177</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameLeft">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>172</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_RoundedFrameLeftTop">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>180</X>
+                <Y>165</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>6</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_DividerLeft">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>80</X>
+                <Y>170</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_DividerMiddle">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>80</X>
+                <Y>175</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_DividerRight">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>80</X>
+                <Y>180</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>4</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_DividerVertical">
+        <Frames>
+            <Texture>window_pieces03.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>96</Y>
+            </Location>
+            <Size>
+                <CX>100</CX>
+                <CY>24</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+</XML>

@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <Ui2DAnimation item = "QuantityWindow01">
+        <Frames>
+            <Texture>EQUI/QuantityWindow.tga</Texture>
+            <Size>
+                <CX>128</CX>
+                <CY>64</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_QuantityWindowBG01">
+		<ScreenID>QuantityWindowBG01</ScreenID>
+		<Size>
+			<CX>128</CX>
+			<CY>64</CY>
+		</Size>
+		<Animation>QuantityWindow01</Animation>
+	</StaticAnimation>
+</XML>

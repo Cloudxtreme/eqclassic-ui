@@ -1,0 +1,176 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<Ui2DAnimation item = "CharacterSelect01">
+		<Frames>
+			<Texture>EQUI/CharacterSelect01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterSelect02">
+		<Frames>
+			<Texture>EQUI/CharacterSelect02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterSelect03">
+		<Frames>
+			<Texture>EQUI/CharacterSelect03.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterSelect04">
+		<Frames>
+			<Texture>EQUI/CharacterSelect04.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterSelect05">
+		<Frames>
+			<Texture>EQUI/CharacterSelect05.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "CharacterSelect06">
+		<Frames>
+			<Texture>EQUI/CharacterSelect06.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Quit_Pressed">
+        <Frames>
+            <Texture>EQUI/CharacterSelectButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>90</Y>
+            </Location>
+            <Size>
+                <CX>61</CX>
+                <CY>29</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Enter_World_Pressed">
+        <Frames>
+            <Texture>EQUI/CharacterSelectButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>32</Y>
+            </Location>
+            <Size>
+                <CX>93</CX>
+                <CY>29</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Delete_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterSelectButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>61</Y>
+			</Location>
+			<Size>
+				<CX>61</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Character_Pressed">
+		<Frames>
+			<Texture>EQUI/CharacterSelectButtons.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>32</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<StaticAnimation item = "EQUI_CharacterSelectBG01">
+		<ScreenID>CharacterSelectBG01</ScreenID>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterSelect01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterSelectBG02">
+		<ScreenID>CharacterSelectBG02</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterSelect02</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterSelectBG03">
+		<ScreenID>CharacterSelectBG03</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterSelect03</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterSelectBG04">
+		<ScreenID>CharacterSelectBG04</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterSelect04</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterSelectBG05">
+		<ScreenID>CharacterSelectBG05</ScreenID>
+		<Location>
+			<X>512</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterSelect05</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_CharacterSelectBG06">
+		<ScreenID>CharacterSelectBG06</ScreenID>
+		<Location>
+			<X>512</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>CharacterSelect06</Animation>
+	</StaticAnimation>
+</XML>

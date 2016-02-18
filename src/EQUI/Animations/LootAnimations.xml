@@ -1,0 +1,52 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <Ui2DAnimation item = "Loot01">
+        <Frames>
+            <Texture>EQUI/Loot.tga</Texture>
+            <Size>
+                <CX>119</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Loot02">
+        <Frames>
+            <Texture>EQUI/Loot.tga</Texture>
+            <Location>
+                <X>119</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>119</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+	<StaticAnimation item = "EQUI_LootBG01">
+		<ScreenID>LootBG01</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Loot01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_LootBG02">
+		<ScreenID>LootBG01</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Loot02</Animation>
+	</StaticAnimation>
+</XML>

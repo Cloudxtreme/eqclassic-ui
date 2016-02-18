@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <Ui2DAnimation item = "CastingMeter01">
+        <Frames>
+            <Texture>EQUI/CastingMeter.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>57</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_CastingMeterBG01">
+        <ScreenID>CastingMeterBG01</ScreenID>
+        <Size>
+            <CX>121</CX>
+            <CY>57</CY>
+        </Size>
+        <Animation>CastingMeter01</Animation>
+    </StaticAnimation>
+</XML>

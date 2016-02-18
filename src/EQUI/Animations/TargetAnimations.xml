@@ -1,0 +1,37 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <!-- Target Window -->
+    <Ui2DAnimation item = "TargetWindow01">
+        <Frames>
+            <Texture>EQUI/TargetWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>27</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "TargetWindow_Gauge">
+        <Frames>
+            <Texture>EQUI/TargetWindow.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>27</Y>
+            </Location>
+            <Size>
+                <CX>99</CX>
+                <CY>10</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_TargetWindowBG01">
+		<ScreenID>TargetWindowBG01</ScreenID>
+		<Size>
+			<CX>121</CX>
+			<CY>27</CY>
+		</Size>
+		<Animation>TargetWindow01</Animation>
+	</StaticAnimation>
+</XML>
