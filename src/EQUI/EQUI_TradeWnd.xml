@@ -6,11 +6,11 @@
 		<ScreenID>TRDW_HisName</ScreenID>
         <Font>2</Font>
 		<Location>
-			<X>12</X>
+			<X>13</X>
 			<Y>14</Y>
 		</Location>
 		<Size>
-			<CX>97</CX>
+			<CX>96</CX>
 			<CY>11</CY>
 		</Size>
 		<TextColor>
@@ -139,16 +139,16 @@
         <Font>2</Font>
 		<Location>
 			<X>10</X>
-			<Y>233</Y>
+			<Y>240</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
 			<CY>24</CY>
 		</Size>
 		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>EQUI_Blank</Normal>
@@ -167,16 +167,16 @@
         <Font>2</Font>
 		<Location>
 			<X>10</X>
-			<Y>251</Y>
+			<Y>258</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
 			<CY>24</CY>
 		</Size>
 		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>EQUI_Blank</Normal>
@@ -195,16 +195,16 @@
         <Font>2</Font>
 		<Location>
 			<X>10</X>
-			<Y>269</Y>
+			<Y>276</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
 			<CY>24</CY>
 		</Size>
 		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>EQUI_Blank</Normal>
@@ -223,16 +223,16 @@
         <Font>2</Font>
 		<Location>
 			<X>10</X>
-			<Y>287</Y>
+			<Y>294</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
 			<CY>24</CY>
 		</Size>
 		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>EQUI_Blank</Normal>
@@ -251,11 +251,11 @@
 		<ScreenID>TRDW_MyName</ScreenID>
         <Font>2</Font>
 		<Location>
-			<X>116</X>
+			<X>117</X>
 			<Y>14</Y>
 		</Location>
 		<Size>
-			<CX>97</CX>
+			<CX>96</CX>
 			<CY>11</CY>
 		</Size>
 		<TextColor>
@@ -385,16 +385,16 @@
         <Font>2</Font>
 		<Location>
 			<X>120</X>
-			<Y>233</Y>
+			<Y>240</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
 			<CY>24</CY>
 		</Size>
 		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>EQUI_Blank</Normal>
@@ -413,16 +413,16 @@
         <Font>2</Font>
 		<Location>
 			<X>120</X>
-			<Y>251</Y>
+			<Y>258</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
 			<CY>24</CY>
 		</Size>
 		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>EQUI_Blank</Normal>
@@ -441,16 +441,16 @@
         <Font>2</Font>
 		<Location>
 			<X>120</X>
-			<Y>269</Y>
+			<Y>276</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
 			<CY>24</CY>
 		</Size>
 		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>EQUI_Blank</Normal>
@@ -469,16 +469,16 @@
         <Font>2</Font>
 		<Location>
 			<X>120</X>
-			<Y>287</Y>
+			<Y>294</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
 			<CY>24</CY>
 		</Size>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>EQUI_Blank</Normal>
