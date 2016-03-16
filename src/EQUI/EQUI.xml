@@ -3,13 +3,10 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
     <Composite>
         <Include>SIDL.xml</Include>
-
-        <Include>EQUI_Textures.xml</Include>                    <!-- imotogames - updated -->
-        <Include>EQUI_2DAnimations.xml</Include>                <!-- imotogames - updated -->
-        <Include>EQUI_StaticAnimations.xml</Include>            <!-- imotogames - updated -->
-        <Include>EQUI_Templates.xml</Include>                   <!-- imotogames - updated -->
-
+        <!-- Textures -->
+        <Include>EQUI_Textures.xml</Include>
         <!-- Animations -->
+        <Include>EQUI_2DAnimations.xml</Include>
         <Include>ActionsAnimations.xml</Include>
         <Include>BankAnimations.xml</Include>
         <Include>BookAnimations.xml</Include>
@@ -20,6 +17,7 @@
         <Include>ChatAnimations.xml</Include>
         <Include>ClassAnimations.xml</Include>
         <Include>ConfirmationDialogAnimations.xml</Include>
+        <Include>ContainerAnimations.xml</Include>
         <Include>DragAnimations.xml</Include>
         <Include>GiveAnimations.xml</Include>
         <Include>GroupAnimations.xml</Include>
@@ -40,7 +38,8 @@
         <Include>TargetAnimations.xml</Include>
         <Include>TrackingAnimations.xml</Include>
         <Include>TradeAnimations.xml</Include>
-
+        <!-- Templates -->
+        <Include>EQUI_Templates.xml</Include>
         <!-- Windows -->
         <Include>EQUI_AAWindow.xml</Include>                    <!-- imotogames - 100% disabled -->
         <Include>EQUI_ActionsWindow.xml</Include>               <!-- imotogames - 90% fixed (need to abstract small buttons and change arrow buttons) -->
@@ -79,10 +78,10 @@
         <Include>EQUI_CombatSkillsSelectWindow.xml</Include>    <!-- imotogames - 100% disabled -->
         <Include>EQUI_CompassWnd.xml</Include>                  <!-- imotogames - 100% disabled -->
         <Include>EQUI_ConfirmationDialog.xml</Include>          <!-- imotogames - 100% fixed -->
-        <Include>EQUI_Container.xml</Include>                   <!-- imotogames - in process -->
+        <Include>EQUI_Container.xml</Include>                   <!-- imotogames - 50% fixed (needs a custom window implementation, not possible without dll modifications, see github issue #27 for more info)-->
         <Include>EQUI_CursorAttachment.xml</Include>            <!-- original -->
         <Include>EQUI_DynamicZoneWnd.xml</Include>              <!-- imotogames - 100% disabled -->
-        <Include>EQUI_EditLabelWnd.xml</Include>                <!-- ?? -->
+        <Include>EQUI_EditLabelWnd.xml</Include>                <!-- imotogames - 100% disabled -->
         <Include>EQUI_EQMainWnd.xml</Include>                   <!-- imotogames - 100% disabled -->
         <Include>EQUI_FacePick.xml</Include>                    <!-- imotogames - 100% fixed (this needs to be adjusted in the future once viewport is adjusted) -->
         <Include>EQUI_FeedbackWnd.xml</Include>                 <!-- original -->
@@ -158,7 +157,7 @@
         <Include>EQUI_TrackingWnd.xml</Include>                 <!-- imotogames - 100% fixed -->
         <Include>EQUI_TradeskillWnd.xml</Include>               <!-- imotogames - 100% disabled -->
         <Include>EQUI_TradeWnd.xml</Include>                    <!-- imotogames - 100% fixed -->
-        <Include>EQUI_TrainWindow.xml</Include>                 <!-- original -->
+        <Include>EQUI_TrainWindow.xml</Include>                 <!-- original (this cannot be fixed without a custom window via dll) -->
         <Include>EQUI_TributeBenefitWnd.xml</Include>           <!-- imotogames - 100% disabled -->
         <Include>EQUI_TributeMasterWnd.xml</Include>            <!-- imotogames - 100% disabled -->
         <Include>EQUI_VideoModesWnd.xml</Include>               <!-- original -->

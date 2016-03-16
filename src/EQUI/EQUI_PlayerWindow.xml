@@ -39,10 +39,10 @@
 		</TextColor>
 	</Label>
 
-	<StaticAnimation item = "A_AttackIndicatorAnim">
-		<ScreenID>A_AttackIndicatorAnim</ScreenID>
-		<Animation>AttackIndicator</Animation>
-	</StaticAnimation>
+    <StaticAnimation item = "A_AttackIndicatorAnim">
+        <ScreenID>A_AttackIndicatorAnim</ScreenID>
+        <Animation>AttackIndicator</Animation>
+    </StaticAnimation>
 
 	<Gauge item = "Player_HP">
 		<ScreenID>PlayerHP</ScreenID>

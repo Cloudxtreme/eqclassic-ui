@@ -34,7 +34,7 @@
 			<CY>308</CY>
 		</Size>
 		<Columns />
-		<!-- <Style_VScroll>true</Style_VScroll> - scroll disabled until known if it's meant to be there -->
+		<Style_VScroll>true</Style_VScroll> <!-- scrollbar graphic disabled until known if it's meant to be there -->
 	</Listbox>
 
     <Combobox item = "TRW_TrackSortCombobox">

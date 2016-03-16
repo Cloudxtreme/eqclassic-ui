@@ -484,6 +484,13 @@
             <CY>64</CY>
         </Size>
     </TextureInfo>
+    <!-- Container Window -->
+    <TextureInfo item = "EQUI/ContainerWindow.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
 	<!-- General Purpose -->
 	<TextureInfo item = "EQUI/DoneButton.tga">
 		<Size>
@@ -898,18 +905,18 @@
 	</TextureInfo>
 
 	<!-- OLD TEXTURE INFO AND NEEDS TO BE UPDATED -->
-	<TextureInfo item = "wnd_bg_dark_rock.tga">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
 	<TextureInfo item = "wnd_bg_light_rock.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
+    <TextureInfo item = "wnd_bg_dark_rock.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
 	<TextureInfo item = "window_pieces01.tga">
 		<Size>
 			<CX>256</CX>
@@ -932,13 +939,6 @@
     <!-- Fabrice's old code -->
     <!-- container -->
     <TextureInfo item = "classic_pieces02.tga">
-        <Size>
-            <CX>256</CX>
-            <CY>256</CY>
-        </Size>
-    </TextureInfo>
-    <!-- actions -->
-    <TextureInfo item = "classic_pieces04.tga">
         <Size>
             <CX>256</CX>
             <CY>256</CY>
