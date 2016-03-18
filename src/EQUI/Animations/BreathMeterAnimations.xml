@@ -20,4 +20,19 @@
         </Size>
         <Animation>BreathMeter01</Animation>
     </StaticAnimation>
+
+    <!-- Cyan -->
+    <Ui2DAnimation item = "A_Classic_GaugeFill4">
+        <Frames>
+            <Texture>EQUI/Gauges.tga</Texture>
+            <Location>
+                <X>76</X>
+                <Y>218</Y>
+            </Location>
+            <Size>
+                <CX>65</CX>
+                <CY>12</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
 </XML>

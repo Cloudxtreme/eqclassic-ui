@@ -17,17 +17,11 @@
 			<G>255</G>
 			<B>255</B>
 		</FillTint>
-		<LinesFillTint>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</LinesFillTint>
 		<EQType>7</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill6</Fill>
 			<Lines>A_Classic_GaugeLines</Lines>
-			<LinesFill>A_Classic_GaugeLinesFill</LinesFill>
 			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>

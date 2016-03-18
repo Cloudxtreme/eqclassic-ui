@@ -2,6 +2,20 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
+    <Button item = "TRNW_StretchableBg">
+        <Location>
+			<X>2</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>450</CX>
+			<CY>245</CY>
+        </Size>
+        <ButtonDrawTemplate>
+            <Normal>A_Listbox_Background1</Normal>
+        </ButtonDrawTemplate>
+    </Button>
+
 	<Listbox item = "TRNW_SkillList">
 		<ScreenID>SkillList</ScreenID>
 		<DrawTemplate>WDT_Def</DrawTemplate>
@@ -352,6 +366,7 @@
 		<Pieces>TRNW_CoinCount1</Pieces>
 		<Pieces>TRNW_CoinCount2</Pieces>
 		<Pieces>TRNW_CoinCount3</Pieces>
+        <Pieces>TRNW_StretchableBg</Pieces>
 		<Pieces>TRNW_SkillList</Pieces>
 		<Pieces>TRNW_ExpLabel</Pieces>
 		<Pieces>TRNW_ExpGauge</Pieces>

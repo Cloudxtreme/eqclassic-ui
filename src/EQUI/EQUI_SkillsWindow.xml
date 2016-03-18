@@ -3,7 +3,6 @@
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
 	<Button item = "SKLW_StretchableBg">
-		<ScreenID>SKLW_StretchableBg</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 

@@ -20,4 +20,19 @@
         </Size>
         <Animation>CastingMeter01</Animation>
     </StaticAnimation>
+
+    <!-- Purple -->
+    <Ui2DAnimation item = "A_Classic_GaugeFill6">
+        <Frames>
+            <Texture>EQUI/Gauges.tga</Texture>
+            <Location>
+                <X>142</X>
+                <Y>242</Y>
+            </Location>
+            <Size>
+                <CX>65</CX>
+                <CY>12</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
 </XML>

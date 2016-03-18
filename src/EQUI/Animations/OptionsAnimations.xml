@@ -94,4 +94,58 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
+
+    <!-- Slider animations used in the Options window, needs to be removed eventually -->
+    <Ui2DAnimation item = "A_SliderBackground">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>80</X>
+                <Y>10</Y>
+            </Location>
+            <Size>
+                <CX>2</CX>
+                <CY>12</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_SliderEndCapLeft">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>60</X>
+                <Y>10</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>12</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_SliderEndCapRight">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>70</X>
+                <Y>10</Y>
+            </Location>
+            <Size>
+                <CX>4</CX>
+                <CY>12</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_SliderThumbNormal">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>91</X>
+                <Y>10</Y>
+            </Location>
+            <Size>
+                <CX>9</CX>
+                <CY>18</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
 </XML>

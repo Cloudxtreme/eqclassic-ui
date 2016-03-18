@@ -492,6 +492,12 @@
         </Size>
     </TextureInfo>
 	<!-- General Purpose -->
+    <TextureInfo item = "EQUI/Titlebar.tga">
+		<Size>
+			<CX>128</CX>
+			<CY>128</CY>
+		</Size>
+	</TextureInfo>
     <TextureInfo item = "EQUI/SquareButton.tga">
 		<Size>
 			<CX>128</CX>
@@ -532,6 +538,12 @@
 		<Size>
 			<CX>32</CX>
 			<CY>32</CY>
+		</Size>
+	</TextureInfo>
+    <TextureInfo item = "EQUI/Gauges.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
 		</Size>
 	</TextureInfo>
     <!-- Spell Icons & Backgrounds-->
@@ -941,14 +953,4 @@
 			<CY>16</CY>
 		</Size>
 	</TextureInfo>
-
-    <!-- Fabrice's old code -->
-    <!-- container -->
-    <TextureInfo item = "classic_pieces02.tga">
-        <Size>
-            <CX>256</CX>
-            <CY>256</CY>
-        </Size>
-    </TextureInfo>
-    <!-- Fabrice's old code -->
 </XML>

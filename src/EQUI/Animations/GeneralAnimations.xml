@@ -187,8 +187,6 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <!-- Blank Animation -->
-    <Ui2DAnimation item = "EQUI_Blank" />
     <!-- Vertical Scroll Bars -->
 	<Ui2DAnimation item = "A_VSBUpNormal">
 		<Frames>
@@ -359,15 +357,10 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-
     <!-- Darker title area for windows that shouldnt be as such, but need to be used for the time being -->
     <Ui2DAnimation item = "A_ClassicTitleLeft">
         <Frames>
-            <Texture>classic_pieces02.tga</Texture>
-            <Location>
-                <X>0</X>
-                <Y>67</Y>
-            </Location>
+            <Texture>EQUI/Titlebar.tga</Texture>
             <Size>
                 <CX>4</CX>
                 <CY>14 </CY>
@@ -376,10 +369,10 @@
     </Ui2DAnimation>
     <Ui2DAnimation item = "A_ClassicTitleMiddle">
         <Frames>
-            <Texture>classic_pieces02.tga</Texture>
+            <Texture>EQUI/Titlebar.tga</Texture>
             <Location>
                 <X>5</X>
-                <Y>67</Y>
+                <Y>0</Y>
             </Location>
             <Size>
                 <CX>88</CX>
@@ -389,10 +382,10 @@
     </Ui2DAnimation>
     <Ui2DAnimation item = "A_ClassicTitleRight">
         <Frames>
-            <Texture>classic_pieces02.tga</Texture>
+            <Texture>EQUI/Titlebar.tga</Texture>
             <Location>
                 <X>94</X>
-                <Y>67</Y>
+                <Y>0</Y>
             </Location>
             <Size>
                 <CX>4</CX>
@@ -400,61 +393,6 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-
-    <!-- Slider animations used in the Options window, needs to be removed eventually -->
-    <Ui2DAnimation item = "A_SliderBackground">
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>80</X>
-				<Y>10</Y>
-			</Location>
-			<Size>
-				<CX>2</CX>
-				<CY>12</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderEndCapLeft">
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>60</X>
-				<Y>10</Y>
-			</Location>
-			<Size>
-				<CX>4</CX>
-				<CY>12</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderEndCapRight">
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>70</X>
-				<Y>10</Y>
-			</Location>
-			<Size>
-				<CX>4</CX>
-				<CY>12</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderThumbNormal">
-		<Frames>
-			<Texture>window_pieces01.tga</Texture>
-			<Location>
-				<X>91</X>
-				<Y>10</Y>
-			</Location>
-			<Size>
-				<CX>9</CX>
-				<CY>18</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-
     <!-- Background used with Listbox, squarish -->
 	<Ui2DAnimation item = "A_Listbox_Background1">
 		<Frames>
@@ -465,19 +403,10 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_Listbox_Background2">
-		<Frames>
-			<Texture>wnd_bg_dark_rock.tga</Texture>
-			<Size>
-				<CX>128</CX>
-				<CY>256</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-
+    <!-- Guage animations -->
 	<Ui2DAnimation item = "A_Classic_GaugeBackground">
 		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
+			<Texture>EQUI/Gauges.tga</Texture>
 			<Location>
 				<X>10</X>
 				<Y>206</Y>
@@ -488,23 +417,9 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- red fill -->
-	<Ui2DAnimation item = "A_Classic_GaugeFill">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>10</X>
-				<Y>242</Y>
-			</Location>
-			<Size>
-				<CX>65</CX>
-				<CY>12</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
 	<Ui2DAnimation item = "A_Classic_GaugeLines">
 		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
+			<Texture>EQUI/Gauges.tga</Texture>
 			<Location>
 				<X>10</X>
 				<Y>218</Y>
@@ -517,7 +432,7 @@
 	</Ui2DAnimation>
 	<Ui2DAnimation item = "A_Classic_GaugeLinesFill">
 		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
+			<Texture>EQUI/Gauges.tga</Texture>
 			<Location>
 				<X>10</X>
 				<Y>230</Y>
@@ -530,7 +445,7 @@
 	</Ui2DAnimation>
 	<Ui2DAnimation item = "A_Classic_GaugeEndCapLeft">
 		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
+			<Texture>EQUI/Gauges.tga</Texture>
 			<Location>
 				<X>0</X>
 				<Y>206</Y>
@@ -543,7 +458,7 @@
 	</Ui2DAnimation>
 	<Ui2DAnimation item = "A_Classic_GaugeEndCapRight">
 		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
+			<Texture>EQUI/Gauges.tga</Texture>
 			<Location>
 				<X>0</X>
 				<Y>218</Y>
@@ -554,26 +469,24 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-
-<!-- Other Classic Gauge Fill Colors -->
-	<!-- yellow -->
-	<Ui2DAnimation item = "A_Classic_GaugeFill2">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>76</X>
-				<Y>242</Y>
-			</Location>
-			<Size>
-				<CX>65</CX>
-				<CY>12</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<!-- orange -->
+    <!-- Red Fill -->
+    <Ui2DAnimation item = "A_Classic_GaugeFill">
+        <Frames>
+            <Texture>EQUI/Gauges.tga</Texture>
+            <Location>
+                <X>10</X>
+                <Y>242</Y>
+            </Location>
+            <Size>
+                <CX>65</CX>
+                <CY>12</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+	<!-- Orange Fill -->
 	<Ui2DAnimation item = "A_Classic_GaugeFill3">
 		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
+			<Texture>EQUI/Gauges.tga</Texture>
 			<Location>
 				<X>76</X>
 				<Y>230</Y>
@@ -584,49 +497,6 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- cyan/green -->
-	<Ui2DAnimation item = "A_Classic_GaugeFill4">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>76</X>
-				<Y>218</Y>
-			</Location>
-			<Size>
-				<CX>65</CX>
-				<CY>12</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<!-- blue -->
-	<Ui2DAnimation item = "A_Classic_GaugeFill5">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>76</X>
-				<Y>206</Y>
-			</Location>
-			<Size>
-				<CX>65</CX>
-				<CY>12</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<!-- pink -->
-	<Ui2DAnimation item = "A_Classic_GaugeFill6">
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>142</X>
-				<Y>242</Y>
-			</Location>
-			<Size>
-				<CX>65</CX>
-				<CY>12</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-
     <!-- Hotbar and Actions window square buttons (used in bug window as well temporarily) -->
     <Ui2DAnimation item = "A_SquareBtnNormal">
         <Frames>
@@ -650,4 +520,6 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
+    <!-- Blank Animation -->
+    <Ui2DAnimation item = "EQUI_Blank" />
 </XML>

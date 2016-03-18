@@ -6,7 +6,6 @@
         <!-- Textures -->
         <Include>EQUI_Textures.xml</Include>
         <!-- Animations -->
-        <Include>EQUI_2DAnimations.xml</Include>
         <Include>ActionsAnimations.xml</Include>
         <Include>BankAnimations.xml</Include>
         <Include>BookAnimations.xml</Include>
@@ -19,6 +18,7 @@
         <Include>ConfirmationDialogAnimations.xml</Include>
         <Include>ContainerAnimations.xml</Include>
         <Include>DragAnimations.xml</Include>
+        <Include>GeneralAnimations.xml</Include>
         <Include>GiveAnimations.xml</Include>
         <Include>GroupAnimations.xml</Include>
         <Include>HotBarAnimations.xml</Include>
