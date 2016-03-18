@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <Ui2DAnimation item = "HotBar01">
+        <Frames>
+            <Texture>EQUI/HotBar.tga</Texture>
+            <Size>
+                <CX>119</CX>
+                <CY>172</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_HotBarBG01">
+        <ScreenID>HotBarBG01</ScreenID>
+        <Size>
+            <CX>119</CX>
+            <CY>172</CY>
+        </Size>
+        <Animation>HotBar01</Animation>
+    </StaticAnimation>
+</XML>

@@ -1,0 +1,48 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <Ui2DAnimation item = "Bank01">
+        <Frames>
+            <Texture>EQUI/Bank.tga</Texture>
+            <Size>
+                <CX>119</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Bank02">
+        <Frames>
+            <Texture>EQUI/Bank.tga</Texture>
+            <Location>
+                <X>119</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>119</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_BankBG01">
+        <ScreenID>BankBG01</ScreenID>
+        <Size>
+            <CX>119</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Bank01</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_BankBG02">
+        <ScreenID>BankBG01</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>119</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Bank02</Animation>
+    </StaticAnimation>
+</XML>

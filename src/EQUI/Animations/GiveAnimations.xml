@@ -1,0 +1,57 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<Ui2DAnimation item = "Give01">
+		<Frames>
+			<Texture>EQUI/Give.tga</Texture>
+			<Size>
+				<CX>119</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Give02">
+		<Frames>
+			<Texture>EQUI/Give.tga</Texture>
+			<Location>
+				<X>119</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>119</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Give_Pressed">
+		<Frames>
+			<Texture>EQUI/GiveButton.tga</Texture>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_GiveBG01">
+		<ScreenID>GiveBG01</ScreenID>
+		<Size>
+			<CX>119</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Give01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_GiveBG02">
+		<ScreenID>GiveBG02</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Give02</Animation>
+	</StaticAnimation>
+</XML>

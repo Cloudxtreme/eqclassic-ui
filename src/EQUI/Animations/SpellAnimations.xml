@@ -1,0 +1,115 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <Ui2DAnimation item = "A_SpellIcons">
+        <Cycle>false</Cycle>
+        <Grid>true</Grid>
+        <Vertical>false</Vertical>
+        <CellHeight>40</CellHeight>
+        <CellWidth>40</CellWidth>
+        <Frames>
+            <Texture>EQUI/Spells01.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+        <Frames>
+            <Texture>EQUI/Spells02.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+        <Frames>
+            <Texture>EQUI/Spells03.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+        <Frames>
+            <Texture>EQUI/Spells04.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+        <Frames>
+            <Texture>EQUI/Spells05.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_SpellGems">
+        <Cycle>false</Cycle>
+        <Grid>true</Grid>
+        <Vertical>false</Vertical>
+        <CellHeight>28</CellHeight>
+        <CellWidth>36</CellWidth>
+        <Frames>
+            <Texture>EQUI/GemIcons01.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+        <Frames>
+            <Texture>EQUI/GemIcons02.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+        <Frames>
+            <Texture>EQUI/GemIcons03.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "BuffIcons">
+        <Cycle>false</Cycle>
+        <Grid>true</Grid>
+        <Vertical>false</Vertical>
+        <CellHeight>40</CellHeight>
+        <CellWidth>40</CellWidth>
+        <Frames>
+            <Texture>EQUI/Spell_Icons.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "BlueIconBackground">
+        <Frames>
+            <Texture>EQUI/CS_Buttons.bmp</Texture>
+            <Location>
+                <X>4</X>
+                <Y>4</Y>
+            </Location>
+            <Size>
+                <CX>124</CX>
+                <CY>20</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "RedIconBackground">
+        <Frames>
+            <Texture>EQUI/CS_Buttons.bmp</Texture>
+            <Location>
+                <X>4</X>
+                <Y>104</Y>
+            </Location>
+            <Size>
+                <CX>120</CX>
+                <CY>20</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+</XML>

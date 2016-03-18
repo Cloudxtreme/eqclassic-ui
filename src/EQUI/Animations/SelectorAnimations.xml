@@ -1,0 +1,149 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <!-- Selector Window -->
+    <Ui2DAnimation item = "Selector01">
+		<Frames>
+			<Texture>EQUI/Selector.tga</Texture>
+			<Size>
+				<CX>81</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <Ui2DAnimation item = "Selector02">
+        <Frames>
+            <Texture>EQUI/Selector.tga</Texture>
+            <Location>
+                <X>81</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>81</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Help_Pressed">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Size>
+                <CX>70</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Options_Pressed">
+		<Frames>
+			<Texture>EQUI/SelectorButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>19</Y>
+			</Location>
+			<Size>
+				<CX>70</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Persona_Pressed">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>38</Y>
+            </Location>
+            <Size>
+                <CX>70</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_View_Pressed">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>57</Y>
+            </Location>
+            <Size>
+                <CX>70</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_SpellBook_Normal">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>76</Y>
+            </Location>
+            <Size>
+                <CX>71</CX>
+                <CY>76</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_SpellBook_Pressed">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>152</Y>
+            </Location>
+            <Size>
+                <CX>71</CX>
+                <CY>76</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_SpellBook_Flyby">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Location>
+                <X>71</X>
+                <Y>76</Y>
+            </Location>
+            <Size>
+                <CX>71</CX>
+                <CY>76</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_SpellBook_PressedFlyby">
+        <Frames>
+            <Texture>EQUI/SelectorButtons.tga</Texture>
+            <Location>
+                <X>142</X>
+                <Y>76</Y>
+            </Location>
+            <Size>
+                <CX>71</CX>
+                <CY>76</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_SelectorBG01">
+        <ScreenID>SelectorBG01</ScreenID>
+        <Size>
+            <CX>81</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Selector01</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_SelectorBG02">
+        <ScreenID>SelectorBG02</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>81</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Selector02</Animation>
+    </StaticAnimation>
+</XML>

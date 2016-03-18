@@ -1,0 +1,97 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <Ui2DAnimation item = "A_PlatinumCoin">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>90</X>
+                <Y>140</Y>
+            </Location>
+            <Size>
+                <CX>18</CX>
+                <CY>18</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_GoldCoin">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>108</X>
+                <Y>140</Y>
+            </Location>
+            <Size>
+                <CX>18</CX>
+                <CY>18</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_SilverCoin">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>126</X>
+                <Y>140</Y>
+            </Location>
+            <Size>
+                <CX>18</CX>
+                <CY>18</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_CopperCoin">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>144</X>
+                <Y>140</Y>
+            </Location>
+            <Size>
+                <CX>18</CX>
+                <CY>18</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <Ui2DAnimation item = "A_BtnNormal">
+        <Frames>
+            <Texture>window_pieces03.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>96</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_BtnPressed">
+        <Frames>
+            <Texture>window_pieces03.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>38</Y>
+            </Location>
+            <Size>
+                <CX>96</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_BtnDisabled">
+        <Frames>
+            <Texture>window_pieces03.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>76</Y>
+            </Location>
+            <Size>
+                <CX>96</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+</XML>

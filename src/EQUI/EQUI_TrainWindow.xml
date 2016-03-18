@@ -2,6 +2,20 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
+    <Button item = "TRNW_StretchableBg">
+        <Location>
+			<X>2</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>450</CX>
+			<CY>245</CY>
+        </Size>
+        <ButtonDrawTemplate>
+            <Normal>A_Listbox_Background1</Normal>
+        </ButtonDrawTemplate>
+    </Button>
+
 	<Listbox item = "TRNW_SkillList">
 		<ScreenID>SkillList</ScreenID>
 		<DrawTemplate>WDT_Def</DrawTemplate>
@@ -12,8 +26,7 @@
 		<Size>
 			<CX>450</CX>
 			<CY>245</CY>
-		</Size>
-		<Style_Border>true</Style_Border>
+        </Size>
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
 			<Width>125</Width>
@@ -47,7 +60,7 @@
 
 	<Label item ="TRNW_ExpLabel">
 		<ScreenID>ExpLabel</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>456</X>
@@ -59,18 +72,15 @@
 		</Size>
 		<Text>Experience</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
-		<NoWrap>false</NoWrap>
 		<AlignCenter>true</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 
 	<Gauge item = "TRNW_ExpGauge">
 		<ScreenID>ExpGauge</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>456</X>
@@ -81,19 +91,15 @@
 			<CY>16</CY>
 		</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<FillTint>
-				<R>240</R>
-				<G>240</G>
-				<B>0</B>
+			<R>240</R>
+			<G>240</G>
+			<B>0</B>
 		</FillTint>
 		<LinesFillTint>
-				<R>0</R>
-				<G>220</G>
-				<B>220</B>
+			<R>0</R>
+			<G>220</G>
+			<B>220</B>
 		</LinesFillTint>
 		<DrawLinesFill>true</DrawLinesFill>
 		<EQType>4</EQType>
@@ -109,7 +115,7 @@
 
 	<Label item ="TRNW_PracticeLabel">
 		<ScreenID>PracticeLabel</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>456</X>
@@ -121,18 +127,16 @@
 		</Size>
 		<Text>Practices:</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
-		<NoWrap>false</NoWrap>
-		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Label item ="TRNW_PracticeCount">
 		<ScreenID>PracticeCount</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>530</X>
@@ -142,20 +146,16 @@
 			<CX>24</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>255</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
-		<NoWrap>false</NoWrap>
 		<AlignCenter>true</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 
 	<Button item = "TRNW_TrainButton">
 		<ScreenID>TrainButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>460</X>
@@ -165,33 +165,22 @@
 			<CX>100</CX>
 			<CY>24</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text>Train</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 	</Button>
 
 	<Label item ="TRNW_MoneyLabel">
 		<ScreenID>MoneyLabel</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>456</X>
@@ -203,18 +192,16 @@
 		</Size>
 		<Text>Money</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
-		<NoWrap>false</NoWrap>
 		<AlignCenter>true</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 
 	<Label item ="TRNW_CoinCount0">
 		<ScreenID>CoinCount0</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>494</X>
@@ -224,20 +211,16 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>10000</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
-		<NoWrap>false</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 
 	<Label item ="TRNW_CoinCount1">
 		<ScreenID>CoinCount1</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>494</X>
@@ -247,20 +230,16 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>6645</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
-		<NoWrap>false</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 
 	<Label item ="TRNW_CoinCount2">
 		<ScreenID>CoinCount2</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>494</X>
@@ -270,20 +249,16 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>4444</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
-		<NoWrap>false</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 
 	<Label item ="TRNW_CoinCount3">
 		<ScreenID>CoinCount3</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>494</X>
@@ -293,15 +268,11 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>5555</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
-		<NoWrap>false</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 
 	<StaticAnimation item = "TRNW_Purse0">
@@ -317,7 +288,6 @@
 		</Size>
 		<Animation>A_PlatinumCoin</Animation>
 	</StaticAnimation>
-
 	<StaticAnimation item = "TRNW_Purse1">
 		<ScreenID>Purse1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -331,7 +301,6 @@
 		</Size>
 		<Animation>A_GoldCoin</Animation>
 	</StaticAnimation>
-
 	<StaticAnimation item = "TRNW_Purse2">
 		<ScreenID>Purse1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -345,7 +314,6 @@
 		</Size>
 		<Animation>A_SilverCoin</Animation>
 	</StaticAnimation>
-
 	<StaticAnimation item = "TRNW_Purse3">
 		<ScreenID>Purse1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -359,9 +327,9 @@
 		</Size>
 		<Animation>A_CopperCoin</Animation>
 	</StaticAnimation>
+
 	<Button item = "TW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>460</X>
@@ -371,57 +339,34 @@
 			<CX>100</CX>
 			<CY>24</CY>
 		</Size>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text>Done</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
-		<!--<SoundPressed/>-->
-		<!--<<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 	</Button>
 
 	<Screen item = "TrainWindow">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
-		<RelativePosition>false</RelativePosition>
-		<Location>
-			<X>120</X>
-			<Y>20</Y>
-		</Location>
 		<Size>
 			<CX>580</CX>
 			<CY>280</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Text>Training Window</Text>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
-		<Style_Closebox>true</Style_Closebox>
-		<Style_Minimizebox>true</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
 		<Pieces>TRNW_TrainButton</Pieces>
 		<Pieces>TRNW_CoinCount0</Pieces>
 		<Pieces>TRNW_CoinCount1</Pieces>
 		<Pieces>TRNW_CoinCount2</Pieces>
 		<Pieces>TRNW_CoinCount3</Pieces>
+        <Pieces>TRNW_StretchableBg</Pieces>
 		<Pieces>TRNW_SkillList</Pieces>
 		<Pieces>TRNW_ExpLabel</Pieces>
 		<Pieces>TRNW_ExpGauge</Pieces>
@@ -434,5 +379,4 @@
 		<Pieces>TRNW_Purse3</Pieces>
 		<Pieces>TW_DoneButton</Pieces>
 	</Screen>
-
 </XML>

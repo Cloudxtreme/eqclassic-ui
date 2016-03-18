@@ -1,0 +1,86 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<Ui2DAnimation item = "Note01">
+		<Frames>
+			<Texture>EQUI/Note01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Note02">
+		<Frames>
+			<Texture>EQUI/Note02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Note03">
+		<Frames>
+			<Texture>EQUI/Note03.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Note04">
+		<Frames>
+			<Texture>EQUI/Note04.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_NoteBG01">
+		<ScreenID>NoteBG1</ScreenID>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Note01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_NoteBG02">
+		<ScreenID>NoteBG2</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Note02</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_NoteBG03">
+		<ScreenID>NoteBG3</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Note03</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_NoteBG04">
+		<ScreenID>NoteBG4</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Note04</Animation>
+	</StaticAnimation>
+</XML>

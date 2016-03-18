@@ -1,0 +1,189 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <Ui2DAnimation item = "Btn_Combine_Normal">
+		<Frames>
+			<Texture>EQUI/ContainerWindow.tga</Texture>
+            <Location>
+				<X>49</X>
+				<Y>0</Y>
+			</Location>
+            <Size>
+				<CX>79</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Combine_Pressed">
+		<Frames>
+			<Texture>EQUI/ContainerWindow.tga</Texture>
+			<Location>
+				<X>49</X>
+				<Y>19</Y>
+			</Location>
+			<Size>
+				<CX>79</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+    <Ui2DAnimation item = "A_InvSlotFrame">
+        <Frames>
+            <Texture>EQUI/ContainerWindow.tga</Texture>
+            <Size>
+                <CX>48</CX>
+                <CY>48</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <StaticAnimation item = "ContainerIconFrame">
+        <ScreenID>ContainerIconFrame</ScreenID>
+        <Location>
+            <X>21</X>
+            <Y>14</Y>
+        </Location>
+        <Size>
+            <CX>48</CX>
+            <CY>48</CY>
+        </Size>
+        <Animation>A_InvSlotFrame</Animation>
+    </StaticAnimation>
+
+    <Ui2DAnimation item = "A_RecessedBox">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>184</X>
+                <Y>110</Y>
+            </Location>
+            <Size>
+                <CX>40</CX>
+                <CY>40</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <!-- Borders -->
+    <Ui2DAnimation item = "A_ClassicTopLeft">
+		<Frames>
+			<Texture>EQUI/ContainerWindow.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>51</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>7</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicTop">
+		<Frames>
+			<Texture>EQUI/ContainerWindow.tga</Texture>
+			<Location>
+				<X>8</X>
+				<Y>51</Y>
+			</Location>
+			<Size>
+				<CX>96</CX>
+				<CY>7</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicTopRight">
+		<Frames>
+			<Texture>EQUI/ContainerWindow.tga</Texture>
+			<Location>
+				<X>105</X>
+				<Y>51</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>7</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicRightTop">
+		<Frames>
+			<Texture>EQUI/ContainerWindow.tga</Texture>
+			<Location>
+				<X>68</X>
+				<Y>10</Y>
+			</Location>
+			<Size>
+				<CX>0</CX>
+				<CY>0</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicRight">
+		<Frames>
+			<Texture>EQUI/ContainerWindow.tga</Texture>
+			<Location>
+				<X>248</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicRightBottom" />
+	<Ui2DAnimation item = "A_ClassicBottomRight">
+		<Frames>
+			<Texture>EQUI/ContainerWindow.tga</Texture>
+			<Location>
+				<X>105</X>
+				<Y>59</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>7</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicBottom">
+		<Frames>
+			<Texture>EQUI/ContainerWindow.tga</Texture>
+			<Location>
+				<X>8</X>
+				<Y>59</Y>
+			</Location>
+			<Size>
+				<CX>96</CX>
+				<CY>7</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicBottomLeft">
+		<Frames>
+			<Texture>EQUI/ContainerWindow.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>59</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>7</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicLeftBottom" />
+	<Ui2DAnimation item = "A_ClassicLeft">
+		<Frames>
+			<Texture>EQUI/ContainerWindow.tga</Texture>
+			<Location>
+				<X>240</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_ClassicLeftTop" />
+</XML>

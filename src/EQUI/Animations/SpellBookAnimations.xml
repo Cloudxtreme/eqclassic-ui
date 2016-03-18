@@ -1,0 +1,132 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <!-- Spell Book Window -->
+    <Ui2DAnimation item = "SpellBook01">
+        <Frames>
+            <Texture>EQUI/SpellBook01.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBook02">
+        <Frames>
+            <Texture>EQUI/SpellBook02.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBook03">
+        <Frames>
+            <Texture>EQUI/SpellBook03.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBook04">
+        <Frames>
+            <Texture>EQUI/SpellBook04.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Meditate_Normal">
+        <Cycle>true</Cycle>
+        <Frames>
+            <Texture>EQUI/MeditateButton.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>26</Y>
+            </Location>
+            <Size>
+                <CX>61</CX>
+                <CY>25</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Btn_Meditate_Pressed">
+        <Frames>
+            <Texture>EQUI/MeditateButton.tga</Texture>
+            <Size>
+                <CX>61</CX>
+                <CY>25</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBook_Gauge_Background">
+        <Frames>
+            <Texture>EQUI/SpellBookGauge.tga</Texture>
+            <Size>
+                <CX>113</CX>
+                <CY>13</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "SpellBook_Gauge_Fill">
+        <Frames>
+            <Texture>EQUI/SpellBookGauge.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>15</Y>
+            </Location>
+            <Size>
+                <CX>113</CX>
+                <CY>13</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_SpellBookBG01">
+        <ScreenID>SpellBookBG01</ScreenID>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>SpellBook01</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_SpellBookBG02">
+        <ScreenID>SpellBookBG02</ScreenID>
+        <Location>
+            <X>199</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>SpellBook02</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_SpellBookBG03">
+        <ScreenID>SpellBookBG03</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>SpellBook03</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_SpellBookBG04">
+        <ScreenID>SpellBookBG04</ScreenID>
+        <Location>
+            <X>199</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>SpellBook04</Animation>
+    </StaticAnimation>
+</XML>

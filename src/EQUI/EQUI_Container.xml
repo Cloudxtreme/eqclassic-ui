@@ -2,58 +2,6 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
-	<Ui2DAnimation item = "Btn_Combine_Normal">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>49</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>79</CX>
-				<CY>19</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "Btn_Combine_Pressed">
-		<Cycle>true</Cycle>
-		<Frames>
-			<Texture>classic_pieces02.tga</Texture>
-			<Location>
-				<X>49</X>
-				<Y>20</Y>
-			</Location>
-			<Size>
-				<CX>79</CX>
-				<CY>19</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
-			<Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
-
-	<StaticAnimation item = "ContainerIconFrame">
-		<ScreenID>ContainerIconFrame</ScreenID>
-		<Location>
-			<X>21</X>
-			<Y>14</Y>
-		</Location>
-		<Size>
-			<CX>48</CX>
-			<CY>48</CY>
-		</Size>
-		<Animation>A_InvSlotFrame</Animation>
-	</StaticAnimation>
-
 	<Label item ="Container_Label">
 		<ScreenID>Container_Label</ScreenID>
 		<Font>1</Font>
@@ -72,7 +20,6 @@
 		</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-
 	<Button item = "Container_Icon">
 		<ScreenID>Container_Icon</ScreenID>
 		<Location>
@@ -102,7 +49,6 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>30</EQType>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot2">
 		<ScreenID>ContainerSlot2</ScreenID>
 		<Location>
@@ -116,7 +62,6 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>31</EQType>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot3">
 		<ScreenID>ContainerSlot3</ScreenID>
 		<Location>
@@ -130,7 +75,6 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>32</EQType>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot4">
 		<ScreenID>ContainerSlot4</ScreenID>
 		<Location>
@@ -144,7 +88,6 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>33</EQType>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot5">
 		<ScreenID>ContainerSlot5</ScreenID>
 		<Location>
@@ -158,7 +101,6 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>34</EQType>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot6">
 		<ScreenID>ContainerSlot6</ScreenID>
 		<Location>
@@ -172,7 +114,6 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>35</EQType>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot7">
 		<ScreenID>ContainerSlot7</ScreenID>
 		<Location>
@@ -186,7 +127,6 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>36</EQType>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot8">
 		<ScreenID>ContainerSlot8</ScreenID>
 		<Location>
@@ -200,7 +140,6 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>37</EQType>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot9">
 		<ScreenID>ContainerSlot9</ScreenID>
 		<Location>
@@ -214,7 +153,6 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>38</EQType>
 	</InvSlot>
-
 	<InvSlot item = "ContainerSlot10">
 		<ScreenID>ContainerSlot10</ScreenID>
 		<Location>
@@ -231,10 +169,6 @@
 
 	<Button item = "Container_Combine">
 		<ScreenID>Container_Combine</ScreenID>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
 		<Size>
 			<CX>79</CX>
 			<CY>19</CY>
@@ -243,11 +177,9 @@
 			<Normal>Btn_Combine_Normal</Normal>
 			<Pressed>Btn_Combine_Pressed</Pressed>
 			<Flyby>Btn_Combine_Normal</Flyby>
-			<Disabled>Btn_Combine_Pressed</Disabled>
 			<PressedFlyby>Btn_Combine_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "Container_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
 		<Size>
@@ -255,25 +187,40 @@
 			<CY>19</CY>
 		</Size>
 		<ButtonDrawTemplate>
+            <Normal>Btn_Done_Normal</Normal>
 			<Pressed>Btn_Done_Pressed</Pressed>
+            <Flyby>Btn_Done_Normal</Flyby>
 			<PressedFlyby>Btn_Done_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
+    <Button item = "Container_InsertButton">
+        <ScreenID>InsertButton</ScreenID>
+    </Button>
+    <Button item = "Container_RemoveButton">
+        <ScreenID>RemoveButton</ScreenID>
+    </Button>
+    <Button item = "Container_DeleteButton">
+        <ScreenID>DeleteButton</ScreenID>
+    </Button>
+
+    <Listbox item = "Container_AugmentList">
+        <ScreenID>AugmentList</ScreenID>
+        <DrawTemplate>WDT_Static</DrawTemplate>
+        <Columns />
+        <Columns />
+    </Listbox>
+    <Label item ="Container_AugmentInfoLabel">
+        <ScreenID>AugmentInfoLabel</ScreenID>
+    </Label>
 
 	<Screen item = "ContainerWindow">
-		<Location>
-			<X>350</X>
-			<Y>100</Y>
-		</Location>
-		<Size>
-			<CX>119</CX>
-			<CY>50</CY>
-		</Size>
 		<DrawTemplate>WDT_Container</DrawTemplate>
 		<Style_Border>true</Style_Border>
 	    <Pieces>ContainerIconFrame</Pieces>
 		<Pieces>Container_Label</Pieces>
 		<Pieces>Container_Icon</Pieces>
+        <Pieces>Container_AugmentList</Pieces>
+        <Pieces>Container_AugmentInfoLabel</Pieces>
 		<Pieces>ContainerSlot1</Pieces>
 		<Pieces>ContainerSlot2</Pieces>
 		<Pieces>ContainerSlot3</Pieces>
@@ -285,6 +232,9 @@
 		<Pieces>ContainerSlot9</Pieces>
 		<Pieces>ContainerSlot10</Pieces>
 		<Pieces>Container_Combine</Pieces>
+        <Pieces>Container_InsertButton</Pieces>
+        <Pieces>Container_RemoveButton</Pieces>
+        <Pieces>Container_DeleteButton</Pieces>
 		<Pieces>Container_DoneButton</Pieces>
 	</Screen>
 </XML>

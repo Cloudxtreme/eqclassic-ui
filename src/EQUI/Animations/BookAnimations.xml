@@ -1,0 +1,87 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <!-- Book Window -->
+    <Ui2DAnimation item = "Book01">
+        <Frames>
+            <Texture>EQUI/Book01.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Book02">
+        <Frames>
+            <Texture>EQUI/Book02.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Book03">
+        <Frames>
+            <Texture>EQUI/Book03.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "Book04">
+        <Frames>
+            <Texture>EQUI/Book04.tga</Texture>
+            <Size>
+                <CX>256</CX>
+                <CY>256</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_BookBG01">
+        <ScreenID>BookBG01</ScreenID>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Book01</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_BookBG02">
+        <ScreenID>BookBG02</ScreenID>
+        <Location>
+            <X>256</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Book02</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_BookBG03">
+        <ScreenID>BookBG03</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Book03</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_BookBG04">
+        <ScreenID>BookBG04</ScreenID>
+        <Location>
+            <X>256</X>
+            <Y>256</Y>
+        </Location>
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+        <Animation>Book04</Animation>
+    </StaticAnimation>
+</XML>

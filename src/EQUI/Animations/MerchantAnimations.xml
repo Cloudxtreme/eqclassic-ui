@@ -1,0 +1,88 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<!-- Merchant Window -->
+	<Ui2DAnimation item = "Merchant01">
+		<Frames>
+			<Texture>EQUI/Merchant.tga</Texture>
+			<Size>
+				<CX>119</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Merchant02">
+		<Frames>
+			<Texture>EQUI/Merchant.tga</Texture>
+			<Location>
+				<X>119</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>119</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Sell_Normal">
+		<Frames>
+			<Texture>EQUI/MerchantButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>48</Y>
+			</Location>
+			<Size>
+				<CX>79</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Sell_Pressed">
+		<Frames>
+			<Texture>EQUI/MerchantButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>67</Y>
+			</Location>
+			<Size>
+				<CX>79</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Purchase_Pressed">
+		<Frames>
+			<Texture>EQUI/MerchantButtons.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>86</Y>
+			</Location>
+			<Size>
+				<CX>79</CX>
+				<CY>19</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<StaticAnimation item = "EQUI_MerchantBG01">
+		<ScreenID>MerchantBG01</ScreenID>
+		<Size>
+			<CX>119</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Merchant01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_MerchantBG02">
+		<ScreenID>MerchantBG02</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Merchant02</Animation>
+	</StaticAnimation>
+</XML>

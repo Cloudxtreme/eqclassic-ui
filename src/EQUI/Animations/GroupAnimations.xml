@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+    <Ui2DAnimation item = "GroupWindow01">
+        <Frames>
+            <Texture>EQUI/GroupWindow.tga</Texture>
+            <Size>
+                <CX>121</CX>
+                <CY>120</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_GroupWindowBG01">
+        <ScreenID>GroupWindowBG01</ScreenID>
+        <Size>
+            <CX>121</CX>
+            <CY>120</CY>
+        </Size>
+        <Animation>GroupWindow01</Animation>
+    </StaticAnimation>
+</XML>
