@@ -453,9 +453,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -485,9 +482,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 

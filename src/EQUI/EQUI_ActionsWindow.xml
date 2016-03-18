@@ -612,8 +612,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "ACP_RangeAttackButton">
@@ -640,8 +638,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "ACP_FirstAbilityButton">
@@ -663,8 +659,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "ACP_SecondAbilityButton">
@@ -686,8 +680,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "ACP_ThirdAbilityButton">
@@ -709,8 +701,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "ACP_FourthAbilityButton">
@@ -732,8 +722,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -817,8 +805,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "AAP_SecondAbilityButton">
@@ -840,8 +826,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "AAP_ThirdAbilityButton">
@@ -863,8 +847,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "AAP_FourthAbilityButton">
@@ -886,8 +868,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "AAP_FifthAbilityButton">
@@ -909,8 +889,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "AAP_SixthAbilityButton">
@@ -932,8 +910,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 

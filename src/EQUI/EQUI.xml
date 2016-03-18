@@ -28,6 +28,7 @@
         <Include>MerchantAnimations.xml</Include>
         <Include>NoteAnimations.xml</Include>
         <Include>PlayerAnimations.xml</Include>
+        <Include>OptionsAnimations.xml</Include>
         <Include>QuantityAnimations.xml</Include>
         <Include>RightClickAnimations.xml</Include>
         <Include>SelectorAnimations.xml</Include>
@@ -38,6 +39,7 @@
         <Include>TargetAnimations.xml</Include>
         <Include>TrackingAnimations.xml</Include>
         <Include>TradeAnimations.xml</Include>
+        <Include>TrainAnimations.xml</Include>
         <!-- Templates -->
         <Include>EQUI_Templates.xml</Include>
         <!-- Windows -->

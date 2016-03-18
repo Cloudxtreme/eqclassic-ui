@@ -51,6 +51,20 @@
         <Animation>A_InvSlotFrame</Animation>
     </StaticAnimation>
 
+    <Ui2DAnimation item = "A_RecessedBox">
+        <Frames>
+            <Texture>window_pieces01.tga</Texture>
+            <Location>
+                <X>184</X>
+                <Y>110</Y>
+            </Location>
+            <Size>
+                <CX>40</CX>
+                <CY>40</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
     <!-- Borders -->
     <Ui2DAnimation item = "A_ClassicTopLeft">
 		<Frames>

@@ -1102,9 +1102,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity1_Button">
@@ -1132,9 +1130,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity2_Button">
@@ -1162,9 +1158,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity3_Button">
@@ -1192,9 +1186,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity4_Button">
@@ -1222,9 +1214,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity5_Button">
@@ -1252,9 +1242,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity6_Button">
@@ -1282,9 +1270,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity7_Button">
@@ -1312,9 +1298,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity8_Button">
@@ -1342,9 +1326,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity9_Button">
@@ -1372,9 +1354,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity10_Button">
@@ -1402,9 +1382,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity11_Button">
@@ -1432,9 +1410,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity12_Button">
@@ -1462,9 +1438,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity13_Button">
@@ -1492,9 +1466,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity14_Button">
@@ -1522,9 +1494,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity15_Button">
@@ -1552,9 +1522,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_Deity16_Button">
@@ -1582,9 +1550,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Screen item="CharacterCreationScreen1b">
@@ -1675,9 +1641,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_City1_Button">
@@ -1703,9 +1667,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_City2_Button">
@@ -1731,9 +1693,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_City3_Button">
@@ -1759,9 +1719,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_City4_Button">
@@ -1787,9 +1745,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_City5_Button">
@@ -1815,9 +1771,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_City6_Button">
@@ -1843,9 +1797,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_City7_Button">
@@ -1871,9 +1823,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_City8_Button">
@@ -1899,9 +1849,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_City9_Button">
@@ -1927,9 +1875,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_City10_Button">
@@ -1955,9 +1901,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_City11_Button">
@@ -1983,9 +1927,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_City12_Button">
@@ -2011,9 +1953,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item="CC1_City13_Button">

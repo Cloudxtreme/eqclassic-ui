@@ -16,8 +16,7 @@
 		<BottomAnchorOffset>34</BottomAnchorOffset>
 
 		<ButtonDrawTemplate>
-			<Normal>A_Listbox_Background2</Normal>
-			<NormalDecal>EQUI_Blank</NormalDecal>
+			<Normal>A_Listbox_Background1</Normal>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -25,15 +24,16 @@
 		<ScreenID>SkillList</ScreenID>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
+        <Style_VScroll>true</Style_VScroll>
+
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
+
 		<LeftAnchorOffset>4</LeftAnchorOffset>
 		<TopAnchorOffset>4</TopAnchorOffset>
 		<RightAnchorOffset>4</RightAnchorOffset>
 		<BottomAnchorOffset>34</BottomAnchorOffset>
-		<Style_Border>true</Style_Border>
-		<Style_VScroll>true</Style_VScroll>
-		<Style_Transparent>true</Style_Transparent>
+
 		<Columns>
 			<Width>130</Width>
 			<Heading>Skill Name</Heading>
@@ -47,6 +47,7 @@
 			<Heading>Value</Heading>
 		</Columns>
 	</Listbox>
+
 	<Button item = "SKLW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -70,9 +71,7 @@
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
 			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
 			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
     <Button item = "SKLW_MakeHotKeyButton">

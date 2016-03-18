@@ -39,6 +39,40 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_ActionsWindowBG01">
+        <ScreenID>ActionsWindowBG01</ScreenID>
+        <Size>
+            <CX>121</CX>
+            <CY>230</CY>
+        </Size>
+        <Animation>ActionsWindow01</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_ActionsWindowBG02">
+        <ScreenID>ActionsWindowBG02</ScreenID>
+        <Size>
+            <CX>121</CX>
+            <CY>230</CY>
+        </Size>
+        <Animation>ActionsWindow02</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_ActionsWindowBG03">
+        <ScreenID>ActionsWindowBG03</ScreenID>
+        <Size>
+            <CX>121</CX>
+            <CY>230</CY>
+        </Size>
+        <Animation>ActionsWindow03</Animation>
+    </StaticAnimation>
+    <StaticAnimation item = "EQUI_ActionsWindowBG04">
+        <ScreenID>ActionsWindowBG04</ScreenID>
+        <Size>
+            <CX>121</CX>
+            <CY>230</CY>
+        </Size>
+        <Animation>ActionsWindow04</Animation>
+    </StaticAnimation>
+
     <Ui2DAnimation item = "Btn_Abilities_Pressed">
         <Frames>
             <Texture>EQUI/ActionsWindowButtons.tga</Texture>
@@ -244,36 +278,69 @@
         </Frames>
     </Ui2DAnimation>
 
-    <StaticAnimation item = "EQUI_ActionsWindowBG01">
-		<ScreenID>ActionsWindowBG01</ScreenID>
-		<Size>
-			<CX>121</CX>
-			<CY>230</CY>
-		</Size>
-		<Animation>ActionsWindow01</Animation>
-	</StaticAnimation>
-    <StaticAnimation item = "EQUI_ActionsWindowBG02">
-		<ScreenID>ActionsWindowBG02</ScreenID>
-		<Size>
-			<CX>121</CX>
-			<CY>230</CY>
-		</Size>
-		<Animation>ActionsWindow02</Animation>
-	</StaticAnimation>
-    <StaticAnimation item = "EQUI_ActionsWindowBG03">
-		<ScreenID>ActionsWindowBG03</ScreenID>
-		<Size>
-			<CX>121</CX>
-			<CY>230</CY>
-		</Size>
-		<Animation>ActionsWindow03</Animation>
-	</StaticAnimation>
-    <StaticAnimation item = "EQUI_ActionsWindowBG04">
-		<ScreenID>ActionsWindowBG04</ScreenID>
-		<Size>
-			<CX>121</CX>
-			<CY>230</CY>
-		</Size>
-		<Animation>ActionsWindow04</Animation>
-	</StaticAnimation>
+    <Ui2DAnimation item = "A_SmallBtnNormal">
+        <Frames>
+            <Texture>window_pieces03.tga</Texture>
+            <Location>
+                <X>200</X>
+                <Y>120</Y>
+            </Location>
+            <Size>
+                <CX>48</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_SmallBtnPressed">
+        <Frames>
+            <Texture>window_pieces03.tga</Texture>
+            <Location>
+                <X>200</X>
+                <Y>168</Y>
+            </Location>
+            <Size>
+                <CX>48</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_SmallBtnFlyby">
+        <Frames>
+            <Texture>window_pieces03.tga</Texture>
+            <Location>
+                <X>200</X>
+                <Y>144</Y>
+            </Location>
+            <Size>
+                <CX>48</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_SmallBtnPressedFlyby">
+        <Frames>
+            <Texture>window_pieces03.tga</Texture>
+            <Location>
+                <X>200</X>
+                <Y>192</Y>
+            </Location>
+            <Size>
+                <CX>48</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "A_SmallBtnDisabled">
+        <Frames>
+            <Texture>window_pieces03.tga</Texture>
+            <Location>
+                <X>200</X>
+                <Y>216</Y>
+            </Location>
+            <Size>
+                <CX>48</CX>
+                <CY>19</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
 </XML>

@@ -72,9 +72,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "HB_Button2">
@@ -95,9 +92,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "HB_Button3">
@@ -118,9 +112,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "HB_Button4">
@@ -141,9 +132,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "HB_Button5">
@@ -164,9 +152,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "HB_Button6">
@@ -187,9 +172,6 @@
 		<ButtonDrawTemplate>
 			<Normal>A_SquareBtnNormal</Normal>
 			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
     <Button item = "HB_Button7">

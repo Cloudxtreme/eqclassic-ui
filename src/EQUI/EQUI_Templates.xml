@@ -26,9 +26,9 @@
 			<MiddleTextureInfo>scrollbar_gutter.tga</MiddleTextureInfo>
 			<MiddleTint>
 				<Alpha>255</Alpha>
-				<R>128</R>
-				<G>128</G>
-				<B>128</B>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
 			</MiddleTint>
 		</VSBTemplate>
 		<Border>
@@ -120,13 +120,7 @@
 		<PressedFlyby>A_VSBDownPressedFlyby</PressedFlyby>
 	</ButtonDrawTemplate>
 
-	<FrameTemplate item = "Header_Listbox">
-		<Right>A_ListHeaderRight</Right>
-		<Left>A_ListHeaderLeft</Left>
-		<Middle>A_ListHeaderMiddle</Middle>
-	</FrameTemplate>
-
-<!-- Templates to put coins at top of list (in the header) -->
+    <!-- Templates to put coins at top of guildmaster train skill list -->
 	<FrameTemplate item = "Header_PlatCoin">
 		<Middle>A_PlatinumCoin</Middle>
 	</FrameTemplate>
