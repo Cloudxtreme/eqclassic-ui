@@ -531,13 +531,5 @@
 		</Frames>
 	</Ui2DAnimation>
 
-	<Ui2DAnimation item = "EQLS_Blank">
-		<Frames>
-			<Texture></Texture>
-			<Size>
-				<CX>0</CX>
-				<CY>0</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
+	<Ui2DAnimation item = "EQLS_Blank" />
 </XML>
