@@ -208,7 +208,7 @@
     </Label>
     <Combobox item="OGP_PlayerTradeCombobox">
             <ScreenID>OGP_PlayerTradeCombobox</ScreenID>
-            <DrawTemplate>WDT_Static</DrawTemplate>
+            <DrawTemplate>WDT_Def</DrawTemplate>
             <Location>
                     <X>200</X>
                     <Y>250</Y>
@@ -3010,75 +3010,71 @@
     </Page>
     <!-- *********** Options Tab Window, Chat Filters Page *********** -->
     <Listbox item="OFP_FilterList">
-            <ScreenID>FilterList</ScreenID>
-            <DrawTemplate>WDT_Def</DrawTemplate>
-            <RelativePosition>true</RelativePosition>
-            <AutoStretch>true</AutoStretch>
-            <TopAnchorToTop>true</TopAnchorToTop>
-            <BottomAnchorToTop>false</BottomAnchorToTop>
-            <LeftAnchorToLeft>true</LeftAnchorToLeft>
-            <RightAnchorToLeft>false</RightAnchorToLeft>
-            <TopAnchorOffset>10</TopAnchorOffset>
-            <LeftAnchorOffset>40</LeftAnchorOffset>
-            <RightAnchorOffset>40</RightAnchorOffset>
-            <BottomAnchorOffset>40</BottomAnchorOffset>
-            <Style_Border>true</Style_Border>
-            <Style_VScroll>true</Style_VScroll>
-            <Columns>
-                    <Width>150</Width>
-                    <Heading>Filter description</Heading>
-            </Columns>
-            <Columns>
-                    <Width>110</Width>
-                    <Heading>Filter Setting</Heading>
-            </Columns>
+        <ScreenID>FilterList</ScreenID>
+        <DrawTemplate>WDT_Def</DrawTemplate>
+        <RelativePosition>true</RelativePosition>
+        <AutoStretch>true</AutoStretch>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorOffset>10</TopAnchorOffset>
+        <LeftAnchorOffset>40</LeftAnchorOffset>
+        <RightAnchorOffset>40</RightAnchorOffset>
+        <BottomAnchorOffset>100</BottomAnchorOffset>
+        <Style_Border>true</Style_Border>
+        <Style_VScroll>true</Style_VScroll>
+        <Columns>
+            <Width>150</Width>
+            <Heading>Filter description</Heading>
+        </Columns>
+        <Columns>
+            <Width>110</Width>
+            <Heading>Filter Setting</Heading>
+        </Columns>
     </Listbox>
     <Combobox item="OFP_FilterComboBox">
-            <ScreenID>FilterComboBox</ScreenID>
-            <DrawTemplate>WDT_Def</DrawTemplate>
-            <AutoStretch>true</AutoStretch>
-            <TopAnchorToTop>false</TopAnchorToTop>
-            <BottomAnchorToTop>false</BottomAnchorToTop>
-            <LeftAnchorToLeft>true</LeftAnchorToLeft>
-            <RightAnchorToLeft>false</RightAnchorToLeft>
-            <TopAnchorOffset>34</TopAnchorOffset>
-            <LeftAnchorOffset>60</LeftAnchorOffset>
-            <RightAnchorOffset>60</RightAnchorOffset>
-            <BottomAnchorOffset>10</BottomAnchorOffset>
-            <ListHeight>80</ListHeight>
-            <Button>BDT_Combo</Button>
-            <Style_Border>true</Style_Border>
+        <ScreenID>FilterComboBox</ScreenID>
+        <DrawTemplate>WDT_Def</DrawTemplate>
+        <AutoStretch>true</AutoStretch>
+        <TopAnchorToTop>false</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorOffset>90</TopAnchorOffset>
+        <LeftAnchorOffset>60</LeftAnchorOffset>
+        <RightAnchorOffset>60</RightAnchorOffset>
+        <BottomAnchorOffset>60</BottomAnchorOffset>
+        <ListHeight>100</ListHeight>
+        <Button>BDT_Combo</Button>
+        <Style_Border>true</Style_Border>
     </Combobox>
     <Page item="OptionsChatPage">
-            <ScreenID>OptionsChatPage</ScreenID>
-            <RelativePosition>true</RelativePosition>
-            <!-- Pages are sized and positioned by their parent tab -->
-            <Style_VScroll>false</Style_VScroll>
-            <Style_HScroll>false</Style_HScroll>
-            <Style_Transparent>false</Style_Transparent>
-            <DrawTemplate>WDT_Def</DrawTemplate>
-            <TabText>Filters</TabText>
-            <TabTextColor>
-                    <R>255</R>
-                    <G>255</G>
-                    <B>255</B>
-            </TabTextColor>
-            <TabTextActiveColor>
-                    <R>255</R>
-                    <G>255</G>
-                    <B>0</B>
-            </TabTextActiveColor>
-            <Style_Sizable>true</Style_Sizable>
-            <Pieces>OFP_FilterList</Pieces>
-            <Pieces>OFP_FilterComboBox</Pieces>
-            <Location>
-                    <X>0</X>
-                    <Y>22</Y>
-            </Location>
-            <Size>
-                    <CX>387</CX>
-                    <CY>402</CY>
-            </Size>
+        <ScreenID>OptionsChatPage</ScreenID>
+        <RelativePosition>true</RelativePosition>
+        <DrawTemplate>WDT_Def</DrawTemplate>
+        <TabText>Filters</TabText>
+        <TabTextColor>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+        </TabTextColor>
+        <TabTextActiveColor>
+            <R>255</R>
+            <G>255</G>
+            <B>0</B>
+        </TabTextActiveColor>
+        <Style_Sizable>true</Style_Sizable>
+        <Pieces>OFP_FilterList</Pieces>
+        <Pieces>OFP_FilterComboBox</Pieces>
+        <Location>
+            <X>0</X>
+            <Y>22</Y>
+        </Location>
+        <Size>
+            <CX>387</CX>
+            <CY>402</CY>
+        </Size>
     </Page>
     <!-- *********** Options Tab Window, Chat Colors Page *********** -->
     <Button item="OCP_UserColorDefault">
@@ -3135,33 +3131,7 @@
             </Columns>
     </Listbox>
     <Button item="OCP_UserColorChange">
-            <ScreenID>UserColorChange</ScreenID>
-            <RelativePosition>true</RelativePosition>
-            <RelativePosition>true</RelativePosition>
-            <AutoStretch>true</AutoStretch>
-            <TopAnchorToTop>false</TopAnchorToTop>
-            <BottomAnchorToTop>false</BottomAnchorToTop>
-            <LeftAnchorToLeft>true</LeftAnchorToLeft>
-            <RightAnchorToLeft>false</RightAnchorToLeft>
-            <TopAnchorOffset>30</TopAnchorOffset>
-            <LeftAnchorOffset>126</LeftAnchorOffset>
-            <RightAnchorOffset>102</RightAnchorOffset>
-            <BottomAnchorOffset>8</BottomAnchorOffset>
-            <Style_Transparent>false</Style_Transparent>
-            <Style_Checkbox>false</Style_Checkbox>
-            <Text>Change Selected Color</Text>
-            <TextColor>
-                    <R>255</R>
-                    <G>255</G>
-                    <B>255</B>
-            </TextColor>
-            <ButtonDrawTemplate>
-                    <Normal>A_BigBtnNormal</Normal>
-                    <Pressed>A_BigBtnPressed</Pressed>
-                    <Flyby>A_BigBtnFlyby</Flyby>
-                    <Disabled>A_BigBtnDisabled</Disabled>
-                    <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
-            </ButtonDrawTemplate>
+        <ScreenID>UserColorChange</ScreenID>
     </Button>
     <Page item="OptionsColorPage">
             <ScreenID>OptionsColorPage</ScreenID>
@@ -3496,45 +3466,45 @@
     </Page>
     <!-- *********** Options Tab Window, Top level *********** -->
     <TabBox item="OPTW_OptionsSubwindows">
-            <ScreenID>OPTW_OptionsSubwindows</ScreenID>
-            <RelativePosition>true</RelativePosition>
-            <AutoStretch>true</AutoStretch>
-            <TopAnchorToTop>true</TopAnchorToTop>
-            <BottomAnchorToTop>false</BottomAnchorToTop>
-            <LeftAnchorToLeft>true</LeftAnchorToLeft>
-            <RightAnchorToLeft>false</RightAnchorToLeft>
-            <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
-            <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
-            <Pages>OptionsGeneralPage</Pages>
-            <Pages>OptionsDisplayPage</Pages>
-            <Pages>OptionsMousePage</Pages>
-            <Pages>OptionsKeyboardPage</Pages>
-            <Pages>OptionsChatPage</Pages>
-            <Pages>OptionsColorPage</Pages>
-            <!-- <Pages>OptionsMailPage</Pages> -->
+        <ScreenID>OPTW_OptionsSubwindows</ScreenID>
+        <RelativePosition>true</RelativePosition>
+        <AutoStretch>true</AutoStretch>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
+        <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+        <Pages>OptionsGeneralPage</Pages>
+        <Pages>OptionsDisplayPage</Pages>
+        <Pages>OptionsMousePage</Pages>
+        <Pages>OptionsKeyboardPage</Pages>
+        <Pages>OptionsChatPage</Pages>
+        <Pages>OptionsColorPage</Pages>
+        <!-- <Pages>OptionsMailPage</Pages> -->
     </TabBox>
+
+    <Button item = "OPTW_Autolock">
+        <Size>
+            <CX>400</CX>
+            <CY>481</CY>
+        </Size>
+    </Button>
+
     <Screen item="OptionsWindow">
-            <ScreenID/>
-            <RelativePosition>false</RelativePosition>
-            <Location>
-                    <X>119</X>
-                    <Y>47</Y>
-            </Location>
-            <Size>
-                    <CX>400</CX>
-                    <CY>481</CY>
-            </Size>
-            <Text>Options</Text>
-            <Style_VScroll>false</Style_VScroll>
-            <Style_HScroll>false</Style_HScroll>
-            <Style_Transparent>false</Style_Transparent>
-            <TooltipReference/>
-            <DrawTemplate>WDT_Def</DrawTemplate>
-            <Style_Titlebar>true</Style_Titlebar>
-            <Style_Closebox>false</Style_Closebox>
-            <Style_Minimizebox>false</Style_Minimizebox>
-            <Style_Border>true</Style_Border>
-            <Style_Sizable>false</Style_Sizable>
-            <Pieces>OPTW_OptionsSubwindows</Pieces>
+        <Location>
+            <X>119</X>
+            <Y>47</Y>
+        </Location>
+        <Size>
+            <CX>400</CX>
+            <CY>481</CY>
+        </Size>
+        <Text>Options</Text>
+        <DrawTemplate>WDT_Def</DrawTemplate>
+        <Style_Titlebar>true</Style_Titlebar>
+        <Style_Border>true</Style_Border>
+        <Pieces>OPTW_Autolock</Pieces>
+        <Pieces>OPTW_OptionsSubwindows</Pieces>
     </Screen>
 </XML>
