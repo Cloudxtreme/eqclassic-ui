@@ -30,7 +30,7 @@
 	<Listbox item = "MW_ItemList">
 		<ScreenID>ItemList</ScreenID>
 		<Font>2</Font>
-		<!-- imotogames - changed item list to have no visible vscroll bar for the time being (still scrollable) -->
+		<!-- cutelittlecow - changed item list to have no visible vscroll bar for the time being (still scrollable) -->
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Location>
 			<X>10</X>
