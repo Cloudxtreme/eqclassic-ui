@@ -128,7 +128,6 @@
 			<G>50</G>
 			<B>2</B>
 		</TextColor>
-		<AlignCenter>true</AlignCenter>
 	</Editbox>
 	<Editbox item = "LOGIN_PasswordEdit">
 		<ScreenID>PasswordEdit</ScreenID>
@@ -147,7 +146,6 @@
 			<G>50</G>
 			<B>2</B>
 		</TextColor>
-		<AlignCenter>true</AlignCenter>
 	</Editbox>
 
 	<Screen item = "connect">
