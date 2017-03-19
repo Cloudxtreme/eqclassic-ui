@@ -5,7 +5,6 @@
 	<Button item = "LOGIN_ConnectButton">
 		<ScreenID>ConnectButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
 			<Y>282</Y>
@@ -14,12 +13,11 @@
 			<CX>228</CX>
 			<CY>34</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>CONNECT</Text>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
@@ -38,7 +36,6 @@
 	<Button item = "LOGIN_HelpButton">
 		<ScreenID>HelpButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
 			<Y>376</Y>
@@ -47,12 +44,11 @@
 			<CX>228</CX>
 			<CY>34</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>HELP</Text>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
@@ -65,7 +61,6 @@
 	<Button item = "LOGIN_CancelButton">
 		<ScreenID>CancelButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
 			<Y>329</Y>
@@ -74,12 +69,11 @@
 			<CX>228</CX>
 			<CY>34</CY>
 		</Size>
-		<Style_Checkbox>false</Style_Checkbox>
 		<Text>CANCEL</Text>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
@@ -93,40 +87,40 @@
 	<Label item = "LOGIN_UsernameLabel">
 		<ScreenID>UsernameLabel</ScreenID>
 		<Font>2</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>404</X>
-			<Y>246</Y>
+			<X>296</X>
+			<Y>240</Y>
 		</Location>
 		<Size>
-			<CX>250</CX>
+			<CX>291</CX>
 			<CY>15</CY>
 		</Size>
 		<Text>Station  Name</Text>
 		<TextColor>
-				<R>61</R>
-				<G>27</G>
-				<B>0</B>
+			<R>97</R>
+			<G>68</G>
+			<B>37</B>
 		</TextColor>
+		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item = "LOGIN_PasswordLabel">
 		<ScreenID>PasswordLabel</ScreenID>
 		<Font>2</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>395</X>
+			<X>296</X>
 			<Y>336</Y>
 		</Location>
 		<Size>
-			<CX>250</CX>
+			<CX>291</CX>
 			<CY>15</CY>
 		</Size>
 		<Text>Station  Password</Text>
 		<TextColor>
-				<R>61</R>
-				<G>27</G>
-				<B>0</B>
+			<R>97</R>
+			<G>68</G>
+			<B>37</B>
 		</TextColor>
+		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item = "LOGIN_QuickConnectToLabel">
 		<ScreenID>QuickConnectToLabel</ScreenID>
@@ -136,7 +130,6 @@
 		<ScreenID>UsernameEdit</ScreenID>
 		<Font>5</Font>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>390</X>
 			<Y>261</Y>
@@ -146,17 +139,16 @@
 			<CY>38</CY>
 		</Size>
 		<TextColor>
-				<R>96</R>
-				<G>50</G>
-				<B>0</B>
+			<R>92</R>
+			<G>50</G>
+			<B>2</B>
 		</TextColor>
-		<AlignRight>true</AlignRight>
+		<AlignCenter>true</AlignCenter>
 	</Editbox>
 	<Editbox item = "LOGIN_PasswordEdit">
 		<ScreenID>PasswordEdit</ScreenID>
 		<Font>5</Font>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>390</X>
 			<Y>351</Y>
@@ -166,15 +158,14 @@
 			<CY>38</CY>
 		</Size>
 		<TextColor>
-				<R>96</R>
-				<G>50</G>
-				<B>0</B>
+			<R>92</R>
+			<G>50</G>
+			<B>2</B>
 		</TextColor>
-		<AlignRight>true</AlignRight>
+		<AlignCenter>true</AlignCenter>
 	</Editbox>
 
 	<Screen item = "connect">
-		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>
