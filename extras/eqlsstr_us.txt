@@ -288,7 +288,7 @@ EQST0002
 6015 Preferred Servers:
 6016 Standard Servers:
 6017 Type here to enter chat.  Press <Enter> to send the chat.
-6018 There have been %1 failed login attempts on your account since the last time you logged in.
+6018 <c "#754c1b">There have been %1 failed login attempts on your account since the last time you logged in.</c>
 6019 <c "#754c1b">You need to enter a username and password to login. <br><br>If this is your first time logging in, you need to create a username and password by %1</c>
 6020 clicking here.
 6021 clicking here.
