@@ -32,8 +32,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<STMLbox item = "HELP_Display">
@@ -183,8 +183,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<STMLbox item = "MAINHELP_Display">

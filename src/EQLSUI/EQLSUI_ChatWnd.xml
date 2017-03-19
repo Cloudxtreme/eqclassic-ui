@@ -29,8 +29,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHAT_ExitButton">
@@ -60,8 +60,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHAT_HelpButton">
@@ -91,8 +91,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHAT_TechButton">
@@ -122,8 +122,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHAT_ServersButton">
@@ -153,8 +153,8 @@
 			<Normal>LargeBtnNormal</Normal>
 			<Pressed>LargeBtnPressed</Pressed>
 			<Flyby>LargeBtnHover</Flyby>
-			<Disabled>LargeBtnDisabled</Disabled>
-			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
+			<Disabled>LargeBtnNormal</Disabled>
+			<PressedFlyby>LargeBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 

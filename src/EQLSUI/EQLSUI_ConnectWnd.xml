@@ -14,17 +14,12 @@
 			<CY>34</CY>
 		</Size>
 		<Text>CONNECT</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
 			<Pressed>LargeBtnPressed</Pressed>
 			<Flyby>LargeBtnHover</Flyby>
-			<Disabled>LargeBtnDisabled</Disabled>
-			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
+			<Disabled>LargeBtnNormal</Disabled>
+			<PressedFlyby>LargeBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "LOGIN_QuickConnectButton">
@@ -45,17 +40,12 @@
 			<CY>34</CY>
 		</Size>
 		<Text>HELP</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
 			<Pressed>LargeBtnPressed</Pressed>
 			<Flyby>LargeBtnHover</Flyby>
-			<Disabled>LargeBtnDisabled</Disabled>
-			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
+			<Disabled>LargeBtnNormal</Disabled>
+			<PressedFlyby>LargeBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "LOGIN_CancelButton">
@@ -70,17 +60,12 @@
 			<CY>34</CY>
 		</Size>
 		<Text>CANCEL</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
 			<Pressed>LargeBtnPressed</Pressed>
 			<Flyby>LargeBtnHover</Flyby>
-			<Disabled>LargeBtnDisabled</Disabled>
-			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
+			<Disabled>LargeBtnNormal</Disabled>
+			<PressedFlyby>LargeBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 

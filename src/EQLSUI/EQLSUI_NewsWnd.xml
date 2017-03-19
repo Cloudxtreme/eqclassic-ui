@@ -5,35 +5,27 @@
 	<Button item = "NEWS_OKButton">
 		<ScreenID>OKButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>265</X>
+			<X>206</X>
 			<Y>436</Y>
 		</Location>
 		<Size>
-			<CX>112</CX>
+			<CX>228</CX>
 			<CY>34</CY>
 		</Size>
 		<Text>OK</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
+			<Normal>LargeBtnNormal</Normal>
+			<Pressed>LargeBtnPressed</Pressed>
+			<Flyby>LargeBtnHover</Flyby>
+			<Disabled>LargeBtnNormal</Disabled>
+			<PressedFlyby>LargeBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
 	<STMLbox item = "NEWS_Display">
 		<ScreenID>Display</ScreenID>
 		<Font>2</Font>
-		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>58</X>
 			<Y>80</Y>
@@ -46,7 +38,6 @@
 	</STMLbox>
 
 	<Screen item = "news">
-		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>

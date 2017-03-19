@@ -25,8 +25,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_AdminChatButton">
@@ -52,8 +52,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -80,8 +80,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_GuideChatButton">
@@ -107,8 +107,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -135,8 +135,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_PlayerChatButton">
@@ -162,8 +162,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_TellButton">
@@ -189,8 +189,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_SystemButton">
@@ -216,8 +216,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_CommandButton">
@@ -243,8 +243,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -320,8 +320,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_OKButton">
@@ -347,8 +347,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_CancelButton">
@@ -374,8 +374,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -415,7 +415,6 @@
 	</Screen>
 
 	<Screen item = "chatoptions">
-		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>

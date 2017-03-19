@@ -3,7 +3,6 @@
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
 	<Screen item = "soesplash">
-		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>

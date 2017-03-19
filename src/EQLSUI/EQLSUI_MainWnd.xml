@@ -5,7 +5,6 @@
 	<Button item = "MAIN_ConnectButton">
 		<ScreenID>ConnectButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>398</X>
 			<Y>220</Y>
@@ -15,23 +14,17 @@
 			<CY>34</CY>
 		</Size>
 		<Text>CONNECT</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
 			<Pressed>LargeBtnPressed</Pressed>
 			<Flyby>LargeBtnHover</Flyby>
-			<Disabled>LargeBtnDisabled</Disabled>
-			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
+			<Disabled>LargeBtnNormal</Disabled>
+			<PressedFlyby>LargeBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "MAIN_AccountButton">
 		<ScreenID>AccountButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>398</X>
 			<Y>264</Y>
@@ -41,23 +34,17 @@
 			<CY>34</CY>
 		</Size>
 		<Text>ACCOUNT</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
 			<Pressed>LargeBtnPressed</Pressed>
 			<Flyby>LargeBtnHover</Flyby>
-			<Disabled>LargeBtnDisabled</Disabled>
-			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
+			<Disabled>LargeBtnNormal</Disabled>
+			<PressedFlyby>LargeBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "MAIN_CreditsButton">
 		<ScreenID>CreditsButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>398</X>
 			<Y>308</Y>
@@ -67,18 +54,13 @@
 			<CY>34</CY>
 		</Size>
 		<Text>CREDITS</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
 			<Pressed>LargeBtnPressed</Pressed>
 			<Flyby>LargeBtnHover</Flyby>
-			<Disabled>LargeBtnDisabled</Disabled>
-			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
-		</ButtonDrawTemplate>s
+			<Disabled>LargeBtnNormal</Disabled>
+			<PressedFlyby>LargeBtnPressed</PressedFlyby>
+		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "MAIN_EQWebpageButton">
 		<ScreenID>EQWebpageButton</ScreenID>
@@ -89,7 +71,6 @@
 	<Button item = "MAIN_OptionsButton">
 		<ScreenID>OptionsButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>398</X>
 			<Y>352</Y>
@@ -99,23 +80,17 @@
 			<CY>34</CY>
 		</Size>
 		<Text>OPTIONS</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
 			<Pressed>LargeBtnPressed</Pressed>
 			<Flyby>LargeBtnHover</Flyby>
-			<Disabled>LargeBtnDisabled</Disabled>
-			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
+			<Disabled>LargeBtnNormal</Disabled>
+			<PressedFlyby>LargeBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "MAIN_ExitButton">
 		<ScreenID>ExitButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>398</X>
 			<Y>396</Y>
@@ -125,22 +100,16 @@
 			<CY>34</CY>
 		</Size>
 		<Text>EXIT</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
 			<Pressed>LargeBtnPressed</Pressed>
 			<Flyby>LargeBtnHover</Flyby>
-			<Disabled>LargeBtnDisabled</Disabled>
-			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
+			<Disabled>LargeBtnNormal</Disabled>
+			<PressedFlyby>LargeBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
 	<Screen item = "main">
-		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>

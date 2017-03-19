@@ -438,32 +438,6 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "LargeBtnPressedHover">
-		<Frames>
-			<Texture>EQLSUI/Buttons.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>34</Y>
-			</Location>
-			<Size>
-				<CX>228</CX>
-				<CY>34</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "LargeBtnDisabled">
-		<Frames>
-			<Texture>EQLSUI/Buttons.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>228</CX>
-				<CY>34</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
 
 	<Ui2DAnimation item = "SmallBtnNormal">
 		<Frames>
@@ -492,32 +466,6 @@
 		</Frames>
 	</Ui2DAnimation>
 	<Ui2DAnimation item = "SmallBtnPressed">
-		<Frames>
-			<Texture>EQLSUI/Buttons.tga</Texture>
-			<Location>
-				<X>112</X>
-				<Y>165</Y>
-			</Location>
-			<Size>
-				<CX>112</CX>
-				<CY>34</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "SmallBtnPressedHover">
-		<Frames>
-			<Texture>EQLSUI/Buttons.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>165</Y>
-			</Location>
-			<Size>
-				<CX>112</CX>
-				<CY>34</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item = "SmallBtnDisabled">
 		<Frames>
 			<Texture>EQLSUI/Buttons.tga</Texture>
 			<Location>

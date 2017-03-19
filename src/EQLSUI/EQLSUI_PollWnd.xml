@@ -37,7 +37,6 @@
 	</Screen>
 
 	<Screen item = "PollWindow">
-		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>

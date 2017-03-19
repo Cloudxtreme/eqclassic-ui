@@ -30,8 +30,8 @@
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
 			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnDisabled</Disabled>
-			<PressedFlyby>SmallBtnPressedHover</PressedFlyby>
+			<Disabled>SmallBtnNormal</Disabled>
+			<PressedFlyby>SmallBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 

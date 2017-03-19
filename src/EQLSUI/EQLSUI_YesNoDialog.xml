@@ -5,7 +5,6 @@
 	<Button item = "YESNO_YesButton">
 		<ScreenID>YesButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>194</X>
 			<Y>190</Y>
@@ -15,11 +14,6 @@
 			<CY>34</CY>
 		</Size>
 		<Text>YES</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
@@ -31,7 +25,6 @@
 	<Button item = "YESNO_NoButton">
 		<ScreenID>NoButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
 			<Y>190</Y>
@@ -41,11 +34,6 @@
 			<CY>34</CY>
 		</Size>
 		<Text>NO</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
@@ -59,8 +47,6 @@
 		<ScreenID>Display</ScreenID>
 		<Font>2</Font>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
-		<Style_VScroll>true</Style_VScroll>
 		<Location>
 			<X>50</X>
 			<Y>48</Y>
@@ -69,6 +55,7 @@
 			<CX>198</CX>
 			<CY>100</CY>
 		</Size>
+		<Style_VScroll>true</Style_VScroll>
 	</STMLbox>
 
 	<Screen item = "YESNO_Box">

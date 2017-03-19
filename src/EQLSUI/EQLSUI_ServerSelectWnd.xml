@@ -5,7 +5,6 @@
 	<Button item = "SERVERSELECT_NewsButton">
 		<ScreenID>NewsButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>265</X>
 			<Y>433</Y>
@@ -15,11 +14,6 @@
 			<CY>34</CY>
 		</Size>
 		<Text>NEWS</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
@@ -31,7 +25,6 @@
 	<Button item = "SERVERSELECT_ExitButton">
 		<ScreenID>ExitButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>12</X>
 			<Y>433</Y>
@@ -41,11 +34,6 @@
 			<CY>34</CY>
 		</Size>
 		<Text>EXIT</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
@@ -65,7 +53,6 @@
 	</Button>
 	<Button item = "SERVERSELECT_PlayButton">
 		<ScreenID>PlayButton</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>421</X>
 			<Y>389</Y>
@@ -85,7 +72,6 @@
 	<Button item = "SERVERSELECT_RegisterExpansion">
 		<ScreenID>OrderExpansionButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>142</X>
 			<Y>390</Y>
@@ -95,65 +81,27 @@
 			<CY>34</CY>
 		</Size>
 		<Text>REGISTER EXPANSION</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
 			<Pressed>LargeBtnPressed</Pressed>
 			<Flyby>LargeBtnHover</Flyby>
-			<Disabled>LargeBtnDisabled</Disabled>
-			<PressedFlyby>LargeBtnPressedHover</PressedFlyby>
+			<Disabled>LargeBtnNormal</Disabled>
+			<PressedFlyby>LargeBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
 	<!--
-	The below labels use the text string from eqlsstr_us.txt
-	Unfortuantely the label tends to scroll horizontally which isn't
-	a visually effect that we want.
-
+	The below label uses a text string from eqlsstr_us.txt.
+	Unfortuantely the label tends to scroll horizontally which isn'ta visual effect that we want.
+	-->
 	<Label item = "SERVERSELECT_ExpansionsLabel">
 		<ScreenID>ExpansionsLabel</ScreenID>
-		<Font>3</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>216</CX>
-			<CY>31</CY>
-		</Size>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
 	</Label>
-	<Screen item = "SERVERSELECT_ExpansionsWindow">
-		<ScreenID>ExpansionsWindow</ScreenID>
-		<Location>
-			<X>250</X>
-			<Y>361</Y>
-		</Location>
-		<Size>
-			<CX>212</CX>
-			<CY>31</CY>
-		</Size>
-		<DrawTemplate>WDT_Static</DrawTemplate>
-		<Pieces>SERVERSELECT_ExpansionsLabel</Pieces>
-	</Screen>
+	<!-- 
+	Implemeneted static text version of the label instead because it's simpler.
 	-->
-
-	<StaticText item = "SERVERSELECT_ExpansionsLabel">
+	<StaticText item = "SERVERSELECT_StaticExpansionsLabel">
 		<Font>2</Font>
-		<Location>
-			<X>250</X>
-			<Y>361</Y>
-		</Location>
 		<Size>
 			<CX>216</CX>
 			<CY>31</CY>
@@ -166,6 +114,20 @@
 		</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</StaticText>
+	<Screen item = "SERVERSELECT_ExpansionsWindow">
+		<ScreenID>ExpansionsWindow</ScreenID>
+		<Location>
+			<X>250</X>
+			<Y>362</Y>
+		</Location>
+		<Size>
+			<CX>216</CX>
+			<CY>31</CY>
+		</Size>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>SERVERSELECT_ExpansionsLabel</Pieces>
+		<Pieces>SERVERSELECT_StaticExpansionsLabel</Pieces>
+	</Screen>
 
 	<Label item = "SERVERSELECT_ServerListLabel">
 		<ScreenID>ServerListLabel</ScreenID>
@@ -176,14 +138,14 @@
 
 	<Listbox item = "SERVERSELECT_ServerList">
 		<ScreenID>ServerList</ScreenID>
-		<Font>3</Font>
+		<Font>2</Font>
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 
 		<LeftAnchorOffset>130</LeftAnchorOffset>
-		<TopAnchorOffset>70</TopAnchorOffset>
-		<RightAnchorOffset>160</RightAnchorOffset>
+		<TopAnchorOffset>80</TopAnchorOffset>
+		<RightAnchorOffset>130</RightAnchorOffset>
 		<BottomAnchorOffset>160</BottomAnchorOffset>
 
 		<TopAnchorToTop>true</TopAnchorToTop>
@@ -212,7 +174,7 @@
 		<Pieces>EQLS_ServerSelectBG04</Pieces>
 		<Pieces>EQLS_ServerSelectBG05</Pieces>
 		<Pieces>EQLS_ServerSelectBG06</Pieces>
-		<!--<Pieces>SERVERSELECT_ExpansionsWindow</Pieces>-->
+		<Pieces>SERVERSELECT_ExpansionsWindow</Pieces>
 		<Pieces>SERVERSELECT_NewsButton</Pieces>
 		<Pieces>SERVERSELECT_ExitButton</Pieces>
 		<Pieces>SERVERSELECT_PlayButton</Pieces>

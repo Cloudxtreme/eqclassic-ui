@@ -5,7 +5,6 @@
 	<Button item = "EULA_AcceptButton">
 		<ScreenID>AcceptButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>516</X>
 			<Y>436</Y>
@@ -15,11 +14,6 @@
 			<CY>34</CY>
 		</Size>
 		<Text>I Accept</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
@@ -31,7 +25,6 @@
 	<Button item = "EULA_DeclineButton">
 		<ScreenID>DeclineButton</ScreenID>
 		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>12</X>
 			<Y>436</Y>
@@ -41,11 +34,6 @@
 			<CY>34</CY>
 		</Size>
 		<Text>Decline</Text>
-		<TextColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>SmallBtnNormal</Normal>
 			<Pressed>SmallBtnPressed</Pressed>
@@ -58,8 +46,6 @@
 	<STMLbox item = "EULA_Display">
 		<ScreenID>Display</ScreenID>
 		<Font>2</Font>
-		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>58</X>
 			<Y>80</Y>
@@ -72,7 +58,6 @@
 	</STMLbox>
 
 	<Screen item = "EulaWindow">
-		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>
