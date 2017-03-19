@@ -109,6 +109,11 @@
 		</ButtonDrawTemplate>
 	</Button>
 
+	<!--
+	The below labels use the text string from eqlsstr_us.txt
+	Unfortuantely the label tends to scroll horizontally which isn't
+	a visually effect that we want.
+
 	<Label item = "SERVERSELECT_ExpansionsLabel">
 		<ScreenID>ExpansionsLabel</ScreenID>
 		<Font>3</Font>
@@ -118,14 +123,13 @@
 			<Y>0</Y>
 		</Location>
 		<Size>
-			<CX>212</CX>
+			<CX>216</CX>
 			<CY>31</CY>
 		</Size>
 		<TextColor>
-			<!-- not sure what color this needs to be -->
 			<R>255</R>
-			<G>218</G>
-			<B>96</B>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 	</Label>
@@ -142,6 +146,26 @@
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>SERVERSELECT_ExpansionsLabel</Pieces>
 	</Screen>
+	-->
+
+	<StaticText item = "SERVERSELECT_ExpansionsLabel">
+		<Font>2</Font>
+		<Location>
+			<X>250</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>216</CX>
+			<CY>31</CY>
+		</Size>
+		<Text>Preferred servers are colored green.</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<AlignCenter>true</AlignCenter>
+	</StaticText>
 
 	<Label item = "SERVERSELECT_ServerListLabel">
 		<ScreenID>ServerListLabel</ScreenID>
@@ -177,7 +201,6 @@
 	</Listbox>
 
 	<Screen item = "serverselect">
-		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>
@@ -189,7 +212,7 @@
 		<Pieces>EQLS_ServerSelectBG04</Pieces>
 		<Pieces>EQLS_ServerSelectBG05</Pieces>
 		<Pieces>EQLS_ServerSelectBG06</Pieces>
-		<Pieces>SERVERSELECT_ExpansionsWindow</Pieces>
+		<!--<Pieces>SERVERSELECT_ExpansionsWindow</Pieces>-->
 		<Pieces>SERVERSELECT_NewsButton</Pieces>
 		<Pieces>SERVERSELECT_ExitButton</Pieces>
 		<Pieces>SERVERSELECT_PlayButton</Pieces>
@@ -200,5 +223,6 @@
 		<Pieces>SERVERSELECT_ServerList</Pieces>
 		<Pieces>SERVERSELECT_ServerListLabel</Pieces>
 		<Pieces>SERVERSELECT_LastServerLabel</Pieces>
+		<Pieces>SERVERSELECT_ExpansionsLabel</Pieces>
 	</Screen>
 </XML>
