@@ -1,0 +1,26 @@
+<c "#754c1b">November 1st, 2005<br>
+_____________________<br>
+<br>
+<br>
+*** Halloween Events ***<br>
+<br>
+- Corrected an issue with character flagging in the Halloween events.  Previously only the Trick-or-Treat event and the "Out with the Old" mission were giving credit for completion. <br>
+- Due to the issues in the Halloween events the time they will be available has been increased. The events will now remain available until the morning of Monday, November 14th.<br>
+<br>
+<br>
+*** Tradeskills ***<br>
+<br>
+- Artisan Dosan Vis'Moor, Vivian Selgan, and Gart Okken should now be accepting items for the tasks that they give.<br>
+<br>
+<br>
+*** Miscellaneous ***<br>
+<br>
+- Zoning out from the Corathus Mines will now place you at the location from which you zoned in.<br>
+- Addressed character creation issues on Firiona Vie.<br>
+- Corrected several issues with Veteran rewards.<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+- The EverQuest Team<br></c>
