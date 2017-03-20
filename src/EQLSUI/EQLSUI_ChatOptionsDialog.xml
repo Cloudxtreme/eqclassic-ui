@@ -4,248 +4,32 @@
 
 	<Button item = "CHATOPTIONS_AdminNameButton">
 		<ScreenID>CHATOPTIONS_AdminNameButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>5</X>
-			<Y>5</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Click to change the color for admin names.</TooltipReference>
-		<Text>Admin Names</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_AdminChatButton">
 		<ScreenID>CHATOPTIONS_AdminChatButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>130</X>
-			<Y>5</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Click to change the color for admin chat.</TooltipReference>
-		<Text>Admin Chat</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<Button item = "CHATOPTIONS_GuideNameButton">
 		<ScreenID>CHATOPTIONS_GuideNameButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>5</X>
-			<Y>45</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Click to change the color for Guide names.</TooltipReference>
-		<Text>Guide Names</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_GuideChatButton">
 		<ScreenID>CHATOPTIONS_GuideChatButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>130</X>
-			<Y>45</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Click to change the color for Guide chat.</TooltipReference>
-		<Text>Guide Chat</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<Button item = "CHATOPTIONS_PlayerNameButton">
 		<ScreenID>CHATOPTIONS_PlayerNameButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>5</X>
-			<Y>85</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Click to change the color for Player names.</TooltipReference>
-		<Text>Player Names</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_PlayerChatButton">
 		<ScreenID>CHATOPTIONS_PlayerChatButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>130</X>
-			<Y>85</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Click to change the color for Player chat.</TooltipReference>
-		<Text>Player Chat</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_TellButton">
 		<ScreenID>CHATOPTIONS_TellButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>255</X>
-			<Y>5</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Click to change the color for tells.</TooltipReference>
-		<Text>Tells</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_SystemButton">
 		<ScreenID>CHATOPTIONS_SystemButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>255</X>
-			<Y>45</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Click to change the color for system messages.</TooltipReference>
-		<Text>System Messages</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_CommandButton">
 		<ScreenID>CHATOPTIONS_CommandButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>255</X>
-			<Y>85</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Click to change the color for chat commands.</TooltipReference>
-		<Text>Chat Commands</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<Button item = "CHATOPTIONS_FontLeftButton">
@@ -253,149 +37,27 @@
 	</Button>
 	<Label item = "CHATOPTIONS_FontSizeLabel">
 		<ScreenID>CHATOPTIONS_FontSizeLabel</ScreenID>
-		<Font>3</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>25</X>
-			<Y>130</Y>
-		</Location>
-		<Size>
-			<CX>25</CX>
-			<CY>25</CY>
-		</Size>
-		<Text></Text>
-		<TextColor>
-			<R>255</R>
-			<G>218</G>
-			<B>96</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<AlignRight>false</AlignRight>
 	</Label>
 	<Button item = "CHATOPTIONS_FontRightButton">
 		<ScreenID>CHATOPTIONS_FontRightButton</ScreenID>
 	</Button>
 	<Label item = "CHATOPTIONS_FontLabel">
 		<ScreenID>CHATOPTIONS_FontLabel</ScreenID>
-		<Font>3</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>95</X>
-			<Y>130</Y>
-		</Location>
-		<Size>
-			<CX>270</CX>
-			<CY>25</CY>
-		</Size>
-		<Text>Font size (1-6)</Text>
-		<TextColor>
-			<R>255</R>
-			<G>218</G>
-			<B>96</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
 	</Label>
 
 	<Button item = "CHATOPTIONS_RestoreDefaultsButton">
 		<ScreenID>CHATOPTIONS_RestoreDefaultsButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>5</X>
-			<Y>180</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Click to restore the default colors/font.</TooltipReference>
-		<Text>Restore Defaults</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_OKButton">
 		<ScreenID>CHATOPTIONS_OKButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>255</X>
-			<Y>180</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Click to accept your changes and close the options dialog.</TooltipReference>
-		<Text>Accept</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHATOPTIONS_CancelButton">
 		<ScreenID>CHATOPTIONS_CancelButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>130</X>
-			<Y>180</Y>
-		</Location>
-		<Size>
-			<CX>115</CX>
-			<CY>31</CY>
-		</Size>
-		<TooltipReference>Click to cancel your changes and close the options dialog.</TooltipReference>
-		<Text>Cancel</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 
 	<Screen item = "CHATOPTIONS_Box">
 		<ScreenID>CHATOPTIONS_Box</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>110</LeftAnchorOffset>
-		<TopAnchorOffset>120</TopAnchorOffset>
-		<RightAnchorOffset>110</RightAnchorOffset>
-		<BottomAnchorOffset>120</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
 		<DrawTemplate>WDT_Static</DrawTemplate>
-
 		<Pieces>CHATOPTIONS_AdminNameButton</Pieces>
 		<Pieces>CHATOPTIONS_AdminChatButton</Pieces>
 		<Pieces>CHATOPTIONS_GuideNameButton</Pieces>

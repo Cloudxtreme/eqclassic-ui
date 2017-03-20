@@ -11,12 +11,7 @@
 
 	<STMLbox item = "OrderExp_Display">
 		<ScreenID>OrderExp_Display</ScreenID>
-		<DrawTemplate>WDT_Static</DrawTemplate>
 	</STMLbox>
-
-	<Label item = "OrderExp_WndLabel">
-		<ScreenID>OrderExp_WndLabel</ScreenID>
-	</Label>
 
 	<Screen item = "OrderExpansionWindow">
 		<Size>
@@ -27,6 +22,5 @@
 		<Pieces>OrderExp_AcceptButton</Pieces>
 		<Pieces>OrderExp_DeclineButton</Pieces>
 		<Pieces>OrderExp_Display</Pieces>
-		<Pieces>OrderExp_WndLabel</Pieces>
 	</Screen>
 </XML>

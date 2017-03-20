@@ -15,10 +15,6 @@
 	<Label item = "POLL_ChoicesLabel">
 		<ScreenID>ChoicesLabel</ScreenID>
 	</Label>
-	<Label item = "POLL_WndLabel">
-		<ScreenID>WndLabel</ScreenID>
-	</Label>
-
 	<Button item = "POLL_CheckButton">
 		<ScreenID>CheckButton</ScreenID>
 	</Button>
@@ -41,10 +37,8 @@
 			<CX>640</CX>
 			<CY>480</CY>
 		</Size>
-		<Text>Poll</Text>
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>POLL_WorkingArea</Pieces>
-		<Pieces>POLL_WndLabel</Pieces>
 		<Pieces>POLL_CheckButton</Pieces>
 		<Pieces>POLL_LabelTemplate</Pieces>
 		<Pieces>POLL_SkipButton</Pieces>

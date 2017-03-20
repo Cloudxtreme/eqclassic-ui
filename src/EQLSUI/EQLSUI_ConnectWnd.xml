@@ -114,7 +114,6 @@
 	<Editbox item = "LOGIN_UsernameEdit">
 		<ScreenID>UsernameEdit</ScreenID>
 		<Font>5</Font>
-		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Location>
 			<X>390</X>
 			<Y>261</Y>
@@ -132,7 +131,6 @@
 	<Editbox item = "LOGIN_PasswordEdit">
 		<ScreenID>PasswordEdit</ScreenID>
 		<Font>5</Font>
-		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Location>
 			<X>390</X>
 			<Y>351</Y>

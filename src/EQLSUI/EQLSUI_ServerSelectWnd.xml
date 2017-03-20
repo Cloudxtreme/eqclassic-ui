@@ -80,7 +80,6 @@
 			<CX>228</CX>
 			<CY>34</CY>
 		</Size>
-		<Text>REGISTER EXPANSION</Text>
 		<ButtonDrawTemplate>
 			<Normal>LargeBtnNormal</Normal>
 			<Pressed>LargeBtnPressed</Pressed>
@@ -155,7 +154,7 @@
 
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
-			<Width>290</Width>
+			<Width>260</Width>
 		</Columns>
 		<Columns>
 			<Width>60</Width>

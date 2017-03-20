@@ -4,264 +4,39 @@
 
 	<Button item = "CHAT_OptionsButton">
 		<ScreenID>CHAT_OptionsButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>0</LeftAnchorOffset>
-		<TopAnchorOffset>0</TopAnchorOffset>
-		<RightAnchorOffset>115</RightAnchorOffset>
-		<BottomAnchorOffset>31</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>true</BottomAnchorToTop>
-		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
-		<TooltipReference>Set various chat options</TooltipReference>
-		<Text>Chat Options</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHAT_ExitButton">
 		<ScreenID>ExitButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>0</LeftAnchorOffset>
-		<TopAnchorOffset>31</TopAnchorOffset>
-		<RightAnchorOffset>115</RightAnchorOffset>
-		<BottomAnchorOffset>0</BottomAnchorOffset>
-
-		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
-		<TooltipReference>Return to the login menu</TooltipReference>
-		<Text>LOGOUT</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHAT_HelpButton">
 		<ScreenID>HelpButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>120</LeftAnchorOffset>
-		<TopAnchorOffset>31</TopAnchorOffset>
-		<RightAnchorOffset>235</RightAnchorOffset>
-		<BottomAnchorOffset>0</BottomAnchorOffset>
-
-		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
-		<TooltipReference>Go to help webpage</TooltipReference>
-		<Text>HELP</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHAT_TechButton">
 		<ScreenID>TechButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>240</LeftAnchorOffset>
-		<TopAnchorOffset>31</TopAnchorOffset>
-		<RightAnchorOffset>355</RightAnchorOffset>
-		<BottomAnchorOffset>0</BottomAnchorOffset>
-
-		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
-		<TooltipReference>Get tech support</TooltipReference>
-		<Text>TECH CHAT</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>SmallBtnNormal</Normal>
-			<Pressed>SmallBtnPressed</Pressed>
-			<Flyby>SmallBtnHover</Flyby>
-			<Disabled>SmallBtnNormal</Disabled>
-			<PressedFlyby>SmallBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "CHAT_ServersButton">
 		<ScreenID>ServersButton</ScreenID>
-		<Font>4</Font>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>360</LeftAnchorOffset>
-		<TopAnchorOffset>31</TopAnchorOffset>
-		<RightAnchorOffset>604</RightAnchorOffset>
-		<BottomAnchorOffset>0</BottomAnchorOffset>
-
-		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
-		<TooltipReference>Go to the server list</TooltipReference>
-		<Text>GAME SERVERS</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>LargeBtnNormal</Normal>
-			<Pressed>LargeBtnPressed</Pressed>
-			<Flyby>LargeBtnHover</Flyby>
-			<Disabled>LargeBtnNormal</Disabled>
-			<PressedFlyby>LargeBtnPressed</PressedFlyby>
-		</ButtonDrawTemplate>
 	</Button>
-
-	<Label item = "CHAT_WndLabel">
-		<ScreenID>WndLabel</ScreenID>
-		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>0</LeftAnchorOffset>
-		<TopAnchorOffset>0</TopAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>
-		<BottomAnchorOffset>40</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>true</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
-		<Text>LOGIN CHAT</Text>
-		<TextColor>
-			<R>255</R>
-			<G>218</G>
-			<B>96</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-	</Label>
 
 	<Label item = "CHAT_BannerLabel">
 		<ScreenID>BannerLabel</ScreenID>
-		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
-		<Size>
-			<CX>3000</CX>
-			<CY>40</CY>
-		</Size>
-		<TextColor>
-			<R>255</R>
-			<G>218</G>
-			<B>96</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
 	</Label>
 
 	<Screen item = "CHAT_BannerWindow">
 		<ScreenID>BannerWnd</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>30</LeftAnchorOffset>
-		<TopAnchorOffset>0</TopAnchorOffset>
-		<RightAnchorOffset>30</RightAnchorOffset>
-		<BottomAnchorOffset>40</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>true</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>CHAT_BannerLabel</Pieces>
 	</Screen>
 
 	<STMLbox item = "CHAT_ChatSTMLBox">
 		<ScreenID>ChatOutput</ScreenID>
-		<Font>3</Font>
-		<DrawTemplate>WDT_Static</DrawTemplate>
-
-		<RelativePosition>true</RelativePosition>
-		<Style_VScroll>true</Style_VScroll>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>0</LeftAnchorOffset>
-		<TopAnchorOffset>45</TopAnchorOffset>
-		<RightAnchorOffset>180</RightAnchorOffset>
-		<BottomAnchorOffset>85</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 	</STMLbox>
 
 	<Listbox item = "CHAT_RoomList">
 		<ScreenID>RoomList</ScreenID>
-		<Font>3</Font>
-		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>170</LeftAnchorOffset>
-		<TopAnchorOffset>45</TopAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>
-		<BottomAnchorOffset>215</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>true</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-
-		<Text>Rooms</Text>
-		<Style_VScroll>true</Style_VScroll>
 		<Columns>
 			<Width>200</Width>
-			<Heading>Rooms</Heading>
+			<Heading></Heading>
 		</Columns>
 		<Columns>
 			<Width>0</Width>
@@ -271,44 +46,14 @@
 
 	<Screen item = "CHAT_RoomListBackground">
 		<ScreenID>RoomListBackground</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>170</LeftAnchorOffset>
-		<TopAnchorOffset>45</TopAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>
-		<BottomAnchorOffset>215</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>true</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-
 		<DrawTemplate>WDT_Static</DrawTemplate>
 	</Screen>
 
 	<Listbox item = "CHAT_PlayerList">
 		<ScreenID>PlayerList</ScreenID>
-		<Font>3</Font>
-		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>170</LeftAnchorOffset>
-		<TopAnchorOffset>220</TopAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>
-		<BottomAnchorOffset>45</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-
-		<Style_VScroll>true</Style_VScroll>
-
 		<Columns>
 			<Width>100</Width>
-			<Heading>Players</Heading>
+			<Heading></Heading>
 		</Columns>
 		<Columns>
 			<Width>0</Width>
@@ -318,44 +63,11 @@
 
 	<Screen item = "CHAT_PlayerListBackground">
 		<ScreenID>PlayerListBackground</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>170</LeftAnchorOffset>
-		<TopAnchorOffset>220</TopAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>
-		<BottomAnchorOffset>45</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-
 		<DrawTemplate>WDT_Static</DrawTemplate>
 	</Screen>
 
 	<Editbox item = "CHAT_ChatEdit">
 		<ScreenID>ChatEdit</ScreenID>
-		<Font>3</Font>
-		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>0</LeftAnchorOffset>
-		<TopAnchorOffset>80</TopAnchorOffset>
-		<RightAnchorOffset>180</RightAnchorOffset>
-		<BottomAnchorOffset>45</BottomAnchorOffset>
-
-		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 	</Editbox>
 
 	<Screen item = "chat">
@@ -364,12 +76,6 @@
 			<CY>480</CY>
 		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-		<Pieces>EQLS_ServerSelectBG01</Pieces>
-		<Pieces>EQLS_ServerSelectBG02</Pieces>
-		<Pieces>EQLS_ServerSelectBG03</Pieces>
-		<Pieces>EQLS_ServerSelectBG04</Pieces>
-		<Pieces>EQLS_ServerSelectBG05</Pieces>
-		<Pieces>EQLS_ServerSelectBG06</Pieces>
 		<Pieces>CHAT_OptionsButton</Pieces>
 		<Pieces>CHAT_ExitButton</Pieces>
 		<Pieces>CHAT_HelpButton</Pieces>
@@ -377,7 +83,6 @@
 		<Pieces>CHAT_ServersButton</Pieces>
 		<Pieces>CHAT_ChatSTMLBox</Pieces>
 		<Pieces>CHAT_ChatEdit</Pieces>
-		<Pieces>CHAT_WndLabel</Pieces>
 		<Pieces>CHAT_BannerWindow</Pieces>
 		<Pieces>Screen:CHAT_RoomListBackground</Pieces>
 		<Pieces>CHAT_RoomList</Pieces>

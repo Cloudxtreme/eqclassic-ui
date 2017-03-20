@@ -11,18 +11,12 @@
 
 	<STMLbox item = "Order_Display">
 		<ScreenID>Order_Display</ScreenID>
-		<DrawTemplate>WDT_Static</DrawTemplate>
 	</STMLbox>
-
-	<Label item = "Order_WndLabel">
-		<ScreenID>Order_WndLabel</ScreenID>
-	</Label>
 
 	<Screen item = "OrderWindow">
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>Order_AcceptButton</Pieces>
 		<Pieces>Order_DeclineButton</Pieces>
 		<Pieces>Order_Display</Pieces>
-		<Pieces>Order_WndLabel</Pieces>
 	</Screen>
 </XML>

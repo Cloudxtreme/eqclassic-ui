@@ -46,7 +46,6 @@
 	<STMLbox item = "YESNO_Display">
 		<ScreenID>Display</ScreenID>
 		<Font>2</Font>
-		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Location>
 			<X>50</X>
 			<Y>48</Y>
