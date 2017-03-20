@@ -479,4 +479,73 @@
 		</Size>
 		<Animation>ServerSelect06</Animation>
 	</StaticAnimation>
+
+	<StaticAnimation item = "EQLS_ChatBG01">
+		<ScreenID>ChatBG01</ScreenID>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Chat01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ChatBG02">
+		<ScreenID>ChatBG02</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Chat02</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ChatBG03">
+		<ScreenID>ChatBG03</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Chat03</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ChatBG04">
+		<ScreenID>ChatBG04</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Chat04</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ChatBG05">
+		<ScreenID>ChatBG05</ScreenID>
+		<Location>
+			<X>512</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Chat05</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQLS_ChatBG06">
+		<ScreenID>ChatBG06</ScreenID>
+		<Location>
+			<X>512</X>
+			<Y>256</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>Chat06</Animation>
+	</StaticAnimation>
 </XML>

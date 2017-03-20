@@ -359,12 +359,17 @@
 	</Editbox>
 
 	<Screen item = "chat">
-		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>640</CX>
 			<CY>480</CY>
 		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>EQLS_ServerSelectBG01</Pieces>
+		<Pieces>EQLS_ServerSelectBG02</Pieces>
+		<Pieces>EQLS_ServerSelectBG03</Pieces>
+		<Pieces>EQLS_ServerSelectBG04</Pieces>
+		<Pieces>EQLS_ServerSelectBG05</Pieces>
+		<Pieces>EQLS_ServerSelectBG06</Pieces>
 		<Pieces>CHAT_OptionsButton</Pieces>
 		<Pieces>CHAT_ExitButton</Pieces>
 		<Pieces>CHAT_HelpButton</Pieces>
@@ -379,5 +384,4 @@
 		<Pieces>Screen:CHAT_PlayerListBackground</Pieces>
 		<Pieces>CHAT_PlayerList</Pieces>
 	</Screen>
-
 </XML>

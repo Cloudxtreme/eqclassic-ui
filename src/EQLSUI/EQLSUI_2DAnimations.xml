@@ -363,6 +363,61 @@
 		</Frames>
 	</Ui2DAnimation>
 
+	<Ui2DAnimation item = "Chat01">
+		<Frames>
+			<Texture>EQLSUI/Chat01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Chat02">
+		<Frames>
+			<Texture>EQLSUI/Chat02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Chat03">
+		<Frames>
+			<Texture>EQLSUI/Chat03.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Chat04">
+		<Frames>
+			<Texture>EQLSUI/Chat04.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Chat05">
+		<Frames>
+			<Texture>EQLSUI/Chat05.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Chat06">
+		<Frames>
+			<Texture>EQLSUI/Chat06.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
 	<Ui2DAnimation item = "ServerSelect_EQButton_Normal">
 		<Frames>
 			<Texture>EQLSUI/EQButton.tga</Texture>
