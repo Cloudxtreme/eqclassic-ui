@@ -62,11 +62,11 @@
 			<CY>80</CY>
 		</Size>
 		<ButtonDrawTemplate>
-			<Normal>ServerSelect_EQButton_Flyby</Normal>
-			<Pressed>ServerSelect_EQButton_Pressed</Pressed>
-			<Flyby>ServerSelect_EQButton_Normal</Flyby>
-			<Disabled>ServerSelect_EQButton_Normal</Disabled>
-			<PressedFlyby>ServerSelect_EQButton_Pressed</PressedFlyby>
+			<Normal>EQButton_Flyby</Normal>
+			<Pressed>EQButton_Pressed</Pressed>
+			<Flyby>EQButton_Normal</Flyby>
+			<Disabled>EQButton_Normal</Disabled>
+			<PressedFlyby>EQButton_Pressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "SERVERSELECT_RegisterExpansion">
@@ -138,20 +138,14 @@
 	<Listbox item = "SERVERSELECT_ServerList">
 		<ScreenID>ServerList</ScreenID>
 		<Font>2</Font>
-		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>130</LeftAnchorOffset>
-		<TopAnchorOffset>80</TopAnchorOffset>
-		<RightAnchorOffset>130</RightAnchorOffset>
-		<BottomAnchorOffset>160</BottomAnchorOffset>
-
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-
+		<Location>
+			<X>130</X>
+			<Y>80</Y>
+		</Location>
+		<Size>
+			<CX>380</CX>
+			<CY>240</CY>
+		</Size>
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
 			<Width>260</Width>

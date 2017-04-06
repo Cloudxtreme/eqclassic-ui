@@ -418,7 +418,7 @@
 		</Frames>
 	</Ui2DAnimation>
 
-	<Ui2DAnimation item = "ServerSelect_EQButton_Normal">
+	<Ui2DAnimation item = "EQButton_Normal">
 		<Frames>
 			<Texture>EQLSUI/EQButton.tga</Texture>
 			<Size>
@@ -427,7 +427,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "ServerSelect_EQButton_Pressed">
+	<Ui2DAnimation item = "EQButton_Pressed">
 		<Frames>
 			<Texture>EQLSUI/EQButton.tga</Texture>
 			<Location>
@@ -440,7 +440,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "ServerSelect_EQButton_Flyby">
+	<Ui2DAnimation item = "EQButton_Flyby">
 		<Frames>
 			<Texture>EQLSUI/EQButton.tga</Texture>
 			<Location>
@@ -533,6 +533,29 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "CheckBoxNormal">
+        <Frames>
+            <Texture>EQLSUI/Checkbox.tga</Texture>
+            <Size>
+                <CX>16</CX>
+                <CY>16</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+    <Ui2DAnimation item = "CheckBoxPressed">
+        <Frames>
+            <Texture>EQLSUI/Checkbox.tga</Texture>
+            <Location>
+                <X>16</X>
+                <Y>0</Y>
+            </Location>
+            <Size>
+                <CX>16</CX>
+                <CY>16</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
 
 	<Ui2DAnimation item = "EQLS_Blank" />
 </XML>
