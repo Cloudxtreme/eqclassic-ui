@@ -100,8 +100,11 @@
 			<PressedFlyby>Btn_SpellBook_PressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-    <Button item = "SELW_HelpToggleButton">
-		<ScreenID>SELW_HelpToggleButton</ScreenID>
+	<Button item = "SELW_HelpToggleButton">
+		<ScreenID>SELW_HelpToggleButton_Fix</ScreenID>
+	</Button>
+    <Button item = "SELW_HelpToggleButton_FIX">
+		<ScreenID>SELW_HelpToggleButton_FIX</ScreenID>
 		<Location>
 			<X>11</X>
 			<Y>16</Y>
@@ -110,6 +113,7 @@
 			<CX>70</CX>
 			<CY>19</CY>
 		</Size>
+		<Style_Checkbox>false</Style_Checkbox>
         <TooltipReference>(/help)</TooltipReference>
 		<ButtonDrawTemplate>
 			<Pressed>Btn_Help_Pressed</Pressed>
@@ -166,6 +170,7 @@
         <Pieces>SELW_CombatSkillsToggleButton</Pieces>
         <Pieces>SELW_MailToggleButton</Pieces>
 		<Pieces>SELW_HelpToggleButton</Pieces>
+		<Pieces>SELW_HelpToggleButton_FIX</Pieces>
 		<Pieces>SELW_ViewToggleButton</Pieces>
 		<Pieces>SELW_SpellBookToggleButton</Pieces>
 	</Screen>

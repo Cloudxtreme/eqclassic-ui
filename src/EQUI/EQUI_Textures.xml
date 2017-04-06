@@ -601,12 +601,6 @@
             <CY>256</CY>
         </Size>
     </TextureInfo>
-    <TextureInfo item = "EQUI/CS_Buttons.bmp">
-		<Size>
-			<CX>256</CX>
-			<CY>256</CY>
-		</Size>
-	</TextureInfo>
     <!-- Drag Item -->
     <TextureInfo item = "EQUI/DragItem01.tga">
         <Size>

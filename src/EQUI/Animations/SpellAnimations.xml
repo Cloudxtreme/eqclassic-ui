@@ -88,27 +88,27 @@
     </Ui2DAnimation>
     <Ui2DAnimation item = "BlueIconBackground">
         <Frames>
-            <Texture>EQUI/CS_Buttons.bmp</Texture>
+            <Texture>EQUI/Spell_Icons.tga</Texture>
             <Location>
-                <X>4</X>
-                <Y>4</Y>
+                <X>80</X>
+                <Y>80</Y>
             </Location>
             <Size>
-                <CX>124</CX>
-                <CY>20</CY>
+                <CX>40</CX>
+                <CY>40</CY>
             </Size>
         </Frames>
     </Ui2DAnimation>
     <Ui2DAnimation item = "RedIconBackground">
         <Frames>
-            <Texture>EQUI/CS_Buttons.bmp</Texture>
+            <Texture>EQUI/Spell_Icons.tga</Texture>
             <Location>
-                <X>4</X>
-                <Y>104</Y>
+                <X>80</X>
+                <Y>80</Y>
             </Location>
             <Size>
-                <CX>120</CX>
-                <CY>20</CY>
+                <CX>40</CX>
+                <CY>40</CY>
             </Size>
         </Frames>
     </Ui2DAnimation>
