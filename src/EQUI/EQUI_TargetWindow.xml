@@ -28,9 +28,8 @@
 	<Label item ="TW_TargetName">
 		<ScreenID>TargetName</ScreenID>
 		<EQType>28</EQType>
-		<Font>2</Font>
 		<Location>
-			<X>14</X>
+			<X>13</X>
 			<Y>12</Y>
 		</Location>
 		<Size>
