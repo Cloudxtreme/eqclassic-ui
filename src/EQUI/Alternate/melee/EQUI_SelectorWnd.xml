@@ -19,7 +19,7 @@
 		</ButtonDrawTemplate>
 	</Button>
 	<Button item = "SELW_FriendsToggleButton">
-        <ScreenID>SELW_FriendsToggleButton</ScreenID>
+		<ScreenID>SELW_FriendsToggleButton</ScreenID>
 	</Button>
 	<Button item = "SELW_ActionsToggleButton">
 		<ScreenID>SELW_ActionsToggleButton</ScreenID>
@@ -34,15 +34,15 @@
 			<CX>70</CX>
 			<CY>19</CY>
 		</Size>
-        <!-- FOR FUTURE USE
-        <Location>
-            <X>20</X>
-            <Y>90</Y>
-        </Location>
-        <Size>
-            <CX>60</CX>
-            <CY>165</CY>
-        </Size> -->
+		<!-- FOR FUTURE USE
+		<Location>
+			<X>20</X>
+			<Y>90</Y>
+		</Location>
+		<Size>
+			<CX>60</CX>
+			<CY>165</CY>
+		</Size> -->
 		<ButtonDrawTemplate>
 			<Pressed>Btn_Persona_Pressed</Pressed>
 			<PressedFlyby>Btn_Persona_Pressed</PressedFlyby>
@@ -63,26 +63,29 @@
 	<Button item = "SELW_SDBuffToggleButton">
 		<ScreenID>SELW_SDBuffToggleButton</ScreenID>
 	</Button>
-    <Button item = "SELW_GuildToggleButton">
-        <ScreenID>SELW_GuildToggleButton</ScreenID>
-    </Button>
-    <Button item = "SELW_MapToggleButton">
-        <ScreenID>SELW_MapToggleButton</ScreenID>
-    </Button>
-    <Button item = "SELW_StoryToggleButton">
-        <ScreenID>SELW_StoryToggleButton</ScreenID>
-    </Button>
-    <Button item = "SELW_JournalToggleButton">
-        <ScreenID>SELW_JournalToggleButton</ScreenID>
-    </Button>
-    <Button item = "SELW_CombatSkillsToggleButton">
-        <ScreenID>SELW_CombatSkillsToggleButton</ScreenID>
-    </Button>
-    <Button item = "SELW_MailToggleButton">
-        <ScreenID>SELW_MailToggleButton</ScreenID>
-    </Button>
+	<Button item = "SELW_GuildToggleButton">
+		<ScreenID>SELW_GuildToggleButton</ScreenID>
+	</Button>
+	<Button item = "SELW_MapToggleButton">
+		<ScreenID>SELW_MapToggleButton</ScreenID>
+	</Button>
+	<Button item = "SELW_StoryToggleButton">
+		<ScreenID>SELW_StoryToggleButton</ScreenID>
+	</Button>
+	<Button item = "SELW_JournalToggleButton">
+		<ScreenID>SELW_JournalToggleButton</ScreenID>
+	</Button>
+	<Button item = "SELW_CombatSkillsToggleButton">
+		<ScreenID>SELW_CombatSkillsToggleButton</ScreenID>
+	</Button>
+	<Button item = "SELW_MailToggleButton">
+		<ScreenID>SELW_MailToggleButton</ScreenID>
+	</Button>
 	<Button item = "SELW_HelpToggleButton">
 		<ScreenID>SELW_HelpToggleButton</ScreenID>
+	</Button>
+	<Button item = "SELW_HelpToggleButton_FIX">
+		<ScreenID>SELW_HelpToggleButton_FIX</ScreenID>
 		<Location>
 			<X>11</X>
 			<Y>16</Y>
@@ -91,7 +94,8 @@
 			<CX>70</CX>
 			<CY>19</CY>
 		</Size>
-        <TooltipReference>(/help)</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<TooltipReference>(/help)</TooltipReference>
 		<ButtonDrawTemplate>
 			<Pressed>Btn_Help_Pressed</Pressed>
 			<PressedFlyby>Btn_Help_Pressed</PressedFlyby>
@@ -107,7 +111,7 @@
 			<CX>70</CX>
 			<CY>19</CY>
 		</Size>
-        <TooltipReference>(F9)</TooltipReference>
+		<TooltipReference>(F9)</TooltipReference>
 		<ButtonDrawTemplate>
 			<Pressed>Btn_View_Pressed</Pressed>
 			<PressedFlyby>Btn_View_Pressed</PressedFlyby>
@@ -121,47 +125,48 @@
 		</Size>
 	</Button>
 
-    <Screen item = "SELW_SpellBar">
-        <Location>
-            <X>81</X>
-            <Y>0</Y>
-        </Location>
-        <Size>
-            <CX>38</CX>
-            <CY>308</CY>
-        </Size>
-        <DrawTemplate>WDT_Static</DrawTemplate>
-        <Pieces>EQUI_SpellBarBG01</Pieces>
-        <Pieces>EQUI_SpellBarBG02</Pieces>
-        <Pieces>EQUI_SpellBarBG03</Pieces>
-    </Screen>
+	<Screen item = "SELW_SpellBar">
+		<Location>
+			<X>81</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>38</CX>
+			<CY>308</CY>
+		</Size>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>EQUI_SpellBarBG01</Pieces>
+		<Pieces>EQUI_SpellBarBG02</Pieces>
+		<Pieces>EQUI_SpellBarBG03</Pieces>
+	</Screen>
 	<Screen item = "SelectorWindow">
 		<Size>
 			<CX>119</CX>
 			<CY>308</CY>
 		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-        <Pieces>EQUI_SelectorBG01</Pieces>
-        <Pieces>EQUI_SelectorBG02</Pieces>
-        <Pieces>SELW_SpellBar</Pieces>
+		<Pieces>EQUI_SelectorBG01</Pieces>
+		<Pieces>EQUI_SelectorBG02</Pieces>
+		<Pieces>SELW_SpellBar</Pieces>
 		<Pieces>ClassAnim</Pieces>
 		<Pieces>SELW_Autolock</Pieces>
 		<Pieces>SELW_InventoryToggleButton</Pieces>
 		<Pieces>SELW_OptionsToggleButton</Pieces>
 		<Pieces>SELW_FriendsToggleButton</Pieces>
 		<Pieces>SELW_BuffToggleButton</Pieces>
-        <Pieces>SELW_SDBuffToggleButton</Pieces>
-        <Pieces>SELW_CastSpellToggleButton</Pieces>
-        <Pieces>SELW_ActionsToggleButton</Pieces>
-        <Pieces>SELW_PetInfoToggleButton</Pieces>
-        <Pieces>SELW_HotboxToggleButton</Pieces>
-        <Pieces>SELW_GuildToggleButton</Pieces>
-        <Pieces>SELW_MapToggleButton</Pieces>
-        <Pieces>SELW_StoryToggleButton</Pieces>
-        <Pieces>SELW_JournalToggleButton</Pieces>
-        <Pieces>SELW_CombatSkillsToggleButton</Pieces>
-        <Pieces>SELW_MailToggleButton</Pieces>
+		<Pieces>SELW_SDBuffToggleButton</Pieces>
+		<Pieces>SELW_CastSpellToggleButton</Pieces>
+		<Pieces>SELW_ActionsToggleButton</Pieces>
+		<Pieces>SELW_PetInfoToggleButton</Pieces>
+		<Pieces>SELW_HotboxToggleButton</Pieces>
+		<Pieces>SELW_GuildToggleButton</Pieces>
+		<Pieces>SELW_MapToggleButton</Pieces>
+		<Pieces>SELW_StoryToggleButton</Pieces>
+		<Pieces>SELW_JournalToggleButton</Pieces>
+		<Pieces>SELW_CombatSkillsToggleButton</Pieces>
+		<Pieces>SELW_MailToggleButton</Pieces>
 		<Pieces>SELW_HelpToggleButton</Pieces>
+		<Pieces>SELW_HelpToggleButton_FIX</Pieces>
 		<Pieces>SELW_ViewToggleButton</Pieces>
 	</Screen>
 </XML>
