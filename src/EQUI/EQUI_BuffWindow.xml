@@ -5,8 +5,8 @@
 	<Button item = "BW_Buff0_Button">
 		<ScreenID>Buff0</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
@@ -17,15 +17,15 @@
 			<Y>2</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>36</CX>
+			<CY>36</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff1_Button">
 		<ScreenID>Buff1</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
@@ -43,8 +43,8 @@
 	<Button item = "BW_Buff2_Button">
 		<ScreenID>Buff2</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
@@ -62,8 +62,8 @@
 	<Button item = "BW_Buff3_Button">
 		<ScreenID>Buff3</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
@@ -81,8 +81,8 @@
 	<Button item = "BW_Buff4_Button">
 		<ScreenID>Buff4</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
@@ -104,8 +104,8 @@
 			<Y>0</Y>
 		</Location>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
@@ -123,8 +123,8 @@
 	<Button item = "BW_Buff6_Button">
 		<ScreenID>Buff6</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
@@ -142,8 +142,8 @@
 	<Button item = "BW_Buff7_Button">
 		<ScreenID>Buff7</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
@@ -161,8 +161,8 @@
 	<Button item = "BW_Buff8_Button">
 		<ScreenID>Buff8</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
@@ -180,8 +180,8 @@
 	<Button item = "BW_Buff9_Button">
 		<ScreenID>Buff9</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
@@ -199,8 +199,8 @@
 	<Button item = "BW_Buff10_Button">
 		<ScreenID>Buff10</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
@@ -218,8 +218,8 @@
 	<Button item = "BW_Buff11_Button">
 		<ScreenID>Buff11</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
@@ -237,8 +237,8 @@
 	<Button item = "BW_Buff12_Button">
 		<ScreenID>Buff12</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
@@ -256,8 +256,8 @@
 	<Button item = "BW_Buff13_Button">
 		<ScreenID>Buff13</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
@@ -275,8 +275,8 @@
 	<Button item = "BW_Buff14_Button">
 		<ScreenID>Buff14</ScreenID>
 		<Size>
-			<CX>39</CX>
-			<CY>39</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
