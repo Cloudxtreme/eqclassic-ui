@@ -4,7 +4,6 @@
 
 	<Label item ="MW_MerchantName">
 		<ScreenID>MW_MerchantName</ScreenID>
-		<Font>2</Font>
 		<Location>
 			<X>12</X>
 			<Y>14</Y>
@@ -29,7 +28,6 @@
 
 	<Listbox item = "MW_ItemList">
 		<ScreenID>ItemList</ScreenID>
-		<Font>2</Font>
 		<!-- cutelittlecow - changed item list to have no visible vscroll bar for the time being (still scrollable) -->
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Location>
