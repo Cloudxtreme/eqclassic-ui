@@ -23,32 +23,6 @@
 
 	<Button item = "IDW_IconButton">
 		<ScreenID>IconButton</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>70</LeftAnchorOffset>
-		<TopAnchorOffset>12</TopAnchorOffset>
-		<RightAnchorOffset>26</RightAnchorOffset>
-		<BottomAnchorOffset>56</BottomAnchorOffset>
-
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<BottomAnchorToTop>true</BottomAnchorToTop>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<TopAnchorToTop>true</TopAnchorToTop>
-
-		<ButtonDrawTemplate>
-			<Normal>RedIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
-		</ButtonDrawTemplate>
-
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>40</CX>
-			<CY>40</CY>
-		</DecalSize>
 	</Button>
 
 	<Screen item = "ItemDisplayWindow">

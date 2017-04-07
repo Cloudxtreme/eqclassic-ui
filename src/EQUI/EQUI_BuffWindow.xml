@@ -10,15 +10,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>36</CX>
-			<CY>36</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff1_Button">
@@ -29,15 +24,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff2_Button">
@@ -48,15 +38,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff3_Button">
@@ -67,15 +52,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff4_Button">
@@ -86,15 +66,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff5_Button">
@@ -109,15 +84,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff6_Button">
@@ -128,15 +98,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff7_Button">
@@ -147,15 +112,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff8_Button">
@@ -166,15 +126,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff9_Button">
@@ -185,15 +140,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff10_Button">
@@ -204,15 +154,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff11_Button">
@@ -223,15 +168,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff12_Button">
@@ -242,15 +182,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff13_Button">
@@ -261,15 +196,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item = "BW_Buff14_Button">
@@ -280,15 +210,10 @@
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>RedIconBackground</Normal>
-			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
 		<DecalSize>
-			<CX>35</CX>
-			<CY>35</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</DecalSize>
 	</Button>
 	<Button item="BW_Buff15_Button">

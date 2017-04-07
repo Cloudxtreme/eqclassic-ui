@@ -72,20 +72,6 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    <Ui2DAnimation item = "BuffIcons">
-        <Cycle>false</Cycle>
-        <Grid>true</Grid>
-        <Vertical>false</Vertical>
-        <CellHeight>40</CellHeight>
-        <CellWidth>40</CellWidth>
-        <Frames>
-            <Texture>EQUI/Spell_Icons.tga</Texture>
-            <Size>
-                <CX>256</CX>
-                <CY>256</CY>
-            </Size>
-        </Frames>
-    </Ui2DAnimation>
     <Ui2DAnimation item = "BlueIconBackground">
         <Frames>
             <Texture>EQUI/Spell_Icons.tga</Texture>
