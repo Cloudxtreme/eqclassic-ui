@@ -55,7 +55,7 @@
 		<Include>EQUI_AudioTriggersWindow.xml</Include>         <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_AuraWnd.xml</Include>                     <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_BandolierWnd.xml</Include>                <!-- cutelittlecow - 100% disabled -->
-		<Include>EQUI_BankWnd.xml</Include>                     <!-- cutelittlecow - 100% fixed -->
+		<Include>EQUI_BankWnd.xml</Include>                     <!-- cutelittlecow - 99% fixed (see github issue #60 for more details) -->
 		<Include>EQUI_BarterMerchantWnd.xml</Include>           <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_BarterSearchWnd.xml</Include>             <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_BarterWnd.xml</Include>                   <!-- cutelittlecow - 100% disabled -->
@@ -66,22 +66,21 @@
 		<Include>EQUI_BlockedPetBuffWnd.xml</Include>           <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_BodyTintWnd.xml</Include>                 <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_BookWindow.xml</Include>                  <!-- cutelittlecow - 100% fixed -->
-		<Include>EQUI_BreathWindow.xml</Include>                <!-- cutelittlecow - 90% fixed (need to abstract gauge implementation)-->
-		<Include>EQUI_BuffWindow.xml</Include>                  <!-- cutelittlecow - 90% fixed (needs a proper buff icon border) -->
+		<Include>EQUI_BreathWindow.xml</Include>                <!-- cutelittlecow - 100% fixed -->
+		<Include>EQUI_BuffWindow.xml</Include>                  <!-- cutelittlecow - 100% fixed -->
 		<Include>EQUI_BugReportWnd.xml</Include>                <!-- original -->
-		<Include>EQUI_CastingWindow.xml</Include>               <!-- cutelittlecow - 90% fixed (need to abstract gauge implementation)-->
+		<Include>EQUI_CastingWindow.xml</Include>               <!-- cutelittlecow - 100% fixed -->
 		<Include>EQUI_CastSpellWnd.xml</Include>                <!-- cutelittlecow - 100% fixed -->
 		<Include>EQUI_CharacterCreate.xml</Include>             <!-- cutelittlecow - in process -->
 		<Include>EQUI_CharacterSelect.xml</Include>             <!-- cutelittlecow - in process -->
 		<Include>EQUI_CharityMerchantWnd.xml</Include>          <!-- cutelittlecow - 100% disabled -->
-		<Include>EQUI_ChatWindow.xml</Include>                  <!-- cutelittlecow - 90% fixed (scrollbar implementation needed) -->
+		<Include>EQUI_ChatWindow.xml</Include>                  <!-- cutelittlecow - 75% fixed (see github issue #62 for more details) -->
 		<Include>EQUI_ColorPickerWnd.xml</Include>              <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_CombatAbilityWnd.xml</Include>            <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_CombatSkillsSelectWindow.xml</Include>    <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_CompassWnd.xml</Include>                  <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_ConfirmationDialog.xml</Include>          <!-- cutelittlecow - 100% fixed -->
-		<Include>EQUI_Container.xml</Include>                   <!-- cutelittlecow - 50% fixed (needs a custom window implementation, 
-		                                                                             not possible without dll modifications, see github issue #27 for more info)-->
+		<Include>EQUI_Container.xml</Include>                   <!-- cutelittlecow - 50% fixed (see github issue #27 for more details)-->
 		<Include>EQUI_CursorAttachment.xml</Include>            <!-- original -->
 		<Include>EQUI_DynamicZoneWnd.xml</Include>              <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_EditLabelWnd.xml</Include>                <!-- cutelittlecow - 100% disabled -->
@@ -100,9 +99,9 @@
 		<Include>EQUI_GuildManagementWnd.xml</Include>          <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_GuildTributeMasterWnd.xml</Include>       <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_HotButtonWnd.xml</Include>                <!-- cutelittlecow - 80% fixed (needs a proper spell gem and better skill button implementation) -->
-		<Include>EQUI_InspectWnd.xml</Include>                  <!-- cutelittlecow - 100% fixed (needs a character name label implementation) -->
+		<Include>EQUI_InspectWnd.xml</Include>                  <!-- cutelittlecow - 100% fixed (see github issue #59 for more details) -->
 		<Include>EQUI_Inventory.xml</Include>                   <!-- cutelittlecow - 100% fixed -->
-		<Include>EQUI_ItemDisplay.xml</Include>                 <!-- original -->
+		<Include>EQUI_ItemDisplay.xml</Include>                 <!-- original (see github issue #28 for more details) -->
 		<Include>EQUI_ItemExpTransferWnd.xml</Include>          <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_JournalCatWnd.xml</Include>               <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_JournalNPCWnd.xml</Include>               <!-- cutelittlecow - 100% disabled -->
@@ -111,7 +110,7 @@
 		<Include>EQUI_LeadershipWnd.xml</Include>               <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_LFGuildWnd.xml</Include>                  <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_LoadskinWnd.xml</Include>                 <!-- cutelittlecow - 100% disabled -->
-		<Include>EQUI_LootWnd.xml</Include>                     <!-- cutelittlecow - 100% fixed (needs proper button implementation)-->
+		<Include>EQUI_LootWnd.xml</Include>                     <!-- cutelittlecow - 20% fixed (see github issue #34 for more details) -->
 		<Include>EQUI_MailAddressBookWindow.xml</Include>       <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_MailCompositionWindow.xml</Include>       <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_MailWindow.xml</Include>                  <!-- cutelittlecow - 100% disabled -->
@@ -125,7 +124,7 @@
 		<Include>EQUI_OptionsWindow.xml</Include>               <!-- original -->
 		<Include>EQUI_PetInfoWindow.xml</Include>               <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_PlayerNotesWindow.xml</Include>           <!-- cutelittlecow - 100% disabled (until otherwise noted) -->
-		<Include>EQUI_PlayerWindow.xml</Include>                <!-- cutelittlecow - 100% fixed (needs a proper button implementation)-->
+		<Include>EQUI_PlayerWindow.xml</Include>                <!-- cutelittlecow - 100% fixed (see github issue #63 for more details) -->
 		<Include>EQUI_PointMerchantWnd.xml</Include>            <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_PotionBeltWnd.xml</Include>               <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_ProgressionSelectionWnd.xml</Include>     <!-- cutelittlecow - 100% disabled -->
@@ -136,14 +135,14 @@
 		<Include>EQUI_RaidOptionsWindow.xml</Include>           <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_RaidWindow.xml</Include>                  <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_RespawnWnd.xml</Include>                  <!-- cutelittlecow - 100% disabled -->
-		<Include>EQUI_SelectorWnd.xml</Include>                 <!-- cutelittlecow - 100% fixed (need proper button and animation implementation) -->
+		<Include>EQUI_SelectorWnd.xml</Include>                 <!-- cutelittlecow - 100% fixed (see github issue #64 for more details) -->
 		<Include>EQUI_Screens.xml</Include>                     <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_ServerListWnd.xml</Include>               <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_ShortDurationBuffWindow.xml</Include>     <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_SkillsSelectWindow.xml</Include>          <!-- cutelittlecow - needs consideration -->
 		<Include>EQUI_SkillsWindow.xml</Include>                <!-- cutelittlecow - needs consideration -->
-		<Include>EQUI_SocialEditWnd.xml</Include>               <!-- cutelittlecow - 100% fixed (needs a cancel button implementation) -->
-		<Include>EQUI_SpellBookWnd.xml</Include>                <!-- cutelittlecow - 100% fixed  -->
+		<Include>EQUI_SocialEditWnd.xml</Include>               <!-- cutelittlecow - 90% fixed (needs a cancel button implementation) -->
+		<Include>EQUI_SpellBookWnd.xml</Include>                <!-- cutelittlecow - 95% fixed (see issue #61 on github for more details)-->
 		<Include>EQUI_StoryWnd.xml</Include>                    <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_SystemInfoWnd.xml</Include>               <!-- ?? -->
 		<Include>EQUI_TargetOfTargetWindow.xml</Include>        <!-- cutelittlecow - 100% disabled -->
@@ -160,7 +159,7 @@
 		<Include>EQUI_TrackingWnd.xml</Include>                 <!-- cutelittlecow - 100% fixed -->
 		<Include>EQUI_TradeskillWnd.xml</Include>               <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_TradeWnd.xml</Include>                    <!-- cutelittlecow - 100% fixed -->
-		<Include>EQUI_TrainWindow.xml</Include>                 <!-- original (this cannot be fixed without a custom window via dll) -->
+		<Include>EQUI_TrainWindow.xml</Include>                 <!-- original (see issue #39 on github for more details) -->
 		<Include>EQUI_TributeBenefitWnd.xml</Include>           <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_TributeMasterWnd.xml</Include>            <!-- cutelittlecow - 100% disabled -->
 		<Include>EQUI_VideoModesWnd.xml</Include>               <!-- original -->
