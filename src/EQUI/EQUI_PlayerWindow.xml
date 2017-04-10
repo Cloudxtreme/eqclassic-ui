@@ -5,37 +5,35 @@
 	<Label item ="PW_Name">
 		<ScreenID>PW_Name</ScreenID>
 		<EQType>1</EQType>
-		<Font>2</Font>
 		<Location>
 			<X>21</X>
-			<Y>13</Y>
+			<Y>14</Y>
 		</Location>
 		<Size>
 			<CX>84</CX>
 			<CY>16</CY>
 		</Size>
 		<TextColor>
-			<R>200</R>
-			<G>200</G>
-			<B>200</B>
+			<R>230</R>
+			<G>230</G>
+			<B>230</B>
 		</TextColor>
 	</Label>
 	<Label item ="PW_Surname">
 		<ScreenID>PW_Surname</ScreenID>
 		<EQType>73</EQType>
-		<Font>2</Font>
 		<Location>
 			<X>21</X>
-			<Y>23</Y>
+			<Y>24</Y>
 		</Location>
 		<Size>
 			<CX>84</CX>
 			<CY>16</CY>
 		</Size>
 		<TextColor>
-			<R>200</R>
-			<G>200</G>
-			<B>200</B>
+			<R>230</R>
+			<G>230</G>
+			<B>230</B>
 		</TextColor>
 	</Label>
 

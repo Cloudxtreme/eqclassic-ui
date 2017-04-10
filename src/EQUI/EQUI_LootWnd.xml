@@ -4,19 +4,18 @@
 
 	<Label item ="LW_CorpseName">
 		<ScreenID>LW_CorpseName</ScreenID>
-		<Font>2</Font>
 		<Location>
-			<X>12</X>
+			<X>11</X>
 			<Y>14</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
+			<CX>98</CX>
 			<CY>20</CY>
 		</Size>
 		<TextColor>
-			<R>200</R>
-			<G>200</G>
-			<B>200</B>
+			<R>230</R>
+			<G>230</G>
+			<B>230</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 	</Label>
