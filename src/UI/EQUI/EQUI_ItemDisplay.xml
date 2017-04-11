@@ -26,10 +26,14 @@
 	</Button>
 
 	<Screen item = "ItemDisplayWindow">
-		<!--<Size>
+		<Location>
+			<X>119</X>
+			<Y>320</Y>
+		</Location>
+		<Size>
 			<CX>400</CX>
-			<CY>150</CY>
-		</Size>-->
+			<CY>160</CY>
+		</Size>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Border>true</Style_Border>
