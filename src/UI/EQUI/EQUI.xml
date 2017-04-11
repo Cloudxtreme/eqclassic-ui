@@ -24,6 +24,7 @@
 		<Include>HotBarAnimations.xml</Include>
 		<Include>InspectAnimations.xml</Include>
 		<Include>InventoryAnimations.xml</Include>
+		<Include>ItemLoreAnimations.xml</Include>
 		<Include>LootAnimations.xml</Include>
 		<Include>MerchantAnimations.xml</Include>
 		<Include>NoteAnimations.xml</Include>

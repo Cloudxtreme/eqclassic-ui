@@ -5,7 +5,6 @@
 	<STMLbox item = "IDW_ItemDescription">
 		<ScreenID>ItemDescription</ScreenID>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 
 		<LeftAnchorOffset>10</LeftAnchorOffset>
@@ -34,10 +33,9 @@
 			<CX>400</CX>
 			<CY>160</CY>
 		</Size>
-		<DrawTemplate>WDT_Def</DrawTemplate>
-		<Style_Titlebar>true</Style_Titlebar>
-		<Style_Border>true</Style_Border>
-		<Style_Sizable>true</Style_Sizable>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>EQUI_ItemLoreBG01</Pieces>
+		<Pieces>EQUI_ItemLoreBG02</Pieces>
 		<Pieces>IDW_ItemDescription</Pieces>
 		<Pieces>IDW_IconButton</Pieces>
 	</Screen>

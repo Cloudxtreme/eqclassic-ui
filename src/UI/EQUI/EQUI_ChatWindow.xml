@@ -5,7 +5,6 @@
 	<Editbox item = "CW_ChatInput">
 		<ScreenID>CWChatInput</ScreenID>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 
 		<LeftAnchorOffset>20</LeftAnchorOffset>
@@ -21,7 +20,6 @@
 	<STMLbox item = "CW_ChatOutput">
 		<ScreenID>CWChatOutput</ScreenID>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 
 		<LeftAnchorOffset>34</LeftAnchorOffset>
@@ -35,7 +33,6 @@
 
 	<Button item = "CW_Autolock">
 		<ScreenID>CW_Autolock</ScreenID>
-		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>400</CX>
 			<CY>160</CY>
@@ -43,7 +40,6 @@
 	</Button>
 
 	<Screen item = "ChatWindow">
-		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>119</X>
 			<Y>320</Y>
@@ -53,12 +49,10 @@
 			<CY>160</CY>
 		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-
 		<Pieces>EQUI_ChatBG01</Pieces>
 		<Pieces>EQUI_ChatBG02</Pieces>
 		<Pieces>CW_Autolock</Pieces>
 		<Pieces>CW_ChatOutput</Pieces>
 		<Pieces>CW_ChatInput</Pieces>
 	</Screen>
-
 </XML>

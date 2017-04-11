@@ -1,0 +1,44 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<Ui2DAnimation item = "ItemLore01">
+		<Frames>
+			<Texture>EQUI/ItemLore01.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "ItemLore02">
+		<Frames>
+			<Texture>EQUI/ItemLore02.tga</Texture>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+    <StaticAnimation item = "EQUI_ItemLoreBG01">
+		<ScreenID>ItemLoreBG01</ScreenID>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>ItemLore01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQUI_ItemLoreBG02">
+		<ScreenID>ItemLoreBG02</ScreenID>
+		<Location>
+			<X>256</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>ItemLore02</Animation>
+	</StaticAnimation>
+</XML>

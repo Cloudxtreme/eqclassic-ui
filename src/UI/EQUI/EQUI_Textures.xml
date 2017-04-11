@@ -126,6 +126,19 @@
             <CY>256</CY>
         </Size>
     </TextureInfo>
+    <!-- Item Lore Window -->
+    <TextureInfo item = "EQUI/ItemLore01.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
+    <TextureInfo item = "EQUI/ItemLore02.tga">
+        <Size>
+            <CX>256</CX>
+            <CY>256</CY>
+        </Size>
+    </TextureInfo>
 	<!-- Note Window -->
 	<TextureInfo item = "EQUI/Note01.tga">
 		<Size>
