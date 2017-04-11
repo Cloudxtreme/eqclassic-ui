@@ -4,20 +4,15 @@
 
 	<STMLbox item = "IDW_ItemDescription">
 		<ScreenID>ItemDescription</ScreenID>
-		<DrawTemplate>WDT_Static</DrawTemplate>
-		<AutoStretch>true</AutoStretch>
-
-		<LeftAnchorOffset>10</LeftAnchorOffset>
-		<TopAnchorOffset>10</TopAnchorOffset>
-		<RightAnchorOffset>10</RightAnchorOffset>
-		<BottomAnchorOffset>10</BottomAnchorOffset>
-
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<TopAnchorToTop>true</TopAnchorToTop>
-
-        <Style_VScroll>true</Style_VScroll>
+		<DrawTemplate>WDT_Static</DrawTemplate>		
+		<Location>
+			<X>24</X>
+			<Y>23</Y>
+		</Location>
+		<Size>
+			<CX>300</CX>
+			<CY>108</CY>
+		</Size>
 	</STMLbox>
 
 	<Button item = "IDW_IconButton">
@@ -30,7 +25,7 @@
 			<Y>320</Y>
 		</Location>
 		<Size>
-			<CX>400</CX>
+			<CX>344</CX>
 			<CY>160</CY>
 		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
