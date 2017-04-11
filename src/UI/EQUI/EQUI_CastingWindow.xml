@@ -27,10 +27,18 @@
 		</GaugeDrawTemplate>
 	</Gauge>
 
+	<Button item = "CastingWindow_Autolock">
+		<ScreenID>BOOK_Autolock</ScreenID>
+		<Size>
+			<CX>121</CX>
+			<CY>57</CY>
+		</Size>
+	</Button>
+
 	<Screen item = "CastingWindow">
 		<Location>
 			<X>119</X>
-			<Y>263</Y>
+			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>121</CX>
@@ -38,6 +46,7 @@
 		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>EQUI_CastingMeterBG01</Pieces>
+		<Pieces>CastingWindow_Autolock</Pieces>
 		<Pieces>Casting_Gauge</Pieces>
 	</Screen>
 </XML>
