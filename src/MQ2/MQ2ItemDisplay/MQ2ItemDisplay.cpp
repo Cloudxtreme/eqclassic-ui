@@ -23,19 +23,12 @@ class ItemDisplayHook
 	static bool bNoSpellTramp;
 	static int	iCount;
 
-	typedef enum {
-		Original = 0,
-		Alternate,
-	} DisplayType;
-
-	typedef enum {
+	enum StatType {
 		STR = 0, DEX, STA, CHA, WIS, INT, AGI,
 		HP, Mana,
 		SvFire, SvDisease, SvCold, SvMagic, SvPoison,
 		Count = 14
-	} StatType;
-
-	static DisplayType eDisplayType;
+	};
 
 	char * GetRaceThreeLetterCode(int iRace)
 	{
@@ -115,7 +108,7 @@ public:
 			strcat_s(out, "<br>");
 		}
 
-		signed int Stats[14] = {
+		SHORT Stats[14] = {
 			Item->STR,		Item->DEX,			Item->STA,		Item->CHA,		Item->WIS,		Item->INT,		Item->AGI,
 			Item->HP,		Item->Mana,
 			Item->SvFire,	Item->SvDisease,	Item->SvCold,	Item->SvMagic,	Item->SvPoison
@@ -128,7 +121,7 @@ public:
 				break;
 			}
 
-			signed int CurrentStat = Stats[i];
+			SHORT CurrentStat = Stats[i];
 			if (CurrentStat != 0) {
 				iCount++;
 				if (iCount % 5 == 0) {
@@ -307,7 +300,6 @@ public:
 
 bool ItemDisplayHook::bNoSpellTramp = false;
 int ItemDisplayHook::iCount = 0;
-ItemDisplayHook::DisplayType ItemDisplayHook::eDisplayType = Original;
 
 DETOUR_TRAMPOLINE_EMPTY(VOID ItemDisplayHook::SetItem_Trampoline(class EQ_Item *,bool));
 DETOUR_TRAMPOLINE_EMPTY(VOID ItemDisplayHook::SetSpell_Trampoline(int SpellID, bool HasSpellDescr, int));
