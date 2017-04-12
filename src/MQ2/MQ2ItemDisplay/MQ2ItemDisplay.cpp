@@ -21,34 +21,44 @@ PreSetup("MQ2ItemDisplay");
 class ItemDisplayHook
 {
 	static bool bNoSpellTramp;
-public:
-	const char * GetRaceThreeLetterCode(int iRace)
+	static int	iCount;
+
+	typedef enum {
+		Original = 0,
+		Alternate,
+	} DisplayType;
+
+	typedef enum {
+		STR = 0, DEX, STA, CHA, WIS, INT, AGI,
+		HP, Mana,
+		SvFire, SvDisease, SvCold, SvMagic, SvPoison,
+		Count = 14
+	} StatType;
+
+	static DisplayType eDisplayType;
+
+	char * GetRaceThreeLetterCode(int iRace)
 	{
 		switch (iRace) {
-		case 1: return ("HUM");
-		case 2: return ("BAR");
-		case 3: return ("ERU");
-		case 4: return ("ELF");
-		case 5: return ("HIE");
-		case 6: return ("DEF");
-		case 7: return ("HEF");
-		case 8: return ("DWF");
-		case 9: return ("TRL");
-		case 10:return ("OGR");
-		case 11:return ("HLF");
-		case 12:return ("GNM");
-		case 13:return ("IKS");
-		case 14:return ("VAH");
-		case 15:return ("FRG");
+			case 1: return ("HUM");
+			case 2: return ("BAR");
+			case 3: return ("ERU");
+			case 4: return ("ELF");
+			case 5: return ("HIE");
+			case 6: return ("DEF");
+			case 7: return ("HEF");
+			case 8: return ("DWF");
+			case 9: return ("TRL");
+			case 10:return ("OGR");
+			case 11:return ("HLF");
+			case 12:return ("GNM");
+			case 13:return ("IKS");
+			case 14:return ("VAH");
+			case 15:return ("FRG");
 		}
-
 		return ("UNKNOWN RACE");
 	}
-
-	VOID CleanOutput(char * cOutput) {
-		memset(cOutput, 0, MAX_STRING);
-	}
-
+public:
 	VOID SetItem_Trampoline(class EQ_Item *pitem,bool unknown);
 	VOID SetItem_Detour(class EQ_Item *pitem,bool unknown)
 	{
@@ -60,35 +70,129 @@ public:
 		SetItem_Trampoline(pitem,unknown);
 
 		// add the name to the front of the item info and turn it black
-		sprintf(temp, "<c \"#000000\">%s<br>", Item->Name);
-		strcat(out, temp);
+		sprintf_s(temp, "<c \"#000000\">%s<br>", Item->Name);
+		strcat_s(out, temp);
 		SetCXStr(&This->ItemInfo, out);
-		CleanOutput(out);
+		memset(out, 0, MAX_STRING);
 
 		// ITEM INFORMATION
 		if (Item->Magic) {
-			strcat(out, "MAGIC ITEM&nbsp;&nbsp;");
+			strcat_s(out, "MAGIC ITEM&nbsp;&nbsp;");
 		}
 		if (Item->Lore) {
-			strcat(out, "LORE ITEM&nbsp;&nbsp;");
+			strcat_s(out, "LORE ITEM&nbsp;&nbsp;");
 		}
 		// why is it that 0 is prompting no drop, when 1 was supposed to prompt it?
 		if (!Item->NoDrop) {
-			strcat(out, "NO DROP&nbsp;&nbsp;");
+			strcat_s(out, "NO DROP&nbsp;&nbsp;");
 		}
 		/*if (Item->NoRent) {
 			strcat(out, "NO RENT&nbsp;&nbsp;");
 		}*/
-		strcat(out, "<br>");
+		strcat_s(out, "<br>");
 
-		// AC
+		// Skill // Attack Delay
+		if (Item->ItemType < 6) { // see itemtypes.h for item type number values
+			sprintf_s(temp, "Skill:&nbsp;%s&nbsp;&nbsp;&nbsp;", szItemTypes[Item->ItemType]);
+			strcat_s(out, temp);
+		}
+		if (Item->Delay > 0) {
+			sprintf_s(temp, "Atk Delay:&nbsp;%d<br>", Item->Delay);
+			strcat_s(out, temp);
+		}
+
+		// Damage // AC
+		if (Item->Damage > 0) {
+			sprintf_s(temp, "DMG:&nbsp;%d&nbsp;&nbsp;&nbsp;", Item->Damage);
+			strcat_s(out, temp);
+		}
 		if (Item->AC > 0) {
-			sprintf(temp, "AC:&nbsp;%d<br>", Item->AC);
-			strcat(out, temp);
+			sprintf_s(temp, "AC:&nbsp;%d", Item->AC);
+			strcat_s(out, temp);
+		}
+
+		if (Item->Damage > 0 || Item->AC > 0) {
+			strcat_s(out, "<br>");
+		}
+
+		signed int Stats[14] = {
+			Item->STR,		Item->DEX,			Item->STA,		Item->CHA,		Item->WIS,		Item->INT,		Item->AGI,
+			Item->HP,		Item->Mana,
+			Item->SvFire,	Item->SvDisease,	Item->SvCold,	Item->SvMagic,	Item->SvPoison
+		};
+
+		iCount = 0;
+		for (int i = StatType::STR; i < StatType::Count; i++) {
+			if (i + 1 == StatType::Count && iCount > 0) {
+				strcat_s(out, "<br>");
+				break;
+			}
+
+			signed int CurrentStat = Stats[i];
+			if (CurrentStat != 0) {
+				iCount++;
+				if (iCount % 5 == 0) {
+					strcat_s(out, "<br>");
+				}
+
+				switch (i) {
+					case StatType::STR:
+						strcat_s(out, "STR:");
+						break;
+					case StatType::DEX:
+						strcat_s(out, "DEX:");
+						break;
+					case StatType::STA:
+						strcat_s(out, "STA:");
+						break;
+					case StatType::CHA:
+						strcat_s(out, "CHA:");
+						break;
+					case StatType::WIS:
+						strcat_s(out, "WIS:");
+						break;
+					case StatType::INT:
+						strcat_s(out, "INT:");
+						break;
+					case StatType::AGI:
+						strcat_s(out, "AGI:");
+						break;
+					case StatType::HP:
+						strcat_s(out, "HP:");
+						break;
+					case StatType::Mana:
+						strcat_s(out, "MANA:");
+						break;
+					case StatType::SvFire:
+						strcat_s(out, "SV FIRE:");
+						break;
+					case StatType::SvDisease:
+						strcat_s(out, "SV DISEASE:");
+						break;
+					case StatType::SvCold:
+						strcat_s(out, "SV COLD:");
+						break;
+					case StatType::SvMagic:
+						strcat_s(out, "SV MAGIC:");
+						break;
+					case StatType::SvPoison:
+						strcat_s(out, "SV POISON:");
+						break;
+				}
+
+				strcat_s(out, "&nbsp;");
+				if (CurrentStat < 0) {
+					sprintf_s(temp, "%d&nbsp;&nbsp;&nbsp;", CurrentStat);
+				}
+				else {
+					sprintf_s(temp, "+%d&nbsp;&nbsp;&nbsp;", CurrentStat);
+				}
+				strcat(out, temp);
+			}
 		}
 
 		AppendCXStr(&This->ItemInfo, out);
-		CleanOutput(out);
+		memset(out, 0, MAX_STRING);
 
 		// Spell info
 		bNoSpellTramp = true;
@@ -101,47 +205,78 @@ public:
 		if (Item->Worn.SpellID > 0 && Item->Worn.SpellID != -1) {
 			SetSpell_Detour(Item->Worn.SpellID, false, 0);
 		}
-		if (Item->Scroll.SpellID > 0 && Item->Scroll.SpellID != -1) {
+
+		// commenting out scroll for now since the scroll name already shows.
+		/*if (Item->Scroll.SpellID > 0 && Item->Scroll.SpellID != -1) {
 			SetSpell_Detour(Item->Scroll.SpellID, false, 0);
-		}
+		}*/
 		bNoSpellTramp = false;
 
 		// Weight
 		float weight = Item->Weight * 0.1f;
-		sprintf(temp, "WT:&nbsp;&nbsp;%.1f<br>", weight);
-		strcat(out, temp);
+		sprintf_s(temp, "WT:&nbsp;&nbsp;%.1f<br>", weight);
+		strcat_s(out, temp);
 
 		// Classes
-		int iClassBit = 1 << (GetCharInfo2()->Class - 1);
-		//if (!(Item->Classes & iClassBit)) {
-			char cClasses[64] = { 0 };
-			int iClass = 1;
-			for (WORD i = 1; i < 16; i++) {
+		int iClass = 1;
+		iCount = 0;
+		if ((int)(1 << TotalClasses) - 1 != Item->Classes && Item->Classes != 0) {
+			char cClasses[MAX_STRING] = { 0 };
+			for (WORD i = Warrior; i < TotalClasses + 1; i++) {
 				if (Item->Classes & iClass) {
+					iCount++;
 					char * cCode = pEverQuest->GetClassThreeLetterCode(i);
 					if (cCode == NULL) {
 						break;
 					}
 
-					strcat(cClasses, cCode);
-					strcat(cClasses, " ");
+					if (iCount % 7 == 0) {
+						strcat_s(cClasses, "<br>");
+						strcat_s(cClasses, "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+					}
+					strcat_s(cClasses, cCode);
+					strcat_s(cClasses, " ");
 				}
-				iClass *= 2;
+				iClass <<= 1;
 			}
-
-			sprintf(temp, "Class:&nbsp;%s<br>", cClasses);
-			strcat(out, temp);
-		//}
-		/*else {
-			char * cCode = pEverQuest->GetClassThreeLetterCode(GetCharInfo2()->Class);
-			sprintf(temp, "Class:&nbsp;&nbsp;ALL<br>");
-			strcat(out, temp);
-		}*/
+			sprintf_s(temp, "Class:&nbsp;%s<br>", cClasses);
+			strcat_s(out, temp);
+		}
+		else {
+			strcat_s(out, "Class:&nbsp;ALL<br>");
+		}
 
 		// Races
+		int iRace = 1;
+		iCount = 0;
+		if ((int)(1 << 16) - 1 != Item->Races && Item->Races != 0) {
+			char Races[MAX_STRING] = { 0 };
+			for (WORD i = 1; i < 16; i++) {
+				if (Item->Races & iRace) {
+					iCount++;
+					char * race = GetRaceThreeLetterCode(i);
+					if (race == NULL) {
+						break;
+					}
+
+					if (iCount % 7 == 0) {
+						strcat_s(Races, "<br>");
+						strcat_s(Races, "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+					}
+					strcat_s(Races, race);
+					strcat_s(Races, " ");
+				}
+				iRace <<= 1;
+			}
+			sprintf_s(temp, "Race:&nbsp;&nbsp;%s<br>", Races);
+			strcat_s(out, temp);
+		}
+		else {
+			strcat_s(out, "Race:&nbsp;&nbsp;ALL<br>");
+		}
 
 		// final tag to add color
-		strcat(out, "</c>");
+		strcat_s(out, "</c>");
 		AppendCXStr(&This->ItemInfo, out);
 	}
 
@@ -162,8 +297,8 @@ public:
 			SetSpell_Trampoline(SpellID, HasSpellDescr, unknown_int);
 		}
 		else {
-			sprintf(temp, "Effect:&nbsp;%s<br>", pSpell->Name);
-			strcat(out, temp);
+			sprintf_s(temp, "Effect:&nbsp;%s<br>", pSpell->Name);
+			strcat_s(out, temp);
 		}
 
 		AppendCXStr(&This->ItemInfo, out);
@@ -171,6 +306,8 @@ public:
 };
 
 bool ItemDisplayHook::bNoSpellTramp = false;
+int ItemDisplayHook::iCount = 0;
+ItemDisplayHook::DisplayType ItemDisplayHook::eDisplayType = Original;
 
 DETOUR_TRAMPOLINE_EMPTY(VOID ItemDisplayHook::SetItem_Trampoline(class EQ_Item *,bool));
 DETOUR_TRAMPOLINE_EMPTY(VOID ItemDisplayHook::SetSpell_Trampoline(int SpellID, bool HasSpellDescr, int));
@@ -185,7 +322,7 @@ PLUGIN_API VOID InitializePlugin(VOID)
 
 	// EasyClassDetour(CItemDisplayWnd__SetItem,ItemDisplayHook,SetItem_Detour,void,(class EQ_Item *, bool),SetItem_Trampoline);
 	EzDetour(CItemDisplayWnd__SetItem,ItemDisplayHook::SetItem_Detour,ItemDisplayHook::SetItem_Trampoline);
-	//   EasyClassDetour(CItemDisplayWnd__SetSpell,ItemDisplayHook,SetSpell_Detour,void,(int SpellID,bool HasSpellDescr,int),SetSpell_Trampoline);
+	// EasyClassDetour(CItemDisplayWnd__SetSpell,ItemDisplayHook,SetSpell_Detour,void,(int SpellID,bool HasSpellDescr,int),SetSpell_Trampoline);
 	EzDetour(CItemDisplayWnd__SetSpell, ItemDisplayHook::SetSpell_Detour, ItemDisplayHook::SetSpell_Trampoline);
 }
 
