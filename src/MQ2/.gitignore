@@ -22,3 +22,5 @@ Release/
 
 !MQ2ItemDisplay/*
 MQ2ItemDisplay/Intermediate/
+!MQ2EffectsToggle/*
+MQ2EffectsToggle/Intermediate/

@@ -27,10 +27,11 @@
 
 	<Label item ="TW_TargetName">
 		<ScreenID>TargetName</ScreenID>
+		<Font>2</Font>
 		<EQType>28</EQType>
 		<Location>
-			<X>13</X>
-			<Y>13</Y>
+			<X>14</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
 			<CX>98</CX>
@@ -41,15 +42,14 @@
 			<G>255</G>
 			<B>255</B>
 		</TextColor>
-        <NoWrap>true</NoWrap>
+		<NoWrap>true</NoWrap>
 	</Label>
-    <Label item ="Target_HPLabel">
-        <ScreenID>HPLabel</ScreenID>
-    </Label>
-    <Label item ="Target_HPPercLabel">
-        <ScreenID>HPPercLabel</ScreenID>
-    </Label>
-
+	<Label item ="Target_HPLabel">
+		<ScreenID>HPLabel</ScreenID>
+	</Label>
+	<Label item ="Target_HPPercLabel">
+		<ScreenID>HPPercLabel</ScreenID>
+	</Label>
 
 	<Button item = "TW_Autolock">
 		<Size>
@@ -70,8 +70,8 @@
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>EQUI_TargetWindowBG01</Pieces>
 		<Pieces>Target_HP</Pieces>
-        <!--<Pieces>Target_HPLabel</Pieces>
-        <Pieces>Target_HPPercLabel</Pieces>-->
+		<!--<Pieces>Target_HPLabel</Pieces>
+		<Pieces>Target_HPPercLabel</Pieces>-->
 		<Pieces>TW_TargetName</Pieces>
 		<Pieces>TW_Autolock</Pieces>
 	</Screen>

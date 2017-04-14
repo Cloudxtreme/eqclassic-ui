@@ -20,9 +20,10 @@
 
 	<Label item ="HB_CurrentPageLabel">
 		<ScreenID>HB_CurrentPageLabel</ScreenID>
+		<Font>2</Font>
 		<Location>
-			<X>53</X>
-			<Y>1</Y>
+			<X>54</X>
+			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>13</CX>
@@ -55,6 +56,7 @@
 
 	<Button item = "HB_Button1">
 		<ScreenID>HB_Button1</ScreenID>
+		<Font>1</Font>
 		<Location>
 			<X>16</X>
 			<Y>19</Y>
@@ -70,12 +72,13 @@
 	</Button>
 	<Button item = "HB_Button2">
 		<ScreenID>HB_Button2</ScreenID>
+		<Font>1</Font>
 		<Location>
-			<X>63</X>
+			<X>65</X>
 			<Y>19</Y>
 		</Location>
 		<Size>
-			<CX>44</CX>
+			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
@@ -85,12 +88,13 @@
 	</Button>
 	<Button item = "HB_Button3">
 		<ScreenID>HB_Button3</ScreenID>
+		<Font>1</Font>
 		<Location>
-			<X>14</X>
+			<X>16</X>
 			<Y>68</Y>
 		</Location>
 		<Size>
-			<CX>44</CX>
+			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
@@ -100,12 +104,13 @@
 	</Button>
 	<Button item = "HB_Button4">
 		<ScreenID>HB_Button4</ScreenID>
+		<Font>1</Font>
 		<Location>
-			<X>63</X>
+			<X>65</X>
 			<Y>68</Y>
 		</Location>
 		<Size>
-			<CX>44</CX>
+			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
@@ -115,12 +120,13 @@
 	</Button>
 	<Button item = "HB_Button5">
 		<ScreenID>HB_Button5</ScreenID>
+		<Font>1</Font>
 		<Location>
-			<X>14</X>
+			<X>16</X>
 			<Y>117</Y>
 		</Location>
 		<Size>
-			<CX>44</CX>
+			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>
@@ -130,12 +136,13 @@
 	</Button>
 	<Button item = "HB_Button6">
 		<ScreenID>HB_Button6</ScreenID>
+		<Font>1</Font>
 		<Location>
-			<X>63</X>
+			<X>65</X>
 			<Y>117</Y>
 		</Location>
 		<Size>
-			<CX>44</CX>
+			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
 		<ButtonDrawTemplate>

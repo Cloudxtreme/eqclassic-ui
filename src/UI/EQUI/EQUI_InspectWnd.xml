@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 
-    <InvSlot item="INSW_InvSlot0">
-        <ScreenID>InvSlot0</ScreenID>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot1">
-        <ScreenID>InvSlot1</ScreenID>
-        <Location>
+	<InvSlot item="INSW_InvSlot0">
+		<ScreenID>InvSlot0</ScreenID>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot1">
+		<ScreenID>InvSlot1</ScreenID>
+		<Location>
 			<X>62</X>
 			<Y>13</Y>
 		</Location>
-        <Size>
-          <CX>40</CX>
-          <CY>40</CY>
-        </Size>
-        <Background>Inventory_Slot_Ear</Background>
-        <EQType>8001</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot2">
-        <ScreenID>InvSlot2</ScreenID>
-        <Location>
+		<Size>
+		  <CX>40</CX>
+		  <CY>40</CY>
+		</Size>
+		<Background>Inventory_Slot_Ear</Background>
+		<EQType>8001</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot2">
+		<ScreenID>InvSlot2</ScreenID>
+		<Location>
 			<X>209</X>
 			<Y>13</Y>
 		</Location>
-        <Size>
-            <CX>40</CX>
-            <CY>40</CY>
-        </Size>
-        <Background>Inventory_Slot_Head</Background>
-        <EQType>8002</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot3">
-        <ScreenID>InvSlot3</ScreenID>
-        <Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>Inventory_Slot_Head</Background>
+		<EQType>8002</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot3">
+		<ScreenID>InvSlot3</ScreenID>
+		<Location>
 			<X>160</X>
 			<Y>13</Y>
 		</Location>
@@ -41,12 +41,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Face</Background>
-        <EQType>8003</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot4">
-        <ScreenID>InvSlot4</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Face</Background>
+		<EQType>8003</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot4">
+		<ScreenID>InvSlot4</ScreenID>
+		<Location>
 			<X>258</X>
 			<Y>13</Y>
 		</Location>
@@ -54,12 +54,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Ear2</Background>
-        <EQType>8004</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot5">
-        <ScreenID>InvSlot5</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Ear2</Background>
+		<EQType>8004</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot5">
+		<ScreenID>InvSlot5</ScreenID>
+		<Location>
 			<X>111</X>
 			<Y>13</Y>
 		</Location>
@@ -67,12 +67,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Neck</Background>
-        <EQType>8005</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot6">
-        <ScreenID>InvSlot6</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Neck</Background>
+		<EQType>8005</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot6">
+		<ScreenID>InvSlot6</ScreenID>
+		<Location>
 			<X>13</X>
 			<Y>143</Y>
 		</Location>
@@ -80,12 +80,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Shoulders</Background>
-        <EQType>8006</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot7">
-        <ScreenID>InvSlot7</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Shoulders</Background>
+		<EQType>8006</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot7">
+		<ScreenID>InvSlot7</ScreenID>
+		<Location>
 			<X>111</X>
 			<Y>78</Y>
 		</Location>
@@ -93,12 +93,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Arms</Background>
-        <EQType>8007</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot8">
-        <ScreenID>InvSlot8</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Arms</Background>
+		<EQType>8007</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot8">
+		<ScreenID>InvSlot8</ScreenID>
+		<Location>
 			<X>111</X>
 			<Y>143</Y>
 		</Location>
@@ -106,12 +106,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Back</Background>
-        <EQType>8008</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot9">
-        <ScreenID>InvSlot9</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Back</Background>
+		<EQType>8008</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot9">
+		<ScreenID>InvSlot9</ScreenID>
+		<Location>
 			<X>62</X>
 			<Y>78</Y>
 		</Location>
@@ -119,12 +119,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Wrist</Background>
-        <EQType>8009</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot10">
-        <ScreenID>InvSlot10</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Wrist</Background>
+		<EQType>8009</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot10">
+		<ScreenID>InvSlot10</ScreenID>
+		<Location>
 			<X>209</X>
 			<Y>78</Y>
 		</Location>
@@ -133,11 +133,11 @@
 			<CY>40</CY>
 		</Size>
 		<Background>Inventory_Slot_Wrist2</Background>
-        <EQType>8010</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot11">
-        <ScreenID>InvSlot11</ScreenID>
-        <Location>
+		<EQType>8010</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot11">
+		<ScreenID>InvSlot11</ScreenID>
+		<Location>
 			<X>209</X>
 			<Y>208</Y>
 		</Location>
@@ -145,12 +145,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Range</Background>
-        <EQType>8011</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot12">
-        <ScreenID>InvSlot12</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Range</Background>
+		<EQType>8011</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot12">
+		<ScreenID>InvSlot12</ScreenID>
+		<Location>
 			<X>160</X>
 			<Y>78</Y>
 		</Location>
@@ -158,12 +158,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Hands</Background>
-        <EQType>8012</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot13">
-        <ScreenID>InvSlot13</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Hands</Background>
+		<EQType>8012</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot13">
+		<ScreenID>InvSlot13</ScreenID>
+		<Location>
 			<X>111</X>
 			<Y>208</Y>
 		</Location>
@@ -171,12 +171,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Primary</Background>
-        <EQType>8013</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot14">
-        <ScreenID>InvSlot14</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Primary</Background>
+		<EQType>8013</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot14">
+		<ScreenID>InvSlot14</ScreenID>
+		<Location>
 			<X>160</X>
 			<Y>208</Y>
 		</Location>
@@ -184,12 +184,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Secondary</Background>
-        <EQType>8014</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot15">
-        <ScreenID>InvSlot15</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Secondary</Background>
+		<EQType>8014</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot15">
+		<ScreenID>InvSlot15</ScreenID>
+		<Location>
 			<X>13</X>
 			<Y>78</Y>
 		</Location>
@@ -197,12 +197,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Ring</Background>
-        <EQType>8015</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot16">
-        <ScreenID>InvSlot16</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Ring</Background>
+		<EQType>8015</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot16">
+		<ScreenID>InvSlot16</ScreenID>
+		<Location>
 			<X>258</X>
 			<Y>78</Y>
 		</Location>
@@ -211,11 +211,11 @@
 			<CY>40</CY>
 		</Size>
 		<Background>Inventory_Slot_Ring2</Background>
-        <EQType>8016</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot17">
-        <ScreenID>InvSlot17</ScreenID>
-        <Location>
+		<EQType>8016</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot17">
+		<ScreenID>InvSlot17</ScreenID>
+		<Location>
 			<X>62</X>
 			<Y>143</Y>
 		</Location>
@@ -223,12 +223,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Chest</Background>
-        <EQType>8017</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot18">
-        <ScreenID>InvSlot18</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Chest</Background>
+		<EQType>8017</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot18">
+		<ScreenID>InvSlot18</ScreenID>
+		<Location>
 			<X>209</X>
 			<Y>143</Y>
 		</Location>
@@ -236,12 +236,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Legs</Background>
-        <EQType>8018</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot19">
-        <ScreenID>InvSlot19</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Legs</Background>
+		<EQType>8018</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot19">
+		<ScreenID>InvSlot19</ScreenID>
+		<Location>
 			<X>258</X>
 			<Y>143</Y>
 		</Location>
@@ -249,12 +249,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Feet</Background>
-        <EQType>8019</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot20">
-        <ScreenID>InvSlot20</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Feet</Background>
+		<EQType>8019</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot20">
+		<ScreenID>InvSlot20</ScreenID>
+		<Location>
 			<X>160</X>
 			<Y>143</Y>
 		</Location>
@@ -262,12 +262,12 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Waist</Background>
-        <EQType>8020</EQType>
-    </InvSlot>
-    <InvSlot item="INSW_InvSlot21">
-        <ScreenID>InvSlot21</ScreenID>
-        <Location>
+		<Background>Inventory_Slot_Waist</Background>
+		<EQType>8020</EQType>
+	</InvSlot>
+	<InvSlot item="INSW_InvSlot21">
+		<ScreenID>InvSlot21</ScreenID>
+		<Location>
 			<X>258</X>
 			<Y>208</Y>
 		</Location>
@@ -275,91 +275,91 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-        <Background>Inventory_Slot_Ammo</Background>
-        <EQType>8021</EQType>
-    </InvSlot>
+		<Background>Inventory_Slot_Ammo</Background>
+		<EQType>8021</EQType>
+	</InvSlot>
 
-    <Editbox item="INSW_Edit">
-        <ScreenID>INSW_Edit</ScreenID>
-        <Font>2</Font>
-        <DrawTemplate>WDT_Static</DrawTemplate>
-        <Location>
-            <X>309</X>
-            <Y>235</Y>
-        </Location>
-        <Size>
-            <CX>94</CX>
-            <CY>210</CY>
-        </Size>
-        <TextColor>
-            <R>255</R>
-            <G>255</G>
-            <B>255</B>
-        </TextColor>
-        <Style_Multiline>true</Style_Multiline>
-    </Editbox>
+	<Editbox item="INSW_Edit">
+		<ScreenID>INSW_Edit</ScreenID>
+		<Font>1</Font>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Location>
+			<X>311</X>
+			<Y>255</Y>
+		</Location>
+		<Size>
+			<CX>90</CX>
+			<CY>186</CY>
+		</Size>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Style_Multiline>true</Style_Multiline>
+	</Editbox>
 
-    <Button item="INSW_DoneButton">
-        <ScreenID>DoneButton</ScreenID>
-        <Location>
-            <X>332</X>
-            <Y>451</Y>
-        </Location>
-        <Size>
-            <CX>48</CX>
-            <CY>19</CY>
-        </Size>
-        <ButtonDrawTemplate>
-          <Pressed>Btn_Done_Pressed</Pressed>
-          <PressedFlyby>Btn_Done_Pressed</PressedFlyby>
-        </ButtonDrawTemplate>
-    </Button>
+	<Button item="INSW_DoneButton">
+		<ScreenID>DoneButton</ScreenID>
+		<Location>
+			<X>332</X>
+			<Y>451</Y>
+		</Location>
+		<Size>
+			<CX>48</CX>
+			<CY>19</CY>
+		</Size>
+		<ButtonDrawTemplate>
+		  <Pressed>Btn_Done_Pressed</Pressed>
+		  <PressedFlyby>Btn_Done_Pressed</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
 
-    <Button item="INSW_Autolock">
-        <Size>
-            <CX>416</CX>
-            <CY>480</CY>
-        </Size>
-    </Button>
+	<Button item="INSW_Autolock">
+		<Size>
+			<CX>416</CX>
+			<CY>480</CY>
+		</Size>
+	</Button>
 
-    <Screen item="InspectWnd">
-        <Location>
-            <X>286</X>
-            <Y>0</Y>
-        </Location>
-        <Size>
-            <CX>416</CX>
-            <CY>480</CY>
-        </Size>
-        <DrawTemplate>WDT_Static</DrawTemplate>
-        <Pieces>EQUI_InspectBG01</Pieces>
-        <Pieces>EQUI_InspectBG02</Pieces>
-        <Pieces>EQUI_InspectBG03</Pieces>
-        <Pieces>EQUI_InspectBG04</Pieces>
-        <Pieces>INSW_Autolock</Pieces>
-        <Pieces>INSW_InvSlot0</Pieces>
-        <Pieces>INSW_InvSlot1</Pieces>
-        <Pieces>INSW_InvSlot2</Pieces>
-        <Pieces>INSW_InvSlot3</Pieces>
-        <Pieces>INSW_InvSlot4</Pieces>
-        <Pieces>INSW_InvSlot5</Pieces>
-        <Pieces>INSW_InvSlot6</Pieces>
-        <Pieces>INSW_InvSlot7</Pieces>
-        <Pieces>INSW_InvSlot8</Pieces>
-        <Pieces>INSW_InvSlot9</Pieces>
-        <Pieces>INSW_InvSlot10</Pieces>
-        <Pieces>INSW_InvSlot11</Pieces>
-        <Pieces>INSW_InvSlot12</Pieces>
-        <Pieces>INSW_InvSlot13</Pieces>
-        <Pieces>INSW_InvSlot14</Pieces>
-        <Pieces>INSW_InvSlot15</Pieces>
-        <Pieces>INSW_InvSlot16</Pieces>
-        <Pieces>INSW_InvSlot17</Pieces>
-        <Pieces>INSW_InvSlot18</Pieces>
-        <Pieces>INSW_InvSlot19</Pieces>
-        <Pieces>INSW_InvSlot20</Pieces>
-        <Pieces>INSW_InvSlot21</Pieces>
-        <Pieces>INSW_Edit</Pieces>
-        <Pieces>INSW_DoneButton</Pieces>
-    </Screen>
+	<Screen item="InspectWnd">
+		<Location>
+			<X>286</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>416</CX>
+			<CY>480</CY>
+		</Size>
+		<DrawTemplate>WDT_Static</DrawTemplate>
+		<Pieces>EQUI_InspectBG01</Pieces>
+		<Pieces>EQUI_InspectBG02</Pieces>
+		<Pieces>EQUI_InspectBG03</Pieces>
+		<Pieces>EQUI_InspectBG04</Pieces>
+		<Pieces>INSW_Autolock</Pieces>
+		<Pieces>INSW_InvSlot0</Pieces>
+		<Pieces>INSW_InvSlot1</Pieces>
+		<Pieces>INSW_InvSlot2</Pieces>
+		<Pieces>INSW_InvSlot3</Pieces>
+		<Pieces>INSW_InvSlot4</Pieces>
+		<Pieces>INSW_InvSlot5</Pieces>
+		<Pieces>INSW_InvSlot6</Pieces>
+		<Pieces>INSW_InvSlot7</Pieces>
+		<Pieces>INSW_InvSlot8</Pieces>
+		<Pieces>INSW_InvSlot9</Pieces>
+		<Pieces>INSW_InvSlot10</Pieces>
+		<Pieces>INSW_InvSlot11</Pieces>
+		<Pieces>INSW_InvSlot12</Pieces>
+		<Pieces>INSW_InvSlot13</Pieces>
+		<Pieces>INSW_InvSlot14</Pieces>
+		<Pieces>INSW_InvSlot15</Pieces>
+		<Pieces>INSW_InvSlot16</Pieces>
+		<Pieces>INSW_InvSlot17</Pieces>
+		<Pieces>INSW_InvSlot18</Pieces>
+		<Pieces>INSW_InvSlot19</Pieces>
+		<Pieces>INSW_InvSlot20</Pieces>
+		<Pieces>INSW_InvSlot21</Pieces>
+		<Pieces>INSW_Edit</Pieces>
+		<Pieces>INSW_DoneButton</Pieces>
+	</Screen>
 </XML>

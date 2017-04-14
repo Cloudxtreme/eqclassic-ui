@@ -4,6 +4,7 @@
 
 	<STMLbox item = "IDW_ItemDescription">
 		<ScreenID>ItemDescription</ScreenID>
+		<Font>2</Font>
 		<DrawTemplate>WDT_Static</DrawTemplate>		
 		<Location>
 			<X>24</X>

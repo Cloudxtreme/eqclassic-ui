@@ -4,43 +4,46 @@
 
 	<Label item ="PW_Name">
 		<ScreenID>PW_Name</ScreenID>
+		<Font>2</Font>
 		<EQType>1</EQType>
 		<Location>
-			<X>21</X>
-			<Y>14</Y>
+			<X>22</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
 			<CX>84</CX>
 			<CY>16</CY>
 		</Size>
 		<TextColor>
-			<R>230</R>
-			<G>230</G>
-			<B>230</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
 	</Label>
 	<Label item ="PW_Surname">
 		<ScreenID>PW_Surname</ScreenID>
+		<Font>2</Font>
 		<EQType>73</EQType>
 		<Location>
-			<X>21</X>
-			<Y>24</Y>
+			<X>22</X>
+			<Y>25</Y>
 		</Location>
 		<Size>
 			<CX>84</CX>
 			<CY>16</CY>
 		</Size>
+		<Text>Testing</Text>
 		<TextColor>
-			<R>230</R>
-			<G>230</G>
-			<B>230</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
 	</Label>
-
-    <StaticAnimation item = "A_AttackIndicatorAnim">
-        <ScreenID>A_AttackIndicatorAnim</ScreenID>
-        <Animation>AttackIndicator</Animation>
-    </StaticAnimation>
+	
+	<StaticAnimation item = "A_AttackIndicatorAnim">
+		<ScreenID>A_AttackIndicatorAnim</ScreenID>
+		<Animation>AttackIndicator</Animation>
+	</StaticAnimation>
 
 	<Gauge item = "Player_HP">
 		<ScreenID>PlayerHP</ScreenID>
@@ -68,9 +71,9 @@
 			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-    <Gauge item = "Pet_HP">
-        <ScreenID>PetHP</ScreenID>
-    </Gauge>
+	<Gauge item = "Pet_HP">
+		<ScreenID>PetHP</ScreenID>
+	</Gauge>
 	<Gauge item = "Player_Mana">
 		<ScreenID>PlayerMana</ScreenID>
 		<Location>
@@ -132,7 +135,6 @@
 			<CX>102</CX>
 			<CY>19</CY>
 		</Size>
-        <TooltipReference>(Alt+B)</TooltipReference>
 		<Style_Checkbox>true</Style_Checkbox>
 		<ButtonDrawTemplate>
 			<Pressed>Btn_Effects_Pressed</Pressed>
@@ -157,13 +159,13 @@
 			<CY>104</CY>
 		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
-        <Pieces>EQUI_PlayerWindowBG01</Pieces>
+		<Pieces>EQUI_PlayerWindowBG01</Pieces>
 		<Pieces>PW_Name</Pieces>
 		<Pieces>PW_Surname</Pieces>
-        <Pieces>Player_HP</Pieces>
-        <Pieces>Pet_HP</Pieces>
-        <Pieces>Player_Mana</Pieces>
-        <Pieces>Player_Fatigue</Pieces>
+		<Pieces>Player_HP</Pieces>
+		<Pieces>Pet_HP</Pieces>
+		<Pieces>Player_Mana</Pieces>
+		<Pieces>Player_Fatigue</Pieces>
 		<Pieces>PW_Autolock</Pieces>
 		<Pieces>A_AttackIndicatorAnim</Pieces>
 		<Pieces>PW_EffectsButton</Pieces>

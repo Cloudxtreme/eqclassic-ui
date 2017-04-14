@@ -4,6 +4,7 @@
 
 	<Editbox item = "CW_ChatInput">
 		<ScreenID>CWChatInput</ScreenID>
+		<Font>2</Font>
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
 
