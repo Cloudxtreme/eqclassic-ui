@@ -12,11 +12,6 @@
 			<CX>36</CX>
 			<CY>32</CY>
 		</Size>
-        <!--<SpellGemDrawTemplate>
-			<Holder>A_SpellGemHolder</Holder>
-			<Background>A_SpellGemBackground</Background>
-			<Highlight>A_SpellGemHighlight</Highlight>
-		</SpellGemDrawTemplate>-->
 		<SpellIconOffsetX>0</SpellIconOffsetX>
 		<SpellIconOffsetY>2</SpellIconOffsetY>
 	</SpellGem>
@@ -30,11 +25,6 @@
 			<CX>36</CX>
 			<CY>32</CY>
 		</Size>
-        <!--<SpellGemDrawTemplate>
-			<Holder>A_SpellGemHolder</Holder>
-			<Background>A_SpellGemBackground</Background>
-			<Highlight>A_SpellGemHighlight</Highlight>
-		</SpellGemDrawTemplate>-->
 		<SpellIconOffsetX>0</SpellIconOffsetX>
 		<SpellIconOffsetY>2</SpellIconOffsetY>
 	</SpellGem>
@@ -48,11 +38,6 @@
 			<CX>36</CX>
 			<CY>32</CY>
 		</Size>
-        <!--<SpellGemDrawTemplate>
-			<Holder>A_SpellGemHolder</Holder>
-			<Background>A_SpellGemBackground</Background>
-			<Highlight>A_SpellGemHighlight</Highlight>
-		</SpellGemDrawTemplate>-->
 		<SpellIconOffsetX>0</SpellIconOffsetX>
 		<SpellIconOffsetY>2</SpellIconOffsetY>
 	</SpellGem>
@@ -66,11 +51,6 @@
 			<CX>36</CX>
 			<CY>32</CY>
 		</Size>
-        <!--<SpellGemDrawTemplate>
-			<Holder>A_SpellGemHolder</Holder>
-			<Background>A_SpellGemBackground</Background>
-			<Highlight>A_SpellGemHighlight</Highlight>
-		</SpellGemDrawTemplate>-->
 		<SpellIconOffsetX>0</SpellIconOffsetX>
 		<SpellIconOffsetY>2</SpellIconOffsetY>
 	</SpellGem>
@@ -84,11 +64,6 @@
 			<CX>36</CX>
 			<CY>32</CY>
 		</Size>
-        <!--<SpellGemDrawTemplate>
-			<Holder>A_SpellGemHolder</Holder>
-			<Background>A_SpellGemBackground</Background>
-			<Highlight>A_SpellGemHighlight</Highlight>
-		</SpellGemDrawTemplate>-->
 		<SpellIconOffsetX>0</SpellIconOffsetX>
 		<SpellIconOffsetY>2</SpellIconOffsetY>
 	</SpellGem>
@@ -102,11 +77,6 @@
 			<CX>36</CX>
 			<CY>32</CY>
 		</Size>
-        <!--<SpellGemDrawTemplate>
-			<Holder>A_SpellGemHolder</Holder>
-			<Background>A_SpellGemBackground</Background>
-			<Highlight>A_SpellGemHighlight</Highlight>
-		</SpellGemDrawTemplate>-->
 		<SpellIconOffsetX>0</SpellIconOffsetX>
 		<SpellIconOffsetY>2</SpellIconOffsetY>
 	</SpellGem>
@@ -120,11 +90,6 @@
 			<CX>36</CX>
 			<CY>32</CY>
 		</Size>
-        <!--<SpellGemDrawTemplate>
-			<Holder>A_SpellGemHolder</Holder>
-			<Background>A_SpellGemBackground</Background>
-			<Highlight>A_SpellGemHighlight</Highlight>
-		</SpellGemDrawTemplate>-->
 		<SpellIconOffsetX>0</SpellIconOffsetX>
 		<SpellIconOffsetY>2</SpellIconOffsetY>
 	</SpellGem>
@@ -138,21 +103,16 @@
 			<CX>36</CX>
 			<CY>32</CY>
 		</Size>
-        <!--<SpellGemDrawTemplate>
-			<Holder>A_SpellGemHolder</Holder>
-			<Background>A_SpellGemBackground</Background>
-			<Highlight>A_SpellGemHighlight</Highlight>
-		</SpellGemDrawTemplate>-->
 		<SpellIconOffsetX>0</SpellIconOffsetX>
 		<SpellIconOffsetY>2</SpellIconOffsetY>
 	</SpellGem>
-    <SpellGem item = "CSPW_Spell8">
-        <ScreenID>CSPW_Spell8</ScreenID>
-        <Location>
-            <X>0</X>
-            <Y>-40</Y>
-        </Location>
-    </SpellGem>
+	<SpellGem item = "CSPW_Spell8">
+		<ScreenID>CSPW_Spell8</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>-40</Y>
+		</Location>
+	</SpellGem>
 
 	<Button item = "CSPW_SpellBook">
 		<ScreenID>CSPW_SpellBook</ScreenID>
@@ -187,7 +147,7 @@
 		<Pieces>CSPW_Spell5</Pieces>
 		<Pieces>CSPW_Spell6</Pieces>
 		<Pieces>CSPW_Spell7</Pieces>
-        <Pieces>CSPW_Spell8</Pieces>
+		<Pieces>CSPW_Spell8</Pieces>
 		<Pieces>CSPW_SpellBook</Pieces>
 	</Screen>
 </XML>

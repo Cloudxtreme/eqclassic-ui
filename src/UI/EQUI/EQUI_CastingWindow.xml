@@ -46,7 +46,7 @@
 		</Size>
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>EQUI_CastingMeterBG01</Pieces>
-		<Pieces>CastingWindow_Autolock</Pieces>
 		<Pieces>Casting_Gauge</Pieces>
+		<Pieces>CastingWindow_Autolock</Pieces>
 	</Screen>
 </XML>

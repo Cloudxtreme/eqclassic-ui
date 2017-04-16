@@ -27,10 +27,17 @@
 		</GaugeDrawTemplate>
 	</Gauge>
 
+	<Button item = "BREATH_Autolock">
+		<Size>
+			<CX>38</CX>
+			<CY>314</CY>
+		</Size>
+	</Button>
+
 	<Screen item = "BreathWindow">
 		<Location>
 			<X>119</X>
-			<Y>206</Y>
+			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>121</CX>
@@ -39,5 +46,6 @@
 		<DrawTemplate>WDT_Static</DrawTemplate>
 		<Pieces>EQUI_BreathMeterBG01</Pieces>
 		<Pieces>BREATH_Gauge</Pieces>
+		<Pieces>BREATH_Autolock</Pieces>
 	</Screen>
 </XML>
