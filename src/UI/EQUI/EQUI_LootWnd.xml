@@ -4,6 +4,7 @@
 
 	<Label item ="LW_CorpseName">
 		<ScreenID>LW_CorpseName</ScreenID>
+		<Font>2</Font>
 		<Location>
 			<X>11</X>
 			<Y>14</Y>

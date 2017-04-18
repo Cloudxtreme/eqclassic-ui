@@ -3,8 +3,8 @@
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
 	<Gauge item = "BREATH_Gauge">
-        <Location>
-			<X>18</X>
+		<Location>
+			<X>28</X>
 			<Y>18</Y>
 		</Location>
 		<Size>
@@ -22,8 +22,6 @@
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill4</Fill>
 			<Lines>A_Classic_GaugeLines</Lines>
-			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
-			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
 

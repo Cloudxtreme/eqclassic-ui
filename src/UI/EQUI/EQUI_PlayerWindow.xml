@@ -48,7 +48,7 @@
 	<Gauge item = "Player_HP">
 		<ScreenID>PlayerHP</ScreenID>
 		<Location>
-			<X>18</X>
+			<X>28</X>
 			<Y>42</Y>
 		</Location>
 		<Size>
@@ -67,8 +67,6 @@
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill</Fill>
 			<Lines>A_Classic_GaugeLines</Lines>
-			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
-			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
 	<Gauge item = "Pet_HP">
@@ -77,7 +75,7 @@
 	<Gauge item = "Player_Mana">
 		<ScreenID>PlayerMana</ScreenID>
 		<Location>
-			<X>18</X>
+			<X>28</X>
 			<Y>53</Y>
 		</Location>
 		<Size>
@@ -95,14 +93,12 @@
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill5</Fill>
 			<Lines>A_Classic_GaugeLines</Lines>
-			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
-			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
 	<Gauge item = "Player_Fatigue">
 		<ScreenID>PlayerFatigue</ScreenID>
 		<Location>
-			<X>18</X>
+			<X>28</X>
 			<Y>64</Y>
 		</Location>
 		<Size>
@@ -120,8 +116,6 @@
 			<Background>A_Classic_GaugeBackground</Background>
 			<Fill>A_Classic_GaugeFill2</Fill>
 			<Lines>A_Classic_GaugeLines</Lines>
-			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
-			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
 
